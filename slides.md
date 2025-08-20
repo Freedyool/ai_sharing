@@ -1,641 +1,355 @@
 ---
-# You can also start simply with 'default'
 theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
-# some information about your slides (markdown enabled)
-title: Welcome to Slidev
+title: 低功耗 & 大模型 协同实践分享
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
-# apply unocss classes to the current slide
+  三个案例 · 两个观点 · 一个建议
+  内容基于内部实践与个人体验，仅供交流
 class: text-center
-# https://sli.dev/features/drawing
+transition: slide-left
+mdc: true
 drawings:
   persist: false
-# slide transition: https://sli.dev/guide/animations.html#slide-transitions
-transition: slide-left
-# enable MDC Syntax: https://sli.dev/features/mdc
-mdc: true
-# open graph
 seoMeta:
-  # By default, Slidev will use ./og-image.png if it exists,
-  # or generate one from the first slide if not found.
   ogImage: auto
-  # ogImage: https://cover.sli.dev
 ---
 
-# Welcome to Slidev
+# 低功耗 & 大模型 协同实践分享
 
-Presentation slides for developers
+三个案例 · 两个观点 · 一个建议
 
-<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
-  Press Space for next page <carbon:arrow-right />
-</div>
-
-<div class="abs-br m-6 text-xl">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="slidev-icon-btn">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
-  </a>
-</div>
-
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
-
----
-transition: fade-out
----
-
-# What is Slidev?
-
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - themes can be shared and re-used as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
-
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/features/slide-scope-style
--->
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
-<!--
-Here is another comment.
--->
-
----
-transition: slide-up
-level: 2
----
-
-# Navigation
-
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/ui#navigation-bar)
-
-## Keyboard Shortcuts
-
-|                                                     |                             |
-| --------------------------------------------------- | --------------------------- |
-| <kbd>right</kbd> / <kbd>space</kbd>                 | next animation or slide     |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd>                                       | previous slide              |
-| <kbd>down</kbd>                                     | next slide                  |
-
-<!-- https://sli.dev/guide/animations.html#click-animation -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
----
-layout: two-cols
-layoutClass: gap-16
----
-
-# Table of contents
-
-You can use the `Toc` component to generate a table of contents for your slides:
-
-```html
-<Toc minDepth="1" maxDepth="1" />
-```
-
-The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
-
-::right::
-
-<Toc text-sm minDepth="1" maxDepth="2" />
+<div class="mt-8 opacity-70">按空格开始 · Space to Start</div>
 
 ---
 layout: image-right
-image: https://cover.sli.dev
+
+image: img/logo.png
 ---
 
-# Code
-
-Use code snippets and get the highlighting directly, and even types hover!
-
-```ts [filename-example.ts] {all|4|6|6-7|9|all} twoslash
-// TwoSlash enables TypeScript hover information
-// and errors in markdown code blocks
-// More at https://shiki.style/packages/twoslash
-import { computed, ref } from 'vue'
-
-const count = ref(0)
-const doubled = computed(() => count.value * 2)
-
-doubled.value = 2
-```
-
-<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="342" color="#953" width="2" arrowSize="1" />
-
-<!-- This allow you to embed external code blocks -->
-<<< @/snippets/external.ts#snippet
-
-<!-- Footer -->
-
-[Learn more](https://sli.dev/features/line-highlighting)
-
-<!-- Inline style -->
-<style>
-.footnotes-sep {
-  @apply mt-5 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
-
-<!--
-Notes can also sync with clicks
-
-[click] This will be highlighted after the first click
-
-[click] Highlighted with `count = ref(0)`
-
-[click:3] Last click (skip two clicks)
--->
-
----
-level: 2
----
-
-# Shiki Magic Move
-
-Powered by [shiki-magic-move](https://shiki-magic-move.netlify.app/), Slidev supports animations across multiple code snippets.
-
-Add multiple code blocks and wrap them with <code>````md magic-move</code> (four backticks) to enable the magic move. For example:
-
-````md magic-move {lines: true}
-```ts {*|2|*}
-// step 1
-const author = reactive({
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-})
-```
-
-```ts {*|1-2|3-4|3-4,8}
-// step 2
-export default {
-  data() {
-    return {
-      author: {
-        name: 'John Doe',
-        books: [
-          'Vue 2 - Advanced Guide',
-          'Vue 3 - Basic Guide',
-          'Vue 4 - The Mystery'
-        ]
-      }
-    }
-  }
-}
-```
-
-```ts
-// step 3
-export default {
-  data: () => ({
-    author: {
-      name: 'John Doe',
-      books: [
-        'Vue 2 - Advanced Guide',
-        'Vue 3 - Basic Guide',
-        'Vue 4 - The Mystery'
-      ]
-    }
-  })
-}
-```
-
-Non-code blocks are ignored.
-
-```vue
-<!-- step 4 -->
-<script setup>
-const author = {
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-}
-</script>
-```
-````
-
----
-
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
+<div class="h-full flex flex-col justify-center py-8">
+  <h1 class="mb-6">目录</h1>
+  <ol class="list-decimal list-inside space-y-3 text-left text-lg leading-relaxed">
+    <li>案例一：低功耗数据可视化脚本</li>
+    <li>观点一：把大模型当“人”看待</li>
+    <li>主流大模型主观体验速览</li>
+    <li>案例二：低功耗测试系统极速开发</li>
+    <li>观点二：需求思维 vs 实现思维</li>
+    <li>团队建议：成立 AI 技术部门</li>
+    <li>自由讨论：数据安全</li>
+    <li>案例三：Armino 代码优化案例</li>
+  </ol>
 </div>
 
-<!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
-
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
--->
+<!-- <Toc minDepth="1" maxDepth="1" class="mt-6 text-sm" /> -->
 
 ---
-class: px-20
+layout: default
 ---
 
-# Themes
+# 案例一 · 低功耗数据可视化脚本
 
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
+目标：每天自动汇总低功耗测试结果 → 一图（表）掌握分支表现
 
-<div grid="~ cols-2 gap-2" m="t-2">
+引入 Trae 之前（shell 脚本）：
+- 解析易出错，健壮性差
+- 维护成本高，扩展困难
+- 无统一可视化 & 汇总
+- 不到 200 行的代码量
 
-```yaml
----
-theme: default
----
-```
+引入 Trae 之后（Python + 拆解 + 可视化）：
+- 按功能拆分：下载 / 解析 / 清洗 / 聚合 / 展示 / 存储
+- 增加异常兜底 & 日志
+- 结果统一结构化输出
+- 超过 1200 行代码
 
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true" alt="">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true" alt="">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/guide/theme-addon#use-theme) and
-check out the [Awesome Themes Gallery](https://sli.dev/resources/theme-gallery).
+> 总结：Trae 在提升效率的同时也提升了我们的能力上限，使得原本无法完成/难以完成的任务变得可行
+> 
+> 潜在问题：如何对 Trae 生成的代码进行高效维护
 
 ---
-
-# Clicks Animations
-
-You can add `v-click` to elements to add a click animation.
-
-<div v-click>
-
-This shows up when you click the slide:
-
-```html
-<div v-click>This shows up when you click the slide.</div>
-```
-
-</div>
-
-<br>
-
-<v-click>
-
-The <span v-mark.red="3"><code>v-mark</code> directive</span>
-also allows you to add
-<span v-mark.circle.orange="4">inline marks</span>
-, powered by [Rough Notation](https://roughnotation.com/):
-
-```html
-<span v-mark.underline.orange>inline markers</span>
-```
-
-</v-click>
-
-<div mt-20 v-click>
-
-[Learn more](https://sli.dev/guide/animations#click-animation)
-
-</div>
-
+layout: center
 ---
 
-# Motions
+## 案例一 · 案例展示
 
-Motion animations are powered by [@vueuse/motion](https://motion.vueuse.org/), triggered by `v-motion` directive.
+> 获取脚本：http://192.168.0.6/zhuo.xu/power_lab/-/blob/main/main.py 
+> 
+> https://gitlab.bekencorp.com/wifi/power-lab/-/blob/main/main.py
 
-```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }"
-  :click-3="{ x: 80 }"
-  :leave="{ x: 1000 }"
->
-  Slidev
-</div>
-```
+关键设计：
+- 解耦：模块函数化 & 可单测
+- 鲁棒：解析前格式探测 / 异常捕获
+- 可维护：配置驱动（目录 / 指标 / 阈值）
 
-<div class="w-60 relative">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-square.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-circle.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-triangle.png"
-      alt=""
-    />
-  </div>
-
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
-  </div>
-</div>
-
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
-
-<div
-  v-motion
-  :initial="{ x:35, y: 30, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn more](https://sli.dev/guide/animations.html#motion)
-
-</div>
-
----
-
-# LaTeX
-
-LaTeX is supported out-of-box. Powered by [KaTeX](https://katex.org/).
-
-<div h-3 />
-
-Inline $\sqrt{3x-1}+(1+x)^2$
-
-Block
-$$ {1|3|all}
-\begin{aligned}
-\nabla \cdot \vec{E} &= \frac{\rho}{\varepsilon_0} \\
-\nabla \cdot \vec{B} &= 0 \\
-\nabla \times \vec{E} &= -\frac{\partial\vec{B}}{\partial t} \\
-\nabla \times \vec{B} &= \mu_0\vec{J} + \mu_0\varepsilon_0\frac{\partial\vec{E}}{\partial t}
-\end{aligned}
-$$
-
-[Learn more](https://sli.dev/features/latex)
-
----
-
-# Diagrams
-
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
-
-<div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
-
-```mermaid {scale: 0.5, alt: 'A simple sequence diagram'}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
+系统架构：
 
 ```mermaid
-mindmap
-  root((mindmap))
-    Origins
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-        British popular psychology author Tony Buzan
-    Research
-      On effectiveness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
-</div>
-
-Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML Diagrams](https://sli.dev/features/plantuml)
-
----
-foo: bar
-dragPos:
-  square: 513,60,167,_,-16
----
-
-# Draggable Elements
-
-Double-click on the draggable elements to edit their positions.
-
-<br>
-
-###### Directive Usage
-
-```md
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-```
-
-<br>
-
-###### Component Usage
-
-```md
-<v-drag text-3xl>
-  <div class="i-carbon:arrow-up" />
-  Use the `v-drag` component to have a draggable container!
-</v-drag>
-```
-
-<v-drag pos="487,279,261,_,-15">
-  <div text-center text-3xl border border-main rounded>
-    Double-click me!
-  </div>
-</v-drag>
-
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-
-###### Draggable Arrow
-
-```md
-<v-drag-arrow two-way />
-```
-
-<v-drag-arrow pos="67,452,253,46" two-way op70 />
-
----
-src: ./pages/imported-slides.md
-hide: false
----
-
----
-
-# Monaco Editor
-
-Slidev provides built-in Monaco Editor support.
-
-Add `{monaco}` to the code block to turn it into an editor:
-
-```ts {monaco}
-import { ref } from 'vue'
-import { emptyArray } from './external'
-
-const arr = ref(emptyArray(10))
-```
-
-Use `{monaco-run}` to create an editor that can execute the code directly in the slide:
-
-```ts {monaco-run}
-import { version } from 'vue'
-import { emptyArray, sayHello } from './external'
-
-sayHello()
-console.log(`vue ${version}`)
-console.log(emptyArray<number>(10).reduce(fib => [...fib, fib.at(-1)! + fib.at(-2)!], [1, 1]))
+flowchart LR
+  %% High-level module dependencies (main.py)
+  FileSrv[File Server] --> Fetch[Fetch List]
+  Fetch --> Sessions[Session Enum]
+  Sessions --> Parse[Parse Sessions]
+  Parse --> Model[Result Model]
+  Gerrit[Gerrit] --> Enrich[Commit Meta] --> Model
+  Model --> Cache[CSV Cache]
+  Cache <--> DF[DataFrame]
+  DF --> Export[Export CSV]
+  DF --> Plot[Plot]
+  Plot --> Trend[Trend]
+  Export --> Trend
+  Args[CLI Args] --> Main[Main Flow]
+  Main --> Fetch
+  Main --> Cache
+  Main --> Plot
+  Logging[Logging] -.-> Main
+  Logging -.-> Fetch
+  Logging -.-> Cache
 ```
 
 ---
 layout: center
-class: text-center
 ---
 
-# Learn More
+## 案例一 · 案例展示
 
-[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/resources/showcases)
+<div class="text-sm mb-2 opacity-70">近期脚本运行产出示例（点击查看原图）</div>
+<div grid="~ cols-3 gap-4" m="t-2">
+  <figure class="text-center">
+    <a href="./img/7236近期电流监控.png" target="_blank" title="7236 近期电流监控">
+      <img src="./img/7236近期电流监控.png" alt="7236 近期电流监控" class="w-48 h-32 object-cover border rounded shadow-sm" />
+    </a>
+    <figcaption class="text-xs mt-1 opacity-70">7236 近期电流监控</figcaption>
+  </figure>
+  <figure class="text-center">
+    <a href="./img/7239近期电流监控.png" target="_blank" title="7239 近期电流监控">
+      <img src="./img/7239近期电流监控.png" alt="7239 近期电流监控" class="w-48 h-32 object-cover border rounded shadow-sm" />
+    </a>
+    <figcaption class="text-xs mt-1 opacity-70">7239 近期电流监控</figcaption>
+  </figure>
+  <figure class="text-center">
+    <a href="./img/CSV格式的数据缓存.png" target="_blank" title="CSV 格式的数据缓存">
+      <img src="./img/CSV格式的数据缓存.png" alt="CSV 格式的数据缓存" class="w-48 h-32 object-cover border rounded shadow-sm" />
+    </a>
+    <figcaption class="text-xs mt-1 opacity-70">CSV 格式的数据缓存</figcaption>
+  </figure>
+  <figure class="text-center">
+    <a href="./img/脚本命令.png" target="_blank" title="脚本命令">
+      <img src="./img/脚本命令.png" alt="脚本命令" class="w-48 h-32 object-cover border rounded shadow-sm" />
+    </a>
+    <figcaption class="text-xs mt-1 opacity-70">脚本命令</figcaption>
+  </figure>
+  <figure class="text-center">
+    <a href="./img/输出的svg格式图表.png" target="_blank" title="输出的 SVG 图表">
+      <img src="./img/输出的svg格式图表.png" alt="输出的 SVG 图表" class="w-48 h-32 object-cover border rounded shadow-sm" />
+    </a>
+    <figcaption class="text-xs mt-1 opacity-70">输出的 SVG 图表</figcaption>
+  </figure>
+  <figure class="text-center">
+    <a href="./img/输出的单次查询的汇总表格.png" target="_blank" title="输出的单次查询汇总表格">
+      <img src="./img/输出的单次查询的汇总表格.png" alt="输出的单次查询汇总表格" class="w-48 h-32 object-cover border rounded shadow-sm" />
+    </a>
+    <figcaption class="text-xs mt-1 opacity-70">输出的单次查询汇总表格</figcaption>
+  </figure>
+</div>
+<div class="mt-2 text-xs opacity-50">* 缩略图尺寸裁剪显示，点击查看原始清晰度 *</div>
 
-<PoweredBySlidev mt-10 />
+
+---
+layout: two-cols-header
+---
+
+# 观点一 · 把大模型当“人”看待
+不同的大模型就像不同的人，能力、风格和沟通方式各异
+
+::left::
+
+避坑：
+
+- 不要使用“玩具模型”；
+
+- 尽量不要使用“auto模式”；
+
+建议这么做：
+
+- 关注最新的大模型，使用更新更强的模型；
+
+- 针对不同的任务，使用不同的模型；
+
+- 亲自认识不同的大模型，找到适合你的模型；
+
+> TIPS: 在内网引进更强大的模型之前，非常建议自行在外网环境安装trae国际版尝鲜（或者cursor、copilot、augment。。。）
+
+::right::
+
+<div grid="~ cols-2 gap-4" class="mt-2 text-right">
+  <figure class="flex flex-col items-end">
+    <img src="./img/trae_cn.png" alt="Trae CN 可选模型" class="w-52 h-40 object-contain border rounded shadow-sm bg-white/40 dark:bg-dark-400/40 p-1" />
+    <figcaption class="text-xs opacity-70 mt-1">Trae CN</figcaption>
+  </figure>
+  <figure class="flex flex-col items-end">
+    <img src="./img/trae.png" alt="Trae 国际版可选模型" class="w-52 h-40 object-contain border rounded shadow-sm bg-white/40 dark:bg-dark-400/40 p-1" />
+    <figcaption class="text-xs opacity-70 mt-1">Trae 国际版</figcaption>
+  </figure>
+  <figure class="flex flex-col items-end">
+    <img src="./img/copilot.png" alt="Copilot 可选模型" class="w-52 h-40 object-contain border rounded shadow-sm bg-white/40 dark:bg-dark-400/40 p-1" />
+    <figcaption class="text-xs opacity-70 mt-1">Copilot</figcaption>
+  </figure>
+  <figure class="flex flex-col items-end">
+    <img src="./img/cursor.png" alt="Cursor 可选模型" class="w-52 h-40 object-contain border rounded shadow-sm bg-white/40 dark:bg-dark-400/40 p-1" />
+    <figcaption class="text-xs opacity-70 mt-1">Cursor</figcaption>
+  </figure>
+</div>
+
+---
+layout: center
+---
+
+## 主流大模型主观体验
+
+| 模型 | 主观定位 | 优势 | 局限 / 备注 |
+| ---- | -------- | ---- | ------------- |
+| ChatGPT 4/5 | 全能通用 | 语言与综合 | 复杂系统架构深度一般 |
+| Kimi K2 | 国产编程 | 脚本 / 小系统 | 大型架构规划稍弱 |
+| Qwen Code | 代码生成 | 传闻比Kimi强 | 个人体验没Kimi强 |
+| Claude Sonnet 3.7/4 | 编程中坚 | 稳定产出轻量应用 | 需精确提示结构 |
+| Gemini 2.5 | 平衡型 | 多模态 / 推理 | 偶有风格漂移 |
+| DeepSeek | 性价比 | 推理链清晰 | 复杂整合能力略逊 |
+| 豆包 | 生活助手 | 休闲对话 | 工作技术不推荐 |
+
+> 建议：多试，多记录，多比较。优先和“聊得来”的模型深耕。
+
+---
+layout: two-cols-header
+---
+
+# 案例二 · 低功耗测试系统极速开发
+
+Trae SOLO 黑客松 极限 4 小时：不写一行代码 / 不熟悉技术栈，生成的系统可用，可直接部署。
+
+::left::
+
+项目演示：https://solo.yooll.ltd
+
+项目级模型的关键要点：
+1. 选用 claude sonnet 4 以上的高阶模型；
+2. 先从产品需求文档（PRD）开始；
+3. 小项目可以一把梭生成，大项目建议逐个模块生成；
+4. 持续地迭代优化，我的优化过程耗时约6小时；
+
+出现“鬼打墙”时，你可以：
+
+- 尝试删除引起问题的文件；
+- 回滚到历史状态并重试；
+- 删掉所有项目文件重新开始；
+
+> 强烈建议用 git 管理代码，以防大模型对话回滚失败；
+
+::right::
+
+<figure class="flex flex-col items-end">
+  <img src="./img/record.png" alt="Trae 对话记录" class="w-100 h-96 object-contain border rounded shadow-sm bg-white/40 dark:bg-dark-400/40 p-1" />
+  <figcaption class="text-xs opacity-70 mt-1">Trae 对话记录</figcaption>
+</figure>
+
+---
+
+# 观点二 · 需求思维 vs 实现思维
+
+| 维度 | 实现思维 | 需求思维 |
+| ---- | -------- | -------- |
+| 起点 | 我会不会做 | 我到底要什么结果 |
+| 关注 | 技术细节 / 方案可行 | 场景 / 边界 / 验收标准 |
+| 限制 | 被个人知识天花板卡住 | 借力模型补齐未知 |
+| 输出 | 代码块 / 零散片段 | 结构化产物 / 可验收交付 |
+
+转变方法：
+- 先写：目标 → 场景 → 输入 → 输出 → 约束 → 验收
+- 再问：请生成 X（遵循上述框架）
+- 复盘：模型产物差在哪 → 更新需求模板
+
+---
+layout: statement
+---
+
+# 建议成立 AI 技术部门
+帮助公司抓住 AI 生产力红利窗口期
+
+---
+layout: center
+---
+
+## 建议 · AI 技术部门
+
+主要职责：
+
+- 构建和维护公司内网的大模型生态，管理大模型资产和公共资源；
+
+- 承接公司内部效率工具开发需求，充分发挥大模型在工具脚本和web应用开发方面的优势；
+
+- 持续调研大模型应用技术，开展内部技术培训；
+
+> 当前公司在AI大模型领域的人力和资金投入明显不足，未来竞争风险不容忽视。
+
+---
+layout: statement
+---
+
+# 讨论 · 网络与数据安全
+尤其与大模型能力与安全边界相关的问题
+
+---
+layout: default
+---
+
+# 案例三 · Armino 开发
+.23 服务器本周上线，打通了 Trae 和 build server 的最后一公里
+
+大模型在开发大型项目时的局限性
+
+- “吞不下”那么多的代码，容易模型超时
+- 容易修改不全，容易产生幻觉开始乱改
+
+可以尝试的做法：
+
+- 指定文件和目录进行分析
+- 将相关的文件单独放在一个新的工作区中进行分析（在进行模块重构时很好使）
+- 编写项目 rules（都说好使，但我还没研究明白）
+- 在外网访问 github 上的 bk_idk 仓库，然后用更高级的模型
+
+> 向 ACL 的先行者们多多请教 Armino 开发上面的使用技巧，多多分享一些关于 rules 和 mcp 的经验；
+
+---
+
+# 案例三 · Armino 开发
+阅读和分析代码，提重构建议
+
+对比 Kimi-K2 和 Claude Sonnet 4
+<img>
+
+--- 
+
+# 案例三 · Armino 开发
+生成 commit 信息，生成说明文档
+
+除了一键生成 commit 信息按钮之外，还可以
+将修改打成 patch 然后让 Trae 阅读
+
+---
+layout: default
+# class: text-center
+---
+
+# 总结
+
+三个案例
+- 生成脚本：结构化拆解 + 双模型协作
+- 生成项目：PRD 文档驱动 + 小步运行
+- 辅助编程：限制上下文
+
+两个观点
+- 模型当“人”用，建立配合方式
+- 需求思维胜于实现执念
+
+一个建议
+- 现在就布局内部 AI 生态
+
+> 感谢聆听，欢迎交流
