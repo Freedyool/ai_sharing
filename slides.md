@@ -22,7 +22,7 @@ download: false
 ---
 layout: image-right
 
-image: ./imgs/logo.png
+image: /logo.png
 ---
 
 <div class="h-full flex flex-col justify-center py-8">
@@ -114,38 +114,38 @@ layout: center
 <div class="text-sm mb-2 opacity-70">近期脚本运行产出示例（点击查看原图）</div>
 <div grid="~ cols-3 gap-4" m="t-2">
   <figure class="text-center">
-    <a href="./imgs/7236近期电流监控.png" target="_blank" title="7236 近期电流监控">
-      <img src="./imgs/7236近期电流监控.png" alt="7236 近期电流监控" class="w-48 h-32 object-cover border rounded shadow-sm" />
+    <a href="/7236近期电流监控.png" target="_blank" title="7236 近期电流监控">
+      <img src="/7236近期电流监控.png" alt="7236 近期电流监控" class="w-48 h-32 object-cover border rounded shadow-sm" />
     </a>
     <figcaption class="text-xs mt-1 opacity-70">7236 近期电流监控</figcaption>
   </figure>
   <figure class="text-center">
-    <a href="./imgs/7239近期电流监控.png" target="_blank" title="7239 近期电流监控">
-      <img src="./imgs/7239近期电流监控.png" alt="7239 近期电流监控" class="w-48 h-32 object-cover border rounded shadow-sm" />
+    <a href="/7239近期电流监控.png" target="_blank" title="7239 近期电流监控">
+      <img src="/7239近期电流监控.png" alt="7239 近期电流监控" class="w-48 h-32 object-cover border rounded shadow-sm" />
     </a>
     <figcaption class="text-xs mt-1 opacity-70">7239 近期电流监控</figcaption>
   </figure>
   <figure class="text-center">
-    <a href="./imgs/CSV格式的数据缓存.png" target="_blank" title="CSV 格式的数据缓存">
-      <img src="./imgs/CSV格式的数据缓存.png" alt="CSV 格式的数据缓存" class="w-48 h-32 object-cover border rounded shadow-sm" />
+    <a href="/CSV格式的数据缓存.png" target="_blank" title="CSV 格式的数据缓存">
+      <img src="/CSV格式的数据缓存.png" alt="CSV 格式的数据缓存" class="w-48 h-32 object-cover border rounded shadow-sm" />
     </a>
     <figcaption class="text-xs mt-1 opacity-70">CSV 格式的数据缓存</figcaption>
   </figure>
   <figure class="text-center">
-    <a href="./imgs/脚本命令.png" target="_blank" title="脚本命令">
-      <img src="./imgs/脚本命令.png" alt="脚本命令" class="w-48 h-32 object-cover border rounded shadow-sm" />
+    <a href="/脚本命令.png" target="_blank" title="脚本命令">
+      <img src="/脚本命令.png" alt="脚本命令" class="w-48 h-32 object-cover border rounded shadow-sm" />
     </a>
     <figcaption class="text-xs mt-1 opacity-70">脚本命令</figcaption>
   </figure>
   <figure class="text-center">
-    <a href="./imgs/输出的svg格式图表.png" target="_blank" title="输出的 SVG 图表">
-      <img src="./imgs/输出的svg格式图表.png" alt="输出的 SVG 图表" class="w-48 h-32 object-cover border rounded shadow-sm" />
+    <a href="/输出的svg格式图表.png" target="_blank" title="输出的 SVG 图表">
+      <img src="/输出的svg格式图表.png" alt="输出的 SVG 图表" class="w-48 h-32 object-cover border rounded shadow-sm" />
     </a>
     <figcaption class="text-xs mt-1 opacity-70">输出的 SVG 图表</figcaption>
   </figure>
   <figure class="text-center">
-    <a href="./imgs/输出的单次查询的汇总表格.png" target="_blank" title="输出的单次查询汇总表格">
-      <img src="./imgs/输出的单次查询的汇总表格.png" alt="输出的单次查询汇总表格" class="w-48 h-32 object-cover border rounded shadow-sm" />
+    <a href="/输出的单次查询的汇总表格.png" target="_blank" title="输出的单次查询汇总表格">
+      <img src="/输出的单次查询的汇总表格.png" alt="输出的单次查询汇总表格" class="w-48 h-32 object-cover border rounded shadow-sm" />
     </a>
     <figcaption class="text-xs mt-1 opacity-70">输出的单次查询汇总表格</figcaption>
   </figure>
@@ -182,19 +182,19 @@ layout: two-cols-header
 
 <div grid="~ cols-2 gap-4" class="mt-2 text-right">
   <figure class="flex flex-col items-end">
-    <img src="./imgs/trae_cn.png" alt="Trae CN 可选模型" class="w-52 h-40 object-contain border rounded shadow-sm bg-white/40 dark:bg-dark-400/40 p-1" />
+    <img src="/trae_cn.png" alt="Trae CN 可选模型" class="w-52 h-40 object-contain border rounded shadow-sm bg-white/40 dark:bg-dark-400/40 p-1" />
     <figcaption class="text-xs opacity-70 mt-1">Trae CN</figcaption>
   </figure>
   <figure class="flex flex-col items-end">
-    <img src="./imgs/trae.png" alt="Trae 国际版可选模型" class="w-52 h-40 object-contain border rounded shadow-sm bg-white/40 dark:bg-dark-400/40 p-1" />
+    <img src="/trae.png" alt="Trae 国际版可选模型" class="w-52 h-40 object-contain border rounded shadow-sm bg-white/40 dark:bg-dark-400/40 p-1" />
     <figcaption class="text-xs opacity-70 mt-1">Trae 国际版</figcaption>
   </figure>
   <figure class="flex flex-col items-end">
-    <img src="./imgs/copilot.png" alt="Copilot 可选模型" class="w-52 h-40 object-contain border rounded shadow-sm bg-white/40 dark:bg-dark-400/40 p-1" />
+    <img src="/copilot.png" alt="Copilot 可选模型" class="w-52 h-40 object-contain border rounded shadow-sm bg-white/40 dark:bg-dark-400/40 p-1" />
     <figcaption class="text-xs opacity-70 mt-1">Copilot</figcaption>
   </figure>
   <figure class="flex flex-col items-end">
-    <img src="./imgs/cursor.png" alt="Cursor 可选模型" class="w-52 h-40 object-contain border rounded shadow-sm bg-white/40 dark:bg-dark-400/40 p-1" />
+    <img src="/cursor.png" alt="Cursor 可选模型" class="w-52 h-40 object-contain border rounded shadow-sm bg-white/40 dark:bg-dark-400/40 p-1" />
     <figcaption class="text-xs opacity-70 mt-1">Cursor</figcaption>
   </figure>
 </div>
@@ -231,7 +231,7 @@ Trae SOLO 黑客松 极限 4 小时：不写一行代码 / 不熟悉技术栈，
 
 项目级模型的关键要点：
 1. 选用 claude sonnet 4 以上的高阶模型；
-2. 先从产品需求文档（[PRD](./docs/PRD.txt)）开始；
+2. 先从产品需求文档（[PRD](/PRD.txt)）开始；
 3. 小项目可以一把梭生成，大项目建议逐个模块生成；
 4. 持续地迭代优化，我的优化过程耗时约6小时；
 
@@ -246,7 +246,7 @@ Trae SOLO 黑客松 极限 4 小时：不写一行代码 / 不熟悉技术栈，
 ::right::
 
 <figure class="flex flex-col items-end">
-  <img src="./imgs/record.png" alt="Trae 对话记录" class="w-100 h-96 object-contain border rounded shadow-sm bg-white/40 dark:bg-dark-400/40 p-1" />
+  <img src="/record.png" alt="Trae 对话记录" class="w-100 h-96 object-contain border rounded shadow-sm bg-white/40 dark:bg-dark-400/40 p-1" />
   <figcaption class="text-xs opacity-70 mt-1">Trae 对话记录</figcaption>
 </figure>
 
