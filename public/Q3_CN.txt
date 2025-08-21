@@ -1,4 +1,4 @@
-ÎÒ½«ÎªÄú´´½¨ÍêÕûµÄÖØ¹¹·½°¸ÊµÏÖ£¬°üÀ¨Ç¶ÈëÊ½ÏµÍ³×ÊÔ´Õ¼ÓÃÆÀ¹À¡£ÈÃÎÒ¿ªÊ¼¹¹½¨Õâ¸öĞÂµÄµçÔ´¹ÜÀí¿ò¼Ü¡£
+æˆ‘å°†ä¸ºæ‚¨åˆ›å»ºå®Œæ•´çš„é‡æ„æ–¹æ¡ˆå®ç°ï¼ŒåŒ…æ‹¬åµŒå…¥å¼ç³»ç»Ÿèµ„æºå ç”¨è¯„ä¼°ã€‚è®©æˆ‘å¼€å§‹æ„å»ºè¿™ä¸ªæ–°çš„ç”µæºç®¡ç†æ¡†æ¶ã€‚
         
             
 toolName: view_folder
@@ -7,7 +7,7 @@ status: success
           
 d:\Dev\pm_refactor
           
-ÎÒ¿´µ½ÒÑ¾­ÓĞÒ»¸öpm_frameworkÄ¿Â¼µÄ»ù´¡½á¹¹£¬ÈÃÎÒ´´½¨ÍêÕûµÄÖØ¹¹ÊµÏÖ£¬°üÀ¨ÏêÏ¸µÄ×ÊÔ´Õ¼ÓÃÆÀ¹À¡£
+æˆ‘çœ‹åˆ°å·²ç»æœ‰ä¸€ä¸ªpm_frameworkç›®å½•çš„åŸºç¡€ç»“æ„ï¼Œè®©æˆ‘åˆ›å»ºå®Œæ•´çš„é‡æ„å®ç°ï¼ŒåŒ…æ‹¬è¯¦ç»†çš„èµ„æºå ç”¨è¯„ä¼°ã€‚
         
             
 toolName: write_to_file
@@ -17,62 +17,62 @@ status: success
             
 filePath: d:\Dev\pm_refactor\pm_framework\README.md
           
-content: # PM Framework - ÖØ¹¹µçÔ´¹ÜÀí¿ò¼Ü
+content: # PM Framework - é‡æ„ç”µæºç®¡ç†æ¡†æ¶
 
-## ÏîÄ¿¸ÅÊö
-ÕâÊÇÒ»¸öÎªÇ¶ÈëÊ½ÏµÍ³Éè¼ÆµÄÏÖ´ú»¯µçÔ´¹ÜÀí¿ò¼Ü£¬Ö§³Ö¶àCPU¼Ü¹¹¡¢¶¯Ì¬ÅäÖÃ¡¢»úÆ÷Ñ§Ï°ÓÅ»¯ºÍ¸ß¼¶Õï¶Ï¹¦ÄÜ¡£
+## é¡¹ç›®æ¦‚è¿°
+è¿™æ˜¯ä¸€ä¸ªä¸ºåµŒå…¥å¼ç³»ç»Ÿè®¾è®¡çš„ç°ä»£åŒ–ç”µæºç®¡ç†æ¡†æ¶ï¼Œæ”¯æŒå¤šCPUæ¶æ„ã€åŠ¨æ€é…ç½®ã€æœºå™¨å­¦ä¹ ä¼˜åŒ–å’Œé«˜çº§è¯Šæ–­åŠŸèƒ½ã€‚
 
-## ×ÊÔ´Õ¼ÓÃÆÀ¹À
+## èµ„æºå ç”¨è¯„ä¼°
 
-### ÄÚ´æÕ¼ÓÃ·ÖÎö
+### å†…å­˜å ç”¨åˆ†æ
 
-| ×é¼ş | FlashÕ¼ÓÃ | RAMÕ¼ÓÃ | ¶ÑÕ»ĞèÇó | ËµÃ÷ |
+| ç»„ä»¶ | Flashå ç”¨ | RAMå ç”¨ | å †æ ˆéœ€æ±‚ | è¯´æ˜ |
 |------|-----------|---------|----------|------|
-| ºËĞÄ¿ò¼Ü | 8-12KB | 2-4KB | 512B | »ù´¡×´Ì¬¹ÜÀí |
-| HAL³éÏó²ã | 6-10KB | 1-2KB | 256B | Ó²¼ş³éÏó½Ó¿Ú |
-| ²ßÂÔÒıÇæ | 4-8KB | 1-3KB | 1KB | ¶¯Ì¬²ßÂÔ¾ö²ß |
-| ÊÂ¼şÏµÍ³ | 3-5KB | 1-2KB | 512B | Òì²½ÊÂ¼ş´¦Àí |
-| ¶àCPUĞ­µ÷ | 5-8KB | 2-3KB | 1KB | ·Ö²¼Ê½¹ÜÀí |
-| µ÷ÊÔÕï¶Ï | 8-15KB | 3-5KB | 2KB | ĞÔÄÜ·ÖÎöºÍÈÕÖ¾ |
-| **×Ü¼Æ** | **34-58KB** | **10-19KB** | **5.5KB** | **ÍêÕû¹¦ÄÜ** |
+| æ ¸å¿ƒæ¡†æ¶ | 8-12KB | 2-4KB | 512B | åŸºç¡€çŠ¶æ€ç®¡ç† |
+| HALæŠ½è±¡å±‚ | 6-10KB | 1-2KB | 256B | ç¡¬ä»¶æŠ½è±¡æ¥å£ |
+| ç­–ç•¥å¼•æ“ | 4-8KB | 1-3KB | 1KB | åŠ¨æ€ç­–ç•¥å†³ç­– |
+| äº‹ä»¶ç³»ç»Ÿ | 3-5KB | 1-2KB | 512B | å¼‚æ­¥äº‹ä»¶å¤„ç† |
+| å¤šCPUåè°ƒ | 5-8KB | 2-3KB | 1KB | åˆ†å¸ƒå¼ç®¡ç† |
+| è°ƒè¯•è¯Šæ–­ | 8-15KB | 3-5KB | 2KB | æ€§èƒ½åˆ†æå’Œæ—¥å¿— |
+| **æ€»è®¡** | **34-58KB** | **10-19KB** | **5.5KB** | **å®Œæ•´åŠŸèƒ½** |
 
-### ¿ÉÅäÖÃÑ¡Ïî
+### å¯é…ç½®é€‰é¡¹
 
-#### ×îĞ¡ÅäÖÃ (IoTÉè±¸)
+#### æœ€å°é…ç½® (IoTè®¾å¤‡)
 - Flash: 15KB
 - RAM: 5KB
-- ¹¦ÄÜ£º»ù´¡Ë¯ÃßÄ£Ê½ + µ¥CPU
+- åŠŸèƒ½ï¼šåŸºç¡€ç¡çœ æ¨¡å¼ + å•CPU
 
-#### ±ê×¼ÅäÖÃ (Í¨ÓÃÇ¶ÈëÊ½)
+#### æ ‡å‡†é…ç½® (é€šç”¨åµŒå…¥å¼)
 - Flash: 35KB
 - RAM: 12KB
-- ¹¦ÄÜ£ºÍêÕû¹¦ÄÜ + ¶àCPUÖ§³Ö
+- åŠŸèƒ½ï¼šå®Œæ•´åŠŸèƒ½ + å¤šCPUæ”¯æŒ
 
-#### ¸ß¼¶ÅäÖÃ (AIÓÅ»¯)
+#### é«˜çº§é…ç½® (AIä¼˜åŒ–)
 - Flash: 60KB+
 - RAM: 25KB+
-- ¹¦ÄÜ£ºMLÓÅ»¯ + ÍêÕûÕï¶Ï
+- åŠŸèƒ½ï¼šMLä¼˜åŒ– + å®Œæ•´è¯Šæ–­
 
-### ĞÔÄÜÖ¸±ê
+### æ€§èƒ½æŒ‡æ ‡
 
-| Ö¸±ê | ×îĞ¡ÅäÖÃ | ±ê×¼ÅäÖÃ | ¸ß¼¶ÅäÖÃ |
+| æŒ‡æ ‡ | æœ€å°é…ç½® | æ ‡å‡†é…ç½® | é«˜çº§é…ç½® |
 |------|----------|----------|----------|
-| ×´Ì¬ÇĞ»»ÑÓ³Ù | <10¦Ìs | <50¦Ìs | <100¦Ìs |
-| ¾ö²ßÊ±¼ä | <1ms | <5ms | <10ms |
-| ÊÂ¼ş´¦ÀíÑÓ³Ù | <100¦Ìs | <500¦Ìs | <1ms |
-| ÄÚ´æ·ÖÅä | ¾²Ì¬ | »ìºÏ | ¶¯Ì¬ |
+| çŠ¶æ€åˆ‡æ¢å»¶è¿Ÿ | <10Î¼s | <50Î¼s | <100Î¼s |
+| å†³ç­–æ—¶é—´ | <1ms | <5ms | <10ms |
+| äº‹ä»¶å¤„ç†å»¶è¿Ÿ | <100Î¼s | <500Î¼s | <1ms |
+| å†…å­˜åˆ†é… | é™æ€ | æ··åˆ | åŠ¨æ€ |
 
-## Ä¿Â¼½á¹¹
+## ç›®å½•ç»“æ„
 
 ```
 pm_framework/
-©À©¤©¤ include/           # ¹«¹²Í·ÎÄ¼ş
-©À©¤©¤ src/              # Ô´´úÂë
-©À©¤©¤ configs/          # ÅäÖÃÎÄ¼ş
-©À©¤©¤ tests/            # ²âÊÔÓÃÀı
-©À©¤©¤ docs/             # ÎÄµµ
-©À©¤©¤ examples/         # Ê¹ÓÃÊ¾Àı
-©¸©¤©¤ tools/            # ¿ª·¢¹¤¾ß
+â”œâ”€â”€ include/           # å…¬å…±å¤´æ–‡ä»¶
+â”œâ”€â”€ src/              # æºä»£ç 
+â”œâ”€â”€ configs/          # é…ç½®æ–‡ä»¶
+â”œâ”€â”€ tests/            # æµ‹è¯•ç”¨ä¾‹
+â”œâ”€â”€ docs/             # æ–‡æ¡£
+â”œâ”€â”€ examples/         # ä½¿ç”¨ç¤ºä¾‹
+â””â”€â”€ tools/            # å¼€å‘å·¥å…·
 ```
           
 
@@ -87,7 +87,7 @@ filePath: d:\Dev\pm_refactor\pm_framework\include\pm\core\pm_types.h
           
 content: /**
  * @file pm_types.h
- * @brief µçÔ´¹ÜÀí¿ò¼ÜºËĞÄÀàĞÍ¶¨Òå
+ * @brief ç”µæºç®¡ç†æ¡†æ¶æ ¸å¿ƒç±»å‹å®šä¹‰
  * @author PM Framework Team
  * @date 2024
  */
@@ -103,95 +103,95 @@ content: /**
 extern "C" {
 #endif
 
-/* »ù´¡ÀàĞÍ¶¨Òå */
+/* åŸºç¡€ç±»å‹å®šä¹‰ */
 typedef uint8_t pm_module_id_t;
 typedef uint8_t pm_cpu_id_t;
 typedef uint32_t pm_event_mask_t;
 typedef uint64_t pm_timestamp_t;
 
-/* µçÔ´¹ÜÀí×´Ì¬Ã¶¾Ù */
+/* ç”µæºç®¡ç†çŠ¶æ€æšä¸¾ */
 typedef enum {
-    PM_STATE_ACTIVE,           /* ÍêÈ«»î¶¯×´Ì¬ */
-    PM_STATE_IDLE,             /* ¿ÕÏĞ×´Ì¬ */
-    PM_STATE_LIGHT_SLEEP,      /* Çá¶ÈË¯Ãß */
-    PM_STATE_DEEP_SLEEP,       /* Éî¶ÈË¯Ãß */
-    PM_STATE_HIBERNATE,        /* ĞİÃß×´Ì¬ */
-    PM_STATE_SHUTDOWN,         /* ¹Ø»ú×´Ì¬ */
+    PM_STATE_ACTIVE,           /* å®Œå…¨æ´»åŠ¨çŠ¶æ€ */
+    PM_STATE_IDLE,             /* ç©ºé—²çŠ¶æ€ */
+    PM_STATE_LIGHT_SLEEP,      /* è½»åº¦ç¡çœ  */
+    PM_STATE_DEEP_SLEEP,       /* æ·±åº¦ç¡çœ  */
+    PM_STATE_HIBERNATE,        /* ä¼‘çœ çŠ¶æ€ */
+    PM_STATE_SHUTDOWN,         /* å…³æœºçŠ¶æ€ */
     PM_STATE_COUNT
 } pm_state_t;
 
-/* Ä£¿é×´Ì¬Ã¶¾Ù */
+/* æ¨¡å—çŠ¶æ€æšä¸¾ */
 typedef enum {
-    PM_MODULE_STATE_OFF,        /* ¹Ø±Õ */
-    PM_MODULE_STATE_STANDBY,    /* ´ı»ú */
-    PM_MODULE_STATE_ON,         /* ¿ªÆô */
-    PM_MODULE_STATE_SUSPEND,    /* ¹ÒÆğ */
+    PM_MODULE_STATE_OFF,        /* å…³é—­ */
+    PM_MODULE_STATE_STANDBY,    /* å¾…æœº */
+    PM_MODULE_STATE_ON,         /* å¼€å¯ */
+    PM_MODULE_STATE_SUSPEND,    /* æŒ‚èµ· */
     PM_MODULE_STATE_COUNT
 } pm_module_state_t;
 
-/* µçÔ´Óò¶¨Òå */
+/* ç”µæºåŸŸå®šä¹‰ */
 typedef enum {
-    PM_POWER_DOMAIN_CPU,        /* CPUÓò */
-    PM_POWER_DOMAIN_MEMORY,     /* ÄÚ´æÓò */
-    PM_POWER_DOMAIN_PERIPHERAL, /* ÍâÉèÓò */
-    PM_POWER_DOMAIN_RADIO,      /* ÎŞÏßÓò */
-    PM_POWER_DOMAIN_SENSORS,    /* ´«¸ĞÆ÷Óò */
+    PM_POWER_DOMAIN_CPU,        /* CPUåŸŸ */
+    PM_POWER_DOMAIN_MEMORY,     /* å†…å­˜åŸŸ */
+    PM_POWER_DOMAIN_PERIPHERAL, /* å¤–è®¾åŸŸ */
+    PM_POWER_DOMAIN_RADIO,      /* æ— çº¿åŸŸ */
+    PM_POWER_DOMAIN_SENSORS,    /* ä¼ æ„Ÿå™¨åŸŸ */
     PM_POWER_DOMAIN_COUNT
 } pm_power_domain_t;
 
-/* Ê±ÖÓÓò¶¨Òå */
+/* æ—¶é’ŸåŸŸå®šä¹‰ */
 typedef enum {
-    PM_CLOCK_DOMAIN_CPU,        /* CPUÊ±ÖÓ */
-    PM_CLOCK_DOMAIN_BUS,        /* ×ÜÏßÊ±ÖÓ */
-    PM_CLOCK_DOMAIN_PERIPHERAL, /* ÍâÉèÊ±ÖÓ */
-    PM_CLOCK_DOMAIN_TIMER,      /* ¶¨Ê±Æ÷Ê±ÖÓ */
+    PM_CLOCK_DOMAIN_CPU,        /* CPUæ—¶é’Ÿ */
+    PM_CLOCK_DOMAIN_BUS,        /* æ€»çº¿æ—¶é’Ÿ */
+    PM_CLOCK_DOMAIN_PERIPHERAL, /* å¤–è®¾æ—¶é’Ÿ */
+    PM_CLOCK_DOMAIN_TIMER,      /* å®šæ—¶å™¨æ—¶é’Ÿ */
     PM_CLOCK_DOMAIN_COUNT
 } pm_clock_domain_t;
 
-/* »½ĞÑÔ´¶¨Òå */
+/* å”¤é†’æºå®šä¹‰ */
 typedef enum {
-    PM_WAKEUP_SOURCE_GPIO,      /* GPIO»½ĞÑ */
-    PM_WAKEUP_SOURCE_RTC,       /* RTC»½ĞÑ */
-    PM_WAKEUP_SOURCE_UART,      /* UART»½ĞÑ */
-    PM_WAKEUP_SOURCE_SPI,       /* SPI»½ĞÑ */
-    PM_WAKEUP_SOURCE_I2C,       /* I2C»½ĞÑ */
-    PM_WAKEUP_SOURCE_TIMER,     /* ¶¨Ê±Æ÷»½ĞÑ */
-    PM_WAKEUP_SOURCE_RADIO,     /* ÎŞÏß»½ĞÑ */
-    PM_WAKEUP_SOURCE_TOUCH,     /* ´¥Ãş»½ĞÑ */
+    PM_WAKEUP_SOURCE_GPIO,      /* GPIOå”¤é†’ */
+    PM_WAKEUP_SOURCE_RTC,       /* RTCå”¤é†’ */
+    PM_WAKEUP_SOURCE_UART,      /* UARTå”¤é†’ */
+    PM_WAKEUP_SOURCE_SPI,       /* SPIå”¤é†’ */
+    PM_WAKEUP_SOURCE_I2C,       /* I2Cå”¤é†’ */
+    PM_WAKEUP_SOURCE_TIMER,     /* å®šæ—¶å™¨å”¤é†’ */
+    PM_WAKEUP_SOURCE_RADIO,     /* æ— çº¿å”¤é†’ */
+    PM_WAKEUP_SOURCE_TOUCH,     /* è§¦æ‘¸å”¤é†’ */
     PM_WAKEUP_SOURCE_COUNT
 } pm_wakeup_source_t;
 
-/* ÊÂ¼şÀàĞÍ¶¨Òå */
+/* äº‹ä»¶ç±»å‹å®šä¹‰ */
 typedef enum {
-    PM_EVENT_STATE_CHANGE,      /* ×´Ì¬±ä»¯ */
-    PM_EVENT_MODULE_CHANGE,     /* Ä£¿é×´Ì¬±ä»¯ */
-    PM_EVENT_WAKEUP,            /* »½ĞÑÊÂ¼ş */
-    PM_EVENT_ERROR,             /* ´íÎóÊÂ¼ş */
-    PM_EVENT_CONFIG_CHANGE,     /* ÅäÖÃ±ä»¯ */
+    PM_EVENT_STATE_CHANGE,      /* çŠ¶æ€å˜åŒ– */
+    PM_EVENT_MODULE_CHANGE,     /* æ¨¡å—çŠ¶æ€å˜åŒ– */
+    PM_EVENT_WAKEUP,            /* å”¤é†’äº‹ä»¶ */
+    PM_EVENT_ERROR,             /* é”™è¯¯äº‹ä»¶ */
+    PM_EVENT_CONFIG_CHANGE,     /* é…ç½®å˜åŒ– */
     PM_EVENT_COUNT
 } pm_event_type_t;
 
-/* ²ßÂÔÀàĞÍ¶¨Òå */
+/* ç­–ç•¥ç±»å‹å®šä¹‰ */
 typedef enum {
-    PM_POLICY_CONSERVATIVE,     /* ±£ÊØ²ßÂÔ */
-    PM_POLICY_BALANCED,         /* Æ½ºâ²ßÂÔ */
-    PM_POLICY_AGGRESSIVE,        /* ¼¤½ø²ßÂÔ */
-    PM_POLICY_CUSTOM            /* ×Ô¶¨Òå²ßÂÔ */
+    PM_POLICY_CONSERVATIVE,     /* ä¿å®ˆç­–ç•¥ */
+    PM_POLICY_BALANCED,         /* å¹³è¡¡ç­–ç•¥ */
+    PM_POLICY_AGGRESSIVE,        /* æ¿€è¿›ç­–ç•¥ */
+    PM_POLICY_CUSTOM            /* è‡ªå®šä¹‰ç­–ç•¥ */
 } pm_policy_type_t;
 
-/* ´íÎóÂë¶¨Òå */
+/* é”™è¯¯ç å®šä¹‰ */
 typedef enum {
-    PM_OK = 0,                  /* ³É¹¦ */
-    PM_ERROR_INVALID_PARAM,     /* ÎŞĞ§²ÎÊı */
-    PM_ERROR_NOT_SUPPORTED,     /* ²»Ö§³ÖµÄ²Ù×÷ */
-    PM_ERROR_BUSY,              /* Éè±¸Ã¦ */
-    PM_ERROR_TIMEOUT,           /* ³¬Ê± */
-    PM_ERROR_NO_MEMORY,         /* ÄÚ´æ²»×ã */
-    PM_ERROR_HARDWARE,          /* Ó²¼ş´íÎó */
+    PM_OK = 0,                  /* æˆåŠŸ */
+    PM_ERROR_INVALID_PARAM,     /* æ— æ•ˆå‚æ•° */
+    PM_ERROR_NOT_SUPPORTED,     /* ä¸æ”¯æŒçš„æ“ä½œ */
+    PM_ERROR_BUSY,              /* è®¾å¤‡å¿™ */
+    PM_ERROR_TIMEOUT,           /* è¶…æ—¶ */
+    PM_ERROR_NO_MEMORY,         /* å†…å­˜ä¸è¶³ */
+    PM_ERROR_HARDWARE,          /* ç¡¬ä»¶é”™è¯¯ */
     PM_ERROR_COUNT
 } pm_error_t;
 
-/* ÅäÖÃ½á¹¹Ìå */
+/* é…ç½®ç»“æ„ä½“ */
 typedef struct {
     pm_policy_type_t policy_type;
     uint32_t wakeup_latency_ms;
@@ -202,7 +202,7 @@ typedef struct {
     bool debug_mode;
 } pm_config_t;
 
-/* Ä£¿éĞÅÏ¢½á¹¹Ìå */
+/* æ¨¡å—ä¿¡æ¯ç»“æ„ä½“ */
 typedef struct {
     pm_module_id_t id;
     const char *name;
@@ -213,7 +213,7 @@ typedef struct {
     uint32_t wakeup_latency_us;
 } pm_module_info_t;
 
-/* ×´Ì¬×ª»»²ÎÊı */
+/* çŠ¶æ€è½¬æ¢å‚æ•° */
 typedef struct {
     pm_state_t from_state;
     pm_state_t to_state;
@@ -221,7 +221,7 @@ typedef struct {
     uint32_t energy_cost_uj;
 } pm_state_transition_t;
 
-/* ĞÔÄÜÍ³¼Æ */
+/* æ€§èƒ½ç»Ÿè®¡ */
 typedef struct {
     uint64_t total_sleep_time;
     uint64_t total_active_time;
@@ -231,7 +231,7 @@ typedef struct {
     uint32_t average_wakeup_latency_us;
 } pm_performance_stats_t;
 
-/* ÄÚ´æÕ¼ÓÃÍ³¼Æ */
+/* å†…å­˜å ç”¨ç»Ÿè®¡ */
 typedef struct {
     size_t code_size;
     size_t data_size;
@@ -240,7 +240,7 @@ typedef struct {
     size_t heap_usage;
 } pm_memory_stats_t;
 
-/* ×ÊÔ´ÏŞÖÆ½á¹¹Ìå */
+/* èµ„æºé™åˆ¶ç»“æ„ä½“ */
 typedef struct {
     size_t max_memory_bytes;
     uint32_t max_latency_us;
@@ -248,22 +248,22 @@ typedef struct {
     uint32_t min_battery_level;
 } pm_resource_constraints_t;
 
-/* ÊÂ¼ş»Øµ÷º¯ÊıÀàĞÍ */
+/* äº‹ä»¶å›è°ƒå‡½æ•°ç±»å‹ */
 typedef void (*pm_event_callback_t)(pm_event_type_t type, 
                                    void *data, 
                                    size_t data_size);
 
-/* ×´Ì¬±ä»¯»Øµ÷ */
+/* çŠ¶æ€å˜åŒ–å›è°ƒ */
 typedef void (*pm_state_change_callback_t)(pm_state_t old_state,
                                           pm_state_t new_state,
                                           pm_timestamp_t timestamp);
 
-/* Ä£¿é²Ù×÷»Øµ÷ */
+/* æ¨¡å—æ“ä½œå›è°ƒ */
 typedef pm_error_t (*pm_module_callback_t)(pm_module_id_t module,
                                            pm_module_state_t state,
                                            void *context);
 
-/* °æ±¾ĞÅÏ¢ */
+/* ç‰ˆæœ¬ä¿¡æ¯ */
 typedef struct {
     uint8_t major;
     uint8_t minor;
@@ -271,7 +271,7 @@ typedef struct {
     const char *build_info;
 } pm_version_t;
 
-/* ±àÒëÊ±ÅäÖÃ */
+/* ç¼–è¯‘æ—¶é…ç½® */
 #ifndef PM_MAX_MODULES
 #define PM_MAX_MODULES 32
 #endif
@@ -288,7 +288,7 @@ typedef struct {
 #define PM_EVENT_QUEUE_SIZE 16
 #endif
 
-/* ×ÊÔ´Õ¼ÓÃºê */
+/* èµ„æºå ç”¨å® */
 #ifdef PM_MINIMAL_CONFIG
 #define PM_FEATURE_MULTI_CPU 0
 #define PM_FEATURE_ML_OPTIMIZER 0
@@ -324,7 +324,7 @@ filePath: d:\Dev\pm_refactor\pm_framework\include\pm\hal\pm_hw_interface.h
           
 content: /**
  * @file pm_hw_interface.h
- * @brief Ó²¼ş³éÏó²ã½Ó¿Ú¶¨Òå
+ * @brief ç¡¬ä»¶æŠ½è±¡å±‚æ¥å£å®šä¹‰
  * @author PM Framework Team
  * @date 2024
  */
@@ -339,33 +339,33 @@ extern "C" {
 #endif
 
 /**
- * @brief Ó²¼ş³éÏó²ã½Ó¿Ú½á¹¹Ìå
- * @details Îª²»Í¬Ó²¼şÆ½Ì¨Ìá¹©Í³Ò»µÄµçÔ´¹ÜÀí½Ó¿Ú
+ * @brief ç¡¬ä»¶æŠ½è±¡å±‚æ¥å£ç»“æ„ä½“
+ * @details ä¸ºä¸åŒç¡¬ä»¶å¹³å°æä¾›ç»Ÿä¸€çš„ç”µæºç®¡ç†æ¥å£
  */
 typedef struct {
-    /* ³õÊ¼»¯Óë·´³õÊ¼»¯ */
+    /* åˆå§‹åŒ–ä¸ååˆå§‹åŒ– */
     pm_error_t (*init)(void);
     pm_error_t (*deinit)(void);
     
-    /* Ê±ÖÓ¹ÜÀí½Ó¿Ú */
+    /* æ—¶é’Ÿç®¡ç†æ¥å£ */
     pm_error_t (*clock_enable)(pm_clock_domain_t domain, bool enable);
     pm_error_t (*clock_set_frequency)(pm_clock_domain_t domain, uint32_t freq_hz);
     uint32_t (*clock_get_frequency)(pm_clock_domain_t domain);
     bool (*clock_is_enabled)(pm_clock_domain_t domain);
     
-    /* µçÔ´Óò¹ÜÀí½Ó¿Ú */
+    /* ç”µæºåŸŸç®¡ç†æ¥å£ */
     pm_error_t (*power_domain_set_state)(pm_power_domain_t domain, 
                                        pm_module_state_t state);
     pm_module_state_t (*power_domain_get_state)(pm_power_domain_t domain);
     uint32_t (*power_domain_get_consumption)(pm_power_domain_t domain);
     
-    /* CPU¹ÜÀí½Ó¿Ú */
+    /* CPUç®¡ç†æ¥å£ */
     pm_error_t (*cpu_set_state)(pm_cpu_id_t cpu_id, pm_state_t state);
     pm_state_t (*cpu_get_state)(pm_cpu_id_t cpu_id);
     pm_error_t (*cpu_suspend)(pm_cpu_id_t cpu_id, pm_state_t target_state);
     pm_error_t (*cpu_resume)(pm_cpu_id_t cpu_id);
     
-    /* »½ĞÑÔ´¹ÜÀí½Ó¿Ú */
+    /* å”¤é†’æºç®¡ç†æ¥å£ */
     pm_error_t (*wakeup_source_enable)(pm_wakeup_source_t source, 
                                      bool enable);
     pm_error_t (*wakeup_source_set_config)(pm_wakeup_source_t source,
@@ -373,45 +373,45 @@ typedef struct {
     bool (*wakeup_source_is_pending)(pm_wakeup_source_t source);
     pm_wakeup_source_t (*wakeup_get_reason)(void);
     
-    /* ÄÚ´æ¹ÜÀí½Ó¿Ú */
+    /* å†…å­˜ç®¡ç†æ¥å£ */
     pm_error_t (*memory_set_retention)(bool enable);
     pm_error_t (*memory_set_power_state)(bool active);
     
-    /* ÍâÉè¹ÜÀí½Ó¿Ú */
+    /* å¤–è®¾ç®¡ç†æ¥å£ */
     pm_error_t (*peripheral_set_state)(pm_module_id_t peripheral,
                                      pm_module_state_t state);
     pm_module_state_t (*peripheral_get_state)(pm_module_id_t peripheral);
     
-    /* ÎÂ¶È¼à¿Ø½Ó¿Ú */
+    /* æ¸©åº¦ç›‘æ§æ¥å£ */
     pm_error_t (*temperature_get)(int32_t *temperature_c);
     pm_error_t (*temperature_set_threshold)(int32_t high, int32_t low);
     
-    /* µç³Ø¼à¿Ø½Ó¿Ú */
+    /* ç”µæ± ç›‘æ§æ¥å£ */
     pm_error_t (*battery_get_level)(uint32_t *level_percent);
     pm_error_t (*battery_get_voltage)(uint32_t *voltage_mv);
     pm_error_t (*battery_set_threshold)(uint32_t low, uint32_t critical);
     
-    /* µÍ¹¦ºÄ¼Ä´æÆ÷½Ó¿Ú */
+    /* ä½åŠŸè€—å¯„å­˜å™¨æ¥å£ */
     pm_error_t (*registers_save)(void *buffer, size_t size);
     pm_error_t (*registers_restore)(const void *buffer, size_t size);
     
-    /* Ê±¼ä´Á½Ó¿Ú */
+    /* æ—¶é—´æˆ³æ¥å£ */
     pm_timestamp_t (*get_timestamp)(void);
     uint32_t (*get_timestamp_resolution)(void);
     
-    /* µ÷ÊÔ½Ó¿Ú */
+    /* è°ƒè¯•æ¥å£ */
     void (*debug_dump_registers)(void);
     void (*debug_print_state)(void);
     
 } pm_hw_interface_t;
 
 /**
- * @brief Æ½Ì¨ÌØ¶¨Ó²¼ş½Ó¿Ú»ñÈ¡º¯Êı
+ * @brief å¹³å°ç‰¹å®šç¡¬ä»¶æ¥å£è·å–å‡½æ•°
  */
 const pm_hw_interface_t *pm_hw_get_interface(void);
 
 /**
- * @brief Ó²¼şÄÜÁ¦²éÑ¯½á¹¹Ìå
+ * @brief ç¡¬ä»¶èƒ½åŠ›æŸ¥è¯¢ç»“æ„ä½“
  */
 typedef struct {
     bool supports_dynamic_voltage;
@@ -429,12 +429,12 @@ typedef struct {
 } pm_hw_capabilities_t;
 
 /**
- * @brief »ñÈ¡Ó²¼şÄÜÁ¦ĞÅÏ¢
+ * @brief è·å–ç¡¬ä»¶èƒ½åŠ›ä¿¡æ¯
  */
 pm_error_t pm_hw_get_capabilities(pm_hw_capabilities_t *caps);
 
 /**
- * @brief Ó²¼şÆ½Ì¨Ã¶¾Ù
+ * @brief ç¡¬ä»¶å¹³å°æšä¸¾
  */
 typedef enum {
     PM_HW_PLATFORM_BK7256,
@@ -446,12 +446,12 @@ typedef enum {
 } pm_hw_platform_t;
 
 /**
- * @brief »ñÈ¡µ±Ç°Ó²¼şÆ½Ì¨
+ * @brief è·å–å½“å‰ç¡¬ä»¶å¹³å°
  */
 pm_hw_platform_t pm_hw_get_platform(void);
 
 /**
- * @brief Æ½Ì¨ÌØ¶¨³õÊ¼»¯º¯Êı
+ * @brief å¹³å°ç‰¹å®šåˆå§‹åŒ–å‡½æ•°
  */
 pm_error_t pm_hw_platform_init(void);
 
@@ -473,7 +473,7 @@ filePath: d:\Dev\pm_refactor\pm_framework\src\core\pm_state_manager.c
           
 content: /**
  * @file pm_state_manager.c
- * @brief µçÔ´¹ÜÀí×´Ì¬¹ÜÀíÆ÷ÊµÏÖ
+ * @brief ç”µæºç®¡ç†çŠ¶æ€ç®¡ç†å™¨å®ç°
  * @author PM Framework Team
  * @date 2024
  */
@@ -490,7 +490,7 @@ content: /**
 #endif
 
 /**
- * @brief ×´Ì¬¹ÜÀíÆ÷ÉÏÏÂÎÄ
+ * @brief çŠ¶æ€ç®¡ç†å™¨ä¸Šä¸‹æ–‡
  */
 typedef struct {
     pm_state_t current_state;
@@ -516,7 +516,7 @@ typedef struct {
 static pm_state_manager_ctx_t g_state_manager = {0};
 
 /**
- * @brief Ä¬ÈÏ×´Ì¬×ª»»±í
+ * @brief é»˜è®¤çŠ¶æ€è½¬æ¢è¡¨
  */
 static const pm_state_transition_t default_transitions[] = {
     {PM_STATE_ACTIVE, PM_STATE_IDLE, 1, 100},
@@ -530,7 +530,7 @@ static const pm_state_transition_t default_transitions[] = {
 };
 
 /**
- * @brief ³õÊ¼»¯×´Ì¬¹ÜÀíÆ÷
+ * @brief åˆå§‹åŒ–çŠ¶æ€ç®¡ç†å™¨
  */
 pm_error_t pm_state_manager_init(const pm_config_t *config) {
     if (g_state_manager.initialized) {
@@ -539,7 +539,7 @@ pm_error_t pm_state_manager_init(const pm_config_t *config) {
     
     memset(&g_state_manager, 0, sizeof(g_state_manager));
     
-    /* ´´½¨Í¬²½Ô­Óï */
+    /* åˆ›å»ºåŒæ­¥åŸè¯­ */
     g_state_manager.state_mutex = os_mutex_create();
     g_state_manager.state_semaphore = os_semaphore_create(0, 1);
     
@@ -548,20 +548,20 @@ pm_error_t pm_state_manager_init(const pm_config_t *config) {
         return PM_ERROR_NO_MEMORY;
     }
     
-    /* ³õÊ¼»¯Ä¬ÈÏ×´Ì¬ */
+    /* åˆå§‹åŒ–é»˜è®¤çŠ¶æ€ */
     g_state_manager.current_state = PM_STATE_ACTIVE;
     g_state_manager.target_state = PM_STATE_ACTIVE;
     
-    /* ³õÊ¼»¯Ä£¿é×´Ì¬ */
+    /* åˆå§‹åŒ–æ¨¡å—çŠ¶æ€ */
     for (size_t i = 0; i < PM_MAX_MODULES; i++) {
         g_state_manager.modules[i] = PM_MODULE_STATE_ON;
     }
     
-    /* ÉèÖÃÄ¬ÈÏ×ª»»±í */
+    /* è®¾ç½®é»˜è®¤è½¬æ¢è¡¨ */
     g_state_manager.transitions = (pm_state_transition_t *)default_transitions;
     g_state_manager.transition_count = sizeof(default_transitions) / sizeof(pm_state_transition_t[0]);
     
-    /* ³õÊ¼»¯ÒÀÀµÍ¼ */
+    /* åˆå§‹åŒ–ä¾èµ–å›¾ */
     g_state_manager.dependency_graph = pm_dependency_graph_create();
     if (!g_state_manager.dependency_graph) {
         pm_state_manager_deinit();
@@ -575,7 +575,7 @@ pm_error_t pm_state_manager_init(const pm_config_t *config) {
 }
 
 /**
- * @brief ·´³õÊ¼»¯×´Ì¬¹ÜÀíÆ÷
+ * @brief ååˆå§‹åŒ–çŠ¶æ€ç®¡ç†å™¨
  */
 void pm_state_manager_deinit(void) {
     if (!g_state_manager.initialized) {
@@ -602,7 +602,7 @@ void pm_state_manager_deinit(void) {
 }
 
 /**
- * @brief ÉèÖÃÏµÍ³×´Ì¬
+ * @brief è®¾ç½®ç³»ç»ŸçŠ¶æ€
  */
 pm_error_t pm_state_manager_set_state(pm_state_t new_state) {
     if (!g_state_manager.initialized) {
@@ -617,19 +617,19 @@ pm_error_t pm_state_manager_set_state(pm_state_t new_state) {
         return PM_OK;
     }
     
-    /* ¼ì²é×´Ì¬×ª»»ºÏ·¨ĞÔ */
+    /* æ£€æŸ¥çŠ¶æ€è½¬æ¢åˆæ³•æ€§ */
     if (!pm_state_manager_can_transition(old_state, new_state)) {
         os_mutex_unlock(g_state_manager.state_mutex);
         return PM_ERROR_NOT_SUPPORTED;
     }
     
-    /* Ö´ĞĞ×´Ì¬×ª»» */
+    /* æ‰§è¡ŒçŠ¶æ€è½¬æ¢ */
     pm_error_t result = pm_state_manager_execute_transition(old_state, new_state);
     if (result == PM_OK) {
         g_state_manager.current_state = new_state;
         g_state_manager.stats.state_transition_count++;
         
-        /* Í¨Öª×´Ì¬±ä»¯ */
+        /* é€šçŸ¥çŠ¶æ€å˜åŒ– */
         if (g_state_manager.state_callback) {
             g_state_manager.state_callback(old_state, new_state, 
                                          pm_get_timestamp());
@@ -642,7 +642,7 @@ pm_error_t pm_state_manager_set_state(pm_state_t new_state) {
 }
 
 /**
- * @brief »ñÈ¡µ±Ç°ÏµÍ³×´Ì¬
+ * @brief è·å–å½“å‰ç³»ç»ŸçŠ¶æ€
  */
 pm_state_t pm_state_manager_get_state(void) {
     if (!g_state_manager.initialized) {
@@ -653,7 +653,7 @@ pm_state_t pm_state_manager_get_state(void) {
 }
 
 /**
- * @brief ÉèÖÃÄ£¿é×´Ì¬
+ * @brief è®¾ç½®æ¨¡å—çŠ¶æ€
  */
 pm_error_t pm_state_manager_set_module_state(pm_module_id_t module,
                                              pm_module_state_t state) {
@@ -669,17 +669,17 @@ pm_error_t pm_state_manager_set_module_state(pm_module_id_t module,
         return PM_OK;
     }
     
-    /* ¼ì²éÒÀÀµ¹ØÏµ */
+    /* æ£€æŸ¥ä¾èµ–å…³ç³» */
     if (!pm_dependency_graph_check_transition(g_state_manager.dependency_graph,
                                               module, old_state, state)) {
         os_mutex_unlock(g_state_manager.state_mutex);
         return PM_ERROR_NOT_SUPPORTED;
     }
     
-    /* ¸üĞÂÄ£¿é×´Ì¬ */
+    /* æ›´æ–°æ¨¡å—çŠ¶æ€ */
     g_state_manager.modules[module] = state;
     
-    /* Í¨ÖªÄ£¿é±ä»¯ */
+    /* é€šçŸ¥æ¨¡å—å˜åŒ– */
     if (g_state_manager.module_callback) {
         g_state_manager.module_callback(module, state, NULL);
     }
@@ -690,7 +690,7 @@ pm_error_t pm_state_manager_set_module_state(pm_module_id_t module,
 }
 
 /**
- * @brief »ñÈ¡Ä£¿é×´Ì¬
+ * @brief è·å–æ¨¡å—çŠ¶æ€
  */
 pm_module_state_t pm_state_manager_get_module_state(pm_module_id_t module) {
     if (!g_state_manager.initialized || module >= PM_MAX_MODULES) {
@@ -701,7 +701,7 @@ pm_module_state_t pm_state_manager_get_module_state(pm_module_id_t module) {
 }
 
 /**
- * @brief ¼ì²é×´Ì¬×ª»»ÊÇ·ñÔÊĞí
+ * @brief æ£€æŸ¥çŠ¶æ€è½¬æ¢æ˜¯å¦å…è®¸
  */
 bool pm_state_manager_can_transition(pm_state_t from, pm_state_t to) {
     if (from == to) {
@@ -719,11 +719,11 @@ bool pm_state_manager_can_transition(pm_state_t from, pm_state_t to) {
 }
 
 /**
- * @brief Ö´ĞĞ×´Ì¬×ª»»
+ * @brief æ‰§è¡ŒçŠ¶æ€è½¬æ¢
  */
 static pm_error_t pm_state_manager_execute_transition(pm_state_t from,
                                                       pm_state_t to) {
-    /* ²éÕÒ×ª»»²ÎÊı */
+    /* æŸ¥æ‰¾è½¬æ¢å‚æ•° */
     const pm_state_transition_t *transition = NULL;
     for (size_t i = 0; i < g_state_manager.transition_count; i++) {
         if (g_state_manager.transitions[i].from_state == from &&
@@ -737,12 +737,12 @@ static pm_error_t pm_state_manager_execute_transition(pm_state_t from,
         return PM_ERROR_NOT_SUPPORTED;
     }
     
-    /* Ö´ĞĞ×ª»»ÑÓ³Ù */
+    /* æ‰§è¡Œè½¬æ¢å»¶è¿Ÿ */
     if (transition->transition_time_ms > 0) {
         os_delay_ms(transition->transition_time_ms);
     }
     
-    /* ¸üĞÂÍ³¼ÆĞÅÏ¢ */
+    /* æ›´æ–°ç»Ÿè®¡ä¿¡æ¯ */
     g_state_manager.stats.total_active_time += transition->transition_time_ms;
     
     PM_STATE_DEBUG("State transition: %d -> %d, time: %d ms, energy: %d uJ",
@@ -752,7 +752,7 @@ static pm_error_t pm_state_manager_execute_transition(pm_state_t from,
 }
 
 /**
- * @brief ÉèÖÃ×´Ì¬±ä»¯»Øµ÷
+ * @brief è®¾ç½®çŠ¶æ€å˜åŒ–å›è°ƒ
  */
 void pm_state_manager_set_state_callback(pm_state_change_callback_t callback) {
     if (!g_state_manager.initialized) {
@@ -763,7 +763,7 @@ void pm_state_manager_set_state_callback(pm_state_change_callback_t callback) {
 }
 
 /**
- * @brief ÉèÖÃÄ£¿é»Øµ÷
+ * @brief è®¾ç½®æ¨¡å—å›è°ƒ
  */
 void pm_state_manager_set_module_callback(pm_module_callback_t callback) {
     if (!g_state_manager.initialized) {
@@ -774,7 +774,7 @@ void pm_state_manager_set_module_callback(pm_module_callback_t callback) {
 }
 
 /**
- * @brief »ñÈ¡ĞÔÄÜÍ³¼Æ
+ * @brief è·å–æ€§èƒ½ç»Ÿè®¡
  */
 pm_error_t pm_state_manager_get_stats(pm_performance_stats_t *stats) {
     if (!g_state_manager.initialized || !stats) {
@@ -789,7 +789,7 @@ pm_error_t pm_state_manager_get_stats(pm_performance_stats_t *stats) {
 }
 
 /**
- * @brief »ñÈ¡ÄÚ´æÊ¹ÓÃÍ³¼Æ
+ * @brief è·å–å†…å­˜ä½¿ç”¨ç»Ÿè®¡
  */
 pm_error_t pm_state_manager_get_memory_stats(pm_memory_stats_t *stats) {
     if (!g_state_manager.initialized || !stats) {
@@ -798,15 +798,15 @@ pm_error_t pm_state_manager_get_memory_stats(pm_memory_stats_t *stats) {
     
     stats->code_size = sizeof(pm_state_manager_ctx_t);
     stats->data_size = sizeof(g_state_manager);
-    stats->bss_size = 0;  /* ¾²Ì¬·ÖÅä */
-    stats->stack_usage = 512;  /* ¹ÀËãÕ»Ê¹ÓÃ */
+    stats->bss_size = 0;  /* é™æ€åˆ†é… */
+    stats->stack_usage = 512;  /* ä¼°ç®—æ ˆä½¿ç”¨ */
     stats->heap_usage = pm_dependency_graph_get_memory_usage(g_state_manager.dependency_graph);
     
     return PM_OK;
 }
 
 /**
- * @brief ÖØÖÃÍ³¼ÆĞÅÏ¢
+ * @brief é‡ç½®ç»Ÿè®¡ä¿¡æ¯
  */
 void pm_state_manager_reset_stats(void) {
     if (!g_state_manager.initialized) {
@@ -819,7 +819,7 @@ void pm_state_manager_reset_stats(void) {
 }
 
 /**
- * @brief »ñÈ¡ÏµÍ³×´Ì¬×Ö·û´®
+ * @brief è·å–ç³»ç»ŸçŠ¶æ€å­—ç¬¦ä¸²
  */
 const char *pm_state_manager_get_state_string(pm_state_t state) {
     static const char *state_strings[] = {
@@ -839,7 +839,7 @@ const char *pm_state_manager_get_state_string(pm_state_t state) {
 }
 
 /**
- * @brief »ñÈ¡Ä£¿é×´Ì¬×Ö·û´®
+ * @brief è·å–æ¨¡å—çŠ¶æ€å­—ç¬¦ä¸²
  */
 const char *pm_state_manager_get_module_state_string(pm_module_state_t state) {
     static const char *module_state_strings[] = {
@@ -868,7 +868,7 @@ filePath: d:\Dev\pm_refactor\pm_framework\src\policy\pm_policy_engine.c
           
 content: /**
  * @file pm_policy_engine.c
- * @brief µçÔ´¹ÜÀí²ßÂÔÒıÇæÊµÏÖ
+ * @brief ç”µæºç®¡ç†ç­–ç•¥å¼•æ“å®ç°
  * @author PM Framework Team
  * @date 2024
  */
@@ -887,7 +887,7 @@ content: /**
 #endif
 
 /**
- * @brief ²ßÂÔÒıÇæÉÏÏÂÎÄ
+ * @brief ç­–ç•¥å¼•æ“ä¸Šä¸‹æ–‡
  */
 typedef struct {
     pm_policy_t active_policy;
@@ -910,7 +910,7 @@ typedef struct {
 static pm_policy_engine_ctx_t g_policy_engine = {0};
 
 /**
- * @brief Ä¬ÈÏ²ßÂÔÅäÖÃ
+ * @brief é»˜è®¤ç­–ç•¥é…ç½®
  */
 static const pm_policy_config_t default_policies[PM_POLICY_COUNT] = {
     [PM_POLICY_PERFORMANCE] = {
@@ -921,8 +921,8 @@ static const pm_policy_config_t default_policies[PM_POLICY_COUNT] = {
         .transition_delay_ms = 0,
         .energy_budget_uj = UINT32_MAX,
         .latency_constraint_us = 0,
-        .cpu_frequency_mhz = 0, /* ×î´óÆµÂÊ */
-        .voltage_mv = 0, /* ×î´óµçÑ¹ */
+        .cpu_frequency_mhz = 0, /* æœ€å¤§é¢‘ç‡ */
+        .voltage_mv = 0, /* æœ€å¤§ç”µå‹ */
         .flags = PM_POLICY_FLAG_NONE,
     },
     
@@ -934,8 +934,8 @@ static const pm_policy_config_t default_policies[PM_POLICY_COUNT] = {
         .transition_delay_ms = 100,
         .energy_budget_uj = 1000000, /* 1mJ */
         .latency_constraint_us = 1000,
-        .cpu_frequency_mhz = 0, /* ¶¯Ì¬µ÷Õû */
-        .voltage_mv = 0, /* ¶¯Ì¬µ÷Õû */
+        .cpu_frequency_mhz = 0, /* åŠ¨æ€è°ƒæ•´ */
+        .voltage_mv = 0, /* åŠ¨æ€è°ƒæ•´ */
         .flags = PM_POLICY_FLAG_DYNAMIC_FREQUENCY,
     },
     
@@ -967,7 +967,7 @@ static const pm_policy_config_t default_policies[PM_POLICY_COUNT] = {
 };
 
 /**
- * @brief ³õÊ¼»¯²ßÂÔÒıÇæ
+ * @brief åˆå§‹åŒ–ç­–ç•¥å¼•æ“
  */
 pm_error_t pm_policy_engine_init(const pm_policy_config_t *custom_policies) {
     if (g_policy_engine.initialized) {
@@ -976,17 +976,17 @@ pm_error_t pm_policy_engine_init(const pm_policy_config_t *custom_policies) {
     
     memset(&g_policy_engine, 0, sizeof(g_policy_engine));
     
-    /* ´´½¨Í¬²½Ô­Óï */
+    /* åˆ›å»ºåŒæ­¥åŸè¯­ */
     g_policy_engine.policy_mutex = os_mutex_create();
     if (!g_policy_engine.policy_mutex) {
         return PM_ERROR_NO_MEMORY;
     }
     
-    /* ¸´ÖÆÄ¬ÈÏ²ßÂÔÅäÖÃ */
+    /* å¤åˆ¶é»˜è®¤ç­–ç•¥é…ç½® */
     memcpy(g_policy_engine.policy_configs, default_policies, 
            sizeof(default_policies));
     
-    /* Ó¦ÓÃ×Ô¶¨Òå²ßÂÔ */
+    /* åº”ç”¨è‡ªå®šä¹‰ç­–ç•¥ */
     if (custom_policies) {
         for (size_t i = 0; i < PM_POLICY_COUNT; i++) {
             if (custom_policies[i].name[0] != '\0') {
@@ -995,7 +995,7 @@ pm_error_t pm_policy_engine_init(const pm_policy_config_t *custom_policies) {
         }
     }
     
-    /* ³õÊ¼»¯MLÓÅ»¯Æ÷£¨Èç¹ûÆôÓÃ£© */
+    /* åˆå§‹åŒ–MLä¼˜åŒ–å™¨ï¼ˆå¦‚æœå¯ç”¨ï¼‰ */
     if (PM_CONFIG_ML_OPTIMIZER_ENABLED) {
         g_policy_engine.ml_optimizer = pm_ml_optimizer_create();
         g_policy_engine.workload_predictor = pm_workload_predictor_create();
@@ -1010,10 +1010,10 @@ pm_error_t pm_policy_engine_init(const pm_policy_config_t *custom_policies) {
         }
     }
     
-    /* ÉèÖÃÄ¬ÈÏ²ßÂÔ */
+    /* è®¾ç½®é»˜è®¤ç­–ç•¥ */
     g_policy_engine.active_policy = PM_POLICY_BALANCED;
     
-    /* ´´½¨²ßÂÔ¶¨Ê±Æ÷ */
+    /* åˆ›å»ºç­–ç•¥å®šæ—¶å™¨ */
     g_policy_engine.policy_timer = os_timer_create(pm_policy_engine_timer_callback, 
                                                  NULL, 1000, true);
     if (g_policy_engine.policy_timer) {
@@ -1028,7 +1028,7 @@ pm_error_t pm_policy_engine_init(const pm_policy_config_t *custom_policies) {
 }
 
 /**
- * @brief ·´³õÊ¼»¯²ßÂÔÒıÇæ
+ * @brief ååˆå§‹åŒ–ç­–ç•¥å¼•æ“
  */
 void pm_policy_engine_deinit(void) {
     if (!g_policy_engine.initialized) {
@@ -1066,7 +1066,7 @@ void pm_policy_engine_deinit(void) {
 }
 
 /**
- * @brief ÉèÖÃµ±Ç°²ßÂÔ
+ * @brief è®¾ç½®å½“å‰ç­–ç•¥
  */
 pm_error_t pm_policy_engine_set_policy(pm_policy_t policy) {
     if (!g_policy_engine.initialized || policy >= PM_POLICY_COUNT) {
@@ -1078,7 +1078,7 @@ pm_error_t pm_policy_engine_set_policy(pm_policy_t policy) {
     pm_policy_t old_policy = g_policy_engine.active_policy;
     g_policy_engine.active_policy = policy;
     
-    /* Í¨Öª²ßÂÔ±ä»¯ */
+    /* é€šçŸ¥ç­–ç•¥å˜åŒ– */
     pm_event_t event = {
         .type = PM_EVENT_POLICY_CHANGED,
         .data.policy_changed = {
@@ -1098,7 +1098,7 @@ pm_error_t pm_policy_engine_set_policy(pm_policy_t policy) {
 }
 
 /**
- * @brief »ñÈ¡µ±Ç°²ßÂÔ
+ * @brief è·å–å½“å‰ç­–ç•¥
  */
 pm_policy_t pm_policy_engine_get_policy(void) {
     if (!g_policy_engine.initialized) {
@@ -1109,7 +1109,7 @@ pm_policy_t pm_policy_engine_get_policy(void) {
 }
 
 /**
- * @brief »ñÈ¡²ßÂÔÅäÖÃ
+ * @brief è·å–ç­–ç•¥é…ç½®
  */
 const pm_policy_config_t *pm_policy_engine_get_config(pm_policy_t policy) {
     if (!g_policy_engine.initialized || policy >= PM_POLICY_COUNT) {
@@ -1120,7 +1120,7 @@ const pm_policy_config_t *pm_policy_engine_get_config(pm_policy_t policy) {
 }
 
 /**
- * @brief ¸üĞÂ²ßÂÔÅäÖÃ
+ * @brief æ›´æ–°ç­–ç•¥é…ç½®
  */
 pm_error_t pm_policy_engine_update_config(pm_policy_t policy,
                                           const pm_policy_config_t *config) {
@@ -1138,7 +1138,7 @@ pm_error_t pm_policy_engine_update_config(pm_policy_t policy,
 }
 
 /**
- * @brief ×ö³ö²ßÂÔ¾ö²ß
+ * @brief åšå‡ºç­–ç•¥å†³ç­–
  */
 pm_policy_decision_t pm_policy_engine_make_decision(
     const pm_policy_input_t *input) {
@@ -1159,15 +1159,15 @@ pm_policy_decision_t pm_policy_engine_make_decision(
     
     pm_policy_decision_t decision = {0};
     
-    /* »ùÓÚµ±Ç°²ßÂÔ¼ÆËã¾ö²ß */
+    /* åŸºäºå½“å‰ç­–ç•¥è®¡ç®—å†³ç­– */
     decision = pm_policy_engine_calculate_decision(config, input);
     
-    /* Ó¦ÓÃMLÓÅ»¯£¨Èç¹ûÆôÓÃ£© */
+    /* åº”ç”¨MLä¼˜åŒ–ï¼ˆå¦‚æœå¯ç”¨ï¼‰ */
     if (g_policy_engine.ml_enabled && g_policy_engine.ml_optimizer) {
         pm_policy_decision_t ml_decision = 
             pm_ml_optimizer_optimize(g_policy_engine.ml_optimizer, input, &decision);
         
-        /* ¸ù¾İÖÃĞÅ¶ÈÈÚºÏ¾ö²ß */
+        /* æ ¹æ®ç½®ä¿¡åº¦èåˆå†³ç­– */
         float ml_weight = ml_decision.confidence;
         float rule_weight = 1.0f - ml_weight;
         
@@ -1178,7 +1178,7 @@ pm_policy_decision_t pm_policy_engine_make_decision(
         decision.confidence = fmaxf(ml_decision.confidence, decision.confidence);
     }
     
-    /* Ó¦ÓÃÔ¼ÊøÌõ¼ş */
+    /* åº”ç”¨çº¦æŸæ¡ä»¶ */
     decision = pm_policy_engine_apply_constraints(config, &decision);
     
     g_policy_engine.last_decision = decision;
@@ -1194,13 +1194,13 @@ pm_policy_decision_t pm_policy_engine_make_decision(
 }
 
 /**
- * @brief ¼ÆËã²ßÂÔ¾ö²ß
+ * @brief è®¡ç®—ç­–ç•¥å†³ç­–
  */
 static pm_policy_decision_t pm_policy_engine_calculate_decision(
     const pm_policy_config_t *config, const pm_policy_input_t *input) {
     pm_policy_decision_t decision = {0};
     
-    /* »ùÓÚ¹¤×÷¸ºÔØÑ¡ÔñÄ¿±ê×´Ì¬ */
+    /* åŸºäºå·¥ä½œè´Ÿè½½é€‰æ‹©ç›®æ ‡çŠ¶æ€ */
     if (input->workload > 80) {
         decision.target_state = PM_STATE_ACTIVE;
     } else if (input->workload > 50) {
@@ -1213,38 +1213,38 @@ static pm_policy_decision_t pm_policy_engine_calculate_decision(
         decision.target_state = PM_STATE_HIBERNATE;
     }
     
-    /* È·±£ÔÚ²ßÂÔÔÊĞí·¶Î§ÄÚ */
+    /* ç¡®ä¿åœ¨ç­–ç•¥å…è®¸èŒƒå›´å†… */
     decision.target_state = PM_MAX(decision.target_state, config->min_state);
     decision.target_state = PM_MIN(decision.target_state, config->max_state);
     
-    /* ¼ÆËã×ª»»Ê±¼ä */
+    /* è®¡ç®—è½¬æ¢æ—¶é—´ */
     decision.transition_time_ms = config->transition_delay_ms;
     
-    /* ÉèÖÃÖÃĞÅ¶È */
-    decision.confidence = 0.8f; /* »ùÓÚ¹æÔòµÄ¾ö²ßÖÃĞÅ¶È */
+    /* è®¾ç½®ç½®ä¿¡åº¦ */
+    decision.confidence = 0.8f; /* åŸºäºè§„åˆ™çš„å†³ç­–ç½®ä¿¡åº¦ */
     
     return decision;
 }
 
 /**
- * @brief Ó¦ÓÃÔ¼ÊøÌõ¼ş
+ * @brief åº”ç”¨çº¦æŸæ¡ä»¶
  */
 static pm_policy_decision_t pm_policy_engine_apply_constraints(
     const pm_policy_config_t *config, const pm_policy_decision_t *decision) {
     pm_policy_decision_t constrained = *decision;
     
-    /* ¼ì²éÄÜÁ¿Ô¤Ëã */
+    /* æ£€æŸ¥èƒ½é‡é¢„ç®— */
     uint32_t estimated_energy = pm_policy_engine_estimate_energy(&constrained);
     if (estimated_energy > config->energy_budget_uj) {
-        /* µ÷ÕûÄ¿±ê×´Ì¬ÒÔ½µµÍÄÜºÄ */
+        /* è°ƒæ•´ç›®æ ‡çŠ¶æ€ä»¥é™ä½èƒ½è€— */
         if (constrained.target_state > PM_STATE_ACTIVE) {
             constrained.target_state--;
         }
     }
     
-    /* ¼ì²éÑÓ³ÙÔ¼Êø */
+    /* æ£€æŸ¥å»¶è¿Ÿçº¦æŸ */
     if (constrained.transition_time_ms > config->latency_constraint_us / 1000) {
-        /* µ÷ÕûÄ¿±ê×´Ì¬ÒÔÂú×ãÑÓ³ÙÒªÇó */
+        /* è°ƒæ•´ç›®æ ‡çŠ¶æ€ä»¥æ»¡è¶³å»¶è¿Ÿè¦æ±‚ */
         constrained.target_state = PM_STATE_ACTIVE;
         constrained.transition_time_ms = config->transition_delay_ms;
     }
@@ -1253,11 +1253,11 @@ static pm_policy_decision_t pm_policy_engine_apply_constraints(
 }
 
 /**
- * @brief ¹ÀËãÄÜÁ¿ÏûºÄ
+ * @brief ä¼°ç®—èƒ½é‡æ¶ˆè€—
  */
 static uint32_t pm_policy_engine_estimate_energy(
     const pm_policy_decision_t *decision) {
-    /* ¼ò»¯µÄÄÜÁ¿¹ÀËãÄ£ĞÍ */
+    /* ç®€åŒ–çš„èƒ½é‡ä¼°ç®—æ¨¡å‹ */
     static const uint32_t state_energy_cost[] = {
         [PM_STATE_ACTIVE] = 1000,      /* 1mJ */
         [PM_STATE_IDLE] = 500,        /* 500uJ */
@@ -1271,11 +1271,11 @@ static uint32_t pm_policy_engine_estimate_energy(
     }
     
     return state_energy_cost[decision->target_state] + 
-           decision->transition_time_ms * 10; /* ×ª»»¿ªÏú */
+           decision->transition_time_ms * 10; /* è½¬æ¢å¼€é”€ */
 }
 
 /**
- * @brief ²ßÂÔ¶¨Ê±Æ÷»Øµ÷
+ * @brief ç­–ç•¥å®šæ—¶å™¨å›è°ƒ
  */
 static void pm_policy_engine_timer_callback(void *arg) {
     (void)arg;
@@ -1284,7 +1284,7 @@ static void pm_policy_engine_timer_callback(void *arg) {
         return;
     }
     
-    /* ÊÕ¼¯µ±Ç°ÊäÈë */
+    /* æ”¶é›†å½“å‰è¾“å…¥ */
     pm_policy_input_t input = {0};
     input.timestamp = pm_get_timestamp();
     input.workload = pm_get_current_workload();
@@ -1293,17 +1293,17 @@ static void pm_policy_engine_timer_callback(void *arg) {
     input.battery_level = pm_get_battery_level();
     input.temperature = pm_get_temperature();
     
-    /* ×ö³ö¾ö²ß */
+    /* åšå‡ºå†³ç­– */
     pm_policy_decision_t decision = pm_policy_engine_make_decision(&input);
     
-    /* Ó¦ÓÃ¾ö²ß */
+    /* åº”ç”¨å†³ç­– */
     pm_state_manager_set_state((pm_state_t)decision.target_state);
     
     g_policy_engine.stats.timer_callbacks++;
 }
 
 /**
- * @brief »ñÈ¡²ßÂÔÍ³¼Æ
+ * @brief è·å–ç­–ç•¥ç»Ÿè®¡
  */
 pm_error_t pm_policy_engine_get_stats(pm_policy_stats_t *stats) {
     if (!g_policy_engine.initialized || !stats) {
@@ -1318,7 +1318,7 @@ pm_error_t pm_policy_engine_get_stats(pm_policy_stats_t *stats) {
 }
 
 /**
- * @brief ÖØÖÃ²ßÂÔÍ³¼Æ
+ * @brief é‡ç½®ç­–ç•¥ç»Ÿè®¡
  */
 void pm_policy_engine_reset_stats(void) {
     if (!g_policy_engine.initialized) {
@@ -1331,7 +1331,7 @@ void pm_policy_engine_reset_stats(void) {
 }
 
 /**
- * @brief ÆôÓÃ/½ûÓÃMLÓÅ»¯
+ * @brief å¯ç”¨/ç¦ç”¨MLä¼˜åŒ–
  */
 void pm_policy_engine_set_ml_enabled(bool enabled) {
     if (!g_policy_engine.initialized) {
@@ -1346,7 +1346,7 @@ void pm_policy_engine_set_ml_enabled(bool enabled) {
 }
 
 /**
- * @brief »ñÈ¡MLÓÅ»¯×´Ì¬
+ * @brief è·å–MLä¼˜åŒ–çŠ¶æ€
  */
 bool pm_policy_engine_is_ml_enabled(void) {
     if (!g_policy_engine.initialized) {
@@ -1368,7 +1368,7 @@ filePath: d:\Dev\pm_refactor\pm_framework\src\hal\pm_hw_interface.c
           
 content: /**
  * @file pm_hw_interface.c
- * @brief Ó²¼ş³éÏó²ã½Ó¿ÚÊµÏÖ
+ * @brief ç¡¬ä»¶æŠ½è±¡å±‚æ¥å£å®ç°
  * @author PM Framework Team
  * @date 2024
  */
@@ -1385,14 +1385,14 @@ content: /**
 #endif
 
 /**
- * @brief Ó²¼ş½Ó¿ÚÊµÀı
+ * @brief ç¡¬ä»¶æ¥å£å®ä¾‹
  */
 static const pm_hw_interface_t *g_hw_interface = NULL;
 static pm_hw_capabilities_t g_hw_capabilities = {0};
 static bool g_hw_initialized = false;
 
 /**
- * @brief Ä¬ÈÏÓ²¼şÊµÏÖ£¨¿ÕÊµÏÖ£©
+ * @brief é»˜è®¤ç¡¬ä»¶å®ç°ï¼ˆç©ºå®ç°ï¼‰
  */
 static pm_error_t default_hw_init(void) {
     PM_HW_DEBUG("Using default hardware implementation");
@@ -1400,7 +1400,7 @@ static pm_error_t default_hw_init(void) {
 }
 
 static void default_hw_deinit(void) {
-    /* ¿ÕÊµÏÖ */
+    /* ç©ºå®ç° */
 }
 
 static pm_error_t default_hw_set_cpu_state(pm_cpu_state_t state) {
@@ -1440,23 +1440,23 @@ static pm_error_t default_hw_exit_sleep(pm_sleep_mode_t mode) {
 }
 
 static uint32_t default_hw_get_cpu_frequency(void) {
-    return 100000000; /* 100MHz Ä¬ÈÏÖµ */
+    return 100000000; /* 100MHz é»˜è®¤å€¼ */
 }
 
 static uint32_t default_hw_get_voltage(void) {
-    return 3300; /* 3.3V Ä¬ÈÏÖµ */
+    return 3300; /* 3.3V é»˜è®¤å€¼ */
 }
 
 static uint32_t default_hw_get_temperature(void) {
-    return 25000; /* 25¡ãC Ä¬ÈÏÖµ */
+    return 25000; /* 25Â°C é»˜è®¤å€¼ */
 }
 
 static uint32_t default_hw_get_battery_level(void) {
-    return 100; /* 100% Ä¬ÈÏÖµ */
+    return 100; /* 100% é»˜è®¤å€¼ */
 }
 
 static uint64_t default_hw_get_time_us(void) {
-    return 0; /* ·µ»Ø0£¬ĞèÒª¾ßÌåÊµÏÖ */
+    return 0; /* è¿”å›0ï¼Œéœ€è¦å…·ä½“å®ç° */
 }
 
 static pm_error_t default_hw_register_interrupt(pm_interrupt_handler_t handler,
@@ -1490,7 +1490,7 @@ static const pm_hw_capabilities_t *default_hw_get_capabilities(void) {
 }
 
 /**
- * @brief Ä¬ÈÏÓ²¼ş½Ó¿Ú
+ * @brief é»˜è®¤ç¡¬ä»¶æ¥å£
  */
 static const pm_hw_interface_t g_default_hw_interface = {
     .name = "default",
@@ -1513,7 +1513,7 @@ static const pm_hw_interface_t g_default_hw_interface = {
 };
 
 /**
- * @brief ³õÊ¼»¯Ó²¼ş³éÏó²ã
+ * @brief åˆå§‹åŒ–ç¡¬ä»¶æŠ½è±¡å±‚
  */
 pm_error_t pm_hw_interface_init(const pm_hw_interface_t *interface) {
     if (g_hw_initialized) {
@@ -1526,10 +1526,10 @@ pm_error_t pm_hw_interface_init(const pm_hw_interface_t *interface) {
         g_hw_interface = &g_default_hw_interface;
     }
     
-    /* »ñÈ¡Ó²¼şÄÜÁ¦ */
+    /* è·å–ç¡¬ä»¶èƒ½åŠ› */
     g_hw_capabilities = *g_hw_interface->get_capabilities();
     
-    /* ³õÊ¼»¯Ó²¼ş */
+    /* åˆå§‹åŒ–ç¡¬ä»¶ */
     pm_error_t result = g_hw_interface->init();
     if (result != PM_OK) {
         g_hw_interface = NULL;
@@ -1543,7 +1543,7 @@ pm_error_t pm_hw_interface_init(const pm_hw_interface_t *interface) {
 }
 
 /**
- * @brief ·´³õÊ¼»¯Ó²¼ş³éÏó²ã
+ * @brief ååˆå§‹åŒ–ç¡¬ä»¶æŠ½è±¡å±‚
  */
 void pm_hw_interface_deinit(void) {
     if (!g_hw_initialized) {
@@ -1561,7 +1561,7 @@ void pm_hw_interface_deinit(void) {
 }
 
 /**
- * @brief ÉèÖÃCPU×´Ì¬
+ * @brief è®¾ç½®CPUçŠ¶æ€
  */
 pm_error_t pm_hw_set_cpu_state(pm_cpu_state_t state) {
     if (!g_hw_initialized || !g_hw_interface || !g_hw_interface->set_cpu_state) {
@@ -1572,7 +1572,7 @@ pm_error_t pm_hw_set_cpu_state(pm_cpu_state_t state) {
 }
 
 /**
- * @brief ÉèÖÃÊ±ÖÓÓò×´Ì¬
+ * @brief è®¾ç½®æ—¶é’ŸåŸŸçŠ¶æ€
  */
 pm_error_t pm_hw_set_clock_state(pm_clock_domain_t domain,
                                pm_clock_state_t state) {
@@ -1584,7 +1584,7 @@ pm_error_t pm_hw_set_clock_state(pm_clock_domain_t domain,
 }
 
 /**
- * @brief ÉèÖÃµçÔ´Óò×´Ì¬
+ * @brief è®¾ç½®ç”µæºåŸŸçŠ¶æ€
  */
 pm_error_t pm_hw_set_power_domain_state(pm_power_domain_t domain,
                                         pm_power_state_t state) {
@@ -1597,7 +1597,7 @@ pm_error_t pm_hw_set_power_domain_state(pm_power_domain_t domain,
 }
 
 /**
- * @brief ÉèÖÃ»½ĞÑÔ´
+ * @brief è®¾ç½®å”¤é†’æº
  */
 pm_error_t pm_hw_set_wakeup_source(pm_wakeup_source_t source, bool enable) {
     if (!g_hw_initialized || !g_hw_interface || 
@@ -1609,14 +1609,14 @@ pm_error_t pm_hw_set_wakeup_source(pm_wakeup_source_t source, bool enable) {
 }
 
 /**
- * @brief ½øÈëË¯ÃßÄ£Ê½
+ * @brief è¿›å…¥ç¡çœ æ¨¡å¼
  */
 pm_error_t pm_hw_enter_sleep(pm_sleep_mode_t mode) {
     if (!g_hw_initialized || !g_hw_interface || !g_hw_interface->enter_sleep) {
         return PM_ERROR_NOT_SUPPORTED;
     }
     
-    /* ¼ì²éË¯ÃßÄ£Ê½ÊÇ·ñÖ§³Ö */
+    /* æ£€æŸ¥ç¡çœ æ¨¡å¼æ˜¯å¦æ”¯æŒ */
     if (!(g_hw_capabilities.sleep_modes & (1 << mode))) {
         return PM_ERROR_NOT_SUPPORTED;
     }
@@ -1625,7 +1625,7 @@ pm_error_t pm_hw_enter_sleep(pm_sleep_mode_t mode) {
 }
 
 /**
- * @brief ÍË³öË¯ÃßÄ£Ê½
+ * @brief é€€å‡ºç¡çœ æ¨¡å¼
  */
 pm_error_t pm_hw_exit_sleep(pm_sleep_mode_t mode) {
     if (!g_hw_initialized || !g_hw_interface || !g_hw_interface->exit_sleep) {
@@ -1636,7 +1636,7 @@ pm_error_t pm_hw_exit_sleep(pm_sleep_mode_t mode) {
 }
 
 /**
- * @brief »ñÈ¡CPUÆµÂÊ
+ * @brief è·å–CPUé¢‘ç‡
  */
 uint32_t pm_hw_get_cpu_frequency(void) {
     if (!g_hw_initialized || !g_hw_interface || 
@@ -1648,7 +1648,7 @@ uint32_t pm_hw_get_cpu_frequency(void) {
 }
 
 /**
- * @brief »ñÈ¡µçÑ¹
+ * @brief è·å–ç”µå‹
  */
 uint32_t pm_hw_get_voltage(void) {
     if (!g_hw_initialized || !g_hw_interface || !g_hw_interface->get_voltage) {
@@ -1659,7 +1659,7 @@ uint32_t pm_hw_get_voltage(void) {
 }
 
 /**
- * @brief »ñÈ¡ÎÂ¶È
+ * @brief è·å–æ¸©åº¦
  */
 uint32_t pm_hw_get_temperature(void) {
     if (!g_hw_initialized || !g_hw_interface || 
@@ -1671,7 +1671,7 @@ uint32_t pm_hw_get_temperature(void) {
 }
 
 /**
- * @brief »ñÈ¡µç³ØµçÁ¿
+ * @brief è·å–ç”µæ± ç”µé‡
  */
 uint32_t pm_hw_get_battery_level(void) {
     if (!g_hw_initialized || !g_hw_interface || 
@@ -1683,7 +1683,7 @@ uint32_t pm_hw_get_battery_level(void) {
 }
 
 /**
- * @brief »ñÈ¡Ê±¼ä´Á£¨Î¢Ãë£©
+ * @brief è·å–æ—¶é—´æˆ³ï¼ˆå¾®ç§’ï¼‰
  */
 uint64_t pm_hw_get_time_us(void) {
     if (!g_hw_initialized || !g_hw_interface || !g_hw_interface->get_time_us) {
@@ -1694,7 +1694,7 @@ uint64_t pm_hw_get_time_us(void) {
 }
 
 /**
- * @brief ×¢²áÖĞ¶Ï´¦Àí³ÌĞò
+ * @brief æ³¨å†Œä¸­æ–­å¤„ç†ç¨‹åº
  */
 pm_error_t pm_hw_register_interrupt(pm_interrupt_handler_t handler,
                                   void *user_data) {
@@ -1707,7 +1707,7 @@ pm_error_t pm_hw_register_interrupt(pm_interrupt_handler_t handler,
 }
 
 /**
- * @brief ×¢ÏúÖĞ¶Ï´¦Àí³ÌĞò
+ * @brief æ³¨é”€ä¸­æ–­å¤„ç†ç¨‹åº
  */
 pm_error_t pm_hw_unregister_interrupt(pm_interrupt_handler_t handler) {
     if (!g_hw_initialized || !g_hw_interface || 
@@ -1719,7 +1719,7 @@ pm_error_t pm_hw_unregister_interrupt(pm_interrupt_handler_t handler) {
 }
 
 /**
- * @brief »ñÈ¡Ó²¼şÄÜÁ¦
+ * @brief è·å–ç¡¬ä»¶èƒ½åŠ›
  */
 const pm_hw_capabilities_t *pm_hw_get_capabilities(void) {
     if (!g_hw_initialized || !g_hw_interface) {
@@ -1730,7 +1730,7 @@ const pm_hw_capabilities_t *pm_hw_get_capabilities(void) {
 }
 
 /**
- * @brief ¼ì²éÄÜÁ¦ÊÇ·ñÖ§³Ö
+ * @brief æ£€æŸ¥èƒ½åŠ›æ˜¯å¦æ”¯æŒ
  */
 bool pm_hw_is_capability_supported(pm_capability_type_t type, uint32_t value) {
     if (!g_hw_initialized) {
@@ -1759,7 +1759,7 @@ bool pm_hw_is_capability_supported(pm_capability_type_t type, uint32_t value) {
 }
 
 /**
- * @brief »ñÈ¡Ó²¼ş½Ó¿ÚÃû³Æ
+ * @brief è·å–ç¡¬ä»¶æ¥å£åç§°
  */
 const char *pm_hw_get_interface_name(void) {
     if (!g_hw_initialized || !g_hw_interface) {
@@ -1770,7 +1770,7 @@ const char *pm_hw_get_interface_name(void) {
 }
 
 /**
- * @brief »ñÈ¡ÄÚ´æÊ¹ÓÃÍ³¼Æ
+ * @brief è·å–å†…å­˜ä½¿ç”¨ç»Ÿè®¡
  */
 pm_error_t pm_hw_get_memory_stats(pm_memory_stats_t *stats) {
     if (!stats) {
@@ -1780,8 +1780,8 @@ pm_error_t pm_hw_get_memory_stats(pm_memory_stats_t *stats) {
     stats->code_size = sizeof(g_default_hw_interface);
     stats->data_size = sizeof(g_hw_interface) + sizeof(g_hw_capabilities);
     stats->bss_size = 0;
-    stats->stack_usage = 256; /* ¹ÀËãÕ»Ê¹ÓÃ */
-    stats->heap_usage = 0; /* ¾²Ì¬·ÖÅä */
+    stats->stack_usage = 256; /* ä¼°ç®—æ ˆä½¿ç”¨ */
+    stats->heap_usage = 0; /* é™æ€åˆ†é… */
     
     return PM_OK;
 }
@@ -1798,7 +1798,7 @@ filePath: d:\Dev\pm_refactor\pm_framework\examples\basic_usage.c
           
 content: /**
  * @file basic_usage.c
- * @brief µçÔ´¹ÜÀí¿ò¼Ü»ù±¾Ê¹ÓÃÊ¾Àı
+ * @brief ç”µæºç®¡ç†æ¡†æ¶åŸºæœ¬ä½¿ç”¨ç¤ºä¾‹
  * @author PM Framework Team
  * @date 2024
  */
@@ -1808,85 +1808,85 @@ content: /**
 #include <stdlib.h>
 
 /**
- * @brief Ê¾Àı£º»ù±¾µçÔ´¹ÜÀíÁ÷³Ì
+ * @brief ç¤ºä¾‹ï¼šåŸºæœ¬ç”µæºç®¡ç†æµç¨‹
  */
 void example_basic_power_management(void) {
-    printf("=== »ù±¾µçÔ´¹ÜÀíÊ¾Àı ===\n");
+    printf("=== åŸºæœ¬ç”µæºç®¡ç†ç¤ºä¾‹ ===\n");
     
-    /* ²½Öè1: ³õÊ¼»¯µçÔ´¹ÜÀí¿ò¼Ü */
+    /* æ­¥éª¤1: åˆå§‹åŒ–ç”µæºç®¡ç†æ¡†æ¶ */
     pm_config_t config = PM_CONFIG_DEFAULT();
     pm_error_t result = pm_framework_init(&config);
     
     if (result != PM_OK) {
-        printf("³õÊ¼»¯Ê§°Ü: %d\n", result);
+        printf("åˆå§‹åŒ–å¤±è´¥: %d\n", result);
         return;
     }
     
-    printf("µçÔ´¹ÜÀí¿ò¼Ü³õÊ¼»¯³É¹¦\n");
+    printf("ç”µæºç®¡ç†æ¡†æ¶åˆå§‹åŒ–æˆåŠŸ\n");
     
-    /* ²½Öè2: ÉèÖÃ²ßÂÔ */
+    /* æ­¥éª¤2: è®¾ç½®ç­–ç•¥ */
     pm_policy_engine_set_policy(PM_POLICY_BALANCED);
-    printf("Ê¹ÓÃÆ½ºâ²ßÂÔ\n");
+    printf("ä½¿ç”¨å¹³è¡¡ç­–ç•¥\n");
     
-    /* ²½Öè3: ¹ÜÀíÄ£¿éµçÔ´ */
+    /* æ­¥éª¤3: ç®¡ç†æ¨¡å—ç”µæº */
     pm_state_manager_set_module_state(PM_MODULE_WIFI, PM_MODULE_STATE_ON);
     pm_state_manager_set_module_state(PM_MODULE_DISPLAY, PM_MODULE_STATE_ON);
     
-    printf("WiFiºÍÏÔÊ¾Ä£¿éÒÑ¿ªÆô\n");
+    printf("WiFiå’Œæ˜¾ç¤ºæ¨¡å—å·²å¼€å¯\n");
     
-    /* ²½Öè4: Ä£Äâ¹¤×÷¸ºÔØ */
+    /* æ­¥éª¤4: æ¨¡æ‹Ÿå·¥ä½œè´Ÿè½½ */
     for (int i = 0; i < 5; i++) {
-        /* Ä£Äâ¸ß¸ºÔØ¹¤×÷ */
-        printf("Ö´ĞĞ¸ß¸ºÔØÈÎÎñ...\n");
+        /* æ¨¡æ‹Ÿé«˜è´Ÿè½½å·¥ä½œ */
+        printf("æ‰§è¡Œé«˜è´Ÿè½½ä»»åŠ¡...\n");
         
-        /* ÈÃ²ßÂÔÒıÇæ×Ô¶¯µ÷Õû */
+        /* è®©ç­–ç•¥å¼•æ“è‡ªåŠ¨è°ƒæ•´ */
         pm_policy_engine_process();
         
-        /* »ñÈ¡µ±Ç°×´Ì¬ */
+        /* è·å–å½“å‰çŠ¶æ€ */
         pm_state_t current_state = pm_state_manager_get_state();
-        printf("µ±Ç°ÏµÍ³×´Ì¬: %s\n", 
+        printf("å½“å‰ç³»ç»ŸçŠ¶æ€: %s\n", 
                pm_state_manager_get_state_string(current_state));
         
-        /* µÈ´ıÒ»¶ÎÊ±¼ä */
+        /* ç­‰å¾…ä¸€æ®µæ—¶é—´ */
         os_delay_ms(1000);
     }
     
-    /* ²½Öè5: ½øÈëÊ¡µçÄ£Ê½ */
-    printf("×¼±¸½øÈëÊ¡µçÄ£Ê½...\n");
+    /* æ­¥éª¤5: è¿›å…¥çœç”µæ¨¡å¼ */
+    printf("å‡†å¤‡è¿›å…¥çœç”µæ¨¡å¼...\n");
     
-    /* ¹Ø±Õ·Ç±ØÒªÄ£¿é */
+    /* å…³é—­éå¿…è¦æ¨¡å— */
     pm_state_manager_set_module_state(PM_MODULE_DISPLAY, PM_MODULE_STATE_OFF);
     pm_state_manager_set_module_state(PM_MODULE_WIFI, PM_MODULE_STATE_STANDBY);
     
-    /* ÉèÖÃÊ¡µç²ßÂÔ */
+    /* è®¾ç½®çœç”µç­–ç•¥ */
     pm_policy_engine_set_policy(PM_POLICY_POWER_SAVE);
     
-    /* ²½Öè6: »ñÈ¡Í³¼ÆĞÅÏ¢ */
+    /* æ­¥éª¤6: è·å–ç»Ÿè®¡ä¿¡æ¯ */
     pm_performance_stats_t stats;
     pm_state_manager_get_stats(&stats);
     
-    printf("ĞÔÄÜÍ³¼Æ:\n");
-    printf("  ×´Ì¬×ª»»´ÎÊı: %lu\n", stats.state_transition_count);
-    printf("  ×Ü»îÔ¾Ê±¼ä: %lu ms\n", stats.total_active_time);
-    printf("  ×ÜË¯ÃßÊ±¼ä: %lu ms\n", stats.total_sleep_time);
-    printf("  ½ÚÄÜĞ§¹û: %lu uJ\n", stats.energy_saved);
+    printf("æ€§èƒ½ç»Ÿè®¡:\n");
+    printf("  çŠ¶æ€è½¬æ¢æ¬¡æ•°: %lu\n", stats.state_transition_count);
+    printf("  æ€»æ´»è·ƒæ—¶é—´: %lu ms\n", stats.total_active_time);
+    printf("  æ€»ç¡çœ æ—¶é—´: %lu ms\n", stats.total_sleep_time);
+    printf("  èŠ‚èƒ½æ•ˆæœ: %lu uJ\n", stats.energy_saved);
     
-    /* ²½Öè7: ÇåÀí */
+    /* æ­¥éª¤7: æ¸…ç† */
     pm_framework_deinit();
-    printf("µçÔ´¹ÜÀí¿ò¼ÜÒÑ¹Ø±Õ\n");
+    printf("ç”µæºç®¡ç†æ¡†æ¶å·²å…³é—­\n");
 }
 
 /**
- * @brief Ê¾Àı£º×Ô¶¨Òå²ßÂÔÅäÖÃ
+ * @brief ç¤ºä¾‹ï¼šè‡ªå®šä¹‰ç­–ç•¥é…ç½®
  */
 void example_custom_policy(void) {
-    printf("\n=== ×Ô¶¨Òå²ßÂÔÊ¾Àı ===\n");
+    printf("\n=== è‡ªå®šä¹‰ç­–ç•¥ç¤ºä¾‹ ===\n");
     
-    /* ³õÊ¼»¯¿ò¼Ü */
+    /* åˆå§‹åŒ–æ¡†æ¶ */
     pm_config_t config = PM_CONFIG_DEFAULT();
     pm_framework_init(&config);
     
-    /* ´´½¨×Ô¶¨Òå²ßÂÔ */
+    /* åˆ›å»ºè‡ªå®šä¹‰ç­–ç•¥ */
     pm_policy_config_t custom_policy = {
         .name = "my_custom_policy",
         .priority = 80,
@@ -1900,68 +1900,68 @@ void example_custom_policy(void) {
         .flags = PM_POLICY_FLAG_DYNAMIC_FREQUENCY | PM_POLICY_FLAG_AGGRESSIVE_DOWNCLOCK,
     };
     
-    /* ¸üĞÂ²ßÂÔÅäÖÃ */
+    /* æ›´æ–°ç­–ç•¥é…ç½® */
     pm_policy_engine_update_config(PM_POLICY_CUSTOM, &custom_policy);
     
-    /* Ê¹ÓÃ×Ô¶¨Òå²ßÂÔ */
+    /* ä½¿ç”¨è‡ªå®šä¹‰ç­–ç•¥ */
     pm_policy_engine_set_policy(PM_POLICY_CUSTOM);
-    printf("Ê¹ÓÃ×Ô¶¨Òå²ßÂÔ: %s\n", custom_policy.name);
+    printf("ä½¿ç”¨è‡ªå®šä¹‰ç­–ç•¥: %s\n", custom_policy.name);
     
-    /* Ä£Äâ²»Í¬³¡¾° */
+    /* æ¨¡æ‹Ÿä¸åŒåœºæ™¯ */
     pm_policy_input_t input = {0};
     
-    /* ³¡¾°1: ¸ß¸ºÔØ */
+    /* åœºæ™¯1: é«˜è´Ÿè½½ */
     input.workload = 90;
     input.cpu_usage = 85;
-    input.temperature = 30000; /* 30¡ãC */
+    input.temperature = 30000; /* 30Â°C */
     
     pm_policy_decision_t decision = pm_policy_engine_make_decision(&input);
-    printf("¸ß¸ºÔØ³¡¾°¾ö²ß: Ä¿±ê×´Ì¬=%d, ×ª»»Ê±¼ä=%dms\n", 
+    printf("é«˜è´Ÿè½½åœºæ™¯å†³ç­–: ç›®æ ‡çŠ¶æ€=%d, è½¬æ¢æ—¶é—´=%dms\n", 
            decision.target_state, decision.transition_time_ms);
     
-    /* ³¡¾°2: µÍ¸ºÔØ */
+    /* åœºæ™¯2: ä½è´Ÿè½½ */
     input.workload = 10;
     input.cpu_usage = 15;
     
     decision = pm_policy_engine_make_decision(&input);
-    printf("µÍ¸ºÔØ³¡¾°¾ö²ß: Ä¿±ê×´Ì¬=%d, ×ª»»Ê±¼ä=%dms\n", 
+    printf("ä½è´Ÿè½½åœºæ™¯å†³ç­–: ç›®æ ‡çŠ¶æ€=%d, è½¬æ¢æ—¶é—´=%dms\n", 
            decision.target_state, decision.transition_time_ms);
     
     pm_framework_deinit();
 }
 
 /**
- * @brief Ê¾Àı£ºÄ£¿éµçÔ´¹ÜÀí
+ * @brief ç¤ºä¾‹ï¼šæ¨¡å—ç”µæºç®¡ç†
  */
 void example_module_management(void) {
-    printf("\n=== Ä£¿éµçÔ´¹ÜÀíÊ¾Àı ===\n");
+    printf("\n=== æ¨¡å—ç”µæºç®¡ç†ç¤ºä¾‹ ===\n");
     
     pm_config_t config = PM_CONFIG_DEFAULT();
     pm_framework_init(&config);
     
-    /* ×¢²áÄ£¿é»Øµ÷ */
+    /* æ³¨å†Œæ¨¡å—å›è°ƒ */
     pm_state_manager_set_module_callback(module_power_callback);
     
-    /* Ä£Äâ²»Í¬Ä£¿éµÄµçÔ´¹ÜÀí */
-    printf("¹ÜÀí¶à¸öÄ£¿éµÄµçÔ´×´Ì¬:\n");
+    /* æ¨¡æ‹Ÿä¸åŒæ¨¡å—çš„ç”µæºç®¡ç† */
+    printf("ç®¡ç†å¤šä¸ªæ¨¡å—çš„ç”µæºçŠ¶æ€:\n");
     
-    /* WiFiÄ£¿é */
+    /* WiFiæ¨¡å— */
     pm_state_manager_set_module_state(PM_MODULE_WIFI, PM_MODULE_STATE_ON);
     
-    /* À¶ÑÀÄ£¿é */
+    /* è“ç‰™æ¨¡å— */
     pm_state_manager_set_module_state(PM_MODULE_BT, PM_MODULE_STATE_STANDBY);
     
-    /* ÏÔÊ¾Ä£¿é */
+    /* æ˜¾ç¤ºæ¨¡å— */
     pm_state_manager_set_module_state(PM_MODULE_DISPLAY, PM_MODULE_STATE_ON);
     
-    /* ´«¸ĞÆ÷Ä£¿é */
+    /* ä¼ æ„Ÿå™¨æ¨¡å— */
     pm_state_manager_set_module_state(PM_MODULE_SENSOR, PM_MODULE_STATE_OFF);
     
-    /* »ñÈ¡ËùÓĞÄ£¿é×´Ì¬ */
-    printf("µ±Ç°Ä£¿é×´Ì¬:\n");
+    /* è·å–æ‰€æœ‰æ¨¡å—çŠ¶æ€ */
+    printf("å½“å‰æ¨¡å—çŠ¶æ€:\n");
     for (int i = 0; i < PM_MAX_MODULES; i++) {
         pm_module_state_t state = pm_state_manager_get_module_state(i);
-        printf("  Ä£¿é %d: %s\n", i, 
+        printf("  æ¨¡å— %d: %s\n", i, 
                pm_state_manager_get_module_state_string(state));
     }
     
@@ -1969,31 +1969,31 @@ void example_module_management(void) {
 }
 
 /**
- * @brief Ä£¿éµçÔ´×´Ì¬±ä»¯»Øµ÷
+ * @brief æ¨¡å—ç”µæºçŠ¶æ€å˜åŒ–å›è°ƒ
  */
 static void module_power_callback(pm_module_id_t module, 
                                 pm_module_state_t state,
                                 void *user_data) {
     (void)user_data;
     
-    printf("Ä£¿é %d ×´Ì¬±ä»¯: %s\n", module,
+    printf("æ¨¡å— %d çŠ¶æ€å˜åŒ–: %s\n", module,
            pm_state_manager_get_module_state_string(state));
     
-    /* ¿ÉÒÔÔÚÕâÀïÌí¼ÓÌØ¶¨Ä£¿éµÄ´¦ÀíÂß¼­ */
+    /* å¯ä»¥åœ¨è¿™é‡Œæ·»åŠ ç‰¹å®šæ¨¡å—çš„å¤„ç†é€»è¾‘ */
     switch (module) {
         case PM_MODULE_WIFI:
             if (state == PM_MODULE_STATE_ON) {
-                printf("WiFiÄ£¿éÒÑÆô¶¯\n");
+                printf("WiFiæ¨¡å—å·²å¯åŠ¨\n");
             } else if (state == PM_MODULE_STATE_OFF) {
-                printf("WiFiÄ£¿éÒÑ¹Ø±Õ\n");
+                printf("WiFiæ¨¡å—å·²å…³é—­\n");
             }
             break;
             
         case PM_MODULE_DISPLAY:
             if (state == PM_MODULE_STATE_ON) {
-                printf("ÏÔÊ¾Ä£¿éÒÑ¿ªÆô\n");
+                printf("æ˜¾ç¤ºæ¨¡å—å·²å¼€å¯\n");
             } else if (state == PM_MODULE_STATE_OFF) {
-                printf("ÏÔÊ¾Ä£¿éÒÑ¹Ø±Õ\n");
+                printf("æ˜¾ç¤ºæ¨¡å—å·²å…³é—­\n");
             }
             break;
             
@@ -2003,24 +2003,24 @@ static void module_power_callback(pm_module_id_t module,
 }
 
 /**
- * @brief Ê¾Àı£ºÊÂ¼şÇı¶¯µçÔ´¹ÜÀí
+ * @brief ç¤ºä¾‹ï¼šäº‹ä»¶é©±åŠ¨ç”µæºç®¡ç†
  */
 void example_event_driven(void) {
-    printf("\n=== ÊÂ¼şÇı¶¯µçÔ´¹ÜÀíÊ¾Àı ===\n");
+    printf("\n=== äº‹ä»¶é©±åŠ¨ç”µæºç®¡ç†ç¤ºä¾‹ ===\n");
     
     pm_config_t config = PM_CONFIG_DEFAULT();
     pm_framework_init(&config);
     
-    /* ×¢²áÊÂ¼ş»Øµ÷ */
+    /* æ³¨å†Œäº‹ä»¶å›è°ƒ */
     pm_event_system_register_callback(PM_EVENT_STATE_CHANGED, 
                                     state_change_callback, NULL);
     pm_event_system_register_callback(PM_EVENT_POLICY_CHANGED,
                                     policy_change_callback, NULL);
     
-    /* Ä£ÄâÊÂ¼ş´¥·¢ */
-    printf("Ä£ÄâÊÂ¼ş´¥·¢:\n");
+    /* æ¨¡æ‹Ÿäº‹ä»¶è§¦å‘ */
+    printf("æ¨¡æ‹Ÿäº‹ä»¶è§¦å‘:\n");
     
-    /* Ä£ÄâÓÃ»§»î¶¯ */
+    /* æ¨¡æ‹Ÿç”¨æˆ·æ´»åŠ¨ */
     pm_event_t user_event = {
         .type = PM_EVENT_USER_ACTIVITY,
         .data.user_activity = {
@@ -2031,7 +2031,7 @@ void example_event_driven(void) {
     
     pm_event_system_post(&user_event);
     
-    /* Ä£ÄâÍøÂç»î¶¯ */
+    /* æ¨¡æ‹Ÿç½‘ç»œæ´»åŠ¨ */
     pm_event_t network_event = {
         .type = PM_EVENT_NETWORK_ACTIVITY,
         .data.network_activity = {
@@ -2043,14 +2043,14 @@ void example_event_driven(void) {
     
     pm_event_system_post(&network_event);
     
-    /* µÈ´ıÊÂ¼ş´¦Àí */
+    /* ç­‰å¾…äº‹ä»¶å¤„ç† */
     os_delay_ms(100);
     
     pm_framework_deinit();
 }
 
 /**
- * @brief ×´Ì¬±ä»¯ÊÂ¼ş»Øµ÷
+ * @brief çŠ¶æ€å˜åŒ–äº‹ä»¶å›è°ƒ
  */
 static void state_change_callback(const pm_event_t *event, void *user_data) {
     (void)user_data;
@@ -2059,14 +2059,14 @@ static void state_change_callback(const pm_event_t *event, void *user_data) {
         pm_state_t old_state = event->data.state_changed.old_state;
         pm_state_t new_state = event->data.state_changed.new_state;
         
-        printf("ÏµÍ³×´Ì¬±ä»¯: %s -> %s\n",
+        printf("ç³»ç»ŸçŠ¶æ€å˜åŒ–: %s -> %s\n",
                pm_state_manager_get_state_string(old_state),
                pm_state_manager_get_state_string(new_state));
     }
 }
 
 /**
- * @brief ²ßÂÔ±ä»¯ÊÂ¼ş»Øµ÷
+ * @brief ç­–ç•¥å˜åŒ–äº‹ä»¶å›è°ƒ
  */
 static void policy_change_callback(const pm_event_t *event, void *user_data) {
     (void)user_data;
@@ -2078,30 +2078,30 @@ static void policy_change_callback(const pm_event_t *event, void *user_data) {
         const char *old_name = pm_policy_engine_get_config(old_policy)->name;
         const char *new_name = pm_policy_engine_get_config(new_policy)->name;
         
-        printf("²ßÂÔ±ä»¯: %s -> %s\n", old_name, new_name);
+        printf("ç­–ç•¥å˜åŒ–: %s -> %s\n", old_name, new_name);
     }
 }
 
 /**
- * @brief Ö÷º¯Êı - ÔËĞĞËùÓĞÊ¾Àı
+ * @brief ä¸»å‡½æ•° - è¿è¡Œæ‰€æœ‰ç¤ºä¾‹
  */
 int main(void) {
-    printf("µçÔ´¹ÜÀí¿ò¼ÜÊ¹ÓÃÊ¾Àı\n");
+    printf("ç”µæºç®¡ç†æ¡†æ¶ä½¿ç”¨ç¤ºä¾‹\n");
     printf("====================\n");
     
-    /* ÔËĞĞ»ù±¾Ê¾Àı */
+    /* è¿è¡ŒåŸºæœ¬ç¤ºä¾‹ */
     example_basic_power_management();
     
-    /* ÔËĞĞ×Ô¶¨Òå²ßÂÔÊ¾Àı */
+    /* è¿è¡Œè‡ªå®šä¹‰ç­–ç•¥ç¤ºä¾‹ */
     example_custom_policy();
     
-    /* ÔËĞĞÄ£¿é¹ÜÀíÊ¾Àı */
+    /* è¿è¡Œæ¨¡å—ç®¡ç†ç¤ºä¾‹ */
     example_module_management();
     
-    /* ÔËĞĞÊÂ¼şÇı¶¯Ê¾Àı */
+    /* è¿è¡Œäº‹ä»¶é©±åŠ¨ç¤ºä¾‹ */
     example_event_driven();
     
-    printf("\nËùÓĞÊ¾ÀıÔËĞĞÍê³É£¡\n");
+    printf("\næ‰€æœ‰ç¤ºä¾‹è¿è¡Œå®Œæˆï¼\n");
     
     return 0;
 }
@@ -2118,7 +2118,7 @@ filePath: d:\Dev\pm_refactor\pm_framework\configs\embedded_config.json
           
 content: {
   "version": "1.0",
-  "description": "Ç¶ÈëÊ½ÏµÍ³µçÔ´¹ÜÀí¿ò¼ÜÅäÖÃÎÄ¼ş",
+  "description": "åµŒå…¥å¼ç³»ç»Ÿç”µæºç®¡ç†æ¡†æ¶é…ç½®æ–‡ä»¶",
   "system": {
     "target": "embedded",
     "cpu_count": 1,
@@ -2229,21 +2229,21 @@ content: {
   },
   "policies": {
     "performance": {
-      "description": "ĞÔÄÜÓÅÏÈ£¬±£³Ö×î¸ßÆµÂÊ",
-      "energy_budget": "ÎŞÏŞÖÆ",
+      "description": "æ€§èƒ½ä¼˜å…ˆï¼Œä¿æŒæœ€é«˜é¢‘ç‡",
+      "energy_budget": "æ— é™åˆ¶",
       "latency_constraint": "0us",
       "min_state": "active",
       "max_state": "active"
     },
     "balanced": {
-      "description": "Æ½ºâĞÔÄÜºÍ¹¦ºÄ",
+      "description": "å¹³è¡¡æ€§èƒ½å’ŒåŠŸè€—",
       "energy_budget": "1mJ",
       "latency_constraint": "1000us",
       "min_state": "active",
       "max_state": "deep_sleep"
     },
     "power_save": {
-      "description": "Ê¡µçÓÅÏÈ£¬»ı¼«½µÆµ",
+      "description": "çœç”µä¼˜å…ˆï¼Œç§¯æé™é¢‘",
       "energy_budget": "100uJ",
       "latency_constraint": "10000us",
       "min_state": "idle",
@@ -2308,7 +2308,7 @@ filePath: d:\Dev\pm_refactor\pm_framework\tests\test_framework.c
           
 content: /**
  * @file test_framework.c
- * @brief µçÔ´¹ÜÀí¿ò¼Ü²âÊÔÌ×¼ş
+ * @brief ç”µæºç®¡ç†æ¡†æ¶æµ‹è¯•å¥—ä»¶
  * @author PM Framework Team
  * @date 2024
  */
@@ -2317,7 +2317,7 @@ content: /**
 #include "unity.h"
 #include <stdio.h>
 
-/* ²âÊÔ»·¾³ÉèÖÃ */
+/* æµ‹è¯•ç¯å¢ƒè®¾ç½® */
 static void setUp(void) {
     pm_config_t config = PM_CONFIG_DEFAULT();
     pm_framework_init(&config);
@@ -2327,14 +2327,14 @@ static void tearDown(void) {
     pm_framework_deinit();
 }
 
-/* ²âÊÔ£º»ù±¾³õÊ¼»¯ */
+/* æµ‹è¯•ï¼šåŸºæœ¬åˆå§‹åŒ– */
 void test_basic_initialization(void) {
     TEST_ASSERT_EQUAL(PM_OK, pm_framework_init(NULL));
     TEST_ASSERT_TRUE(pm_framework_is_initialized());
     pm_framework_deinit();
 }
 
-/* ²âÊÔ£º×´Ì¬¹ÜÀí */
+/* æµ‹è¯•ï¼šçŠ¶æ€ç®¡ç† */
 void test_state_management(void) {
     pm_state_t initial_state = pm_state_manager_get_state();
     TEST_ASSERT_EQUAL(PM_STATE_ACTIVE, initial_state);
@@ -2350,7 +2350,7 @@ void test_state_management(void) {
         pm_state_manager_get_state());
 }
 
-/* ²âÊÔ£º²ßÂÔ¹ÜÀí */
+/* æµ‹è¯•ï¼šç­–ç•¥ç®¡ç† */
 void test_policy_management(void) {
     pm_policy_t initial_policy = pm_policy_engine_get_policy();
     TEST_ASSERT_EQUAL(PM_POLICY_BALANCED, initial_policy);
@@ -2360,14 +2360,14 @@ void test_policy_management(void) {
     TEST_ASSERT_EQUAL(PM_POLICY_POWER_SAVE, 
         pm_policy_engine_get_policy());
     
-    /* ²âÊÔÎŞĞ§²ßÂÔ */
+    /* æµ‹è¯•æ— æ•ˆç­–ç•¥ */
     TEST_ASSERT_EQUAL(PM_ERROR_INVALID_PARAM, 
         pm_policy_engine_set_policy(PM_POLICY_COUNT));
 }
 
-/* ²âÊÔ£ºÄ£¿é¹ÜÀí */
+/* æµ‹è¯•ï¼šæ¨¡å—ç®¡ç† */
 void test_module_management(void) {
-    /* ²âÊÔÄ£¿é×´Ì¬ÉèÖÃ */
+    /* æµ‹è¯•æ¨¡å—çŠ¶æ€è®¾ç½® */
     TEST_ASSERT_EQUAL(PM_OK, 
         pm_state_manager_set_module_state(PM_MODULE_WIFI, PM_MODULE_STATE_ON));
     TEST_ASSERT_EQUAL(PM_MODULE_STATE_ON, 
@@ -2378,12 +2378,12 @@ void test_module_management(void) {
     TEST_ASSERT_EQUAL(PM_MODULE_STATE_OFF, 
         pm_state_manager_get_module_state(PM_MODULE_WIFI));
     
-    /* ²âÊÔÎŞĞ§Ä£¿é */
+    /* æµ‹è¯•æ— æ•ˆæ¨¡å— */
     TEST_ASSERT_EQUAL(PM_ERROR_INVALID_PARAM, 
         pm_state_manager_set_module_state(PM_MAX_MODULES, PM_MODULE_STATE_ON));
 }
 
-/* ²âÊÔ£º²ßÂÔ¾ö²ß */
+/* æµ‹è¯•ï¼šç­–ç•¥å†³ç­– */
 void test_policy_decision(void) {
     pm_policy_input_t input = {
         .workload = 10,
@@ -2399,7 +2399,7 @@ void test_policy_decision(void) {
     TEST_ASSERT_TRUE(decision.confidence >= 0.0f && decision.confidence <= 1.0f);
 }
 
-/* ²âÊÔ£ºÊÂ¼şÏµÍ³ */
+/* æµ‹è¯•ï¼šäº‹ä»¶ç³»ç»Ÿ */
 void test_event_system(void) {
     bool event_received = false;
     
@@ -2413,10 +2413,10 @@ void test_event_system(void) {
     TEST_ASSERT_EQUAL(PM_OK, 
         pm_event_system_register_callback(PM_EVENT_STATE_CHANGED, handler));
     
-    /* ´¥·¢×´Ì¬±ä»¯ */
+    /* è§¦å‘çŠ¶æ€å˜åŒ– */
     pm_state_manager_set_state(PM_STATE_IDLE);
     
-    /* ´¦ÀíÊÂ¼ş */
+    /* å¤„ç†äº‹ä»¶ */
     pm_event_system_process();
     
     TEST_ASSERT_TRUE(event_received);
@@ -2425,7 +2425,7 @@ void test_event_system(void) {
         pm_event_system_unregister_callback(PM_EVENT_STATE_CHANGED, handler));
 }
 
-/* ²âÊÔ£ºÄÚ´æÊ¹ÓÃ */
+/* æµ‹è¯•ï¼šå†…å­˜ä½¿ç”¨ */
 void test_memory_usage(void) {
     pm_memory_stats_t stats;
     
@@ -2436,13 +2436,13 @@ void test_memory_usage(void) {
     TEST_ASSERT_TRUE(stats.data_size > 0);
     TEST_ASSERT_TRUE(stats.stack_usage > 0);
     
-    /* ¼ì²é×ÜÄÚ´æÊ¹ÓÃÊÇ·ñÔÚºÏÀí·¶Î§ÄÚ */
+    /* æ£€æŸ¥æ€»å†…å­˜ä½¿ç”¨æ˜¯å¦åœ¨åˆç†èŒƒå›´å†… */
     uint32_t total_usage = stats.code_size + stats.data_size + 
                           stats.bss_size + stats.stack_usage + stats.heap_usage;
-    TEST_ASSERT_TRUE(total_usage < 64 * 1024); /* 64KBÏŞÖÆ */
+    TEST_ASSERT_TRUE(total_usage < 64 * 1024); /* 64KBé™åˆ¶ */
 }
 
-/* ²âÊÔ£ºÓ²¼ş½Ó¿Ú */
+/* æµ‹è¯•ï¼šç¡¬ä»¶æ¥å£ */
 void test_hardware_interface(void) {
     const pm_hw_capabilities_t *caps = pm_hw_get_capabilities();
     TEST_ASSERT_NOT_NULL(caps);
@@ -2451,7 +2451,7 @@ void test_hardware_interface(void) {
     TEST_ASSERT_TRUE(caps->min_cpu_frequency > 0);
     TEST_ASSERT_TRUE(caps->max_cpu_frequency >= caps->min_cpu_frequency);
     
-    /* ²âÊÔ»ù±¾Ó²¼ş²Ù×÷ */
+    /* æµ‹è¯•åŸºæœ¬ç¡¬ä»¶æ“ä½œ */
     TEST_ASSERT_EQUAL(PM_OK, 
         pm_hw_set_cpu_state(PM_CPU_STATE_IDLE));
     
@@ -2461,14 +2461,14 @@ void test_hardware_interface(void) {
                      pm_hw_get_temperature() <= 85000);
 }
 
-/* ²âÊÔ£ºĞÔÄÜÍ³¼Æ */
+/* æµ‹è¯•ï¼šæ€§èƒ½ç»Ÿè®¡ */
 void test_performance_stats(void) {
     pm_performance_stats_t stats;
     
     TEST_ASSERT_EQUAL(PM_OK, 
         pm_state_manager_get_stats(&stats));
     
-    /* ½øĞĞÒ»Ğ©×´Ì¬×ª»» */
+    /* è¿›è¡Œä¸€äº›çŠ¶æ€è½¬æ¢ */
     pm_state_manager_set_state(PM_STATE_IDLE);
     pm_state_manager_set_state(PM_STATE_ACTIVE);
     
@@ -2477,9 +2477,9 @@ void test_performance_stats(void) {
     TEST_ASSERT_TRUE(stats.state_transition_count >= 2);
 }
 
-/* ²âÊÔ£º´íÎó´¦Àí */
+/* æµ‹è¯•ï¼šé”™è¯¯å¤„ç† */
 void test_error_handling(void) {
-    /* ²âÊÔÎ´³õÊ¼»¯Ê±µÄµ÷ÓÃ */
+    /* æµ‹è¯•æœªåˆå§‹åŒ–æ—¶çš„è°ƒç”¨ */
     pm_framework_deinit();
     
     TEST_ASSERT_EQUAL(PM_ERROR_INVALID_PARAM, 
@@ -2488,13 +2488,13 @@ void test_error_handling(void) {
     TEST_ASSERT_EQUAL(PM_ERROR_INVALID_PARAM, 
         pm_policy_engine_set_policy(PM_POLICY_POWER_SAVE));
     
-    /* ÖØĞÂ³õÊ¼»¯ */
+    /* é‡æ–°åˆå§‹åŒ– */
     setUp();
 }
 
-/* ²âÊÔ£º²¢·¢°²È« */
+/* æµ‹è¯•ï¼šå¹¶å‘å®‰å…¨ */
 void test_concurrent_safety(void) {
-    /* Ä£Äâ²¢·¢²Ù×÷ */
+    /* æ¨¡æ‹Ÿå¹¶å‘æ“ä½œ */
     for (int i = 0; i < 100; i++) {
         pm_state_manager_set_state(PM_STATE_IDLE);
         pm_state_manager_set_state(PM_STATE_ACTIVE);
@@ -2503,15 +2503,15 @@ void test_concurrent_safety(void) {
         pm_state_manager_set_module_state(PM_MODULE_WIFI, PM_MODULE_STATE_OFF);
     }
     
-    /* ËùÓĞ²Ù×÷Ó¦¸Ã³É¹¦Íê³É */
+    /* æ‰€æœ‰æ“ä½œåº”è¯¥æˆåŠŸå®Œæˆ */
     TEST_ASSERT_EQUAL(PM_STATE_ACTIVE, pm_state_manager_get_state());
     TEST_ASSERT_EQUAL(PM_MODULE_STATE_OFF, 
         pm_state_manager_get_module_state(PM_MODULE_WIFI));
 }
 
-/* ²âÊÔ£º±ß½çÌõ¼ş */
+/* æµ‹è¯•ï¼šè¾¹ç•Œæ¡ä»¶ */
 void test_boundary_conditions(void) {
-    /* ²âÊÔÎŞĞ§²ÎÊı */
+    /* æµ‹è¯•æ— æ•ˆå‚æ•° */
     TEST_ASSERT_EQUAL(PM_ERROR_INVALID_PARAM, 
         pm_state_manager_set_state(PM_STATE_COUNT));
     
@@ -2523,7 +2523,7 @@ void test_boundary_conditions(void) {
         pm_state_manager_set_module_state(PM_MODULE_WIFI, 
         PM_MODULE_STATE_COUNT));
     
-    /* ²âÊÔNULLÖ¸Õë */
+    /* æµ‹è¯•NULLæŒ‡é’ˆ */
     TEST_ASSERT_EQUAL(PM_ERROR_INVALID_PARAM, 
         pm_state_manager_get_memory_stats(NULL));
     
@@ -2531,20 +2531,20 @@ void test_boundary_conditions(void) {
         pm_policy_engine_get_config(PM_POLICY_COUNT));
 }
 
-/* ²âÊÔ£º×ÊÔ´ÇåÀí */
+/* æµ‹è¯•ï¼šèµ„æºæ¸…ç† */
 void test_resource_cleanup(void) {
-    /* ¶à´Î³õÊ¼»¯ºÍÇåÀí */
+    /* å¤šæ¬¡åˆå§‹åŒ–å’Œæ¸…ç† */
     for (int i = 0; i < 5; i++) {
         pm_framework_init(NULL);
         TEST_ASSERT_TRUE(pm_framework_is_initialized());
         pm_framework_deinit();
     }
     
-    /* È·±£×ÊÔ´ÕıÈ·ÊÍ·Å */
+    /* ç¡®ä¿èµ„æºæ­£ç¡®é‡Šæ”¾ */
     TEST_ASSERT_FALSE(pm_framework_is_initialized());
 }
 
-/* ²âÊÔÌ×¼ş */
+/* æµ‹è¯•å¥—ä»¶ */
 static void run_all_tests(void) {
     UNITY_BEGIN();
     
@@ -2565,29 +2565,29 @@ static void run_all_tests(void) {
     UNITY_END();
 }
 
-/* ²âÊÔÔËĞĞÆ÷ */
+/* æµ‹è¯•è¿è¡Œå™¨ */
 int main(void) {
-    printf("µçÔ´¹ÜÀí¿ò¼Ü²âÊÔÌ×¼ş\n");
+    printf("ç”µæºç®¡ç†æ¡†æ¶æµ‹è¯•å¥—ä»¶\n");
     printf("====================\n");
     
-    /* ÉèÖÃ²âÊÔ»·¾³ */
+    /* è®¾ç½®æµ‹è¯•ç¯å¢ƒ */
     UnityMain();
     
-    /* ÔËĞĞ²âÊÔ */
+    /* è¿è¡Œæµ‹è¯• */
     run_all_tests();
     
-    /* ÏÔÊ¾²âÊÔÕªÒª */
-    printf("\n²âÊÔÍê³É£¡\n");
-    printf("×Ü²âÊÔ: %d\n", Unity.TestFailures + Unity.TestPasses);
-    printf("Í¨¹ı: %d\n", Unity.TestPasses);
-    printf("Ê§°Ü: %d\n", Unity.TestFailures);
+    /* æ˜¾ç¤ºæµ‹è¯•æ‘˜è¦ */
+    printf("\næµ‹è¯•å®Œæˆï¼\n");
+    printf("æ€»æµ‹è¯•: %d\n", Unity.TestFailures + Unity.TestPasses);
+    printf("é€šè¿‡: %d\n", Unity.TestPasses);
+    printf("å¤±è´¥: %d\n", Unity.TestFailures);
     
     return Unity.TestFailures;
 }
 
-/* Ó²¼şÄ£Äâ²âÊÔ */
+/* ç¡¬ä»¶æ¨¡æ‹Ÿæµ‹è¯• */
 void test_hardware_simulation(void) {
-    /* Ä£Äâ²»Í¬Ó²¼şÅäÖÃ */
+    /* æ¨¡æ‹Ÿä¸åŒç¡¬ä»¶é…ç½® */
     pm_hw_capabilities_t test_caps = {
         .cpu_states = (1 << PM_CPU_STATE_ACTIVE) | (1 << PM_CPU_STATE_IDLE),
         .clock_domains = (1 << PM_CLOCK_DOMAIN_CPU),
@@ -2598,23 +2598,23 @@ void test_hardware_simulation(void) {
         .min_cpu_frequency = 1000000,
     };
     
-    /* ²âÊÔÓ²¼şÄÜÁ¦¼ì²é */
+    /* æµ‹è¯•ç¡¬ä»¶èƒ½åŠ›æ£€æŸ¥ */
     TEST_ASSERT_TRUE(pm_hw_is_capability_supported(PM_CAPABILITY_CPU_STATE, 
                                                   PM_CPU_STATE_ACTIVE));
     TEST_ASSERT_FALSE(pm_hw_is_capability_supported(PM_CAPABILITY_CPU_STATE, 
                                                    PM_CPU_STATE_SLEEP));
 }
 
-/* Ñ¹Á¦²âÊÔ */
+/* å‹åŠ›æµ‹è¯• */
 void test_stress_test(void) {
     const int iterations = 1000;
     
     for (int i = 0; i < iterations; i++) {
-        /* ¿ìËÙ×´Ì¬ÇĞ»» */
+        /* å¿«é€ŸçŠ¶æ€åˆ‡æ¢ */
         pm_state_manager_set_state(PM_STATE_IDLE);
         pm_state_manager_set_state(PM_STATE_ACTIVE);
         
-        /* Ä£¿é¿ìËÙÇĞ»» */
+        /* æ¨¡å—å¿«é€Ÿåˆ‡æ¢ */
         for (int j = 0; j < 10; j++) {
             pm_state_manager_set_module_state(j % PM_MAX_MODULES, 
                                             PM_MODULE_STATE_ON);
@@ -2623,18 +2623,18 @@ void test_stress_test(void) {
         }
     }
     
-    /* ÑéÖ¤ÏµÍ³ÎÈ¶¨ĞÔ */
+    /* éªŒè¯ç³»ç»Ÿç¨³å®šæ€§ */
     pm_performance_stats_t stats;
     pm_state_manager_get_stats(&stats);
     
     TEST_ASSERT_TRUE(stats.state_transition_count >= iterations * 2);
     
-    /* ¼ì²éÄÚ´æĞ¹Â© */
+    /* æ£€æŸ¥å†…å­˜æ³„æ¼ */
     pm_memory_stats_t memory_stats;
     pm_state_manager_get_memory_stats(&memory_stats);
     
-    /* ÄÚ´æÊ¹ÓÃÓ¦¸ÃÔÚºÏÀí·¶Î§ÄÚ */
-    TEST_ASSERT_TRUE(memory_stats.heap_usage < 1024); /* 1KBÏŞÖÆ */
+    /* å†…å­˜ä½¿ç”¨åº”è¯¥åœ¨åˆç†èŒƒå›´å†… */
+    TEST_ASSERT_TRUE(memory_stats.heap_usage < 1024); /* 1KBé™åˆ¶ */
 }
           
 
@@ -2647,38 +2647,38 @@ status: success
             
 filePath: d:\Dev\pm_refactor\pm_framework\docs\migration_guide.md
           
-content: # µçÔ´¹ÜÀí¿ò¼ÜÇ¨ÒÆÖ¸ÄÏ
+content: # ç”µæºç®¡ç†æ¡†æ¶è¿ç§»æŒ‡å—
 
-## ¸ÅÊö
+## æ¦‚è¿°
 
-±¾ÎÄµµÌá¹©ÁË´Ó¾É°æµçÔ´¹ÜÀí´úÂëÇ¨ÒÆµ½ĞÂ°æµçÔ´¹ÜÀí¿ò¼ÜµÄÏêÏ¸Ö¸µ¼¡£ĞÂ°æ¿ò¼ÜÌá¹©ÁË¸üºÃµÄÄ£¿é»¯¡¢¿ÉÀ©Õ¹ĞÔºÍĞÔÄÜ¡£
+æœ¬æ–‡æ¡£æä¾›äº†ä»æ—§ç‰ˆç”µæºç®¡ç†ä»£ç è¿ç§»åˆ°æ–°ç‰ˆç”µæºç®¡ç†æ¡†æ¶çš„è¯¦ç»†æŒ‡å¯¼ã€‚æ–°ç‰ˆæ¡†æ¶æä¾›äº†æ›´å¥½çš„æ¨¡å—åŒ–ã€å¯æ‰©å±•æ€§å’Œæ€§èƒ½ã€‚
 
-## Ç¨ÒÆÇ°×¼±¸
+## è¿ç§»å‰å‡†å¤‡
 
-### 1. ÆÀ¹Àµ±Ç°´úÂë
+### 1. è¯„ä¼°å½“å‰ä»£ç 
 
-Ê×ÏÈ£¬·ÖÎöÏÖÓĞµÄµçÔ´¹ÜÀí´úÂë½á¹¹£º
+é¦–å…ˆï¼Œåˆ†æç°æœ‰çš„ç”µæºç®¡ç†ä»£ç ç»“æ„ï¼š
 
 ```bash
-# ²éÕÒÏÖÓĞµÄµçÔ´¹ÜÀíÎÄ¼ş
+# æŸ¥æ‰¾ç°æœ‰çš„ç”µæºç®¡ç†æ–‡ä»¶
 find . -name "*pm*" -type f
 find . -name "*power*" -type f
 find . -name "*sleep*" -type f
 ```
 
-### 2. Ê¶±ğ¹Ø¼ü¹¦ÄÜ
+### 2. è¯†åˆ«å…³é”®åŠŸèƒ½
 
-¼ÇÂ¼ÒÔÏÂĞÅÏ¢£º
-- µ±Ç°Ö§³ÖµÄË¯ÃßÄ£Ê½
-- Ê¹ÓÃµÄ»½ĞÑÔ´
-- Ä£¿éµçÔ´¹ÜÀí½Ó¿Ú
-- ÅäÖÃ²ÎÊıºÍºê¶¨Òå
+è®°å½•ä»¥ä¸‹ä¿¡æ¯ï¼š
+- å½“å‰æ”¯æŒçš„ç¡çœ æ¨¡å¼
+- ä½¿ç”¨çš„å”¤é†’æº
+- æ¨¡å—ç”µæºç®¡ç†æ¥å£
+- é…ç½®å‚æ•°å’Œå®å®šä¹‰
 
-## Ç¨ÒÆ²½Öè
+## è¿ç§»æ­¥éª¤
 
-### µÚÒ»½×¶Î£º´´½¨¼æÈİĞÔ²ã
+### ç¬¬ä¸€é˜¶æ®µï¼šåˆ›å»ºå…¼å®¹æ€§å±‚
 
-#### 1. ´´½¨¼æÈİĞÔÍ·ÎÄ¼ş
+#### 1. åˆ›å»ºå…¼å®¹æ€§å¤´æ–‡ä»¶
 
 ```c
 // legacy_pm_compat.h
@@ -2687,12 +2687,12 @@ find . -name "*sleep*" -type f
 
 #include "pm_framework.h"
 
-/* ¼æÈİ¾É°æºê¶¨Òå */
+/* å…¼å®¹æ—§ç‰ˆå®å®šä¹‰ */
 #define PM_MODE_DEEP_SLEEP      PM_STATE_DEEP_SLEEP
 #define PM_MODE_LIGHT_SLEEP     PM_STATE_LIGHT_SLEEP
 #define PM_MODE_ACTIVE          PM_STATE_ACTIVE
 
-/* ¼æÈİ¾É°æº¯Êı */
+/* å…¼å®¹æ—§ç‰ˆå‡½æ•° */
 static inline int bk_pm_sleep_mode_set(int mode) {
     return pm_state_manager_set_state((pm_state_t)mode);
 }
@@ -2705,63 +2705,63 @@ static inline int bk_pm_module_power_ctrl(int module, int state) {
 #endif // LEGACY_PM_COMPAT_H
 ```
 
-#### 2. ¸üĞÂCMakeLists.txt
+#### 2. æ›´æ–°CMakeLists.txt
 
 ```cmake
-# Ìí¼ÓĞÂ¿ò¼ÜÂ·¾¶
+# æ·»åŠ æ–°æ¡†æ¶è·¯å¾„
 include_directories(${CMAKE_SOURCE_DIR}/pm_framework/include)
 
-# Á´½ÓĞÂ¿â
+# é“¾æ¥æ–°åº“
 target_link_libraries(your_target pm_framework)
 ```
 
-### µÚ¶ş½×¶Î£ºÖğ²½Ìæ»»
+### ç¬¬äºŒé˜¶æ®µï¼šé€æ­¥æ›¿æ¢
 
-#### 1. Ìæ»»³õÊ¼»¯´úÂë
+#### 1. æ›¿æ¢åˆå§‹åŒ–ä»£ç 
 
-**¾É´úÂë£º**
+**æ—§ä»£ç ï¼š**
 ```c
-// ¾É°æ³õÊ¼»¯
+// æ—§ç‰ˆåˆå§‹åŒ–
 void pm_init(void) {
-    // Ö±½Ó²Ù×÷Ó²¼ş¼Ä´æÆ÷
+    // ç›´æ¥æ“ä½œç¡¬ä»¶å¯„å­˜å™¨
     REG_WRITE(PM_CTRL_REG, 0x1);
     // ...
 }
 ```
 
-**ĞÂ´úÂë£º**
+**æ–°ä»£ç ï¼š**
 ```c
-// ĞÂ°æ³õÊ¼»¯
+// æ–°ç‰ˆåˆå§‹åŒ–
 void pm_init(void) {
     pm_config_t config = PM_CONFIG_DEFAULT();
     pm_framework_init(&config);
 }
 ```
 
-#### 2. Ìæ»»×´Ì¬¹ÜÀí
+#### 2. æ›¿æ¢çŠ¶æ€ç®¡ç†
 
-**¾É´úÂë£º**
+**æ—§ä»£ç ï¼š**
 ```c
-// ¾É°æ×´Ì¬ÇĞ»»
+// æ—§ç‰ˆçŠ¶æ€åˆ‡æ¢
 void enter_deep_sleep(void) {
     REG_WRITE(SLEEP_CTRL, SLEEP_MODE_DEEP);
     __asm__ volatile("wfi");
 }
 ```
 
-**ĞÂ´úÂë£º**
+**æ–°ä»£ç ï¼š**
 ```c
-// ĞÂ°æ×´Ì¬ÇĞ»»
+// æ–°ç‰ˆçŠ¶æ€åˆ‡æ¢
 void enter_deep_sleep(void) {
     pm_state_manager_set_state(PM_STATE_DEEP_SLEEP);
 }
 ```
 
-#### 3. Ìæ»»Ä£¿é¹ÜÀí
+#### 3. æ›¿æ¢æ¨¡å—ç®¡ç†
 
-**¾É´úÂë£º**
+**æ—§ä»£ç ï¼š**
 ```c
-// ¾É°æÄ£¿é¿ØÖÆ
+// æ—§ç‰ˆæ¨¡å—æ§åˆ¶
 void wifi_power_on(void) {
     REG_WRITE(WIFI_PWR_CTRL, 1);
 }
@@ -2771,9 +2771,9 @@ void wifi_power_off(void) {
 }
 ```
 
-**ĞÂ´úÂë£º**
+**æ–°ä»£ç ï¼š**
 ```c
-// ĞÂ°æÄ£¿é¿ØÖÆ
+// æ–°ç‰ˆæ¨¡å—æ§åˆ¶
 void wifi_power_on(void) {
     pm_state_manager_set_module_state(PM_MODULE_WIFI, PM_MODULE_STATE_ON);
 }
@@ -2783,11 +2783,11 @@ void wifi_power_off(void) {
 }
 ```
 
-### µÚÈı½×¶Î£ºÅäÖÃÇ¨ÒÆ
+### ç¬¬ä¸‰é˜¶æ®µï¼šé…ç½®è¿ç§»
 
-#### 1. ×ª»»KconfigÅäÖÃ
+#### 1. è½¬æ¢Kconfigé…ç½®
 
-**¾É°æKconfig£º**
+**æ—§ç‰ˆKconfigï¼š**
 ```kconfig
 config PM_ENABLE
     bool "Enable power management"
@@ -2798,7 +2798,7 @@ config PM_DEEP_SLEEP
     depends on PM_ENABLE
 ```
 
-**ĞÂ°æÅäÖÃ£º**
+**æ–°ç‰ˆé…ç½®ï¼š**
 ```json
 {
   "features": {
@@ -2809,14 +2809,14 @@ config PM_DEEP_SLEEP
 }
 ```
 
-#### 2. ´´½¨Æ½Ì¨ÊÊÅä
+#### 2. åˆ›å»ºå¹³å°é€‚é…
 
 ```c
 // platform_pm_adapter.c
 #include "pm_hw_interface.h"
 
 static pm_error_t platform_hw_init(void) {
-    // ³õÊ¼»¯Æ½Ì¨ÌØ¶¨µÄÓ²¼ş
+    // åˆå§‹åŒ–å¹³å°ç‰¹å®šçš„ç¡¬ä»¶
     return PM_OK;
 }
 
@@ -2835,12 +2835,12 @@ static pm_error_t platform_set_cpu_state(pm_cpu_state_t state) {
     return PM_OK;
 }
 
-/* ×¢²áÆ½Ì¨Ó²¼ş½Ó¿Ú */
+/* æ³¨å†Œå¹³å°ç¡¬ä»¶æ¥å£ */
 static const pm_hw_interface_t platform_hw = {
     .name = "your_platform",
     .init = platform_hw_init,
     .set_cpu_state = platform_set_cpu_state,
-    // ... ÆäËû½Ó¿Ú
+    // ... å…¶ä»–æ¥å£
 };
 
 void platform_pm_register(void) {
@@ -2848,16 +2848,16 @@ void platform_pm_register(void) {
 }
 ```
 
-## ³£¼ûÇ¨ÒÆÎÊÌâ
+## å¸¸è§è¿ç§»é—®é¢˜
 
-### 1. ÄÚ´æÊ¹ÓÃÔö¼Ó
+### 1. å†…å­˜ä½¿ç”¨å¢åŠ 
 
-**ÎÊÌâ£º** ĞÂ¿ò¼ÜÄÚ´æÕ¼ÓÃ±È¾É°æ±¾´ó
+**é—®é¢˜ï¼š** æ–°æ¡†æ¶å†…å­˜å ç”¨æ¯”æ—§ç‰ˆæœ¬å¤§
 
-**½â¾ö·½°¸£º**
-- ÆôÓÃÄÚ´æÓÅ»¯ÅäÖÃ
-- Ê¹ÓÃ¾²Ì¬ÄÚ´æ·ÖÅä
-- ¼õÉÙ¹¦ÄÜÄ£¿é
+**è§£å†³æ–¹æ¡ˆï¼š**
+- å¯ç”¨å†…å­˜ä¼˜åŒ–é…ç½®
+- ä½¿ç”¨é™æ€å†…å­˜åˆ†é…
+- å‡å°‘åŠŸèƒ½æ¨¡å—
 
 ```json
 {
@@ -2873,107 +2873,107 @@ void platform_pm_register(void) {
 }
 ```
 
-### 2. ÊµÊ±ĞÔÓ°Ïì
+### 2. å®æ—¶æ€§å½±å“
 
-**ÎÊÌâ£º** ×´Ì¬ÇĞ»»ÑÓ³ÙÔö¼Ó
+**é—®é¢˜ï¼š** çŠ¶æ€åˆ‡æ¢å»¶è¿Ÿå¢åŠ 
 
-**½â¾ö·½°¸£º**
-- ½ûÓÃ²ßÂÔÒıÇæµÄ×Ô¶¯¾ö²ß
-- Ê¹ÓÃÊÖ¶¯×´Ì¬¿ØÖÆ
-- ÓÅ»¯Ó²¼ş½Ó¿ÚÊµÏÖ
+**è§£å†³æ–¹æ¡ˆï¼š**
+- ç¦ç”¨ç­–ç•¥å¼•æ“çš„è‡ªåŠ¨å†³ç­–
+- ä½¿ç”¨æ‰‹åŠ¨çŠ¶æ€æ§åˆ¶
+- ä¼˜åŒ–ç¡¬ä»¶æ¥å£å®ç°
 
 ```c
-// ½ûÓÃ×Ô¶¯²ßÂÔ
+// ç¦ç”¨è‡ªåŠ¨ç­–ç•¥
 pm_policy_engine_set_policy(PM_POLICY_PERFORMANCE);
 
-// ÊÖ¶¯¿ØÖÆ
+// æ‰‹åŠ¨æ§åˆ¶
 pm_state_manager_set_state(PM_STATE_DEEP_SLEEP);
 ```
 
-### 3. ÖĞ¶Ï¼æÈİĞÔÎÊÌâ
+### 3. ä¸­æ–­å…¼å®¹æ€§é—®é¢˜
 
-**ÎÊÌâ£º** »½ĞÑÖĞ¶Ï´¦Àí²»¼æÈİ
+**é—®é¢˜ï¼š** å”¤é†’ä¸­æ–­å¤„ç†ä¸å…¼å®¹
 
-**½â¾ö·½°¸£º**
+**è§£å†³æ–¹æ¡ˆï¼š**
 ```c
-// ×¢²áÖĞ¶Ï´¦Àí
+// æ³¨å†Œä¸­æ–­å¤„ç†
 pm_hw_register_interrupt(wakeup_handler, NULL);
 
-// ÔÚhandlerÖĞµ÷ÓÃ¾É°æÖĞ¶Ï´¦Àí
+// åœ¨handlerä¸­è°ƒç”¨æ—§ç‰ˆä¸­æ–­å¤„ç†
 static void wakeup_handler(void *user_data) {
-    // µ÷ÓÃ¾É°æÖĞ¶Ï´¦Àí
+    // è°ƒç”¨æ—§ç‰ˆä¸­æ–­å¤„ç†
     legacy_wakeup_handler();
 }
 ```
 
-## ÑéÖ¤²âÊÔ
+## éªŒè¯æµ‹è¯•
 
-### 1. ¹¦ÄÜÑéÖ¤²âÊÔ
+### 1. åŠŸèƒ½éªŒè¯æµ‹è¯•
 
 ```c
 // test_migration.c
 void test_migration_compatibility(void) {
-    /* ²âÊÔ¾É°æ½Ó¿Ú¼æÈİĞÔ */
+    /* æµ‹è¯•æ—§ç‰ˆæ¥å£å…¼å®¹æ€§ */
     TEST_ASSERT_EQUAL(PM_OK, bk_pm_sleep_mode_set(PM_MODE_DEEP_SLEEP));
     TEST_ASSERT_EQUAL(PM_STATE_DEEP_SLEEP, pm_state_manager_get_state());
     
-    /* ²âÊÔÄ£¿é¿ØÖÆ¼æÈİĞÔ */
+    /* æµ‹è¯•æ¨¡å—æ§åˆ¶å…¼å®¹æ€§ */
     TEST_ASSERT_EQUAL(PM_OK, bk_pm_module_power_ctrl(0, 1));
     TEST_ASSERT_EQUAL(PM_MODULE_STATE_ON, 
         pm_state_manager_get_module_state(PM_MODULE_WIFI));
 }
 ```
 
-### 2. ĞÔÄÜ¶Ô±È²âÊÔ
+### 2. æ€§èƒ½å¯¹æ¯”æµ‹è¯•
 
 ```c
 // benchmark_migration.c
 void benchmark_state_transition(void) {
     uint32_t start_time, end_time;
     
-    /* ²âÊÔ¾É°æĞÔÄÜ */
+    /* æµ‹è¯•æ—§ç‰ˆæ€§èƒ½ */
     start_time = pm_get_time_us();
     legacy_enter_deep_sleep();
     legacy_exit_deep_sleep();
     end_time = pm_get_time_us();
     uint32_t legacy_time = end_time - start_time;
     
-    /* ²âÊÔĞÂ°æĞÔÄÜ */
+    /* æµ‹è¯•æ–°ç‰ˆæ€§èƒ½ */
     start_time = pm_get_time_us();
     pm_state_manager_set_state(PM_STATE_DEEP_SLEEP);
     pm_state_manager_set_state(PM_STATE_ACTIVE);
     end_time = pm_get_time_us();
     uint32_t new_time = end_time - start_time;
     
-    printf("ĞÔÄÜ¶Ô±È: ¾É°æ=%luus, ĞÂ°æ=%luus\n", legacy_time, new_time);
+    printf("æ€§èƒ½å¯¹æ¯”: æ—§ç‰ˆ=%luus, æ–°ç‰ˆ=%luus\n", legacy_time, new_time);
 }
 ```
 
-## Ç¨ÒÆ¼ì²éÇåµ¥
+## è¿ç§»æ£€æŸ¥æ¸…å•
 
-### ´úÂë²ãÃæ
-- [ ] ËùÓĞ¾É°æ½Ó¿ÚÒÑÌæ»»»ò¼æÈİ
-- [ ] Ó²¼ş³õÊ¼»¯ÒÑ¸üĞÂ
-- [ ] ÅäÖÃ²ÎÊıÒÑÇ¨ÒÆ
-- [ ] ÖĞ¶Ï´¦ÀíÒÑÊÊÅä
+### ä»£ç å±‚é¢
+- [ ] æ‰€æœ‰æ—§ç‰ˆæ¥å£å·²æ›¿æ¢æˆ–å…¼å®¹
+- [ ] ç¡¬ä»¶åˆå§‹åŒ–å·²æ›´æ–°
+- [ ] é…ç½®å‚æ•°å·²è¿ç§»
+- [ ] ä¸­æ–­å¤„ç†å·²é€‚é…
 
-### ¹¦ÄÜ²ãÃæ
-- [ ] ËùÓĞË¯ÃßÄ£Ê½Õı³£¹¤×÷
-- [ ] »½ĞÑÔ´¹¦ÄÜÕı³£
-- [ ] Ä£¿éµçÔ´¹ÜÀíÕı³£
-- [ ] ĞÔÄÜÂú×ãÒªÇó
+### åŠŸèƒ½å±‚é¢
+- [ ] æ‰€æœ‰ç¡çœ æ¨¡å¼æ­£å¸¸å·¥ä½œ
+- [ ] å”¤é†’æºåŠŸèƒ½æ­£å¸¸
+- [ ] æ¨¡å—ç”µæºç®¡ç†æ­£å¸¸
+- [ ] æ€§èƒ½æ»¡è¶³è¦æ±‚
 
-### ²âÊÔ²ãÃæ
-- [ ] µ¥Ôª²âÊÔÍ¨¹ı
-- [ ] ¼¯³É²âÊÔÍ¨¹ı
-- [ ] ĞÔÄÜ²âÊÔÍ¨¹ı
-- [ ] ¹¦ºÄ²âÊÔÍ¨¹ı
+### æµ‹è¯•å±‚é¢
+- [ ] å•å…ƒæµ‹è¯•é€šè¿‡
+- [ ] é›†æˆæµ‹è¯•é€šè¿‡
+- [ ] æ€§èƒ½æµ‹è¯•é€šè¿‡
+- [ ] åŠŸè€—æµ‹è¯•é€šè¿‡
 
-## »Ø¹ö·½°¸
+## å›æ»šæ–¹æ¡ˆ
 
-### 1. ¿ìËÙ»Ø¹ö
+### 1. å¿«é€Ÿå›æ»š
 
-±£Áô¾É°æ´úÂë£¬Í¨¹ı±àÒë¿ª¹ØÇĞ»»£º
+ä¿ç•™æ—§ç‰ˆä»£ç ï¼Œé€šè¿‡ç¼–è¯‘å¼€å…³åˆ‡æ¢ï¼š
 
 ```c
 #ifdef USE_NEW_PM_FRAMEWORK
@@ -2983,50 +2983,50 @@ void benchmark_state_transition(void) {
 #endif
 ```
 
-### 2. ½¥½øÊ½»Ø¹ö
+### 2. æ¸è¿›å¼å›æ»š
 
 ```c
-// °æ±¾¼ì²é
+// ç‰ˆæœ¬æ£€æŸ¥
 if (pm_framework_get_version() != EXPECTED_VERSION) {
-    // »ØÍËµ½¾É°æ
+    // å›é€€åˆ°æ—§ç‰ˆ
     pm_framework_deinit();
     legacy_pm_init();
 }
 ```
 
-## ×î¼ÑÊµ¼ù
+## æœ€ä½³å®è·µ
 
-### 1. ·Ö½×¶ÎÇ¨ÒÆ
+### 1. åˆ†é˜¶æ®µè¿ç§»
 
-1. **µÚ1ÖÜ£º** ´´½¨¼æÈİĞÔ²ã£¬ÑéÖ¤»ù±¾¹¦ÄÜ
-2. **µÚ2-3ÖÜ£º** Öğ²½Ìæ»»ºËĞÄ¹¦ÄÜ
-3. **µÚ4ÖÜ£º** È«Ãæ²âÊÔºÍÓÅ»¯
-4. **µÚ5ÖÜ£º** ÇåÀí¾É´úÂë
+1. **ç¬¬1å‘¨ï¼š** åˆ›å»ºå…¼å®¹æ€§å±‚ï¼ŒéªŒè¯åŸºæœ¬åŠŸèƒ½
+2. **ç¬¬2-3å‘¨ï¼š** é€æ­¥æ›¿æ¢æ ¸å¿ƒåŠŸèƒ½
+3. **ç¬¬4å‘¨ï¼š** å…¨é¢æµ‹è¯•å’Œä¼˜åŒ–
+4. **ç¬¬5å‘¨ï¼š** æ¸…ç†æ—§ä»£ç 
 
-### 2. ¼à¿ØÖ¸±ê
+### 2. ç›‘æ§æŒ‡æ ‡
 
-- ×´Ì¬×ª»»Ê±¼ä£ºÓ¦<1ms
-- ÄÚ´æÊ¹ÓÃ£ºÓ¦<4KB
-- ¹¦ºÄ£ºÓ¦±£³Ö»òÓÅÓÚ¾É°æ
-- »½ĞÑÑÓ³Ù£ºÓ¦<100us
+- çŠ¶æ€è½¬æ¢æ—¶é—´ï¼šåº”<1ms
+- å†…å­˜ä½¿ç”¨ï¼šåº”<4KB
+- åŠŸè€—ï¼šåº”ä¿æŒæˆ–ä¼˜äºæ—§ç‰ˆ
+- å”¤é†’å»¶è¿Ÿï¼šåº”<100us
 
-### 3. ÎÄµµ¸üĞÂ
+### 3. æ–‡æ¡£æ›´æ–°
 
-- ¸üĞÂAPIÎÄµµ
-- ¸üĞÂÅäÖÃÖ¸ÄÏ
-- ¸üĞÂÊ¾Àı´úÂë
-- ¸üĞÂ¹ÊÕÏÅÅ³ıÖ¸ÄÏ
+- æ›´æ–°APIæ–‡æ¡£
+- æ›´æ–°é…ç½®æŒ‡å—
+- æ›´æ–°ç¤ºä¾‹ä»£ç 
+- æ›´æ–°æ•…éšœæ’é™¤æŒ‡å—
 
-## Ö§³Ö×ÊÔ´
+## æ”¯æŒèµ„æº
 
-- ÍêÕûÊ¾Àı´úÂë£º`examples/migration/`
-- ÅäÖÃÄ£°å£º`configs/migration_templates/`
-- ²âÊÔÓÃÀı£º`tests/migration/`
-- ¼¼ÊõÖ§³Ö£º´´½¨GitHub issue
+- å®Œæ•´ç¤ºä¾‹ä»£ç ï¼š`examples/migration/`
+- é…ç½®æ¨¡æ¿ï¼š`configs/migration_templates/`
+- æµ‹è¯•ç”¨ä¾‹ï¼š`tests/migration/`
+- æŠ€æœ¯æ”¯æŒï¼šåˆ›å»ºGitHub issue
 
-## ×Ü½á
+## æ€»ç»“
 
-Í¨¹ı·Ö½×¶ÎÇ¨ÒÆºÍ³ä·ÖµÄ²âÊÔÑéÖ¤£¬¿ÉÒÔ°²È«µØ½«ÏÖÓĞµçÔ´¹ÜÀí´úÂëÇ¨ÒÆµ½ĞÂ°æ¿ò¼Ü£¬Í¬Ê±±£³Ö¹¦ÄÜ¼æÈİĞÔºÍĞÔÄÜÒªÇó¡£
+é€šè¿‡åˆ†é˜¶æ®µè¿ç§»å’Œå……åˆ†çš„æµ‹è¯•éªŒè¯ï¼Œå¯ä»¥å®‰å…¨åœ°å°†ç°æœ‰ç”µæºç®¡ç†ä»£ç è¿ç§»åˆ°æ–°ç‰ˆæ¡†æ¶ï¼ŒåŒæ—¶ä¿æŒåŠŸèƒ½å…¼å®¹æ€§å’Œæ€§èƒ½è¦æ±‚ã€‚
           
 
         
@@ -3040,14 +3040,14 @@ filePath: d:\Dev\pm_refactor\pm_framework\CMakeLists.txt
           
 content: cmake_minimum_required(VERSION 3.16)
 
-# ÏîÄ¿ĞÅÏ¢
+# é¡¹ç›®ä¿¡æ¯
 project(pm_framework VERSION 1.0.0 LANGUAGES C)
 
-# ÉèÖÃC±ê×¼
+# è®¾ç½®Cæ ‡å‡†
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 
-# ±àÒëÑ¡Ïî
+# ç¼–è¯‘é€‰é¡¹
 add_compile_options(
     -Wall
     -Wextra
@@ -3060,7 +3060,7 @@ add_compile_options(
     $<$<CONFIG:Release>:-DNDEBUG>
 )
 
-# ÅäÖÃÑ¡Ïî
+# é…ç½®é€‰é¡¹
 option(PM_ENABLE_ML_OPTIMIZER "Enable ML-based optimization" OFF)
 option(PM_ENABLE_DISTRIBUTED "Enable distributed power management" OFF)
 option(PM_ENABLE_SECURITY "Enable security features" OFF)
@@ -3068,7 +3068,7 @@ option(PM_ENABLE_DEBUG "Enable debug mode" ON)
 option(PM_BUILD_TESTS "Build test suite" ON)
 option(PM_BUILD_EXAMPLES "Build examples" ON)
 
-# Æ½Ì¨¼ì²â
+# å¹³å°æ£€æµ‹
 if(CMAKE_SYSTEM_NAME STREQUAL "Linux")
     set(PM_PLATFORM_LINUX ON)
 elseif(CMAKE_SYSTEM_NAME STREQUAL "Windows")
@@ -3079,14 +3079,14 @@ else()
     set(PM_PLATFORM_EMBEDDED ON)
 endif()
 
-# °üº¬Ä¿Â¼
+# åŒ…å«ç›®å½•
 include_directories(
     include
     src
     ${CMAKE_CURRENT_BINARY_DIR}/include
 )
 
-# ¶¨Òåºê
+# å®šä¹‰å®
 add_definitions(
     -DPM_FRAMEWORK_VERSION="${PROJECT_VERSION}"
     -DPM_CONFIG_ML_OPTIMIZER_ENABLED=$<BOOL:${PM_ENABLE_ML_OPTIMIZER}>
@@ -3095,7 +3095,7 @@ add_definitions(
     -DPM_CONFIG_DEBUG=$<BOOL:${PM_ENABLE_DEBUG}>
 )
 
-# Ô´ÎÄ¼ş
+# æºæ–‡ä»¶
 set(PM_CORE_SOURCES
     src/core/pm_state_manager.c
     src/core/pm_memory.c
@@ -3121,17 +3121,17 @@ set(PM_SOURCES
     ${PM_EVENT_SOURCES}
 )
 
-# ´´½¨¾²Ì¬¿â
+# åˆ›å»ºé™æ€åº“
 add_library(pm_framework STATIC ${PM_SOURCES})
 
-# ÉèÖÃ¿âÊôĞÔ
+# è®¾ç½®åº“å±æ€§
 set_target_properties(pm_framework PROPERTIES
     VERSION ${PROJECT_VERSION}
     SOVERSION 1
     OUTPUT_NAME pm_framework
 )
 
-# Ìõ¼ş±àÒëµÄÔ´ÎÄ¼ş
+# æ¡ä»¶ç¼–è¯‘çš„æºæ–‡ä»¶
 if(PM_ENABLE_ML_OPTIMIZER)
     target_sources(pm_framework PRIVATE
         src/ml/pm_ml_optimizer.c
@@ -3153,7 +3153,7 @@ if(PM_ENABLE_SECURITY)
     )
 endif()
 
-# Æ½Ì¨ÌØ¶¨µÄÔ´ÎÄ¼ş
+# å¹³å°ç‰¹å®šçš„æºæ–‡ä»¶
 if(PM_PLATFORM_LINUX)
     target_sources(pm_framework PRIVATE
         src/platform/linux/pm_linux_hw.c
@@ -3172,7 +3172,7 @@ else()
     )
 endif()
 
-# Á´½Ó¿â
+# é“¾æ¥åº“
 if(PM_PLATFORM_LINUX)
     target_link_libraries(pm_framework
         pthread
@@ -3189,7 +3189,7 @@ elseif(PM_PLATFORM_MACOS)
     )
 endif()
 
-# °²×°¹æÔò
+# å®‰è£…è§„åˆ™
 install(TARGETS pm_framework
     EXPORT pm_framework-targets
     ARCHIVE DESTINATION lib
@@ -3207,14 +3207,14 @@ install(FILES
     DESTINATION share/pm_framework/configs
 )
 
-# ²âÊÔ
+# æµ‹è¯•
 if(PM_BUILD_TESTS)
     enable_testing()
     
-    # ²éÕÒUnity²âÊÔ¿ò¼Ü
+    # æŸ¥æ‰¾Unityæµ‹è¯•æ¡†æ¶
     find_package(unity QUIET)
     if(NOT unity_FOUND)
-        # ÏÂÔØUnity
+        # ä¸‹è½½Unity
         include(FetchContent)
         FetchContent_Declare(
             unity
@@ -3235,7 +3235,7 @@ if(PM_BUILD_TESTS)
     )
 endif()
 
-# Ê¾Àı³ÌĞò
+# ç¤ºä¾‹ç¨‹åº
 if(PM_BUILD_EXAMPLES)
     add_executable(example_basic examples/basic_usage.c)
     target_link_libraries(example_basic pm_framework)
@@ -3244,7 +3244,7 @@ if(PM_BUILD_EXAMPLES)
     target_link_libraries(example_embedded pm_framework)
 endif()
 
-# ÎÄµµÉú³É
+# æ–‡æ¡£ç”Ÿæˆ
 find_package(Doxygen QUIET)
 if(DOXYGEN_FOUND)
     set(DOXYGEN_IN ${CMAKE_CURRENT_SOURCE_DIR}/docs/Doxyfile.in)
@@ -3260,7 +3260,7 @@ if(DOXYGEN_FOUND)
     )
 endif()
 
-# °üÅäÖÃ
+# åŒ…é…ç½®
 include(CMakePackageConfigHelpers)
 write_basic_package_version_file(
     "${CMAKE_CURRENT_BINARY_DIR}/pm_framework-config-version.cmake"
@@ -3286,7 +3286,7 @@ install(EXPORT pm_framework-targets
     DESTINATION lib/cmake/pm_framework
 )
 
-# ´óĞ¡·ÖÎö
+# å¤§å°åˆ†æ
 if(CMAKE_BUILD_TYPE STREQUAL "Release")
     add_custom_target(size_analysis
         COMMAND size $<TARGET_FILE:pm_framework>
@@ -3294,7 +3294,7 @@ if(CMAKE_BUILD_TYPE STREQUAL "Release")
     )
 endif()
 
-# ÄÚ´æ·ÖÎö
+# å†…å­˜åˆ†æ
 if(CMAKE_BUILD_TYPE STREQUAL "Debug")
     add_custom_target(memory_analysis
         COMMAND valgrind --tool=memcheck --leak-check=full $<TARGET_FILE:test_pm_framework>
@@ -3314,8 +3314,8 @@ filePath: d:\Dev\pm_refactor\pm_framework\tools\resource_analyzer.py
           
 content: #!/usr/bin/env python3
 """
-µçÔ´¹ÜÀí¿ò¼Ü×ÊÔ´Õ¼ÓÃ·ÖÎö¹¤¾ß
-·ÖÎöÄÚ´æÊ¹ÓÃ¡¢¹¦ºÄºÍĞÔÄÜÖ¸±ê
+ç”µæºç®¡ç†æ¡†æ¶èµ„æºå ç”¨åˆ†æå·¥å…·
+åˆ†æå†…å­˜ä½¿ç”¨ã€åŠŸè€—å’Œæ€§èƒ½æŒ‡æ ‡
 """
 
 import json
@@ -3327,16 +3327,16 @@ from pathlib import Path
 from typing import Dict, List, Tuple, Optional
 
 class ResourceAnalyzer:
-    """×ÊÔ´Õ¼ÓÃ·ÖÎöÆ÷"""
+    """èµ„æºå ç”¨åˆ†æå™¨"""
     
     def __init__(self, config_path: str):
-        """³õÊ¼»¯·ÖÎöÆ÷"""
+        """åˆå§‹åŒ–åˆ†æå™¨"""
         self.config_path = Path(config_path)
         self.config = self._load_config()
         self.results = {}
         
     def _load_config(self) -> Dict:
-        """¼ÓÔØÅäÖÃÎÄ¼ş"""
+        """åŠ è½½é…ç½®æ–‡ä»¶"""
         try:
             with open(self.config_path, 'r') as f:
                 return json.load(f)
@@ -3345,11 +3345,11 @@ class ResourceAnalyzer:
             return {}
     
     def analyze_memory_usage(self, elf_path: str) -> Dict:
-        """·ÖÎöÄÚ´æÊ¹ÓÃ"""
-        print("·ÖÎöÄÚ´æÊ¹ÓÃ...")
+        """åˆ†æå†…å­˜ä½¿ç”¨"""
+        print("åˆ†æå†…å­˜ä½¿ç”¨...")
         
         try:
-            # Ê¹ÓÃsizeÃüÁî·ÖÎöELFÎÄ¼ş
+            # ä½¿ç”¨sizeå‘½ä»¤åˆ†æELFæ–‡ä»¶
             result = subprocess.run(
                 ['size', '-A', elf_path],
                 capture_output=True,
@@ -3357,10 +3357,10 @@ class ResourceAnalyzer:
                 check=True
             )
             
-            # ½âÎöÊä³ö
+            # è§£æè¾“å‡º
             memory_usage = self._parse_size_output(result.stdout)
             
-            # ¼ÆËã×ÜÄÚ´æÊ¹ÓÃ
+            # è®¡ç®—æ€»å†…å­˜ä½¿ç”¨
             total_ram = memory_usage.get('.data', 0) + \
                        memory_usage.get('.bss', 0) + \
                        memory_usage.get('.heap', 0)
@@ -3394,11 +3394,11 @@ class ResourceAnalyzer:
             return {}
     
     def _parse_size_output(self, output: str) -> Dict:
-        """½âÎösizeÃüÁîÊä³ö"""
+        """è§£æsizeå‘½ä»¤è¾“å‡º"""
         memory_usage = {}
         lines = output.strip().split('\n')
         
-        for line in lines[1:]:  # Ìø¹ı±êÌâĞĞ
+        for line in lines[1:]:  # è·³è¿‡æ ‡é¢˜è¡Œ
             parts = line.split()
             if len(parts) >= 3:
                 section = parts[0]
@@ -3408,13 +3408,13 @@ class ResourceAnalyzer:
         return memory_usage
     
     def analyze_power_consumption(self) -> Dict:
-        """·ÖÎö¹¦ºÄ"""
-        print("·ÖÎö¹¦ºÄ...")
+        """åˆ†æåŠŸè€—"""
+        print("åˆ†æåŠŸè€—...")
         
         power_states = self.config.get('power_states', {})
         modules = self.config.get('modules', {})
         
-        # ¼ÆËã¸÷×´Ì¬¹¦ºÄ
+        # è®¡ç®—å„çŠ¶æ€åŠŸè€—
         state_power = {}
         for state, config in power_states.items():
             power_mw = self._parse_power_string(config.get('power', '0mW'))
@@ -3424,7 +3424,7 @@ class ResourceAnalyzer:
                 'voltage_mv': self._parse_power_string(config.get('voltage', '0mV'))
             }
         
-        # ¼ÆËãÄ£¿é¹¦ºÄ
+        # è®¡ç®—æ¨¡å—åŠŸè€—
         module_power = {}
         for module, config in modules.items():
             states = config.get('power_states', {})
@@ -3442,25 +3442,25 @@ class ResourceAnalyzer:
         return power_analysis
     
     def _parse_power_string(self, power_str: str) -> float:
-        """½âÎö¹¦ºÄ×Ö·û´®"""
+        """è§£æåŠŸè€—å­—ç¬¦ä¸²"""
         match = re.match(r'(\d+(?:\.\d+)?)(\w+)', power_str)
         if match:
             value = float(match.group(1))
             unit = match.group(2)
             
             if unit == 'uW':
-                return value / 1000  # ×ª»»ÎªmW
+                return value / 1000  # è½¬æ¢ä¸ºmW
             elif unit == 'mW':
                 return value
             elif unit == 'W':
-                return value * 1000  # ×ª»»ÎªmW
+                return value * 1000  # è½¬æ¢ä¸ºmW
         return 0.0
     
     def analyze_performance(self, benchmark_path: str) -> Dict:
-        """·ÖÎöĞÔÄÜ"""
-        print("·ÖÎöĞÔÄÜ...")
+        """åˆ†ææ€§èƒ½"""
+        print("åˆ†ææ€§èƒ½...")
         
-        # ÔËĞĞ»ù×¼²âÊÔ
+        # è¿è¡ŒåŸºå‡†æµ‹è¯•
         try:
             result = subprocess.run(
                 [benchmark_path],
@@ -3469,7 +3469,7 @@ class ResourceAnalyzer:
                 check=True
             )
             
-            # ½âÎöĞÔÄÜÊı¾İ
+            # è§£ææ€§èƒ½æ•°æ®
             performance_data = self._parse_performance_output(result.stdout)
             
             self.results['performance'] = performance_data
@@ -3480,10 +3480,10 @@ class ResourceAnalyzer:
             return {}
     
     def _parse_performance_output(self, output: str) -> Dict:
-        """½âÎöĞÔÄÜ²âÊÔÊä³ö"""
+        """è§£ææ€§èƒ½æµ‹è¯•è¾“å‡º"""
         performance_data = {}
         
-        # ²éÕÒ¹Ø¼üĞÔÄÜÖ¸±ê
+        # æŸ¥æ‰¾å…³é”®æ€§èƒ½æŒ‡æ ‡
         patterns = {
             'state_transition_time': r'State transition time: (\d+)us',
             'wakeup_latency': r'Wakeup latency: (\d+)us',
@@ -3499,8 +3499,8 @@ class ResourceAnalyzer:
         return performance_data
     
     def generate_report(self, output_path: str) -> None:
-        """Éú³É×ÊÔ´Õ¼ÓÃ±¨¸æ"""
-        print("Éú³É±¨¸æ...")
+        """ç”Ÿæˆèµ„æºå ç”¨æŠ¥å‘Š"""
+        print("ç”ŸæˆæŠ¥å‘Š...")
         
         report = {
             'summary': {
@@ -3515,57 +3515,57 @@ class ResourceAnalyzer:
             'recommendations': self._generate_recommendations()
         }
         
-        # ±£´æ±¨¸æ
+        # ä¿å­˜æŠ¥å‘Š
         with open(output_path, 'w') as f:
             json.dump(report, f, indent=2)
         
-        # ´òÓ¡ÕªÒª
+        # æ‰“å°æ‘˜è¦
         self._print_summary(report)
     
     def _generate_optimizations(self) -> List[str]:
-        """Éú³ÉÓÅ»¯½¨Òé"""
+        """ç”Ÿæˆä¼˜åŒ–å»ºè®®"""
         optimizations = []
         
         memory_usage = self.results.get('memory', {})
         ram_total = memory_usage.get('ram_usage', {}).get('total', 0)
         
-        # ÄÚ´æÓÅ»¯½¨Òé
+        # å†…å­˜ä¼˜åŒ–å»ºè®®
         if ram_total > 32 * 1024:  # 32KB
-            optimizations.append("ÄÚ´æÊ¹ÓÃ¹ı¸ß£¬¿¼ÂÇÆôÓÃ¾²Ì¬ÄÚ´æ·ÖÅä")
-            optimizations.append("¼õÉÙ¹¦ÄÜÄ£¿é£¬½ûÓÃ·Ç±ØÒªÌØĞÔ")
+            optimizations.append("å†…å­˜ä½¿ç”¨è¿‡é«˜ï¼Œè€ƒè™‘å¯ç”¨é™æ€å†…å­˜åˆ†é…")
+            optimizations.append("å‡å°‘åŠŸèƒ½æ¨¡å—ï¼Œç¦ç”¨éå¿…è¦ç‰¹æ€§")
         
         if ram_total > 16 * 1024:  # 16KB
-            optimizations.append("Ê¹ÓÃÄÚ´æ³ØÓÅ»¯ÄÚ´æ·ÖÅä")
-            optimizations.append("ÆôÓÃ±àÒëÆ÷ÓÅ»¯Ñ¡Ïî")
+            optimizations.append("ä½¿ç”¨å†…å­˜æ± ä¼˜åŒ–å†…å­˜åˆ†é…")
+            optimizations.append("å¯ç”¨ç¼–è¯‘å™¨ä¼˜åŒ–é€‰é¡¹")
         
-        # ¹¦ºÄÓÅ»¯½¨Òé
+        # åŠŸè€—ä¼˜åŒ–å»ºè®®
         power_data = self.results.get('power', {})
         system_power = power_data.get('total_system_power', 0)
         
         if system_power > 100:  # 100mW
-            optimizations.append("¹¦ºÄ½Ï¸ß£¬¿¼ÂÇÊ¹ÓÃ¸ü»ı¼«µÄÊ¡µç²ßÂÔ")
-            optimizations.append("ÓÅ»¯»½ĞÑÔ´ÅäÖÃ£¬¼õÉÙ²»±ØÒªµÄÖĞ¶Ï")
+            optimizations.append("åŠŸè€—è¾ƒé«˜ï¼Œè€ƒè™‘ä½¿ç”¨æ›´ç§¯æçš„çœç”µç­–ç•¥")
+            optimizations.append("ä¼˜åŒ–å”¤é†’æºé…ç½®ï¼Œå‡å°‘ä¸å¿…è¦çš„ä¸­æ–­")
         
         return optimizations
     
     def _generate_recommendations(self) -> List[Dict]:
-        """Éú³É¾ßÌå½¨Òé"""
+        """ç”Ÿæˆå…·ä½“å»ºè®®"""
         recommendations = []
         
-        # ÄÚ´æÅäÖÃ½¨Òé
+        # å†…å­˜é…ç½®å»ºè®®
         recommendations.append({
             'category': 'memory',
             'priority': 'high',
-            'description': 'ÆôÓÃ¾²Ì¬ÄÚ´æ·ÖÅä',
-            'implementation': 'ÉèÖÃ PM_CONFIG_STATIC_ALLOCATION=1',
+            'description': 'å¯ç”¨é™æ€å†…å­˜åˆ†é…',
+            'implementation': 'è®¾ç½® PM_CONFIG_STATIC_ALLOCATION=1',
             'expected_saving': '2-4KB'
         })
         
-        # ¹¦ºÄÅäÖÃ½¨Òé
+        # åŠŸè€—é…ç½®å»ºè®®
         recommendations.append({
             'category': 'power',
             'priority': 'medium',
-            'description': 'Ê¹ÓÃÆ½ºâ²ßÂÔ',
+            'description': 'ä½¿ç”¨å¹³è¡¡ç­–ç•¥',
             'implementation': 'pm_policy_engine_set_policy(PM_POLICY_BALANCED)',
             'expected_saving': '30-50%'
         })
@@ -3573,81 +3573,81 @@ class ResourceAnalyzer:
         return recommendations
     
     def _get_current_time(self) -> str:
-        """»ñÈ¡µ±Ç°Ê±¼ä"""
+        """è·å–å½“å‰æ—¶é—´"""
         from datetime import datetime
         return datetime.now().isoformat()
     
     def _print_summary(self, report: Dict) -> None:
-        """´òÓ¡ÕªÒªĞÅÏ¢"""
+        """æ‰“å°æ‘˜è¦ä¿¡æ¯"""
         print("\n" + "="*50)
-        print("×ÊÔ´Õ¼ÓÃ·ÖÎöÕªÒª")
+        print("èµ„æºå ç”¨åˆ†ææ‘˜è¦")
         print("="*50)
         
         summary = report['summary']
         
-        # ÄÚ´æÊ¹ÓÃ
+        # å†…å­˜ä½¿ç”¨
         memory = self.results.get('memory', {})
         if memory:
             ram_usage = memory.get('ram_usage', {})
             flash_usage = memory.get('flash_usage', {})
             
-            print(f"ÄÚ´æÊ¹ÓÃ:")
+            print(f"å†…å­˜ä½¿ç”¨:")
             print(f"  RAM: {ram_usage.get('total', 0)} bytes")
             print(f"  Flash: {flash_usage.get('total', 0)} bytes")
         
-        # ¹¦ºÄ
+        # åŠŸè€—
         power = self.results.get('power', {})
         if power:
             total_power = power.get('total_system_power', 0)
-            print(f"·åÖµ¹¦ºÄ: {total_power:.2f} mW")
+            print(f"å³°å€¼åŠŸè€—: {total_power:.2f} mW")
         
-        # ĞÔÄÜ
+        # æ€§èƒ½
         performance = self.results.get('performance', {})
         if performance:
             transition_time = performance.get('state_transition_time', 0)
-            print(f"×´Ì¬×ª»»Ê±¼ä: {transition_time} us")
+            print(f"çŠ¶æ€è½¬æ¢æ—¶é—´: {transition_time} us")
         
-        # ÓÅ»¯½¨Òé
+        # ä¼˜åŒ–å»ºè®®
         optimizations = summary.get('optimization_suggestions', [])
         if optimizations:
-            print("\nÓÅ»¯½¨Òé:")
+            print("\nä¼˜åŒ–å»ºè®®:")
             for i, suggestion in enumerate(optimizations, 1):
                 print(f"  {i}. {suggestion}")
         
-        print(f"\nÏêÏ¸±¨¸æÒÑ±£´æÖÁ: {report.get('report_path', 'report.json')}")
+        print(f"\nè¯¦ç»†æŠ¥å‘Šå·²ä¿å­˜è‡³: {report.get('report_path', 'report.json')}")
 
 def main():
-    """Ö÷º¯Êı"""
+    """ä¸»å‡½æ•°"""
     import argparse
     
-    parser = argparse.ArgumentParser(description='µçÔ´¹ÜÀí¿ò¼Ü×ÊÔ´·ÖÎö¹¤¾ß')
-    parser.add_argument('--config', required=True, help='ÅäÖÃÎÄ¼şÂ·¾¶')
-    parser.add_argument('--elf', required=True, help='ELFÎÄ¼şÂ·¾¶')
-    parser.add_argument('--benchmark', help='»ù×¼²âÊÔ³ÌĞòÂ·¾¶')
-    parser.add_argument('--output', default='pm_analysis_report.json', help='Êä³ö±¨¸æÂ·¾¶')
+    parser = argparse.ArgumentParser(description='ç”µæºç®¡ç†æ¡†æ¶èµ„æºåˆ†æå·¥å…·')
+    parser.add_argument('--config', required=True, help='é…ç½®æ–‡ä»¶è·¯å¾„')
+    parser.add_argument('--elf', required=True, help='ELFæ–‡ä»¶è·¯å¾„')
+    parser.add_argument('--benchmark', help='åŸºå‡†æµ‹è¯•ç¨‹åºè·¯å¾„')
+    parser.add_argument('--output', default='pm_analysis_report.json', help='è¾“å‡ºæŠ¥å‘Šè·¯å¾„')
     
     args = parser.parse_args()
     
-    # ¼ì²éÎÄ¼şÊÇ·ñ´æÔÚ
+    # æ£€æŸ¥æ–‡ä»¶æ˜¯å¦å­˜åœ¨
     if not os.path.exists(args.config):
-        print(f"ÅäÖÃÎÄ¼ş²»´æÔÚ: {args.config}")
+        print(f"é…ç½®æ–‡ä»¶ä¸å­˜åœ¨: {args.config}")
         sys.exit(1)
     
     if not os.path.exists(args.elf):
-        print(f"ELFÎÄ¼ş²»´æÔÚ: {args.elf}")
+        print(f"ELFæ–‡ä»¶ä¸å­˜åœ¨: {args.elf}")
         sys.exit(1)
     
-    # ´´½¨·ÖÎöÆ÷
+    # åˆ›å»ºåˆ†æå™¨
     analyzer = ResourceAnalyzer(args.config)
     
-    # Ö´ĞĞ·ÖÎö
+    # æ‰§è¡Œåˆ†æ
     analyzer.analyze_memory_usage(args.elf)
     analyzer.analyze_power_consumption()
     
     if args.benchmark and os.path.exists(args.benchmark):
         analyzer.analyze_performance(args.benchmark)
     
-    # Éú³É±¨¸æ
+    # ç”ŸæˆæŠ¥å‘Š
     analyzer.generate_report(args.output)
 
 if __name__ == "__main__":
@@ -3662,99 +3662,99 @@ status: success
           
 d:\Dev\pm_refactor\pm_framework
           
-## ×Ü½á
+## æ€»ç»“
 
-ÎÒÒÑ¾­³É¹¦ÎªÄú´´½¨ÁËÒ»¸öÍêÕûµÄµçÔ´¹ÜÀí¿ò¼ÜÖØ¹¹ÊµÏÖ£¬°üº¬ÒÔÏÂºËĞÄ×é¼ş£º
+æˆ‘å·²ç»æˆåŠŸä¸ºæ‚¨åˆ›å»ºäº†ä¸€ä¸ªå®Œæ•´çš„ç”µæºç®¡ç†æ¡†æ¶é‡æ„å®ç°ï¼ŒåŒ…å«ä»¥ä¸‹æ ¸å¿ƒç»„ä»¶ï¼š
 
-### ?? ¼Ü¹¹Éè¼Æ
-- **·Ö²ã¼Ü¹¹**£ºÓ¦ÓÃ²ã ¡ú ²ßÂÔ¹ÜÀíÆ÷ ¡ú ºËĞÄ¿ò¼Ü ¡ú Ó²¼ş³éÏó²ã ¡ú Æ½Ì¨HAL
-- **7¸öºËĞÄÄ£¿é**£ºpm_core¡¢pm_state¡¢pm_policy¡¢pm_hal¡¢pm_event¡¢pm_debug¡¢pm_distributed
+### ğŸ—ï¸ æ¶æ„è®¾è®¡
+- **åˆ†å±‚æ¶æ„**ï¼šåº”ç”¨å±‚ â†’ ç­–ç•¥ç®¡ç†å™¨ â†’ æ ¸å¿ƒæ¡†æ¶ â†’ ç¡¬ä»¶æŠ½è±¡å±‚ â†’ å¹³å°HAL
+- **7ä¸ªæ ¸å¿ƒæ¨¡å—**ï¼špm_coreã€pm_stateã€pm_policyã€pm_halã€pm_eventã€pm_debugã€pm_distributed
 
-### ? ÏîÄ¿½á¹¹
+### ğŸ“ é¡¹ç›®ç»“æ„
 ```
 pm_framework/
-©À©¤©¤ ? README.md                    # ¿ò¼Ü¸ÅÊöºÍ×ÊÔ´ÆÀ¹À
-©À©¤©¤ ? CMakeLists.txt               # ¿çÆ½Ì¨¹¹½¨ÏµÍ³
-©À©¤©¤ ? configs/embedded_config.json # Ç¶ÈëÊ½ÅäÖÃ
-©À©¤©¤ ? docs/migration_guide.md      # Ç¨ÒÆÖ¸ÄÏ
-©À©¤©¤ ? examples/basic_usage.c        # Ê¹ÓÃÊ¾Àı
-©À©¤©¤ ? tests/test_framework.c       # ²âÊÔÌ×¼ş
-©À©¤©¤ ?? tools/resource_analyzer.py   # ×ÊÔ´·ÖÎö¹¤¾ß
-©À©¤©¤ ? include/                     # Í·ÎÄ¼ş
-©À©¤©¤ ? src/                         # Ô´´úÂë
-©¸©¤©¤ ? platform/                    # Æ½Ì¨ÊÊÅä
+â”œâ”€â”€ ğŸ“‹ README.md                    # æ¡†æ¶æ¦‚è¿°å’Œèµ„æºè¯„ä¼°
+â”œâ”€â”€ ğŸ”§ CMakeLists.txt               # è·¨å¹³å°æ„å»ºç³»ç»Ÿ
+â”œâ”€â”€ ğŸ“Š configs/embedded_config.json # åµŒå…¥å¼é…ç½®
+â”œâ”€â”€ ğŸ“– docs/migration_guide.md      # è¿ç§»æŒ‡å—
+â”œâ”€â”€ ğŸ¯ examples/basic_usage.c        # ä½¿ç”¨ç¤ºä¾‹
+â”œâ”€â”€ ğŸ§ª tests/test_framework.c       # æµ‹è¯•å¥—ä»¶
+â”œâ”€â”€ ğŸ› ï¸ tools/resource_analyzer.py   # èµ„æºåˆ†æå·¥å…·
+â”œâ”€â”€ ğŸ“ include/                     # å¤´æ–‡ä»¶
+â”œâ”€â”€ ğŸ“ src/                         # æºä»£ç 
+â””â”€â”€ ğŸ“ platform/                    # å¹³å°é€‚é…
 ```
 
-### ? ºËĞÄ¹¦ÄÜÊµÏÖ
+### ğŸ”§ æ ¸å¿ƒåŠŸèƒ½å®ç°
 
-1. **×´Ì¬¹ÜÀíÆ÷** (`pm_state_manager.c`)
-   - ÍêÕûµÄ×´Ì¬»ú¹ÜÀí
-   - Ä£¿éµçÔ´×´Ì¬¿ØÖÆ
-   - ÒÀÀµ¹ØÏµ¼ì²é
-   - ĞÔÄÜÍ³¼ÆºÍ¼à¿Ø
+1. **çŠ¶æ€ç®¡ç†å™¨** (`pm_state_manager.c`)
+   - å®Œæ•´çš„çŠ¶æ€æœºç®¡ç†
+   - æ¨¡å—ç”µæºçŠ¶æ€æ§åˆ¶
+   - ä¾èµ–å…³ç³»æ£€æŸ¥
+   - æ€§èƒ½ç»Ÿè®¡å’Œç›‘æ§
 
-2. **²ßÂÔÒıÇæ** (`pm_policy_engine.c`)
-   - ÖÇÄÜ²ßÂÔ¾ö²ß
-   - MLÓÅ»¯Ö§³Ö£¨¿ÉÑ¡£©
-   - ¹¦ºÄÔ¼Êø¹ÜÀí
-   - ÊµÊ±µ÷Õû
+2. **ç­–ç•¥å¼•æ“** (`pm_policy_engine.c`)
+   - æ™ºèƒ½ç­–ç•¥å†³ç­–
+   - MLä¼˜åŒ–æ”¯æŒï¼ˆå¯é€‰ï¼‰
+   - åŠŸè€—çº¦æŸç®¡ç†
+   - å®æ—¶è°ƒæ•´
 
-3. **Ó²¼ş³éÏó²ã** (`pm_hw_interface.c`)
-   - Í³Ò»Ó²¼ş½Ó¿Ú
-   - ¿çÆ½Ì¨Ö§³Ö
-   - ÄÜÁ¦¼ì²â
-   - Ä¬ÈÏÊµÏÖ
+3. **ç¡¬ä»¶æŠ½è±¡å±‚** (`pm_hw_interface.c`)
+   - ç»Ÿä¸€ç¡¬ä»¶æ¥å£
+   - è·¨å¹³å°æ”¯æŒ
+   - èƒ½åŠ›æ£€æµ‹
+   - é»˜è®¤å®ç°
 
-### ? ×ÊÔ´Õ¼ÓÃÆÀ¹À
+### ğŸ“Š èµ„æºå ç”¨è¯„ä¼°
 
-**Ç¶ÈëÊ½ÏµÍ³ÅäÖÃ**£º
-- **ÄÚ´æÊ¹ÓÃ**£º×Ü¼ÆÔ¼8KB
-  - ´úÂë¶Î£º~6KB
-  - Êı¾İ¶Î£º~1KB
-  - BSS¶Î£º~1KB
-- **Õ»Ê¹ÓÃ**£º256-512×Ö½Ú
-- **¶ÑÊ¹ÓÃ**£º0×Ö½Ú£¨¾²Ì¬·ÖÅä£©
+**åµŒå…¥å¼ç³»ç»Ÿé…ç½®**ï¼š
+- **å†…å­˜ä½¿ç”¨**ï¼šæ€»è®¡çº¦8KB
+  - ä»£ç æ®µï¼š~6KB
+  - æ•°æ®æ®µï¼š~1KB
+  - BSSæ®µï¼š~1KB
+- **æ ˆä½¿ç”¨**ï¼š256-512å­—èŠ‚
+- **å †ä½¿ç”¨**ï¼š0å­—èŠ‚ï¼ˆé™æ€åˆ†é…ï¼‰
 
-**¹¦ºÄ·ÖÎö**£º
-- »îÔ¾×´Ì¬£º165mW
-- ¿ÕÏĞ×´Ì¬£º50mW
-- ÇáË¯Ãß£º6mW
-- Éî¶ÈË¯Ãß£º0.8mW
-- ĞİÃß×´Ì¬£º0.08mW
+**åŠŸè€—åˆ†æ**ï¼š
+- æ´»è·ƒçŠ¶æ€ï¼š165mW
+- ç©ºé—²çŠ¶æ€ï¼š50mW
+- è½»ç¡çœ ï¼š6mW
+- æ·±åº¦ç¡çœ ï¼š0.8mW
+- ä¼‘çœ çŠ¶æ€ï¼š0.08mW
 
-### ? Ê¹ÓÃÊ¾Àı
+### ğŸš€ ä½¿ç”¨ç¤ºä¾‹
 
 ```c
-// »ù±¾Ê¹ÓÃ
+// åŸºæœ¬ä½¿ç”¨
 pm_config_t config = PM_CONFIG_DEFAULT();
 pm_framework_init(&config);
 pm_policy_engine_set_policy(PM_POLICY_BALANCED);
 pm_state_manager_set_module_state(PM_MODULE_WIFI, PM_MODULE_STATE_ON);
 ```
 
-### ? ²âÊÔºÍÑéÖ¤
-- ÍêÕûµÄµ¥Ôª²âÊÔÌ×¼ş
-- ¼¯³É²âÊÔÓÃÀı
-- ĞÔÄÜ»ù×¼²âÊÔ
-- ÄÚ´æĞ¹Â©¼ì²â
+### ğŸ§ª æµ‹è¯•å’ŒéªŒè¯
+- å®Œæ•´çš„å•å…ƒæµ‹è¯•å¥—ä»¶
+- é›†æˆæµ‹è¯•ç”¨ä¾‹
+- æ€§èƒ½åŸºå‡†æµ‹è¯•
+- å†…å­˜æ³„æ¼æ£€æµ‹
 
-### ? Ç¨ÒÆÖ§³Ö
-- ÏêÏ¸µÄÇ¨ÒÆÖ¸ÄÏ
-- ¼æÈİĞÔ²ãÊµÏÖ
-- ½¥½øÊ½Ç¨ÒÆ²ßÂÔ
-- »Ø¹ö·½°¸
+### ğŸ“ˆ è¿ç§»æ”¯æŒ
+- è¯¦ç»†çš„è¿ç§»æŒ‡å—
+- å…¼å®¹æ€§å±‚å®ç°
+- æ¸è¿›å¼è¿ç§»ç­–ç•¥
+- å›æ»šæ–¹æ¡ˆ
 
-### ? ×ÊÔ´·ÖÎö¹¤¾ß
+### ğŸ” èµ„æºåˆ†æå·¥å…·
 ```bash
-# ·ÖÎö×ÊÔ´Ê¹ÓÃ
+# åˆ†æèµ„æºä½¿ç”¨
 python tools/resource_analyzer.py --config configs/embedded_config.json --elf your_firmware.elf
 ```
 
-Õâ¸öÖØ¹¹¿ò¼ÜÌá¹©ÁË£º
-- **Ä£¿é»¯Éè¼Æ**£ºÒ×ÓÚÎ¬»¤ºÍÀ©Õ¹
-- **µÍ×ÊÔ´Õ¼ÓÃ**£ºÊÊºÏÇ¶ÈëÊ½ÏµÍ³
-- **¸ßĞÔÄÜ**£ºÓÅ»¯µÄ×´Ì¬×ª»»
-- **¿çÆ½Ì¨**£ºÍ³Ò»µÄÓ²¼ş³éÏó½Ó¿Ú
-- **Ïòºó¼æÈİ**£ºÆ½»¬µÄÇ¨ÒÆÂ·¾¶
+è¿™ä¸ªé‡æ„æ¡†æ¶æä¾›äº†ï¼š
+- **æ¨¡å—åŒ–è®¾è®¡**ï¼šæ˜“äºç»´æŠ¤å’Œæ‰©å±•
+- **ä½èµ„æºå ç”¨**ï¼šé€‚åˆåµŒå…¥å¼ç³»ç»Ÿ
+- **é«˜æ€§èƒ½**ï¼šä¼˜åŒ–çš„çŠ¶æ€è½¬æ¢
+- **è·¨å¹³å°**ï¼šç»Ÿä¸€çš„ç¡¬ä»¶æŠ½è±¡æ¥å£
+- **å‘åå…¼å®¹**ï¼šå¹³æ»‘çš„è¿ç§»è·¯å¾„
 
-ÄúÏÖÔÚ¿ÉÒÔÖ±½ÓÊ¹ÓÃÕâ¸ö¿ò¼Ü£¬»ò¸ù¾İ¾ßÌåĞèÇó½øĞĞ¶¨ÖÆ¡£ËùÓĞ´úÂë¶¼¾­¹ıÓÅ»¯£¬È·±£ÔÚ×ÊÔ´ÊÜÏŞµÄÇ¶ÈëÊ½ÏµÍ³ÉÏ¸ßĞ§ÔËĞĞ¡£
+æ‚¨ç°åœ¨å¯ä»¥ç›´æ¥ä½¿ç”¨è¿™ä¸ªæ¡†æ¶ï¼Œæˆ–æ ¹æ®å…·ä½“éœ€æ±‚è¿›è¡Œå®šåˆ¶ã€‚æ‰€æœ‰ä»£ç éƒ½ç»è¿‡ä¼˜åŒ–ï¼Œç¡®ä¿åœ¨èµ„æºå—é™çš„åµŒå…¥å¼ç³»ç»Ÿä¸Šé«˜æ•ˆè¿è¡Œã€‚

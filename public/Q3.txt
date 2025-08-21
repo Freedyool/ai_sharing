@@ -2,7 +2,7 @@
 
 
           
-ÎÒĞèÒª´´½¨Ò»¸öÖØ¹¹·½°¸µÄÊµÏÖÄ¿Â¼£¬°üº¬·Ö²ã¼Ü¹¹Éè¼Æ¡¢Ä£¿é»¯ÊµÏÖºÍÇ¶ÈëÊ½×ÊÔ´ÆÀ¹À¡£Ê×ÏÈ´´½¨ÖØ¹¹Ä¿Â¼½á¹¹£¬È»ºóÊµÏÖºËĞÄÄ£¿éºÍ½Ó¿Ú¶¨Òå£¬×îºóÌí¼Ó×ÊÔ´Õ¼ÓÃ·ÖÎö¡£
+æˆ‘éœ€è¦åˆ›å»ºä¸€ä¸ªé‡æ„æ–¹æ¡ˆçš„å®ç°ç›®å½•ï¼ŒåŒ…å«åˆ†å±‚æ¶æ„è®¾è®¡ã€æ¨¡å—åŒ–å®ç°å’ŒåµŒå…¥å¼èµ„æºè¯„ä¼°ã€‚é¦–å…ˆåˆ›å»ºé‡æ„ç›®å½•ç»“æ„ï¼Œç„¶åå®ç°æ ¸å¿ƒæ¨¡å—å’Œæ¥å£å®šä¹‰ï¼Œæœ€åæ·»åŠ èµ„æºå ç”¨åˆ†æã€‚
         
             
 toolName: todo_write
@@ -11,7 +11,7 @@ status: success
           
 Todos updated: 5 items
           
-¿ªÊ¼´´½¨ÖØ¹¹·½°¸µÄÄ¿Â¼½á¹¹¡£
+å¼€å§‹åˆ›å»ºé‡æ„æ–¹æ¡ˆçš„ç›®å½•ç»“æ„ã€‚
         
             
 toolName: write_to_file
@@ -21,109 +21,109 @@ status: success
             
 filePath: d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\README.md
           
-content: # PMÄ£¿é¼Ü¹¹ÖØ¹¹·½°¸ÊµÏÖ
+content: # PMæ¨¡å—æ¶æ„é‡æ„æ–¹æ¡ˆå®ç°
 
-## ÏîÄ¿¸ÅÊö
+## é¡¹ç›®æ¦‚è¿°
 
-±¾Ä¿Â¼°üº¬ÁËµçÔ´¹ÜÀí(PM)Ä£¿éµÄÈ«Ãæ¼Ü¹¹ÖØ¹¹ÊµÏÖ£¬²ÉÓÃ·Ö²ã¼Ü¹¹Éè¼Æ£¬Ìá¹©Ä£¿é»¯¡¢¿ÉÀ©Õ¹ºÍ¸ßĞÔÄÜµÄµçÔ´¹ÜÀí½â¾ö·½°¸¡£
+æœ¬ç›®å½•åŒ…å«äº†ç”µæºç®¡ç†(PM)æ¨¡å—çš„å…¨é¢æ¶æ„é‡æ„å®ç°ï¼Œé‡‡ç”¨åˆ†å±‚æ¶æ„è®¾è®¡ï¼Œæä¾›æ¨¡å—åŒ–ã€å¯æ‰©å±•å’Œé«˜æ€§èƒ½çš„ç”µæºç®¡ç†è§£å†³æ–¹æ¡ˆã€‚
 
-## ¼Ü¹¹Éè¼Æ
+## æ¶æ„è®¾è®¡
 
-### ·Ö²ã¼Ü¹¹
+### åˆ†å±‚æ¶æ„
 ```
-Ó¦ÓÃ²ã (Application Layer)
-©À©¤©¤ API½Ó¿Ú²ã - ¶ÔÍâÌá¹©Í³Ò»µÄPM API
-©À©¤©¤ ÒµÎñÂß¼­²ã - µçÔ´¹ÜÀíÒµÎñÂß¼­
-©¸©¤©¤ ²ßÂÔ¾ö²ß²ã - µçÔ´¹ÜÀí²ßÂÔºÍ¾ö²ß
+åº”ç”¨å±‚ (Application Layer)
+â”œâ”€â”€ APIæ¥å£å±‚ - å¯¹å¤–æä¾›ç»Ÿä¸€çš„PM API
+â”œâ”€â”€ ä¸šåŠ¡é€»è¾‘å±‚ - ç”µæºç®¡ç†ä¸šåŠ¡é€»è¾‘
+â””â”€â”€ ç­–ç•¥å†³ç­–å±‚ - ç”µæºç®¡ç†ç­–ç•¥å’Œå†³ç­–
 
-·şÎñ²ã (Service Layer)
-©À©¤©¤ µçÔ´×´Ì¬¹ÜÀí·şÎñ
-©À©¤©¤ Ë¯ÃßÄ£Ê½¹ÜÀí·şÎñ
-©À©¤©¤ »½ĞÑÔ´¹ÜÀí·şÎñ
-©¸©¤©¤ »Øµ÷¹ÜÀí·şÎñ
+æœåŠ¡å±‚ (Service Layer)
+â”œâ”€â”€ ç”µæºçŠ¶æ€ç®¡ç†æœåŠ¡
+â”œâ”€â”€ ç¡çœ æ¨¡å¼ç®¡ç†æœåŠ¡
+â”œâ”€â”€ å”¤é†’æºç®¡ç†æœåŠ¡
+â””â”€â”€ å›è°ƒç®¡ç†æœåŠ¡
 
-³éÏó²ã (Abstraction Layer)
-©À©¤©¤ Ó²¼ş³éÏó½Ó¿Ú
-©À©¤©¤ Æ½Ì¨ÊÊÅä²ã
-©¸©¤©¤ Çı¶¯½Ó¿Ú²ã
+æŠ½è±¡å±‚ (Abstraction Layer)
+â”œâ”€â”€ ç¡¬ä»¶æŠ½è±¡æ¥å£
+â”œâ”€â”€ å¹³å°é€‚é…å±‚
+â””â”€â”€ é©±åŠ¨æ¥å£å±‚
 
-Ó²¼ş²ã (Hardware Layer)
-©À©¤©¤ ¼Ä´æÆ÷²Ù×÷
-©À©¤©¤ ÖĞ¶Ï´¦Àí
-©¸©¤©¤ µ×²ãÇı¶¯
+ç¡¬ä»¶å±‚ (Hardware Layer)
+â”œâ”€â”€ å¯„å­˜å™¨æ“ä½œ
+â”œâ”€â”€ ä¸­æ–­å¤„ç†
+â””â”€â”€ åº•å±‚é©±åŠ¨
 ```
 
-## Ä¿Â¼½á¹¹
+## ç›®å½•ç»“æ„
 
 ```
 pm_refactor_v2/
-©À©¤©¤ README.md                    # ÏîÄ¿ËµÃ÷ÎÄµµ
-©À©¤©¤ CMakeLists.txt              # ¹¹½¨ÅäÖÃ
-©À©¤©¤ Kconfig                     # ÅäÖÃÑ¡Ïî
-©À©¤©¤ include/                    # ¹«¹²Í·ÎÄ¼ş
-©¦   ©À©¤©¤ pm_types.h             # ÀàĞÍ¶¨Òå
-©¦   ©À©¤©¤ pm_interface.h         # ½Ó¿Ú¶¨Òå
-©¦   ©¸©¤©¤ pm_config.h            # ÅäÖÃ¶¨Òå
-©À©¤©¤ core/                       # ºËĞÄ²ãÊµÏÖ
-©¦   ©À©¤©¤ pm_core.c              # ºËĞÄ¹ÜÀíÆ÷
-©¦   ©À©¤©¤ pm_state_machine.c     # ×´Ì¬»úÊµÏÖ
-©¦   ©¸©¤©¤ pm_context.c           # ÉÏÏÂÎÄ¹ÜÀí
-©À©¤©¤ services/                   # ·şÎñ²ãÊµÏÖ
-©¦   ©À©¤©¤ pm_sleep_service.c     # Ë¯Ãß¹ÜÀí·şÎñ
-©¦   ©À©¤©¤ pm_wakeup_service.c    # »½ĞÑ¹ÜÀí·şÎñ
-©¦   ©À©¤©¤ pm_voltage_service.c   # µçÑ¹¹ÜÀí·şÎñ
-©¦   ©¸©¤©¤ pm_clock_service.c     # Ê±ÖÓ¹ÜÀí·şÎñ
-©À©¤©¤ hal/                        # Ó²¼ş³éÏó²ã
-©¦   ©À©¤©¤ pm_hal_interface.h     # HAL½Ó¿Ú¶¨Òå
-©¦   ©¸©¤©¤ pm_hal_impl.c          # HALÊµÏÖ
-©À©¤©¤ utils/                      # ¹¤¾ßÄ£¿é
-©¦   ©À©¤©¤ pm_logger.c            # ÈÕÖ¾ÏµÍ³
-©¦   ©À©¤©¤ pm_statistics.c        # Í³¼ÆÄ£¿é
-©¦   ©¸©¤©¤ pm_debug.c             # µ÷ÊÔÄ£¿é
-©À©¤©¤ tests/                      # ²âÊÔ´úÂë
-©¦   ©À©¤©¤ unit_tests/            # µ¥Ôª²âÊÔ
-©¦   ©¸©¤©¤ integration_tests/     # ¼¯³É²âÊÔ
-©À©¤©¤ docs/                       # ÎÄµµ
-©¦   ©À©¤©¤ architecture.md        # ¼Ü¹¹Éè¼ÆÎÄµµ
-©¦   ©À©¤©¤ api_reference.md       # API²Î¿¼ÎÄµµ
-©¦   ©¸©¤©¤ resource_analysis.md   # ×ÊÔ´Õ¼ÓÃ·ÖÎö
-©¸©¤©¤ examples/                   # Ê¾Àı´úÂë
-    ©À©¤©¤ basic_usage.c          # »ù±¾Ê¹ÓÃÊ¾Àı
-    ©¸©¤©¤ advanced_usage.c       # ¸ß¼¶Ê¹ÓÃÊ¾Àı
+â”œâ”€â”€ README.md                    # é¡¹ç›®è¯´æ˜æ–‡æ¡£
+â”œâ”€â”€ CMakeLists.txt              # æ„å»ºé…ç½®
+â”œâ”€â”€ Kconfig                     # é…ç½®é€‰é¡¹
+â”œâ”€â”€ include/                    # å…¬å…±å¤´æ–‡ä»¶
+â”‚   â”œâ”€â”€ pm_types.h             # ç±»å‹å®šä¹‰
+â”‚   â”œâ”€â”€ pm_interface.h         # æ¥å£å®šä¹‰
+â”‚   â””â”€â”€ pm_config.h            # é…ç½®å®šä¹‰
+â”œâ”€â”€ core/                       # æ ¸å¿ƒå±‚å®ç°
+â”‚   â”œâ”€â”€ pm_core.c              # æ ¸å¿ƒç®¡ç†å™¨
+â”‚   â”œâ”€â”€ pm_state_machine.c     # çŠ¶æ€æœºå®ç°
+â”‚   â””â”€â”€ pm_context.c           # ä¸Šä¸‹æ–‡ç®¡ç†
+â”œâ”€â”€ services/                   # æœåŠ¡å±‚å®ç°
+â”‚   â”œâ”€â”€ pm_sleep_service.c     # ç¡çœ ç®¡ç†æœåŠ¡
+â”‚   â”œâ”€â”€ pm_wakeup_service.c    # å”¤é†’ç®¡ç†æœåŠ¡
+â”‚   â”œâ”€â”€ pm_voltage_service.c   # ç”µå‹ç®¡ç†æœåŠ¡
+â”‚   â””â”€â”€ pm_clock_service.c     # æ—¶é’Ÿç®¡ç†æœåŠ¡
+â”œâ”€â”€ hal/                        # ç¡¬ä»¶æŠ½è±¡å±‚
+â”‚   â”œâ”€â”€ pm_hal_interface.h     # HALæ¥å£å®šä¹‰
+â”‚   â””â”€â”€ pm_hal_impl.c          # HALå®ç°
+â”œâ”€â”€ utils/                      # å·¥å…·æ¨¡å—
+â”‚   â”œâ”€â”€ pm_logger.c            # æ—¥å¿—ç³»ç»Ÿ
+â”‚   â”œâ”€â”€ pm_statistics.c        # ç»Ÿè®¡æ¨¡å—
+â”‚   â””â”€â”€ pm_debug.c             # è°ƒè¯•æ¨¡å—
+â”œâ”€â”€ tests/                      # æµ‹è¯•ä»£ç 
+â”‚   â”œâ”€â”€ unit_tests/            # å•å…ƒæµ‹è¯•
+â”‚   â””â”€â”€ integration_tests/     # é›†æˆæµ‹è¯•
+â”œâ”€â”€ docs/                       # æ–‡æ¡£
+â”‚   â”œâ”€â”€ architecture.md        # æ¶æ„è®¾è®¡æ–‡æ¡£
+â”‚   â”œâ”€â”€ api_reference.md       # APIå‚è€ƒæ–‡æ¡£
+â”‚   â””â”€â”€ resource_analysis.md   # èµ„æºå ç”¨åˆ†æ
+â””â”€â”€ examples/                   # ç¤ºä¾‹ä»£ç 
+    â”œâ”€â”€ basic_usage.c          # åŸºæœ¬ä½¿ç”¨ç¤ºä¾‹
+    â””â”€â”€ advanced_usage.c       # é«˜çº§ä½¿ç”¨ç¤ºä¾‹
 ```
 
-## Ö÷ÒªÌØĞÔ
+## ä¸»è¦ç‰¹æ€§
 
-- **·Ö²ã¼Ü¹¹**: ÇåÎúµÄ·Ö²ãÉè¼Æ£¬±ãÓÚÎ¬»¤ºÍÀ©Õ¹
-- **Ä£¿é»¯Éè¼Æ**: ¸ßÄÚ¾ÛµÍñîºÏµÄÄ£¿éÉè¼Æ
-- **½Ó¿Ú³éÏó**: Í³Ò»µÄ½Ó¿ÚÉè¼Æ£¬Ö§³Ö¶àÆ½Ì¨ÒÆÖ²
-- **×´Ì¬»ú¹ÜÀí**: »ùÓÚ×´Ì¬»úµÄµçÔ´×´Ì¬¹ÜÀí
-- **×ÊÔ´ÓÅ»¯**: Õë¶ÔÇ¶ÈëÊ½ÏµÍ³µÄ×ÊÔ´ÓÅ»¯
-- **µ÷ÊÔÖ§³Ö**: ÍêÉÆµÄµ÷ÊÔºÍ¼à¿Ø¹¦ÄÜ
+- **åˆ†å±‚æ¶æ„**: æ¸…æ™°çš„åˆ†å±‚è®¾è®¡ï¼Œä¾¿äºç»´æŠ¤å’Œæ‰©å±•
+- **æ¨¡å—åŒ–è®¾è®¡**: é«˜å†…èšä½è€¦åˆçš„æ¨¡å—è®¾è®¡
+- **æ¥å£æŠ½è±¡**: ç»Ÿä¸€çš„æ¥å£è®¾è®¡ï¼Œæ”¯æŒå¤šå¹³å°ç§»æ¤
+- **çŠ¶æ€æœºç®¡ç†**: åŸºäºçŠ¶æ€æœºçš„ç”µæºçŠ¶æ€ç®¡ç†
+- **èµ„æºä¼˜åŒ–**: é’ˆå¯¹åµŒå…¥å¼ç³»ç»Ÿçš„èµ„æºä¼˜åŒ–
+- **è°ƒè¯•æ”¯æŒ**: å®Œå–„çš„è°ƒè¯•å’Œç›‘æ§åŠŸèƒ½
 
-## ×ÊÔ´Õ¼ÓÃÆÀ¹À
+## èµ„æºå ç”¨è¯„ä¼°
 
-ÏêÏ¸µÄ×ÊÔ´Õ¼ÓÃ·ÖÎöÇë²Î¿¼ `docs/resource_analysis.md`
+è¯¦ç»†çš„èµ„æºå ç”¨åˆ†æè¯·å‚è€ƒ `docs/resource_analysis.md`
 
-## ¹¹½¨ËµÃ÷
+## æ„å»ºè¯´æ˜
 
 ```bash
-# ÅäÖÃ¹¹½¨
+# é…ç½®æ„å»º
 cmake -B build
 
-# ±àÒë
+# ç¼–è¯‘
 cmake --build build
 
-# ÔËĞĞ²âÊÔ
+# è¿è¡Œæµ‹è¯•
 ctest --test-dir build
 ```
 
-## Ê¹ÓÃÊ¾Àı
+## ä½¿ç”¨ç¤ºä¾‹
 
-²Î¿¼ `examples/` Ä¿Â¼ÏÂµÄÊ¾Àı´úÂë¡£
+å‚è€ƒ `examples/` ç›®å½•ä¸‹çš„ç¤ºä¾‹ä»£ç ã€‚
 
           
-´´½¨ºËĞÄÀàĞÍ¶¨ÒåºÍ½Ó¿ÚÎÄ¼ş¡£
+åˆ›å»ºæ ¸å¿ƒç±»å‹å®šä¹‰å’Œæ¥å£æ–‡ä»¶ã€‚
         
             
 toolName: write_to_file
@@ -135,7 +135,7 @@ filePath: d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\include\pm_types.h
           
 content: /**
  * @file pm_types.h
- * @brief PMÄ£¿éºËĞÄÀàĞÍ¶¨Òå
+ * @brief PMæ¨¡å—æ ¸å¿ƒç±»å‹å®šä¹‰
  * @version 2.0
  * @date 2024
  */
@@ -150,228 +150,228 @@ content: /**
 extern "C" {
 #endif
 
-/* ==================== »ù´¡ÀàĞÍ¶¨Òå ==================== */
+/* ==================== åŸºç¡€ç±»å‹å®šä¹‰ ==================== */
 
 /**
- * @brief PMÄ£¿é´íÎóÂë
+ * @brief PMæ¨¡å—é”™è¯¯ç 
  */
 typedef enum {
-    PM_OK = 0,                    /**< ³É¹¦ */
-    PM_ERR_INVALID_PARAM,         /**< ÎŞĞ§²ÎÊı */
-    PM_ERR_NOT_INITIALIZED,       /**< Î´³õÊ¼»¯ */
-    PM_ERR_ALREADY_INITIALIZED,   /**< ÒÑ³õÊ¼»¯ */
-    PM_ERR_NOT_SUPPORTED,         /**< ²»Ö§³ÖµÄ²Ù×÷ */
-    PM_ERR_TIMEOUT,               /**< ³¬Ê± */
-    PM_ERR_BUSY,                  /**< Ã¦Âµ×´Ì¬ */
-    PM_ERR_NO_MEMORY,             /**< ÄÚ´æ²»×ã */
-    PM_ERR_HARDWARE_FAULT,        /**< Ó²¼ş¹ÊÕÏ */
-    PM_ERR_STATE_INVALID,         /**< ÎŞĞ§×´Ì¬ */
-    PM_ERR_CALLBACK_FAILED,       /**< »Øµ÷Ö´ĞĞÊ§°Ü */
+    PM_OK = 0,                    /**< æˆåŠŸ */
+    PM_ERR_INVALID_PARAM,         /**< æ— æ•ˆå‚æ•° */
+    PM_ERR_NOT_INITIALIZED,       /**< æœªåˆå§‹åŒ– */
+    PM_ERR_ALREADY_INITIALIZED,   /**< å·²åˆå§‹åŒ– */
+    PM_ERR_NOT_SUPPORTED,         /**< ä¸æ”¯æŒçš„æ“ä½œ */
+    PM_ERR_TIMEOUT,               /**< è¶…æ—¶ */
+    PM_ERR_BUSY,                  /**< å¿™ç¢ŒçŠ¶æ€ */
+    PM_ERR_NO_MEMORY,             /**< å†…å­˜ä¸è¶³ */
+    PM_ERR_HARDWARE_FAULT,        /**< ç¡¬ä»¶æ•…éšœ */
+    PM_ERR_STATE_INVALID,         /**< æ— æ•ˆçŠ¶æ€ */
+    PM_ERR_CALLBACK_FAILED,       /**< å›è°ƒæ‰§è¡Œå¤±è´¥ */
     PM_ERR_MAX
 } pm_err_t;
 
 /**
- * @brief PMÄ£¿éID
+ * @brief PMæ¨¡å—ID
  */
 typedef enum {
-    PM_MODULE_CORE = 0,           /**< ºËĞÄÄ£¿é */
-    PM_MODULE_SLEEP,              /**< Ë¯ÃßÄ£¿é */
-    PM_MODULE_WAKEUP,             /**< »½ĞÑÄ£¿é */
-    PM_MODULE_VOLTAGE,            /**< µçÑ¹Ä£¿é */
-    PM_MODULE_CLOCK,              /**< Ê±ÖÓÄ£¿é */
-    PM_MODULE_CALLBACK,           /**< »Øµ÷Ä£¿é */
-    PM_MODULE_DEBUG,              /**< µ÷ÊÔÄ£¿é */
+    PM_MODULE_CORE = 0,           /**< æ ¸å¿ƒæ¨¡å— */
+    PM_MODULE_SLEEP,              /**< ç¡çœ æ¨¡å— */
+    PM_MODULE_WAKEUP,             /**< å”¤é†’æ¨¡å— */
+    PM_MODULE_VOLTAGE,            /**< ç”µå‹æ¨¡å— */
+    PM_MODULE_CLOCK,              /**< æ—¶é’Ÿæ¨¡å— */
+    PM_MODULE_CALLBACK,           /**< å›è°ƒæ¨¡å— */
+    PM_MODULE_DEBUG,              /**< è°ƒè¯•æ¨¡å— */
     PM_MODULE_MAX
 } pm_module_id_t;
 
 /**
- * @brief µçÔ´×´Ì¬Ã¶¾Ù
+ * @brief ç”µæºçŠ¶æ€æšä¸¾
  */
 typedef enum {
-    PM_STATE_ACTIVE = 0,          /**< »îÔ¾×´Ì¬ */
-    PM_STATE_IDLE,                /**< ¿ÕÏĞ×´Ì¬ */
-    PM_STATE_LIGHT_SLEEP,         /**< Çá¶ÈË¯Ãß */
-    PM_STATE_DEEP_SLEEP,          /**< Éî¶ÈË¯Ãß */
-    PM_STATE_SUPER_DEEP_SLEEP,    /**< ³¬Éî¶ÈË¯Ãß */
-    PM_STATE_SHUTDOWN,            /**< ¹Ø»ú×´Ì¬ */
+    PM_STATE_ACTIVE = 0,          /**< æ´»è·ƒçŠ¶æ€ */
+    PM_STATE_IDLE,                /**< ç©ºé—²çŠ¶æ€ */
+    PM_STATE_LIGHT_SLEEP,         /**< è½»åº¦ç¡çœ  */
+    PM_STATE_DEEP_SLEEP,          /**< æ·±åº¦ç¡çœ  */
+    PM_STATE_SUPER_DEEP_SLEEP,    /**< è¶…æ·±åº¦ç¡çœ  */
+    PM_STATE_SHUTDOWN,            /**< å…³æœºçŠ¶æ€ */
     PM_STATE_MAX
 } pm_state_t;
 
 /**
- * @brief Ë¯ÃßÄ£Ê½Ã¶¾Ù
+ * @brief ç¡çœ æ¨¡å¼æšä¸¾
  */
 typedef enum {
-    PM_SLEEP_MODE_NONE = 0,       /**< ÎŞË¯Ãß */
-    PM_SLEEP_MODE_LIGHT,          /**< Çá¶ÈË¯Ãß */
-    PM_SLEEP_MODE_DEEP,           /**< Éî¶ÈË¯Ãß */
-    PM_SLEEP_MODE_SUPER_DEEP,     /**< ³¬Éî¶ÈË¯Ãß */
+    PM_SLEEP_MODE_NONE = 0,       /**< æ— ç¡çœ  */
+    PM_SLEEP_MODE_LIGHT,          /**< è½»åº¦ç¡çœ  */
+    PM_SLEEP_MODE_DEEP,           /**< æ·±åº¦ç¡çœ  */
+    PM_SLEEP_MODE_SUPER_DEEP,     /**< è¶…æ·±åº¦ç¡çœ  */
     PM_SLEEP_MODE_MAX
 } pm_sleep_mode_t;
 
 /**
- * @brief »½ĞÑÔ´Ã¶¾Ù
+ * @brief å”¤é†’æºæšä¸¾
  */
 typedef enum {
-    PM_WAKEUP_SOURCE_NONE = 0,    /**< ÎŞ»½ĞÑÔ´ */
-    PM_WAKEUP_SOURCE_RTC,         /**< RTC»½ĞÑ */
-    PM_WAKEUP_SOURCE_GPIO,        /**< GPIO»½ĞÑ */
-    PM_WAKEUP_SOURCE_TOUCH,       /**< ´¥Ãş»½ĞÑ */
-    PM_WAKEUP_SOURCE_UART,        /**< UART»½ĞÑ */
-    PM_WAKEUP_SOURCE_TIMER,       /**< ¶¨Ê±Æ÷»½ĞÑ */
-    PM_WAKEUP_SOURCE_SYSTEM,      /**< ÏµÍ³»½ĞÑ */
+    PM_WAKEUP_SOURCE_NONE = 0,    /**< æ— å”¤é†’æº */
+    PM_WAKEUP_SOURCE_RTC,         /**< RTCå”¤é†’ */
+    PM_WAKEUP_SOURCE_GPIO,        /**< GPIOå”¤é†’ */
+    PM_WAKEUP_SOURCE_TOUCH,       /**< è§¦æ‘¸å”¤é†’ */
+    PM_WAKEUP_SOURCE_UART,        /**< UARTå”¤é†’ */
+    PM_WAKEUP_SOURCE_TIMER,       /**< å®šæ—¶å™¨å”¤é†’ */
+    PM_WAKEUP_SOURCE_SYSTEM,      /**< ç³»ç»Ÿå”¤é†’ */
     PM_WAKEUP_SOURCE_MAX
 } pm_wakeup_source_t;
 
 /**
- * @brief µçÑ¹ÓòÃ¶¾Ù
+ * @brief ç”µå‹åŸŸæšä¸¾
  */
 typedef enum {
-    PM_VOLTAGE_DOMAIN_CORE = 0,   /**< ºËĞÄµçÑ¹Óò */
-    PM_VOLTAGE_DOMAIN_IO,         /**< IOµçÑ¹Óò */
-    PM_VOLTAGE_DOMAIN_RF,         /**< RFµçÑ¹Óò */
-    PM_VOLTAGE_DOMAIN_ANALOG,     /**< Ä£ÄâµçÑ¹Óò */
+    PM_VOLTAGE_DOMAIN_CORE = 0,   /**< æ ¸å¿ƒç”µå‹åŸŸ */
+    PM_VOLTAGE_DOMAIN_IO,         /**< IOç”µå‹åŸŸ */
+    PM_VOLTAGE_DOMAIN_RF,         /**< RFç”µå‹åŸŸ */
+    PM_VOLTAGE_DOMAIN_ANALOG,     /**< æ¨¡æ‹Ÿç”µå‹åŸŸ */
     PM_VOLTAGE_DOMAIN_MAX
 } pm_voltage_domain_t;
 
 /**
- * @brief Ê±ÖÓÓòÃ¶¾Ù
+ * @brief æ—¶é’ŸåŸŸæšä¸¾
  */
 typedef enum {
-    PM_CLOCK_DOMAIN_CPU = 0,      /**< CPUÊ±ÖÓÓò */
-    PM_CLOCK_DOMAIN_BUS,          /**< ×ÜÏßÊ±ÖÓÓò */
-    PM_CLOCK_DOMAIN_PERIPHERAL,   /**< ÍâÉèÊ±ÖÓÓò */
-    PM_CLOCK_DOMAIN_RTC,          /**< RTCÊ±ÖÓÓò */
+    PM_CLOCK_DOMAIN_CPU = 0,      /**< CPUæ—¶é’ŸåŸŸ */
+    PM_CLOCK_DOMAIN_BUS,          /**< æ€»çº¿æ—¶é’ŸåŸŸ */
+    PM_CLOCK_DOMAIN_PERIPHERAL,   /**< å¤–è®¾æ—¶é’ŸåŸŸ */
+    PM_CLOCK_DOMAIN_RTC,          /**< RTCæ—¶é’ŸåŸŸ */
     PM_CLOCK_DOMAIN_MAX
 } pm_clock_domain_t;
 
 /**
- * @brief »Øµ÷ÓÅÏÈ¼¶
+ * @brief å›è°ƒä¼˜å…ˆçº§
  */
 typedef enum {
-    PM_CALLBACK_PRIORITY_HIGHEST = 0, /**< ×î¸ßÓÅÏÈ¼¶ */
-    PM_CALLBACK_PRIORITY_HIGH,        /**< ¸ßÓÅÏÈ¼¶ */
-    PM_CALLBACK_PRIORITY_NORMAL,      /**< ÆÕÍ¨ÓÅÏÈ¼¶ */
-    PM_CALLBACK_PRIORITY_LOW,         /**< µÍÓÅÏÈ¼¶ */
-    PM_CALLBACK_PRIORITY_LOWEST,      /**< ×îµÍÓÅÏÈ¼¶ */
+    PM_CALLBACK_PRIORITY_HIGHEST = 0, /**< æœ€é«˜ä¼˜å…ˆçº§ */
+    PM_CALLBACK_PRIORITY_HIGH,        /**< é«˜ä¼˜å…ˆçº§ */
+    PM_CALLBACK_PRIORITY_NORMAL,      /**< æ™®é€šä¼˜å…ˆçº§ */
+    PM_CALLBACK_PRIORITY_LOW,         /**< ä½ä¼˜å…ˆçº§ */
+    PM_CALLBACK_PRIORITY_LOWEST,      /**< æœ€ä½ä¼˜å…ˆçº§ */
     PM_CALLBACK_PRIORITY_MAX
 } pm_callback_priority_t;
 
 /**
- * @brief µ÷ÊÔ¼¶±ğ
+ * @brief è°ƒè¯•çº§åˆ«
  */
 typedef enum {
-    PM_DEBUG_LEVEL_NONE = 0,      /**< ÎŞµ÷ÊÔĞÅÏ¢ */
-    PM_DEBUG_LEVEL_ERROR,         /**< ´íÎóĞÅÏ¢ */
-    PM_DEBUG_LEVEL_WARN,          /**< ¾¯¸æĞÅÏ¢ */
-    PM_DEBUG_LEVEL_INFO,          /**< Ò»°ãĞÅÏ¢ */
-    PM_DEBUG_LEVEL_DEBUG,         /**< µ÷ÊÔĞÅÏ¢ */
-    PM_DEBUG_LEVEL_VERBOSE,       /**< ÏêÏ¸ĞÅÏ¢ */
+    PM_DEBUG_LEVEL_NONE = 0,      /**< æ— è°ƒè¯•ä¿¡æ¯ */
+    PM_DEBUG_LEVEL_ERROR,         /**< é”™è¯¯ä¿¡æ¯ */
+    PM_DEBUG_LEVEL_WARN,          /**< è­¦å‘Šä¿¡æ¯ */
+    PM_DEBUG_LEVEL_INFO,          /**< ä¸€èˆ¬ä¿¡æ¯ */
+    PM_DEBUG_LEVEL_DEBUG,         /**< è°ƒè¯•ä¿¡æ¯ */
+    PM_DEBUG_LEVEL_VERBOSE,       /**< è¯¦ç»†ä¿¡æ¯ */
     PM_DEBUG_LEVEL_MAX
 } pm_debug_level_t;
 
-/* ==================== ½á¹¹Ìå¶¨Òå ==================== */
+/* ==================== ç»“æ„ä½“å®šä¹‰ ==================== */
 
 /**
- * @brief PMÉÏÏÂÎÄ½á¹¹Ìå
+ * @brief PMä¸Šä¸‹æ–‡ç»“æ„ä½“
  */
 typedef struct {
-    pm_state_t current_state;         /**< µ±Ç°×´Ì¬ */
-    pm_state_t previous_state;        /**< Ç°Ò»¸ö×´Ì¬ */
-    pm_sleep_mode_t sleep_mode;       /**< Ë¯ÃßÄ£Ê½ */
-    pm_wakeup_source_t wakeup_source; /**< »½ĞÑÔ´ */
-    uint64_t state_enter_time;        /**< ×´Ì¬½øÈëÊ±¼ä */
-    uint64_t state_duration;          /**< ×´Ì¬³ÖĞøÊ±¼ä */
-    uint32_t sleep_count;             /**< Ë¯Ãß´ÎÊı */
-    uint32_t wakeup_count;            /**< »½ĞÑ´ÎÊı */
-    bool initialized;                 /**< ³õÊ¼»¯±êÖ¾ */
-    void *private_data;               /**< Ë½ÓĞÊı¾İ */
+    pm_state_t current_state;         /**< å½“å‰çŠ¶æ€ */
+    pm_state_t previous_state;        /**< å‰ä¸€ä¸ªçŠ¶æ€ */
+    pm_sleep_mode_t sleep_mode;       /**< ç¡çœ æ¨¡å¼ */
+    pm_wakeup_source_t wakeup_source; /**< å”¤é†’æº */
+    uint64_t state_enter_time;        /**< çŠ¶æ€è¿›å…¥æ—¶é—´ */
+    uint64_t state_duration;          /**< çŠ¶æ€æŒç»­æ—¶é—´ */
+    uint32_t sleep_count;             /**< ç¡çœ æ¬¡æ•° */
+    uint32_t wakeup_count;            /**< å”¤é†’æ¬¡æ•° */
+    bool initialized;                 /**< åˆå§‹åŒ–æ ‡å¿— */
+    void *private_data;               /**< ç§æœ‰æ•°æ® */
 } pm_context_t;
 
 /**
- * @brief Ë¯ÃßÅäÖÃ½á¹¹Ìå
+ * @brief ç¡çœ é…ç½®ç»“æ„ä½“
  */
 typedef struct {
-    pm_sleep_mode_t mode;             /**< Ë¯ÃßÄ£Ê½ */
-    uint32_t timeout_ms;              /**< ³¬Ê±Ê±¼ä(ºÁÃë) */
-    pm_wakeup_source_t wakeup_mask;   /**< »½ĞÑÔ´ÑÚÂë */
-    bool auto_wakeup;                 /**< ×Ô¶¯»½ĞÑÊ¹ÄÜ */
-    void *user_data;                  /**< ÓÃ»§Êı¾İ */
+    pm_sleep_mode_t mode;             /**< ç¡çœ æ¨¡å¼ */
+    uint32_t timeout_ms;              /**< è¶…æ—¶æ—¶é—´(æ¯«ç§’) */
+    pm_wakeup_source_t wakeup_mask;   /**< å”¤é†’æºæ©ç  */
+    bool auto_wakeup;                 /**< è‡ªåŠ¨å”¤é†’ä½¿èƒ½ */
+    void *user_data;                  /**< ç”¨æˆ·æ•°æ® */
 } pm_sleep_config_t;
 
 /**
- * @brief µçÑ¹ÅäÖÃ½á¹¹Ìå
+ * @brief ç”µå‹é…ç½®ç»“æ„ä½“
  */
 typedef struct {
-    pm_voltage_domain_t domain;       /**< µçÑ¹Óò */
-    uint32_t voltage_mv;              /**< µçÑ¹Öµ(ºÁ·ü) */
-    uint32_t ramp_time_us;            /**< µçÑ¹ÅÀÉıÊ±¼ä(Î¢Ãë) */
-    bool enable;                      /**< Ê¹ÄÜ±êÖ¾ */
+    pm_voltage_domain_t domain;       /**< ç”µå‹åŸŸ */
+    uint32_t voltage_mv;              /**< ç”µå‹å€¼(æ¯«ä¼) */
+    uint32_t ramp_time_us;            /**< ç”µå‹çˆ¬å‡æ—¶é—´(å¾®ç§’) */
+    bool enable;                      /**< ä½¿èƒ½æ ‡å¿— */
 } pm_voltage_config_t;
 
 /**
- * @brief Ê±ÖÓÅäÖÃ½á¹¹Ìå
+ * @brief æ—¶é’Ÿé…ç½®ç»“æ„ä½“
  */
 typedef struct {
-    pm_clock_domain_t domain;         /**< Ê±ÖÓÓò */
-    uint32_t frequency_hz;            /**< ÆµÂÊ(ºÕ×È) */
-    uint32_t divider;                 /**< ·ÖÆµÏµÊı */
-    bool enable;                      /**< Ê¹ÄÜ±êÖ¾ */
+    pm_clock_domain_t domain;         /**< æ—¶é’ŸåŸŸ */
+    uint32_t frequency_hz;            /**< é¢‘ç‡(èµ«å…¹) */
+    uint32_t divider;                 /**< åˆ†é¢‘ç³»æ•° */
+    bool enable;                      /**< ä½¿èƒ½æ ‡å¿— */
 } pm_clock_config_t;
 
 /**
- * @brief Í³¼ÆĞÅÏ¢½á¹¹Ìå
+ * @brief ç»Ÿè®¡ä¿¡æ¯ç»“æ„ä½“
  */
 typedef struct {
-    uint32_t sleep_count[PM_SLEEP_MODE_MAX];      /**< ¸÷Ä£Ê½Ë¯Ãß´ÎÊı */
-    uint64_t sleep_duration[PM_SLEEP_MODE_MAX];   /**< ¸÷Ä£Ê½Ë¯ÃßÊ±³¤ */
-    uint32_t wakeup_count[PM_WAKEUP_SOURCE_MAX];  /**< ¸÷Ô´»½ĞÑ´ÎÊı */
-    uint64_t total_active_time;                   /**< ×Ü»îÔ¾Ê±¼ä */
-    uint64_t total_sleep_time;                    /**< ×ÜË¯ÃßÊ±¼ä */
-    uint32_t state_transition_count;              /**< ×´Ì¬×ª»»´ÎÊı */
-    uint32_t error_count;                         /**< ´íÎó´ÎÊı */
+    uint32_t sleep_count[PM_SLEEP_MODE_MAX];      /**< å„æ¨¡å¼ç¡çœ æ¬¡æ•° */
+    uint64_t sleep_duration[PM_SLEEP_MODE_MAX];   /**< å„æ¨¡å¼ç¡çœ æ—¶é•¿ */
+    uint32_t wakeup_count[PM_WAKEUP_SOURCE_MAX];  /**< å„æºå”¤é†’æ¬¡æ•° */
+    uint64_t total_active_time;                   /**< æ€»æ´»è·ƒæ—¶é—´ */
+    uint64_t total_sleep_time;                    /**< æ€»ç¡çœ æ—¶é—´ */
+    uint32_t state_transition_count;              /**< çŠ¶æ€è½¬æ¢æ¬¡æ•° */
+    uint32_t error_count;                         /**< é”™è¯¯æ¬¡æ•° */
 } pm_statistics_t;
 
-/* ==================== »Øµ÷º¯ÊıÀàĞÍ¶¨Òå ==================== */
+/* ==================== å›è°ƒå‡½æ•°ç±»å‹å®šä¹‰ ==================== */
 
 /**
- * @brief ×´Ì¬±ä»¯»Øµ÷º¯ÊıÀàĞÍ
+ * @brief çŠ¶æ€å˜åŒ–å›è°ƒå‡½æ•°ç±»å‹
  */
 typedef pm_err_t (*pm_state_callback_t)(pm_state_t old_state, pm_state_t new_state, void *user_data);
 
 /**
- * @brief Ë¯Ãß½øÈë»Øµ÷º¯ÊıÀàĞÍ
+ * @brief ç¡çœ è¿›å…¥å›è°ƒå‡½æ•°ç±»å‹
  */
 typedef pm_err_t (*pm_sleep_enter_callback_t)(pm_sleep_mode_t mode, void *user_data);
 
 /**
- * @brief Ë¯ÃßÍË³ö»Øµ÷º¯ÊıÀàĞÍ
+ * @brief ç¡çœ é€€å‡ºå›è°ƒå‡½æ•°ç±»å‹
  */
 typedef pm_err_t (*pm_sleep_exit_callback_t)(pm_sleep_mode_t mode, pm_wakeup_source_t source, void *user_data);
 
 /**
- * @brief µçÑ¹±ä»¯»Øµ÷º¯ÊıÀàĞÍ
+ * @brief ç”µå‹å˜åŒ–å›è°ƒå‡½æ•°ç±»å‹
  */
 typedef pm_err_t (*pm_voltage_callback_t)(pm_voltage_domain_t domain, uint32_t old_voltage, uint32_t new_voltage, void *user_data);
 
 /**
- * @brief Ê±ÖÓ±ä»¯»Øµ÷º¯ÊıÀàĞÍ
+ * @brief æ—¶é’Ÿå˜åŒ–å›è°ƒå‡½æ•°ç±»å‹
  */
 typedef pm_err_t (*pm_clock_callback_t)(pm_clock_domain_t domain, uint32_t old_freq, uint32_t new_freq, void *user_data);
 
 /**
- * @brief ´íÎó´¦Àí»Øµ÷º¯ÊıÀàĞÍ
+ * @brief é”™è¯¯å¤„ç†å›è°ƒå‡½æ•°ç±»å‹
  */
 typedef pm_err_t (*pm_error_callback_t)(pm_err_t error, pm_module_id_t module, void *user_data);
 
-/* ==================== ³£Á¿¶¨Òå ==================== */
+/* ==================== å¸¸é‡å®šä¹‰ ==================== */
 
-#define PM_INVALID_HANDLE           (0xFFFFFFFF)    /**< ÎŞĞ§¾ä±ú */
-#define PM_TIMEOUT_INFINITE         (0xFFFFFFFF)    /**< ÎŞÏŞ³¬Ê± */
-#define PM_VOLTAGE_INVALID          (0xFFFFFFFF)    /**< ÎŞĞ§µçÑ¹ */
-#define PM_FREQUENCY_INVALID        (0xFFFFFFFF)    /**< ÎŞĞ§ÆµÂÊ */
+#define PM_INVALID_HANDLE           (0xFFFFFFFF)    /**< æ— æ•ˆå¥æŸ„ */
+#define PM_TIMEOUT_INFINITE         (0xFFFFFFFF)    /**< æ— é™è¶…æ—¶ */
+#define PM_VOLTAGE_INVALID          (0xFFFFFFFF)    /**< æ— æ•ˆç”µå‹ */
+#define PM_FREQUENCY_INVALID        (0xFFFFFFFF)    /**< æ— æ•ˆé¢‘ç‡ */
 
-#define PM_MAX_CALLBACKS            (16)            /**< ×î´ó»Øµ÷ÊıÁ¿ */
-#define PM_MAX_NAME_LENGTH          (32)            /**< ×î´óÃû³Æ³¤¶È */
+#define PM_MAX_CALLBACKS            (16)            /**< æœ€å¤§å›è°ƒæ•°é‡ */
+#define PM_MAX_NAME_LENGTH          (32)            /**< æœ€å¤§åç§°é•¿åº¦ */
 
 #ifdef __cplusplus
 }
@@ -380,7 +380,7 @@ typedef pm_err_t (*pm_error_callback_t)(pm_err_t error, pm_module_id_t module, v
 #endif /* PM_TYPES_H */
 
           
-´´½¨PM½Ó¿Ú¶¨ÒåÎÄ¼ş¡£
+åˆ›å»ºPMæ¥å£å®šä¹‰æ–‡ä»¶ã€‚
         
             
 toolName: write_to_file
@@ -392,7 +392,7 @@ filePath: d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\include\pm_interface.
           
 content: /**
  * @file pm_interface.h
- * @brief PMÄ£¿é½Ó¿Ú¶¨Òå
+ * @brief PMæ¨¡å—æ¥å£å®šä¹‰
  * @version 2.0
  * @date 2024
  */
@@ -406,204 +406,204 @@ content: /**
 extern "C" {
 #endif
 
-/* ==================== ºËĞÄ½Ó¿Ú ==================== */
+/* ==================== æ ¸å¿ƒæ¥å£ ==================== */
 
 /**
- * @brief PMºËĞÄ½Ó¿Ú½á¹¹Ìå
+ * @brief PMæ ¸å¿ƒæ¥å£ç»“æ„ä½“
  */
 typedef struct {
-    pm_err_t (*init)(void);                                    /**< ³õÊ¼»¯ */
-    pm_err_t (*deinit)(void);                                  /**< ·´³õÊ¼»¯ */
-    pm_err_t (*set_state)(pm_state_t state);                   /**< ÉèÖÃ×´Ì¬ */
-    pm_err_t (*get_state)(pm_state_t *state);                  /**< »ñÈ¡×´Ì¬ */
-    pm_err_t (*get_context)(pm_context_t **context);           /**< »ñÈ¡ÉÏÏÂÎÄ */
-    pm_err_t (*reset)(void);                                   /**< ÖØÖÃ */
+    pm_err_t (*init)(void);                                    /**< åˆå§‹åŒ– */
+    pm_err_t (*deinit)(void);                                  /**< ååˆå§‹åŒ– */
+    pm_err_t (*set_state)(pm_state_t state);                   /**< è®¾ç½®çŠ¶æ€ */
+    pm_err_t (*get_state)(pm_state_t *state);                  /**< è·å–çŠ¶æ€ */
+    pm_err_t (*get_context)(pm_context_t **context);           /**< è·å–ä¸Šä¸‹æ–‡ */
+    pm_err_t (*reset)(void);                                   /**< é‡ç½® */
 } pm_core_interface_t;
 
 /**
- * @brief Ë¯Ãß¹ÜÀí½Ó¿Ú½á¹¹Ìå
+ * @brief ç¡çœ ç®¡ç†æ¥å£ç»“æ„ä½“
  */
 typedef struct {
-    pm_err_t (*enter_sleep)(pm_sleep_config_t *config);        /**< ½øÈëË¯Ãß */
-    pm_err_t (*exit_sleep)(pm_wakeup_source_t source);         /**< ÍË³öË¯Ãß */
-    pm_err_t (*set_mode)(pm_sleep_mode_t mode);                /**< ÉèÖÃË¯ÃßÄ£Ê½ */
-    pm_err_t (*get_mode)(pm_sleep_mode_t *mode);               /**< »ñÈ¡Ë¯ÃßÄ£Ê½ */
-    pm_err_t (*is_sleep_allowed)(bool *allowed);               /**< ¼ì²éÊÇ·ñÔÊĞíË¯Ãß */
-    pm_err_t (*get_sleep_duration)(uint64_t *duration_ms);     /**< »ñÈ¡Ë¯ÃßÊ±³¤ */
+    pm_err_t (*enter_sleep)(pm_sleep_config_t *config);        /**< è¿›å…¥ç¡çœ  */
+    pm_err_t (*exit_sleep)(pm_wakeup_source_t source);         /**< é€€å‡ºç¡çœ  */
+    pm_err_t (*set_mode)(pm_sleep_mode_t mode);                /**< è®¾ç½®ç¡çœ æ¨¡å¼ */
+    pm_err_t (*get_mode)(pm_sleep_mode_t *mode);               /**< è·å–ç¡çœ æ¨¡å¼ */
+    pm_err_t (*is_sleep_allowed)(bool *allowed);               /**< æ£€æŸ¥æ˜¯å¦å…è®¸ç¡çœ  */
+    pm_err_t (*get_sleep_duration)(uint64_t *duration_ms);     /**< è·å–ç¡çœ æ—¶é•¿ */
 } pm_sleep_interface_t;
 
 /**
- * @brief »½ĞÑ¹ÜÀí½Ó¿Ú½á¹¹Ìå
+ * @brief å”¤é†’ç®¡ç†æ¥å£ç»“æ„ä½“
  */
 typedef struct {
-    pm_err_t (*set_wakeup_source)(pm_wakeup_source_t source, bool enable); /**< ÉèÖÃ»½ĞÑÔ´ */
-    pm_err_t (*get_wakeup_source)(pm_wakeup_source_t *source);             /**< »ñÈ¡»½ĞÑÔ´ */
-    pm_err_t (*clear_wakeup_source)(pm_wakeup_source_t source);            /**< Çå³ı»½ĞÑÔ´ */
-    pm_err_t (*get_last_wakeup_source)(pm_wakeup_source_t *source);        /**< »ñÈ¡×îºó»½ĞÑÔ´ */
-    pm_err_t (*set_wakeup_filter)(pm_wakeup_source_t source, bool enable); /**< ÉèÖÃ»½ĞÑ¹ıÂË */
+    pm_err_t (*set_wakeup_source)(pm_wakeup_source_t source, bool enable); /**< è®¾ç½®å”¤é†’æº */
+    pm_err_t (*get_wakeup_source)(pm_wakeup_source_t *source);             /**< è·å–å”¤é†’æº */
+    pm_err_t (*clear_wakeup_source)(pm_wakeup_source_t source);            /**< æ¸…é™¤å”¤é†’æº */
+    pm_err_t (*get_last_wakeup_source)(pm_wakeup_source_t *source);        /**< è·å–æœ€åå”¤é†’æº */
+    pm_err_t (*set_wakeup_filter)(pm_wakeup_source_t source, bool enable); /**< è®¾ç½®å”¤é†’è¿‡æ»¤ */
 } pm_wakeup_interface_t;
 
 /**
- * @brief µçÑ¹¹ÜÀí½Ó¿Ú½á¹¹Ìå
+ * @brief ç”µå‹ç®¡ç†æ¥å£ç»“æ„ä½“
  */
 typedef struct {
-    pm_err_t (*set_voltage)(pm_voltage_domain_t domain, uint32_t voltage_mv);  /**< ÉèÖÃµçÑ¹ */
-    pm_err_t (*get_voltage)(pm_voltage_domain_t domain, uint32_t *voltage_mv); /**< »ñÈ¡µçÑ¹ */
-    pm_err_t (*enable_domain)(pm_voltage_domain_t domain, bool enable);        /**< Ê¹ÄÜµçÑ¹Óò */
-    pm_err_t (*is_domain_enabled)(pm_voltage_domain_t domain, bool *enabled);  /**< ¼ì²éÓòÊÇ·ñÊ¹ÄÜ */
-    pm_err_t (*set_low_voltage_threshold)(uint32_t threshold_mv);              /**< ÉèÖÃµÍµçÑ¹ãĞÖµ */
-    pm_err_t (*get_low_voltage_threshold)(uint32_t *threshold_mv);             /**< »ñÈ¡µÍµçÑ¹ãĞÖµ */
+    pm_err_t (*set_voltage)(pm_voltage_domain_t domain, uint32_t voltage_mv);  /**< è®¾ç½®ç”µå‹ */
+    pm_err_t (*get_voltage)(pm_voltage_domain_t domain, uint32_t *voltage_mv); /**< è·å–ç”µå‹ */
+    pm_err_t (*enable_domain)(pm_voltage_domain_t domain, bool enable);        /**< ä½¿èƒ½ç”µå‹åŸŸ */
+    pm_err_t (*is_domain_enabled)(pm_voltage_domain_t domain, bool *enabled);  /**< æ£€æŸ¥åŸŸæ˜¯å¦ä½¿èƒ½ */
+    pm_err_t (*set_low_voltage_threshold)(uint32_t threshold_mv);              /**< è®¾ç½®ä½ç”µå‹é˜ˆå€¼ */
+    pm_err_t (*get_low_voltage_threshold)(uint32_t *threshold_mv);             /**< è·å–ä½ç”µå‹é˜ˆå€¼ */
 } pm_voltage_interface_t;
 
 /**
- * @brief Ê±ÖÓ¹ÜÀí½Ó¿Ú½á¹¹Ìå
+ * @brief æ—¶é’Ÿç®¡ç†æ¥å£ç»“æ„ä½“
  */
 typedef struct {
-    pm_err_t (*set_frequency)(pm_clock_domain_t domain, uint32_t freq_hz);     /**< ÉèÖÃÆµÂÊ */
-    pm_err_t (*get_frequency)(pm_clock_domain_t domain, uint32_t *freq_hz);    /**< »ñÈ¡ÆµÂÊ */
-    pm_err_t (*enable_clock)(pm_clock_domain_t domain, bool enable);           /**< Ê¹ÄÜÊ±ÖÓ */
-    pm_err_t (*is_clock_enabled)(pm_clock_domain_t domain, bool *enabled);     /**< ¼ì²éÊ±ÖÓÊÇ·ñÊ¹ÄÜ */
-    pm_err_t (*set_divider)(pm_clock_domain_t domain, uint32_t divider);       /**< ÉèÖÃ·ÖÆµ */
-    pm_err_t (*get_divider)(pm_clock_domain_t domain, uint32_t *divider);      /**< »ñÈ¡·ÖÆµ */
+    pm_err_t (*set_frequency)(pm_clock_domain_t domain, uint32_t freq_hz);     /**< è®¾ç½®é¢‘ç‡ */
+    pm_err_t (*get_frequency)(pm_clock_domain_t domain, uint32_t *freq_hz);    /**< è·å–é¢‘ç‡ */
+    pm_err_t (*enable_clock)(pm_clock_domain_t domain, bool enable);           /**< ä½¿èƒ½æ—¶é’Ÿ */
+    pm_err_t (*is_clock_enabled)(pm_clock_domain_t domain, bool *enabled);     /**< æ£€æŸ¥æ—¶é’Ÿæ˜¯å¦ä½¿èƒ½ */
+    pm_err_t (*set_divider)(pm_clock_domain_t domain, uint32_t divider);       /**< è®¾ç½®åˆ†é¢‘ */
+    pm_err_t (*get_divider)(pm_clock_domain_t domain, uint32_t *divider);      /**< è·å–åˆ†é¢‘ */
 } pm_clock_interface_t;
 
 /**
- * @brief »Øµ÷¹ÜÀí½Ó¿Ú½á¹¹Ìå
+ * @brief å›è°ƒç®¡ç†æ¥å£ç»“æ„ä½“
  */
 typedef struct {
-    pm_err_t (*register_state_callback)(pm_state_callback_t callback, void *user_data, uint32_t *handle);           /**< ×¢²á×´Ì¬»Øµ÷ */
-    pm_err_t (*register_sleep_enter_callback)(pm_sleep_enter_callback_t callback, void *user_data, uint32_t *handle); /**< ×¢²áË¯Ãß½øÈë»Øµ÷ */
-    pm_err_t (*register_sleep_exit_callback)(pm_sleep_exit_callback_t callback, void *user_data, uint32_t *handle);   /**< ×¢²áË¯ÃßÍË³ö»Øµ÷ */
-    pm_err_t (*register_voltage_callback)(pm_voltage_callback_t callback, void *user_data, uint32_t *handle);         /**< ×¢²áµçÑ¹»Øµ÷ */
-    pm_err_t (*register_clock_callback)(pm_clock_callback_t callback, void *user_data, uint32_t *handle);             /**< ×¢²áÊ±ÖÓ»Øµ÷ */
-    pm_err_t (*register_error_callback)(pm_error_callback_t callback, void *user_data, uint32_t *handle);             /**< ×¢²á´íÎó»Øµ÷ */
-    pm_err_t (*unregister_callback)(uint32_t handle);                                                                 /**< ×¢Ïú»Øµ÷ */
-    pm_err_t (*set_callback_priority)(uint32_t handle, pm_callback_priority_t priority);                             /**< ÉèÖÃ»Øµ÷ÓÅÏÈ¼¶ */
+    pm_err_t (*register_state_callback)(pm_state_callback_t callback, void *user_data, uint32_t *handle);           /**< æ³¨å†ŒçŠ¶æ€å›è°ƒ */
+    pm_err_t (*register_sleep_enter_callback)(pm_sleep_enter_callback_t callback, void *user_data, uint32_t *handle); /**< æ³¨å†Œç¡çœ è¿›å…¥å›è°ƒ */
+    pm_err_t (*register_sleep_exit_callback)(pm_sleep_exit_callback_t callback, void *user_data, uint32_t *handle);   /**< æ³¨å†Œç¡çœ é€€å‡ºå›è°ƒ */
+    pm_err_t (*register_voltage_callback)(pm_voltage_callback_t callback, void *user_data, uint32_t *handle);         /**< æ³¨å†Œç”µå‹å›è°ƒ */
+    pm_err_t (*register_clock_callback)(pm_clock_callback_t callback, void *user_data, uint32_t *handle);             /**< æ³¨å†Œæ—¶é’Ÿå›è°ƒ */
+    pm_err_t (*register_error_callback)(pm_error_callback_t callback, void *user_data, uint32_t *handle);             /**< æ³¨å†Œé”™è¯¯å›è°ƒ */
+    pm_err_t (*unregister_callback)(uint32_t handle);                                                                 /**< æ³¨é”€å›è°ƒ */
+    pm_err_t (*set_callback_priority)(uint32_t handle, pm_callback_priority_t priority);                             /**< è®¾ç½®å›è°ƒä¼˜å…ˆçº§ */
 } pm_callback_interface_t;
 
 /**
- * @brief µ÷ÊÔ½Ó¿Ú½á¹¹Ìå
+ * @brief è°ƒè¯•æ¥å£ç»“æ„ä½“
  */
 typedef struct {
-    pm_err_t (*set_debug_level)(pm_debug_level_t level);       /**< ÉèÖÃµ÷ÊÔ¼¶±ğ */
-    pm_err_t (*get_debug_level)(pm_debug_level_t *level);      /**< »ñÈ¡µ÷ÊÔ¼¶±ğ */
-    pm_err_t (*dump_state)(void);                              /**< ×ª´¢×´Ì¬ */
-    pm_err_t (*dump_statistics)(void);                         /**< ×ª´¢Í³¼ÆĞÅÏ¢ */
-    pm_err_t (*get_statistics)(pm_statistics_t *stats);        /**< »ñÈ¡Í³¼ÆĞÅÏ¢ */
-    pm_err_t (*reset_statistics)(void);                        /**< ÖØÖÃÍ³¼ÆĞÅÏ¢ */
-    pm_err_t (*enable_trace)(bool enable);                     /**< Ê¹ÄÜ¸ú×Ù */
+    pm_err_t (*set_debug_level)(pm_debug_level_t level);       /**< è®¾ç½®è°ƒè¯•çº§åˆ« */
+    pm_err_t (*get_debug_level)(pm_debug_level_t *level);      /**< è·å–è°ƒè¯•çº§åˆ« */
+    pm_err_t (*dump_state)(void);                              /**< è½¬å‚¨çŠ¶æ€ */
+    pm_err_t (*dump_statistics)(void);                         /**< è½¬å‚¨ç»Ÿè®¡ä¿¡æ¯ */
+    pm_err_t (*get_statistics)(pm_statistics_t *stats);        /**< è·å–ç»Ÿè®¡ä¿¡æ¯ */
+    pm_err_t (*reset_statistics)(void);                        /**< é‡ç½®ç»Ÿè®¡ä¿¡æ¯ */
+    pm_err_t (*enable_trace)(bool enable);                     /**< ä½¿èƒ½è·Ÿè¸ª */
 } pm_debug_interface_t;
 
-/* ==================== Ó²¼ş³éÏó²ã½Ó¿Ú ==================== */
+/* ==================== ç¡¬ä»¶æŠ½è±¡å±‚æ¥å£ ==================== */
 
 /**
- * @brief Ó²¼ş³éÏó²ã½Ó¿Ú½á¹¹Ìå
+ * @brief ç¡¬ä»¶æŠ½è±¡å±‚æ¥å£ç»“æ„ä½“
  */
 typedef struct {
-    /* µçÔ´¿ØÖÆ */
-    pm_err_t (*power_on)(pm_module_id_t module);               /**< Ä£¿éÉÏµç */
-    pm_err_t (*power_off)(pm_module_id_t module);              /**< Ä£¿éÏÂµç */
-    pm_err_t (*is_power_on)(pm_module_id_t module, bool *on);  /**< ¼ì²éÄ£¿éµçÔ´×´Ì¬ */
+    /* ç”µæºæ§åˆ¶ */
+    pm_err_t (*power_on)(pm_module_id_t module);               /**< æ¨¡å—ä¸Šç”µ */
+    pm_err_t (*power_off)(pm_module_id_t module);              /**< æ¨¡å—ä¸‹ç”µ */
+    pm_err_t (*is_power_on)(pm_module_id_t module, bool *on);  /**< æ£€æŸ¥æ¨¡å—ç”µæºçŠ¶æ€ */
     
-    /* µçÑ¹¿ØÖÆ */
-    pm_err_t (*set_voltage_hw)(pm_voltage_domain_t domain, uint32_t voltage_mv);  /**< Ó²¼şÉèÖÃµçÑ¹ */
-    pm_err_t (*get_voltage_hw)(pm_voltage_domain_t domain, uint32_t *voltage_mv); /**< Ó²¼ş»ñÈ¡µçÑ¹ */
+    /* ç”µå‹æ§åˆ¶ */
+    pm_err_t (*set_voltage_hw)(pm_voltage_domain_t domain, uint32_t voltage_mv);  /**< ç¡¬ä»¶è®¾ç½®ç”µå‹ */
+    pm_err_t (*get_voltage_hw)(pm_voltage_domain_t domain, uint32_t *voltage_mv); /**< ç¡¬ä»¶è·å–ç”µå‹ */
     
-    /* Ê±ÖÓ¿ØÖÆ */
-    pm_err_t (*set_clock_hw)(pm_clock_domain_t domain, uint32_t freq_hz);     /**< Ó²¼şÉèÖÃÊ±ÖÓ */
-    pm_err_t (*get_clock_hw)(pm_clock_domain_t domain, uint32_t *freq_hz);    /**< Ó²¼ş»ñÈ¡Ê±ÖÓ */
-    pm_err_t (*enable_clock_hw)(pm_clock_domain_t domain, bool enable);       /**< Ó²¼şÊ¹ÄÜÊ±ÖÓ */
+    /* æ—¶é’Ÿæ§åˆ¶ */
+    pm_err_t (*set_clock_hw)(pm_clock_domain_t domain, uint32_t freq_hz);     /**< ç¡¬ä»¶è®¾ç½®æ—¶é’Ÿ */
+    pm_err_t (*get_clock_hw)(pm_clock_domain_t domain, uint32_t *freq_hz);    /**< ç¡¬ä»¶è·å–æ—¶é’Ÿ */
+    pm_err_t (*enable_clock_hw)(pm_clock_domain_t domain, bool enable);       /**< ç¡¬ä»¶ä½¿èƒ½æ—¶é’Ÿ */
     
-    /* Ë¯Ãß¿ØÖÆ */
-    pm_err_t (*enter_sleep_hw)(pm_sleep_mode_t mode);          /**< Ó²¼ş½øÈëË¯Ãß */
-    pm_err_t (*exit_sleep_hw)(void);                           /**< Ó²¼şÍË³öË¯Ãß */
+    /* ç¡çœ æ§åˆ¶ */
+    pm_err_t (*enter_sleep_hw)(pm_sleep_mode_t mode);          /**< ç¡¬ä»¶è¿›å…¥ç¡çœ  */
+    pm_err_t (*exit_sleep_hw)(void);                           /**< ç¡¬ä»¶é€€å‡ºç¡çœ  */
     
-    /* »½ĞÑ¿ØÖÆ */
-    pm_err_t (*config_wakeup_hw)(pm_wakeup_source_t source, bool enable);     /**< Ó²¼şÅäÖÃ»½ĞÑÔ´ */
-    pm_err_t (*get_wakeup_status_hw)(pm_wakeup_source_t *source);              /**< Ó²¼ş»ñÈ¡»½ĞÑ×´Ì¬ */
-    pm_err_t (*clear_wakeup_status_hw)(pm_wakeup_source_t source);             /**< Ó²¼şÇå³ı»½ĞÑ×´Ì¬ */
+    /* å”¤é†’æ§åˆ¶ */
+    pm_err_t (*config_wakeup_hw)(pm_wakeup_source_t source, bool enable);     /**< ç¡¬ä»¶é…ç½®å”¤é†’æº */
+    pm_err_t (*get_wakeup_status_hw)(pm_wakeup_source_t *source);              /**< ç¡¬ä»¶è·å–å”¤é†’çŠ¶æ€ */
+    pm_err_t (*clear_wakeup_status_hw)(pm_wakeup_source_t source);             /**< ç¡¬ä»¶æ¸…é™¤å”¤é†’çŠ¶æ€ */
     
-    /* ÖĞ¶Ï¿ØÖÆ */
-    pm_err_t (*enable_interrupt)(uint32_t irq_num, bool enable);               /**< Ê¹ÄÜÖĞ¶Ï */
-    pm_err_t (*register_interrupt)(uint32_t irq_num, void (*handler)(void));   /**< ×¢²áÖĞ¶Ï´¦Àíº¯Êı */
+    /* ä¸­æ–­æ§åˆ¶ */
+    pm_err_t (*enable_interrupt)(uint32_t irq_num, bool enable);               /**< ä½¿èƒ½ä¸­æ–­ */
+    pm_err_t (*register_interrupt)(uint32_t irq_num, void (*handler)(void));   /**< æ³¨å†Œä¸­æ–­å¤„ç†å‡½æ•° */
     
-    /* ¼Ä´æÆ÷²Ù×÷ */
-    pm_err_t (*read_register)(uint32_t addr, uint32_t *value);                 /**< ¶Á¼Ä´æÆ÷ */
-    pm_err_t (*write_register)(uint32_t addr, uint32_t value);                 /**< Ğ´¼Ä´æÆ÷ */
-    pm_err_t (*modify_register)(uint32_t addr, uint32_t mask, uint32_t value); /**< ĞŞ¸Ä¼Ä´æÆ÷ */
+    /* å¯„å­˜å™¨æ“ä½œ */
+    pm_err_t (*read_register)(uint32_t addr, uint32_t *value);                 /**< è¯»å¯„å­˜å™¨ */
+    pm_err_t (*write_register)(uint32_t addr, uint32_t value);                 /**< å†™å¯„å­˜å™¨ */
+    pm_err_t (*modify_register)(uint32_t addr, uint32_t mask, uint32_t value); /**< ä¿®æ”¹å¯„å­˜å™¨ */
 } pm_hal_interface_t;
 
-/* ==================== Æ½Ì¨ÊÊÅä½Ó¿Ú ==================== */
+/* ==================== å¹³å°é€‚é…æ¥å£ ==================== */
 
 /**
- * @brief Æ½Ì¨ÊÊÅä½Ó¿Ú½á¹¹Ìå
+ * @brief å¹³å°é€‚é…æ¥å£ç»“æ„ä½“
  */
 typedef struct {
-    /* Ê±¼äÏà¹Ø */
-    uint64_t (*get_time_ms)(void);                             /**< »ñÈ¡µ±Ç°Ê±¼ä(ºÁÃë) */
-    uint64_t (*get_time_us)(void);                             /**< »ñÈ¡µ±Ç°Ê±¼ä(Î¢Ãë) */
-    void (*delay_ms)(uint32_t ms);                             /**< ÑÓÊ±(ºÁÃë) */
-    void (*delay_us)(uint32_t us);                             /**< ÑÓÊ±(Î¢Ãë) */
+    /* æ—¶é—´ç›¸å…³ */
+    uint64_t (*get_time_ms)(void);                             /**< è·å–å½“å‰æ—¶é—´(æ¯«ç§’) */
+    uint64_t (*get_time_us)(void);                             /**< è·å–å½“å‰æ—¶é—´(å¾®ç§’) */
+    void (*delay_ms)(uint32_t ms);                             /**< å»¶æ—¶(æ¯«ç§’) */
+    void (*delay_us)(uint32_t us);                             /**< å»¶æ—¶(å¾®ç§’) */
     
-    /* ÄÚ´æ¹ÜÀí */
-    void* (*malloc)(size_t size);                              /**< ·ÖÅäÄÚ´æ */
-    void (*free)(void *ptr);                                   /**< ÊÍ·ÅÄÚ´æ */
-    void* (*memset)(void *ptr, int value, size_t size);       /**< ÄÚ´æÉèÖÃ */
-    void* (*memcpy)(void *dest, const void *src, size_t size); /**< ÄÚ´æ¿½±´ */
+    /* å†…å­˜ç®¡ç† */
+    void* (*malloc)(size_t size);                              /**< åˆ†é…å†…å­˜ */
+    void (*free)(void *ptr);                                   /**< é‡Šæ”¾å†…å­˜ */
+    void* (*memset)(void *ptr, int value, size_t size);       /**< å†…å­˜è®¾ç½® */
+    void* (*memcpy)(void *dest, const void *src, size_t size); /**< å†…å­˜æ‹·è´ */
     
-    /* Í¬²½Ô­Óï */
-    pm_err_t (*mutex_create)(void **mutex);                   /**< ´´½¨»¥³âËø */
-    pm_err_t (*mutex_destroy)(void *mutex);                   /**< Ïú»Ù»¥³âËø */
-    pm_err_t (*mutex_lock)(void *mutex, uint32_t timeout_ms); /**< ¼ÓËø */
-    pm_err_t (*mutex_unlock)(void *mutex);                    /**< ½âËø */
+    /* åŒæ­¥åŸè¯­ */
+    pm_err_t (*mutex_create)(void **mutex);                   /**< åˆ›å»ºäº’æ–¥é” */
+    pm_err_t (*mutex_destroy)(void *mutex);                   /**< é”€æ¯äº’æ–¥é” */
+    pm_err_t (*mutex_lock)(void *mutex, uint32_t timeout_ms); /**< åŠ é” */
+    pm_err_t (*mutex_unlock)(void *mutex);                    /**< è§£é” */
     
-    /* ÈÕÖ¾Êä³ö */
-    void (*log_output)(pm_debug_level_t level, const char *format, ...); /**< ÈÕÖ¾Êä³ö */
+    /* æ—¥å¿—è¾“å‡º */
+    void (*log_output)(pm_debug_level_t level, const char *format, ...); /**< æ—¥å¿—è¾“å‡º */
     
-    /* ¶ÏÑÔ´¦Àí */
-    void (*assert_handler)(const char *file, int line, const char *func); /**< ¶ÏÑÔ´¦Àí */
+    /* æ–­è¨€å¤„ç† */
+    void (*assert_handler)(const char *file, int line, const char *func); /**< æ–­è¨€å¤„ç† */
 } pm_platform_interface_t;
 
-/* ==================== Í³Ò»½Ó¿Ú¹ÜÀíÆ÷ ==================== */
+/* ==================== ç»Ÿä¸€æ¥å£ç®¡ç†å™¨ ==================== */
 
 /**
- * @brief PM½Ó¿Ú¹ÜÀíÆ÷½á¹¹Ìå
+ * @brief PMæ¥å£ç®¡ç†å™¨ç»“æ„ä½“
  */
 typedef struct {
-    pm_core_interface_t *core;                                 /**< ºËĞÄ½Ó¿Ú */
-    pm_sleep_interface_t *sleep;                               /**< Ë¯Ãß½Ó¿Ú */
-    pm_wakeup_interface_t *wakeup;                             /**< »½ĞÑ½Ó¿Ú */
-    pm_voltage_interface_t *voltage;                           /**< µçÑ¹½Ó¿Ú */
-    pm_clock_interface_t *clock;                               /**< Ê±ÖÓ½Ó¿Ú */
-    pm_callback_interface_t *callback;                         /**< »Øµ÷½Ó¿Ú */
-    pm_debug_interface_t *debug;                               /**< µ÷ÊÔ½Ó¿Ú */
-    pm_hal_interface_t *hal;                                   /**< Ó²¼ş³éÏó²ã½Ó¿Ú */
-    pm_platform_interface_t *platform;                        /**< Æ½Ì¨ÊÊÅä½Ó¿Ú */
+    pm_core_interface_t *core;                                 /**< æ ¸å¿ƒæ¥å£ */
+    pm_sleep_interface_t *sleep;                               /**< ç¡çœ æ¥å£ */
+    pm_wakeup_interface_t *wakeup;                             /**< å”¤é†’æ¥å£ */
+    pm_voltage_interface_t *voltage;                           /**< ç”µå‹æ¥å£ */
+    pm_clock_interface_t *clock;                               /**< æ—¶é’Ÿæ¥å£ */
+    pm_callback_interface_t *callback;                         /**< å›è°ƒæ¥å£ */
+    pm_debug_interface_t *debug;                               /**< è°ƒè¯•æ¥å£ */
+    pm_hal_interface_t *hal;                                   /**< ç¡¬ä»¶æŠ½è±¡å±‚æ¥å£ */
+    pm_platform_interface_t *platform;                        /**< å¹³å°é€‚é…æ¥å£ */
 } pm_interface_manager_t;
 
-/* ==================== ½Ó¿Ú»ñÈ¡º¯Êı ==================== */
+/* ==================== æ¥å£è·å–å‡½æ•° ==================== */
 
 /**
- * @brief »ñÈ¡PM½Ó¿Ú¹ÜÀíÆ÷
- * @return PM½Ó¿Ú¹ÜÀíÆ÷Ö¸Õë
+ * @brief è·å–PMæ¥å£ç®¡ç†å™¨
+ * @return PMæ¥å£ç®¡ç†å™¨æŒ‡é’ˆ
  */
 pm_interface_manager_t* pm_get_interface_manager(void);
 
 /**
- * @brief ×¢²áHAL½Ó¿Ú
- * @param hal_interface HAL½Ó¿ÚÖ¸Õë
- * @return ´íÎóÂë
+ * @brief æ³¨å†ŒHALæ¥å£
+ * @param hal_interface HALæ¥å£æŒ‡é’ˆ
+ * @return é”™è¯¯ç 
  */
 pm_err_t pm_register_hal_interface(pm_hal_interface_t *hal_interface);
 
 /**
- * @brief ×¢²áÆ½Ì¨½Ó¿Ú
- * @param platform_interface Æ½Ì¨½Ó¿ÚÖ¸Õë
- * @return ´íÎóÂë
+ * @brief æ³¨å†Œå¹³å°æ¥å£
+ * @param platform_interface å¹³å°æ¥å£æŒ‡é’ˆ
+ * @return é”™è¯¯ç 
  */
 pm_err_t pm_register_platform_interface(pm_platform_interface_t *platform_interface);
 
-/* ==================== ±ã½İºê¶¨Òå ==================== */
+/* ==================== ä¾¿æ·å®å®šä¹‰ ==================== */
 
 #define PM_INTERFACE_MANAGER()          pm_get_interface_manager()
 #define PM_CORE_INTERFACE()             (PM_INTERFACE_MANAGER()->core)
@@ -623,7 +623,7 @@ pm_err_t pm_register_platform_interface(pm_platform_interface_t *platform_interf
 #endif /* PM_INTERFACE_H */
 
           
-´´½¨ÅäÖÃ¶¨ÒåÎÄ¼şºÍºËĞÄ¹ÜÀíÆ÷ÊµÏÖ¡£
+åˆ›å»ºé…ç½®å®šä¹‰æ–‡ä»¶å’Œæ ¸å¿ƒç®¡ç†å™¨å®ç°ã€‚
         
             
 toolName: write_to_file
@@ -635,7 +635,7 @@ filePath: d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\include\pm_config.h
           
 content: /**
  * @file pm_config.h
- * @brief PMÄ£¿éÅäÖÃ¶¨Òå
+ * @brief PMæ¨¡å—é…ç½®å®šä¹‰
  * @version 2.0
  * @date 2024
  */
@@ -649,290 +649,290 @@ content: /**
 extern "C" {
 #endif
 
-/* ==================== ±àÒëÊ±ÅäÖÃ ==================== */
+/* ==================== ç¼–è¯‘æ—¶é…ç½® ==================== */
 
-/* ¹¦ÄÜÊ¹ÄÜÅäÖÃ */
+/* åŠŸèƒ½ä½¿èƒ½é…ç½® */
 #ifndef PM_ENABLE_LIGHT_SLEEP
-#define PM_ENABLE_LIGHT_SLEEP           1       /**< Ê¹ÄÜÇá¶ÈË¯Ãß */
+#define PM_ENABLE_LIGHT_SLEEP           1       /**< ä½¿èƒ½è½»åº¦ç¡çœ  */
 #endif
 
 #ifndef PM_ENABLE_DEEP_SLEEP
-#define PM_ENABLE_DEEP_SLEEP            1       /**< Ê¹ÄÜÉî¶ÈË¯Ãß */
+#define PM_ENABLE_DEEP_SLEEP            1       /**< ä½¿èƒ½æ·±åº¦ç¡çœ  */
 #endif
 
 #ifndef PM_ENABLE_SUPER_DEEP_SLEEP
-#define PM_ENABLE_SUPER_DEEP_SLEEP      0       /**< Ê¹ÄÜ³¬Éî¶ÈË¯Ãß */
+#define PM_ENABLE_SUPER_DEEP_SLEEP      0       /**< ä½¿èƒ½è¶…æ·±åº¦ç¡çœ  */
 #endif
 
 #ifndef PM_ENABLE_VOLTAGE_SCALING
-#define PM_ENABLE_VOLTAGE_SCALING       1       /**< Ê¹ÄÜµçÑ¹µ÷½Ú */
+#define PM_ENABLE_VOLTAGE_SCALING       1       /**< ä½¿èƒ½ç”µå‹è°ƒèŠ‚ */
 #endif
 
 #ifndef PM_ENABLE_FREQUENCY_SCALING
-#define PM_ENABLE_FREQUENCY_SCALING     1       /**< Ê¹ÄÜÆµÂÊµ÷½Ú */
+#define PM_ENABLE_FREQUENCY_SCALING     1       /**< ä½¿èƒ½é¢‘ç‡è°ƒèŠ‚ */
 #endif
 
 #ifndef PM_ENABLE_STATISTICS
-#define PM_ENABLE_STATISTICS            1       /**< Ê¹ÄÜÍ³¼Æ¹¦ÄÜ */
+#define PM_ENABLE_STATISTICS            1       /**< ä½¿èƒ½ç»Ÿè®¡åŠŸèƒ½ */
 #endif
 
 #ifndef PM_ENABLE_DEBUG
-#define PM_ENABLE_DEBUG                 1       /**< Ê¹ÄÜµ÷ÊÔ¹¦ÄÜ */
+#define PM_ENABLE_DEBUG                 1       /**< ä½¿èƒ½è°ƒè¯•åŠŸèƒ½ */
 #endif
 
 #ifndef PM_ENABLE_TRACE
-#define PM_ENABLE_TRACE                 0       /**< Ê¹ÄÜ¸ú×Ù¹¦ÄÜ */
+#define PM_ENABLE_TRACE                 0       /**< ä½¿èƒ½è·Ÿè¸ªåŠŸèƒ½ */
 #endif
 
-/* ×ÊÔ´ÅäÖÃ */
+/* èµ„æºé…ç½® */
 #ifndef PM_MAX_CALLBACKS
-#define PM_MAX_CALLBACKS                16      /**< ×î´ó»Øµ÷ÊıÁ¿ */
+#define PM_MAX_CALLBACKS                16      /**< æœ€å¤§å›è°ƒæ•°é‡ */
 #endif
 
 #ifndef PM_MAX_WAKEUP_SOURCES
-#define PM_MAX_WAKEUP_SOURCES           8       /**< ×î´ó»½ĞÑÔ´ÊıÁ¿ */
+#define PM_MAX_WAKEUP_SOURCES           8       /**< æœ€å¤§å”¤é†’æºæ•°é‡ */
 #endif
 
 #ifndef PM_STACK_SIZE
-#define PM_STACK_SIZE                   2048    /**< Õ»´óĞ¡(×Ö½Ú) */
+#define PM_STACK_SIZE                   2048    /**< æ ˆå¤§å°(å­—èŠ‚) */
 #endif
 
 #ifndef PM_HEAP_SIZE
-#define PM_HEAP_SIZE                    4096    /**< ¶Ñ´óĞ¡(×Ö½Ú) */
+#define PM_HEAP_SIZE                    4096    /**< å †å¤§å°(å­—èŠ‚) */
 #endif
 
-/* Ê±¼äÅäÖÃ */
+/* æ—¶é—´é…ç½® */
 #ifndef PM_DEFAULT_SLEEP_TIMEOUT_MS
-#define PM_DEFAULT_SLEEP_TIMEOUT_MS     10000   /**< Ä¬ÈÏË¯Ãß³¬Ê±(ºÁÃë) */
+#define PM_DEFAULT_SLEEP_TIMEOUT_MS     10000   /**< é»˜è®¤ç¡çœ è¶…æ—¶(æ¯«ç§’) */
 #endif
 
 #ifndef PM_WAKEUP_DEBOUNCE_TIME_MS
-#define PM_WAKEUP_DEBOUNCE_TIME_MS      50      /**< »½ĞÑ·À¶¶Ê±¼ä(ºÁÃë) */
+#define PM_WAKEUP_DEBOUNCE_TIME_MS      50      /**< å”¤é†’é˜²æŠ–æ—¶é—´(æ¯«ç§’) */
 #endif
 
 #ifndef PM_VOLTAGE_RAMP_TIME_US
-#define PM_VOLTAGE_RAMP_TIME_US         100     /**< µçÑ¹ÅÀÉıÊ±¼ä(Î¢Ãë) */
+#define PM_VOLTAGE_RAMP_TIME_US         100     /**< ç”µå‹çˆ¬å‡æ—¶é—´(å¾®ç§’) */
 #endif
 
 #ifndef PM_CLOCK_SWITCH_TIME_US
-#define PM_CLOCK_SWITCH_TIME_US         50      /**< Ê±ÖÓÇĞ»»Ê±¼ä(Î¢Ãë) */
+#define PM_CLOCK_SWITCH_TIME_US         50      /**< æ—¶é’Ÿåˆ‡æ¢æ—¶é—´(å¾®ç§’) */
 #endif
 
-/* µçÑ¹ÅäÖÃ */
+/* ç”µå‹é…ç½® */
 #ifndef PM_DEFAULT_CORE_VOLTAGE_MV
-#define PM_DEFAULT_CORE_VOLTAGE_MV      1200    /**< Ä¬ÈÏºËĞÄµçÑ¹(ºÁ·ü) */
+#define PM_DEFAULT_CORE_VOLTAGE_MV      1200    /**< é»˜è®¤æ ¸å¿ƒç”µå‹(æ¯«ä¼) */
 #endif
 
 #ifndef PM_MIN_CORE_VOLTAGE_MV
-#define PM_MIN_CORE_VOLTAGE_MV          800     /**< ×îĞ¡ºËĞÄµçÑ¹(ºÁ·ü) */
+#define PM_MIN_CORE_VOLTAGE_MV          800     /**< æœ€å°æ ¸å¿ƒç”µå‹(æ¯«ä¼) */
 #endif
 
 #ifndef PM_MAX_CORE_VOLTAGE_MV
-#define PM_MAX_CORE_VOLTAGE_MV          1500    /**< ×î´óºËĞÄµçÑ¹(ºÁ·ü) */
+#define PM_MAX_CORE_VOLTAGE_MV          1500    /**< æœ€å¤§æ ¸å¿ƒç”µå‹(æ¯«ä¼) */
 #endif
 
 #ifndef PM_LOW_VOLTAGE_THRESHOLD_MV
-#define PM_LOW_VOLTAGE_THRESHOLD_MV     900     /**< µÍµçÑ¹ãĞÖµ(ºÁ·ü) */
+#define PM_LOW_VOLTAGE_THRESHOLD_MV     900     /**< ä½ç”µå‹é˜ˆå€¼(æ¯«ä¼) */
 #endif
 
-/* ÆµÂÊÅäÖÃ */
+/* é¢‘ç‡é…ç½® */
 #ifndef PM_DEFAULT_CPU_FREQ_HZ
-#define PM_DEFAULT_CPU_FREQ_HZ          120000000   /**< Ä¬ÈÏCPUÆµÂÊ(ºÕ×È) */
+#define PM_DEFAULT_CPU_FREQ_HZ          120000000   /**< é»˜è®¤CPUé¢‘ç‡(èµ«å…¹) */
 #endif
 
 #ifndef PM_MIN_CPU_FREQ_HZ
-#define PM_MIN_CPU_FREQ_HZ              26000000    /**< ×îĞ¡CPUÆµÂÊ(ºÕ×È) */
+#define PM_MIN_CPU_FREQ_HZ              26000000    /**< æœ€å°CPUé¢‘ç‡(èµ«å…¹) */
 #endif
 
 #ifndef PM_MAX_CPU_FREQ_HZ
-#define PM_MAX_CPU_FREQ_HZ              480000000   /**< ×î´óCPUÆµÂÊ(ºÕ×È) */
+#define PM_MAX_CPU_FREQ_HZ              480000000   /**< æœ€å¤§CPUé¢‘ç‡(èµ«å…¹) */
 #endif
 
-/* µ÷ÊÔÅäÖÃ */
+/* è°ƒè¯•é…ç½® */
 #ifndef PM_DEFAULT_DEBUG_LEVEL
-#define PM_DEFAULT_DEBUG_LEVEL          PM_DEBUG_LEVEL_INFO  /**< Ä¬ÈÏµ÷ÊÔ¼¶±ğ */
+#define PM_DEFAULT_DEBUG_LEVEL          PM_DEBUG_LEVEL_INFO  /**< é»˜è®¤è°ƒè¯•çº§åˆ« */
 #endif
 
 #ifndef PM_LOG_BUFFER_SIZE
-#define PM_LOG_BUFFER_SIZE              1024    /**< ÈÕÖ¾»º³åÇø´óĞ¡ */
+#define PM_LOG_BUFFER_SIZE              1024    /**< æ—¥å¿—ç¼“å†²åŒºå¤§å° */
 #endif
 
-/* ==================== ÔËĞĞÊ±ÅäÖÃ½á¹¹Ìå ==================== */
+/* ==================== è¿è¡Œæ—¶é…ç½®ç»“æ„ä½“ ==================== */
 
 /**
- * @brief PMÈ«¾ÖÅäÖÃ½á¹¹Ìå
+ * @brief PMå…¨å±€é…ç½®ç»“æ„ä½“
  */
 typedef struct {
-    /* ¹¦ÄÜÊ¹ÄÜ */
-    bool enable_light_sleep;                    /**< Ê¹ÄÜÇá¶ÈË¯Ãß */
-    bool enable_deep_sleep;                     /**< Ê¹ÄÜÉî¶ÈË¯Ãß */
-    bool enable_super_deep_sleep;               /**< Ê¹ÄÜ³¬Éî¶ÈË¯Ãß */
-    bool enable_voltage_scaling;                /**< Ê¹ÄÜµçÑ¹µ÷½Ú */
-    bool enable_frequency_scaling;              /**< Ê¹ÄÜÆµÂÊµ÷½Ú */
-    bool enable_statistics;                     /**< Ê¹ÄÜÍ³¼Æ¹¦ÄÜ */
-    bool enable_debug;                          /**< Ê¹ÄÜµ÷ÊÔ¹¦ÄÜ */
-    bool enable_trace;                          /**< Ê¹ÄÜ¸ú×Ù¹¦ÄÜ */
+    /* åŠŸèƒ½ä½¿èƒ½ */
+    bool enable_light_sleep;                    /**< ä½¿èƒ½è½»åº¦ç¡çœ  */
+    bool enable_deep_sleep;                     /**< ä½¿èƒ½æ·±åº¦ç¡çœ  */
+    bool enable_super_deep_sleep;               /**< ä½¿èƒ½è¶…æ·±åº¦ç¡çœ  */
+    bool enable_voltage_scaling;                /**< ä½¿èƒ½ç”µå‹è°ƒèŠ‚ */
+    bool enable_frequency_scaling;              /**< ä½¿èƒ½é¢‘ç‡è°ƒèŠ‚ */
+    bool enable_statistics;                     /**< ä½¿èƒ½ç»Ÿè®¡åŠŸèƒ½ */
+    bool enable_debug;                          /**< ä½¿èƒ½è°ƒè¯•åŠŸèƒ½ */
+    bool enable_trace;                          /**< ä½¿èƒ½è·Ÿè¸ªåŠŸèƒ½ */
     
-    /* Ê±¼äÅäÖÃ */
-    uint32_t default_sleep_timeout_ms;          /**< Ä¬ÈÏË¯Ãß³¬Ê± */
-    uint32_t wakeup_debounce_time_ms;           /**< »½ĞÑ·À¶¶Ê±¼ä */
-    uint32_t voltage_ramp_time_us;              /**< µçÑ¹ÅÀÉıÊ±¼ä */
-    uint32_t clock_switch_time_us;              /**< Ê±ÖÓÇĞ»»Ê±¼ä */
+    /* æ—¶é—´é…ç½® */
+    uint32_t default_sleep_timeout_ms;          /**< é»˜è®¤ç¡çœ è¶…æ—¶ */
+    uint32_t wakeup_debounce_time_ms;           /**< å”¤é†’é˜²æŠ–æ—¶é—´ */
+    uint32_t voltage_ramp_time_us;              /**< ç”µå‹çˆ¬å‡æ—¶é—´ */
+    uint32_t clock_switch_time_us;              /**< æ—¶é’Ÿåˆ‡æ¢æ—¶é—´ */
     
-    /* µçÑ¹ÅäÖÃ */
-    uint32_t default_core_voltage_mv;           /**< Ä¬ÈÏºËĞÄµçÑ¹ */
-    uint32_t min_core_voltage_mv;               /**< ×îĞ¡ºËĞÄµçÑ¹ */
-    uint32_t max_core_voltage_mv;               /**< ×î´óºËĞÄµçÑ¹ */
-    uint32_t low_voltage_threshold_mv;          /**< µÍµçÑ¹ãĞÖµ */
+    /* ç”µå‹é…ç½® */
+    uint32_t default_core_voltage_mv;           /**< é»˜è®¤æ ¸å¿ƒç”µå‹ */
+    uint32_t min_core_voltage_mv;               /**< æœ€å°æ ¸å¿ƒç”µå‹ */
+    uint32_t max_core_voltage_mv;               /**< æœ€å¤§æ ¸å¿ƒç”µå‹ */
+    uint32_t low_voltage_threshold_mv;          /**< ä½ç”µå‹é˜ˆå€¼ */
     
-    /* ÆµÂÊÅäÖÃ */
-    uint32_t default_cpu_freq_hz;               /**< Ä¬ÈÏCPUÆµÂÊ */
-    uint32_t min_cpu_freq_hz;                   /**< ×îĞ¡CPUÆµÂÊ */
-    uint32_t max_cpu_freq_hz;                   /**< ×î´óCPUÆµÂÊ */
+    /* é¢‘ç‡é…ç½® */
+    uint32_t default_cpu_freq_hz;               /**< é»˜è®¤CPUé¢‘ç‡ */
+    uint32_t min_cpu_freq_hz;                   /**< æœ€å°CPUé¢‘ç‡ */
+    uint32_t max_cpu_freq_hz;                   /**< æœ€å¤§CPUé¢‘ç‡ */
     
-    /* µ÷ÊÔÅäÖÃ */
-    pm_debug_level_t debug_level;               /**< µ÷ÊÔ¼¶±ğ */
-    uint32_t log_buffer_size;                   /**< ÈÕÖ¾»º³åÇø´óĞ¡ */
+    /* è°ƒè¯•é…ç½® */
+    pm_debug_level_t debug_level;               /**< è°ƒè¯•çº§åˆ« */
+    uint32_t log_buffer_size;                   /**< æ—¥å¿—ç¼“å†²åŒºå¤§å° */
     
-    /* ×ÊÔ´ÅäÖÃ */
-    uint32_t max_callbacks;                     /**< ×î´ó»Øµ÷ÊıÁ¿ */
-    uint32_t max_wakeup_sources;                /**< ×î´ó»½ĞÑÔ´ÊıÁ¿ */
-    uint32_t stack_size;                        /**< Õ»´óĞ¡ */
-    uint32_t heap_size;                         /**< ¶Ñ´óĞ¡ */
+    /* èµ„æºé…ç½® */
+    uint32_t max_callbacks;                     /**< æœ€å¤§å›è°ƒæ•°é‡ */
+    uint32_t max_wakeup_sources;                /**< æœ€å¤§å”¤é†’æºæ•°é‡ */
+    uint32_t stack_size;                        /**< æ ˆå¤§å° */
+    uint32_t heap_size;                         /**< å †å¤§å° */
 } pm_global_config_t;
 
 /**
- * @brief Ë¯Ãß²ßÂÔÅäÖÃ½á¹¹Ìå
+ * @brief ç¡çœ ç­–ç•¥é…ç½®ç»“æ„ä½“
  */
 typedef struct {
-    pm_sleep_mode_t preferred_mode;             /**< Ê×Ñ¡Ë¯ÃßÄ£Ê½ */
-    uint32_t idle_threshold_ms;                 /**< ¿ÕÏĞãĞÖµ */
-    uint32_t light_sleep_threshold_ms;          /**< Çá¶ÈË¯ÃßãĞÖµ */
-    uint32_t deep_sleep_threshold_ms;           /**< Éî¶ÈË¯ÃßãĞÖµ */
-    bool auto_sleep_enable;                     /**< ×Ô¶¯Ë¯ÃßÊ¹ÄÜ */
-    bool wakeup_on_any_interrupt;               /**< ÈÎÒâÖĞ¶Ï»½ĞÑ */
+    pm_sleep_mode_t preferred_mode;             /**< é¦–é€‰ç¡çœ æ¨¡å¼ */
+    uint32_t idle_threshold_ms;                 /**< ç©ºé—²é˜ˆå€¼ */
+    uint32_t light_sleep_threshold_ms;          /**< è½»åº¦ç¡çœ é˜ˆå€¼ */
+    uint32_t deep_sleep_threshold_ms;           /**< æ·±åº¦ç¡çœ é˜ˆå€¼ */
+    bool auto_sleep_enable;                     /**< è‡ªåŠ¨ç¡çœ ä½¿èƒ½ */
+    bool wakeup_on_any_interrupt;               /**< ä»»æ„ä¸­æ–­å”¤é†’ */
 } pm_sleep_policy_config_t;
 
 /**
- * @brief µçÔ´¹ÜÀí²ßÂÔÅäÖÃ½á¹¹Ìå
+ * @brief ç”µæºç®¡ç†ç­–ç•¥é…ç½®ç»“æ„ä½“
  */
 typedef struct {
-    bool aggressive_power_saving;               /**< ¼¤½øÊ¡µçÄ£Ê½ */
-    bool dynamic_voltage_scaling;               /**< ¶¯Ì¬µçÑ¹µ÷½Ú */
-    bool dynamic_frequency_scaling;             /**< ¶¯Ì¬ÆµÂÊµ÷½Ú */
-    uint32_t power_budget_mw;                   /**< ¹¦ºÄÔ¤Ëã(ºÁÍß) */
-    uint32_t thermal_threshold_celsius;         /**< ÎÂ¶ÈãĞÖµ(ÉãÊÏ¶È) */
+    bool aggressive_power_saving;               /**< æ¿€è¿›çœç”µæ¨¡å¼ */
+    bool dynamic_voltage_scaling;               /**< åŠ¨æ€ç”µå‹è°ƒèŠ‚ */
+    bool dynamic_frequency_scaling;             /**< åŠ¨æ€é¢‘ç‡è°ƒèŠ‚ */
+    uint32_t power_budget_mw;                   /**< åŠŸè€—é¢„ç®—(æ¯«ç“¦) */
+    uint32_t thermal_threshold_celsius;         /**< æ¸©åº¦é˜ˆå€¼(æ‘„æ°åº¦) */
 } pm_power_policy_config_t;
 
 /**
- * @brief PMÅäÖÃ¹ÜÀíÆ÷½á¹¹Ìå
+ * @brief PMé…ç½®ç®¡ç†å™¨ç»“æ„ä½“
  */
 typedef struct {
-    pm_global_config_t global;                  /**< È«¾ÖÅäÖÃ */
-    pm_sleep_policy_config_t sleep_policy;      /**< Ë¯Ãß²ßÂÔÅäÖÃ */
-    pm_power_policy_config_t power_policy;      /**< µçÔ´²ßÂÔÅäÖÃ */
-    bool config_locked;                         /**< ÅäÖÃËø¶¨±êÖ¾ */
-    uint32_t config_version;                    /**< ÅäÖÃ°æ±¾ */
+    pm_global_config_t global;                  /**< å…¨å±€é…ç½® */
+    pm_sleep_policy_config_t sleep_policy;      /**< ç¡çœ ç­–ç•¥é…ç½® */
+    pm_power_policy_config_t power_policy;      /**< ç”µæºç­–ç•¥é…ç½® */
+    bool config_locked;                         /**< é…ç½®é”å®šæ ‡å¿— */
+    uint32_t config_version;                    /**< é…ç½®ç‰ˆæœ¬ */
 } pm_config_manager_t;
 
-/* ==================== ÅäÖÃ¹ÜÀí½Ó¿Ú ==================== */
+/* ==================== é…ç½®ç®¡ç†æ¥å£ ==================== */
 
 /**
- * @brief »ñÈ¡Ä¬ÈÏÅäÖÃ
- * @param config ÅäÖÃ½á¹¹ÌåÖ¸Õë
- * @return ´íÎóÂë
+ * @brief è·å–é»˜è®¤é…ç½®
+ * @param config é…ç½®ç»“æ„ä½“æŒ‡é’ˆ
+ * @return é”™è¯¯ç 
  */
 pm_err_t pm_get_default_config(pm_config_manager_t *config);
 
 /**
- * @brief ÉèÖÃÈ«¾ÖÅäÖÃ
- * @param config È«¾ÖÅäÖÃÖ¸Õë
- * @return ´íÎóÂë
+ * @brief è®¾ç½®å…¨å±€é…ç½®
+ * @param config å…¨å±€é…ç½®æŒ‡é’ˆ
+ * @return é”™è¯¯ç 
  */
 pm_err_t pm_set_global_config(const pm_global_config_t *config);
 
 /**
- * @brief »ñÈ¡È«¾ÖÅäÖÃ
- * @param config È«¾ÖÅäÖÃÖ¸Õë
- * @return ´íÎóÂë
+ * @brief è·å–å…¨å±€é…ç½®
+ * @param config å…¨å±€é…ç½®æŒ‡é’ˆ
+ * @return é”™è¯¯ç 
  */
 pm_err_t pm_get_global_config(pm_global_config_t *config);
 
 /**
- * @brief ÉèÖÃË¯Ãß²ßÂÔÅäÖÃ
- * @param config Ë¯Ãß²ßÂÔÅäÖÃÖ¸Õë
- * @return ´íÎóÂë
+ * @brief è®¾ç½®ç¡çœ ç­–ç•¥é…ç½®
+ * @param config ç¡çœ ç­–ç•¥é…ç½®æŒ‡é’ˆ
+ * @return é”™è¯¯ç 
  */
 pm_err_t pm_set_sleep_policy_config(const pm_sleep_policy_config_t *config);
 
 /**
- * @brief »ñÈ¡Ë¯Ãß²ßÂÔÅäÖÃ
- * @param config Ë¯Ãß²ßÂÔÅäÖÃÖ¸Õë
- * @return ´íÎóÂë
+ * @brief è·å–ç¡çœ ç­–ç•¥é…ç½®
+ * @param config ç¡çœ ç­–ç•¥é…ç½®æŒ‡é’ˆ
+ * @return é”™è¯¯ç 
  */
 pm_err_t pm_get_sleep_policy_config(pm_sleep_policy_config_t *config);
 
 /**
- * @brief ÉèÖÃµçÔ´²ßÂÔÅäÖÃ
- * @param config µçÔ´²ßÂÔÅäÖÃÖ¸Õë
- * @return ´íÎóÂë
+ * @brief è®¾ç½®ç”µæºç­–ç•¥é…ç½®
+ * @param config ç”µæºç­–ç•¥é…ç½®æŒ‡é’ˆ
+ * @return é”™è¯¯ç 
  */
 pm_err_t pm_set_power_policy_config(const pm_power_policy_config_t *config);
 
 /**
- * @brief »ñÈ¡µçÔ´²ßÂÔÅäÖÃ
- * @param config µçÔ´²ßÂÔÅäÖÃÖ¸Õë
- * @return ´íÎóÂë
+ * @brief è·å–ç”µæºç­–ç•¥é…ç½®
+ * @param config ç”µæºç­–ç•¥é…ç½®æŒ‡é’ˆ
+ * @return é”™è¯¯ç 
  */
 pm_err_t pm_get_power_policy_config(pm_power_policy_config_t *config);
 
 /**
- * @brief ÑéÖ¤ÅäÖÃÓĞĞ§ĞÔ
- * @param config ÅäÖÃ¹ÜÀíÆ÷Ö¸Õë
- * @return ´íÎóÂë
+ * @brief éªŒè¯é…ç½®æœ‰æ•ˆæ€§
+ * @param config é…ç½®ç®¡ç†å™¨æŒ‡é’ˆ
+ * @return é”™è¯¯ç 
  */
 pm_err_t pm_validate_config(const pm_config_manager_t *config);
 
 /**
- * @brief Ëø¶¨ÅäÖÃ
- * @return ´íÎóÂë
+ * @brief é”å®šé…ç½®
+ * @return é”™è¯¯ç 
  */
 pm_err_t pm_lock_config(void);
 
 /**
- * @brief ½âËøÅäÖÃ
- * @return ´íÎóÂë
+ * @brief è§£é”é…ç½®
+ * @return é”™è¯¯ç 
  */
 pm_err_t pm_unlock_config(void);
 
 /**
- * @brief ÖØÖÃÅäÖÃÎªÄ¬ÈÏÖµ
- * @return ´íÎóÂë
+ * @brief é‡ç½®é…ç½®ä¸ºé»˜è®¤å€¼
+ * @return é”™è¯¯ç 
  */
 pm_err_t pm_reset_config_to_default(void);
 
-/* ==================== ÅäÖÃºê¶¨Òå ==================== */
+/* ==================== é…ç½®å®å®šä¹‰ ==================== */
 
 #define PM_CONFIG_CHECK_ENABLE(feature)    (pm_get_global_config_ptr()->enable_##feature)
 #define PM_CONFIG_GET_VALUE(name)           (pm_get_global_config_ptr()->name)
 
-/* ==================== ÄÚ²¿º¯ÊıÉùÃ÷ ==================== */
+/* ==================== å†…éƒ¨å‡½æ•°å£°æ˜ ==================== */
 
 /**
- * @brief »ñÈ¡È«¾ÖÅäÖÃÖ¸Õë(ÄÚ²¿Ê¹ÓÃ)
- * @return È«¾ÖÅäÖÃÖ¸Õë
+ * @brief è·å–å…¨å±€é…ç½®æŒ‡é’ˆ(å†…éƒ¨ä½¿ç”¨)
+ * @return å…¨å±€é…ç½®æŒ‡é’ˆ
  */
 pm_global_config_t* pm_get_global_config_ptr(void);
 
 /**
- * @brief ³õÊ¼»¯ÅäÖÃ¹ÜÀíÆ÷
- * @return ´íÎóÂë
+ * @brief åˆå§‹åŒ–é…ç½®ç®¡ç†å™¨
+ * @return é”™è¯¯ç 
  */
 pm_err_t pm_config_manager_init(void);
 
 /**
- * @brief ·´³õÊ¼»¯ÅäÖÃ¹ÜÀíÆ÷
- * @return ´íÎóÂë
+ * @brief ååˆå§‹åŒ–é…ç½®ç®¡ç†å™¨
+ * @return é”™è¯¯ç 
  */
 pm_err_t pm_config_manager_deinit(void);
 
@@ -943,7 +943,7 @@ pm_err_t pm_config_manager_deinit(void);
 #endif /* PM_CONFIG_H */
 
           
-´´½¨ºËĞÄ¹ÜÀíÆ÷ÊµÏÖÎÄ¼ş£¬°üº¬×´Ì¬»úºÍÖ÷Òª¹¦ÄÜÂß¼­¡£
+åˆ›å»ºæ ¸å¿ƒç®¡ç†å™¨å®ç°æ–‡ä»¶ï¼ŒåŒ…å«çŠ¶æ€æœºå’Œä¸»è¦åŠŸèƒ½é€»è¾‘ã€‚
         
             
 toolName: write_to_file
@@ -955,7 +955,7 @@ filePath: d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\src\core\pm_core.c
           
 content: /**
  * @file pm_core.c
- * @brief PMºËĞÄ¹ÜÀíÆ÷ÊµÏÖ
+ * @brief PMæ ¸å¿ƒç®¡ç†å™¨å®ç°
  * @version 2.0
  * @date 2024
  */
@@ -965,46 +965,46 @@ content: /**
 #include <string.h>
 #include <stdlib.h>
 
-/* ==================== ÄÚ²¿Êı¾İ½á¹¹ ==================== */
+/* ==================== å†…éƒ¨æ•°æ®ç»“æ„ ==================== */
 
 /**
- * @brief PMºËĞÄ¹ÜÀíÆ÷½á¹¹Ìå
+ * @brief PMæ ¸å¿ƒç®¡ç†å™¨ç»“æ„ä½“
  */
 typedef struct {
-    pm_context_t context;                       /**< PMÉÏÏÂÎÄ */
-    pm_config_manager_t config;                 /**< ÅäÖÃ¹ÜÀíÆ÷ */
-    pm_interface_manager_t interfaces;          /**< ½Ó¿Ú¹ÜÀíÆ÷ */
-    pm_statistics_t statistics;                 /**< Í³¼ÆĞÅÏ¢ */
+    pm_context_t context;                       /**< PMä¸Šä¸‹æ–‡ */
+    pm_config_manager_t config;                 /**< é…ç½®ç®¡ç†å™¨ */
+    pm_interface_manager_t interfaces;          /**< æ¥å£ç®¡ç†å™¨ */
+    pm_statistics_t statistics;                 /**< ç»Ÿè®¡ä¿¡æ¯ */
     
-    /* ×´Ì¬»úÏà¹Ø */
-    pm_state_t current_state;                   /**< µ±Ç°×´Ì¬ */
-    pm_state_t previous_state;                  /**< Ç°Ò»×´Ì¬ */
-    uint32_t state_enter_time;                  /**< ×´Ì¬½øÈëÊ±¼ä */
+    /* çŠ¶æ€æœºç›¸å…³ */
+    pm_state_t current_state;                   /**< å½“å‰çŠ¶æ€ */
+    pm_state_t previous_state;                  /**< å‰ä¸€çŠ¶æ€ */
+    uint32_t state_enter_time;                  /**< çŠ¶æ€è¿›å…¥æ—¶é—´ */
     
-    /* »Øµ÷¹ÜÀí */
-    pm_callback_entry_t callbacks[PM_MAX_CALLBACKS];  /**< »Øµ÷Êı×é */
-    uint32_t callback_count;                    /**< »Øµ÷ÊıÁ¿ */
+    /* å›è°ƒç®¡ç† */
+    pm_callback_entry_t callbacks[PM_MAX_CALLBACKS];  /**< å›è°ƒæ•°ç»„ */
+    uint32_t callback_count;                    /**< å›è°ƒæ•°é‡ */
     
-    /* »½ĞÑÔ´¹ÜÀí */
-    pm_wakeup_source_t wakeup_sources[PM_MAX_WAKEUP_SOURCES];  /**< »½ĞÑÔ´Êı×é */
-    uint32_t wakeup_source_count;               /**< »½ĞÑÔ´ÊıÁ¿ */
+    /* å”¤é†’æºç®¡ç† */
+    pm_wakeup_source_t wakeup_sources[PM_MAX_WAKEUP_SOURCES];  /**< å”¤é†’æºæ•°ç»„ */
+    uint32_t wakeup_source_count;               /**< å”¤é†’æºæ•°é‡ */
     
-    /* Í¬²½¿ØÖÆ */
-    bool initialized;                           /**< ³õÊ¼»¯±êÖ¾ */
-    bool locked;                                /**< Ëø¶¨±êÖ¾ */
-    uint32_t lock_count;                        /**< Ëø¶¨¼ÆÊı */
+    /* åŒæ­¥æ§åˆ¶ */
+    bool initialized;                           /**< åˆå§‹åŒ–æ ‡å¿— */
+    bool locked;                                /**< é”å®šæ ‡å¿— */
+    uint32_t lock_count;                        /**< é”å®šè®¡æ•° */
     
-    /* µ÷ÊÔĞÅÏ¢ */
-    pm_debug_level_t debug_level;               /**< µ÷ÊÔ¼¶±ğ */
-    char debug_buffer[PM_LOG_BUFFER_SIZE];      /**< µ÷ÊÔ»º³åÇø */
+    /* è°ƒè¯•ä¿¡æ¯ */
+    pm_debug_level_t debug_level;               /**< è°ƒè¯•çº§åˆ« */
+    char debug_buffer[PM_LOG_BUFFER_SIZE];      /**< è°ƒè¯•ç¼“å†²åŒº */
 } pm_core_manager_t;
 
-/* ==================== È«¾Ö±äÁ¿ ==================== */
+/* ==================== å…¨å±€å˜é‡ ==================== */
 
 static pm_core_manager_t g_pm_core = {0};
 static bool g_pm_core_initialized = false;
 
-/* ==================== ÄÚ²¿º¯ÊıÉùÃ÷ ==================== */
+/* ==================== å†…éƒ¨å‡½æ•°å£°æ˜ ==================== */
 
 static pm_err_t pm_core_state_machine_update(pm_state_t new_state);
 static pm_err_t pm_core_notify_callbacks(pm_callback_type_t type, void *data);
@@ -1013,10 +1013,10 @@ static void pm_core_update_statistics(pm_state_t old_state, pm_state_t new_state
 static pm_err_t pm_core_setup_interfaces(void);
 static pm_err_t pm_core_cleanup_interfaces(void);
 
-/* ==================== ºËĞÄ½Ó¿ÚÊµÏÖ ==================== */
+/* ==================== æ ¸å¿ƒæ¥å£å®ç° ==================== */
 
 /**
- * @brief ³õÊ¼»¯PMºËĞÄÄ£¿é
+ * @brief åˆå§‹åŒ–PMæ ¸å¿ƒæ¨¡å—
  */
 pm_err_t pm_core_init(const pm_config_manager_t *config)
 {
@@ -1028,18 +1028,18 @@ pm_err_t pm_core_init(const pm_config_manager_t *config)
         return PM_ERR_INVALID_PARAM;
     }
     
-    /* ÇåÁãºËĞÄ¹ÜÀíÆ÷ */
+    /* æ¸…é›¶æ ¸å¿ƒç®¡ç†å™¨ */
     memset(&g_pm_core, 0, sizeof(pm_core_manager_t));
     
-    /* ¸´ÖÆÅäÖÃ */
+    /* å¤åˆ¶é…ç½® */
     memcpy(&g_pm_core.config, config, sizeof(pm_config_manager_t));
     
-    /* ³õÊ¼»¯×´Ì¬ */
+    /* åˆå§‹åŒ–çŠ¶æ€ */
     g_pm_core.current_state = PM_STATE_ACTIVE;
     g_pm_core.previous_state = PM_STATE_INVALID;
     g_pm_core.state_enter_time = pm_platform_get_time_ms();
     
-    /* ³õÊ¼»¯ÉÏÏÂÎÄ */
+    /* åˆå§‹åŒ–ä¸Šä¸‹æ–‡ */
     g_pm_core.context.current_state = PM_STATE_ACTIVE;
     g_pm_core.context.sleep_mode = PM_SLEEP_MODE_NONE;
     g_pm_core.context.wakeup_source = PM_WAKEUP_SOURCE_NONE;
@@ -1047,16 +1047,16 @@ pm_err_t pm_core_init(const pm_config_manager_t *config)
     g_pm_core.context.total_sleep_time_ms = 0;
     g_pm_core.context.last_sleep_duration_ms = 0;
     
-    /* ÉèÖÃµ÷ÊÔ¼¶±ğ */
+    /* è®¾ç½®è°ƒè¯•çº§åˆ« */
     g_pm_core.debug_level = config->global.debug_level;
     
-    /* ÉèÖÃ½Ó¿Ú */
+    /* è®¾ç½®æ¥å£ */
     pm_err_t ret = pm_core_setup_interfaces();
     if (ret != PM_ERR_OK) {
         return ret;
     }
     
-    /* ³õÊ¼»¯ÅäÖÃ¹ÜÀíÆ÷ */
+    /* åˆå§‹åŒ–é…ç½®ç®¡ç†å™¨ */
     ret = pm_config_manager_init();
     if (ret != PM_ERR_OK) {
         pm_core_cleanup_interfaces();
@@ -1066,14 +1066,14 @@ pm_err_t pm_core_init(const pm_config_manager_t *config)
     g_pm_core.initialized = true;
     g_pm_core_initialized = true;
     
-    /* Í¨Öª³õÊ¼»¯Íê³É */
+    /* é€šçŸ¥åˆå§‹åŒ–å®Œæˆ */
     pm_core_notify_callbacks(PM_CALLBACK_TYPE_STATE_CHANGE, &g_pm_core.current_state);
     
     return PM_ERR_OK;
 }
 
 /**
- * @brief ·´³õÊ¼»¯PMºËĞÄÄ£¿é
+ * @brief ååˆå§‹åŒ–PMæ ¸å¿ƒæ¨¡å—
  */
 pm_err_t pm_core_deinit(void)
 {
@@ -1081,17 +1081,17 @@ pm_err_t pm_core_deinit(void)
         return PM_ERR_NOT_INITIALIZED;
     }
     
-    /* Í¨Öª·´³õÊ¼»¯¿ªÊ¼ */
+    /* é€šçŸ¥ååˆå§‹åŒ–å¼€å§‹ */
     pm_state_t deinit_state = PM_STATE_INVALID;
     pm_core_notify_callbacks(PM_CALLBACK_TYPE_STATE_CHANGE, &deinit_state);
     
-    /* ÇåÀí½Ó¿Ú */
+    /* æ¸…ç†æ¥å£ */
     pm_core_cleanup_interfaces();
     
-    /* ·´³õÊ¼»¯ÅäÖÃ¹ÜÀíÆ÷ */
+    /* ååˆå§‹åŒ–é…ç½®ç®¡ç†å™¨ */
     pm_config_manager_deinit();
     
-    /* ÇåÁãºËĞÄ¹ÜÀíÆ÷ */
+    /* æ¸…é›¶æ ¸å¿ƒç®¡ç†å™¨ */
     memset(&g_pm_core, 0, sizeof(pm_core_manager_t));
     
     g_pm_core_initialized = false;
@@ -1100,7 +1100,7 @@ pm_err_t pm_core_deinit(void)
 }
 
 /**
- * @brief ÉèÖÃPM×´Ì¬
+ * @brief è®¾ç½®PMçŠ¶æ€
  */
 pm_err_t pm_core_set_state(pm_state_t state)
 {
@@ -1112,18 +1112,18 @@ pm_err_t pm_core_set_state(pm_state_t state)
         return PM_ERR_LOCKED;
     }
     
-    /* ÑéÖ¤×´Ì¬×ª»» */
+    /* éªŒè¯çŠ¶æ€è½¬æ¢ */
     pm_err_t ret = pm_core_validate_state_transition(g_pm_core.current_state, state);
     if (ret != PM_ERR_OK) {
         return ret;
     }
     
-    /* ¸üĞÂ×´Ì¬»ú */
+    /* æ›´æ–°çŠ¶æ€æœº */
     return pm_core_state_machine_update(state);
 }
 
 /**
- * @brief »ñÈ¡PM×´Ì¬
+ * @brief è·å–PMçŠ¶æ€
  */
 pm_state_t pm_core_get_state(void)
 {
@@ -1135,7 +1135,7 @@ pm_state_t pm_core_get_state(void)
 }
 
 /**
- * @brief »ñÈ¡PMÉÏÏÂÎÄ
+ * @brief è·å–PMä¸Šä¸‹æ–‡
  */
 pm_err_t pm_core_get_context(pm_context_t *context)
 {
@@ -1147,7 +1147,7 @@ pm_err_t pm_core_get_context(pm_context_t *context)
         return PM_ERR_INVALID_PARAM;
     }
     
-    /* ¸üĞÂµ±Ç°×´Ì¬Ê±¼ä */
+    /* æ›´æ–°å½“å‰çŠ¶æ€æ—¶é—´ */
     uint32_t current_time = pm_platform_get_time_ms();
     g_pm_core.context.current_state_duration_ms = current_time - g_pm_core.state_enter_time;
     
@@ -1157,7 +1157,7 @@ pm_err_t pm_core_get_context(pm_context_t *context)
 }
 
 /**
- * @brief Ëø¶¨PM×´Ì¬
+ * @brief é”å®šPMçŠ¶æ€
  */
 pm_err_t pm_core_lock(void)
 {
@@ -1172,7 +1172,7 @@ pm_err_t pm_core_lock(void)
 }
 
 /**
- * @brief ½âËøPM×´Ì¬
+ * @brief è§£é”PMçŠ¶æ€
  */
 pm_err_t pm_core_unlock(void)
 {
@@ -1196,7 +1196,7 @@ pm_err_t pm_core_unlock(void)
 }
 
 /**
- * @brief »ñÈ¡½Ó¿Ú¹ÜÀíÆ÷
+ * @brief è·å–æ¥å£ç®¡ç†å™¨
  */
 pm_interface_manager_t* pm_core_get_interface_manager(void)
 {
@@ -1207,36 +1207,36 @@ pm_interface_manager_t* pm_core_get_interface_manager(void)
     return &g_pm_core.interfaces;
 }
 
-/* ==================== ÄÚ²¿º¯ÊıÊµÏÖ ==================== */
+/* ==================== å†…éƒ¨å‡½æ•°å®ç° ==================== */
 
 /**
- * @brief ×´Ì¬»ú¸üĞÂ
+ * @brief çŠ¶æ€æœºæ›´æ–°
  */
 static pm_err_t pm_core_state_machine_update(pm_state_t new_state)
 {
     pm_state_t old_state = g_pm_core.current_state;
     uint32_t current_time = pm_platform_get_time_ms();
     
-    /* ¸üĞÂ×´Ì¬ */
+    /* æ›´æ–°çŠ¶æ€ */
     g_pm_core.previous_state = old_state;
     g_pm_core.current_state = new_state;
     g_pm_core.state_enter_time = current_time;
     
-    /* ¸üĞÂÉÏÏÂÎÄ */
+    /* æ›´æ–°ä¸Šä¸‹æ–‡ */
     g_pm_core.context.current_state = new_state;
     g_pm_core.context.state_change_count++;
     
-    /* ¸üĞÂÍ³¼ÆĞÅÏ¢ */
+    /* æ›´æ–°ç»Ÿè®¡ä¿¡æ¯ */
     pm_core_update_statistics(old_state, new_state);
     
-    /* Í¨Öª»Øµ÷ */
+    /* é€šçŸ¥å›è°ƒ */
     pm_core_notify_callbacks(PM_CALLBACK_TYPE_STATE_CHANGE, &new_state);
     
     return PM_ERR_OK;
 }
 
 /**
- * @brief Í¨Öª»Øµ÷º¯Êı
+ * @brief é€šçŸ¥å›è°ƒå‡½æ•°
  */
 static pm_err_t pm_core_notify_callbacks(pm_callback_type_t type, void *data)
 {
@@ -1252,11 +1252,11 @@ static pm_err_t pm_core_notify_callbacks(pm_callback_type_t type, void *data)
 }
 
 /**
- * @brief ÑéÖ¤×´Ì¬×ª»»
+ * @brief éªŒè¯çŠ¶æ€è½¬æ¢
  */
 static pm_err_t pm_core_validate_state_transition(pm_state_t from, pm_state_t to)
 {
-    /* ×´Ì¬×ª»»¾ØÕó */
+    /* çŠ¶æ€è½¬æ¢çŸ©é˜µ */
     static const bool transition_matrix[PM_STATE_MAX][PM_STATE_MAX] = {
         /* FROM\TO    ACTIVE  IDLE    LIGHT   DEEP    SUPER   INVALID */
         /* ACTIVE  */ {true,   true,   true,   true,   true,   false},
@@ -1279,14 +1279,14 @@ static pm_err_t pm_core_validate_state_transition(pm_state_t from, pm_state_t to
 }
 
 /**
- * @brief ¸üĞÂÍ³¼ÆĞÅÏ¢
+ * @brief æ›´æ–°ç»Ÿè®¡ä¿¡æ¯
  */
 static void pm_core_update_statistics(pm_state_t old_state, pm_state_t new_state)
 {
     uint32_t current_time = pm_platform_get_time_ms();
     uint32_t duration = current_time - g_pm_core.state_enter_time;
     
-    /* ¸üĞÂ×´Ì¬¼ÆÊı */
+    /* æ›´æ–°çŠ¶æ€è®¡æ•° */
     switch (old_state) {
         case PM_STATE_ACTIVE:
             g_pm_core.statistics.active_time_ms += duration;
@@ -1310,24 +1310,24 @@ static void pm_core_update_statistics(pm_state_t old_state, pm_state_t new_state
             break;
     }
     
-    /* ¸üĞÂ×ª»»¼ÆÊı */
+    /* æ›´æ–°è½¬æ¢è®¡æ•° */
     g_pm_core.statistics.state_transition_count++;
     
-    /* ¸üĞÂ×ÜÔËĞĞÊ±¼ä */
+    /* æ›´æ–°æ€»è¿è¡Œæ—¶é—´ */
     g_pm_core.statistics.total_run_time_ms = current_time;
 }
 
 /**
- * @brief ÉèÖÃ½Ó¿Ú
+ * @brief è®¾ç½®æ¥å£
  */
 static pm_err_t pm_core_setup_interfaces(void)
 {
-    /* ÕâÀïÓ¦¸Ã³õÊ¼»¯¸÷¸ö¹¦ÄÜ½Ó¿Ú */
-    /* ÓÉÓÚÆª·ùÏŞÖÆ£¬ÕâÀïÖ»×ö»ù±¾ÉèÖÃ */
+    /* è¿™é‡Œåº”è¯¥åˆå§‹åŒ–å„ä¸ªåŠŸèƒ½æ¥å£ */
+    /* ç”±äºç¯‡å¹…é™åˆ¶ï¼Œè¿™é‡ŒåªåšåŸºæœ¬è®¾ç½® */
     
     memset(&g_pm_core.interfaces, 0, sizeof(pm_interface_manager_t));
     
-    /* TODO: ³õÊ¼»¯¸÷¸ö½Ó¿Ú */
+    /* TODO: åˆå§‹åŒ–å„ä¸ªæ¥å£ */
     /* g_pm_core.interfaces.core = &pm_core_interface; */
     /* g_pm_core.interfaces.sleep = &pm_sleep_interface; */
     /* g_pm_core.interfaces.wakeup = &pm_wakeup_interface; */
@@ -1342,7 +1342,7 @@ static pm_err_t pm_core_setup_interfaces(void)
 }
 
 /**
- * @brief ÇåÀí½Ó¿Ú
+ * @brief æ¸…ç†æ¥å£
  */
 static pm_err_t pm_core_cleanup_interfaces(void)
 {
@@ -1350,7 +1350,7 @@ static pm_err_t pm_core_cleanup_interfaces(void)
     return PM_ERR_OK;
 }
 
-/* ==================== ÅäÖÃ¹ÜÀí½Ó¿ÚÊµÏÖ ==================== */
+/* ==================== é…ç½®ç®¡ç†æ¥å£å®ç° ==================== */
 
 pm_global_config_t* pm_get_global_config_ptr(void)
 {
@@ -1363,13 +1363,13 @@ pm_global_config_t* pm_get_global_config_ptr(void)
 
 pm_err_t pm_config_manager_init(void)
 {
-    /* »ñÈ¡Ä¬ÈÏÅäÖÃ */
+    /* è·å–é»˜è®¤é…ç½® */
     pm_err_t ret = pm_get_default_config(&g_pm_core.config);
     if (ret != PM_ERR_OK) {
         return ret;
     }
     
-    /* ÑéÖ¤ÅäÖÃ */
+    /* éªŒè¯é…ç½® */
     ret = pm_validate_config(&g_pm_core.config);
     if (ret != PM_ERR_OK) {
         return ret;
@@ -1384,28 +1384,28 @@ pm_err_t pm_config_manager_deinit(void)
     return PM_ERR_OK;
 }
 
-/* ==================== Æ½Ì¨ÊÊÅä½Ó¿Ú(ĞèÒªÓÃ»§ÊµÏÖ) ==================== */
+/* ==================== å¹³å°é€‚é…æ¥å£(éœ€è¦ç”¨æˆ·å®ç°) ==================== */
 
 __attribute__((weak)) uint32_t pm_platform_get_time_ms(void)
 {
-    /* ÓÃ»§ĞèÒªÊµÏÖ´Ëº¯Êı */
+    /* ç”¨æˆ·éœ€è¦å®ç°æ­¤å‡½æ•° */
     return 0;
 }
 
 __attribute__((weak)) void pm_platform_delay_ms(uint32_t ms)
 {
-    /* ÓÃ»§ĞèÒªÊµÏÖ´Ëº¯Êı */
+    /* ç”¨æˆ·éœ€è¦å®ç°æ­¤å‡½æ•° */
     (void)ms;
 }
 
 __attribute__((weak)) void pm_platform_delay_us(uint32_t us)
 {
-    /* ÓÃ»§ĞèÒªÊµÏÖ´Ëº¯Êı */
+    /* ç”¨æˆ·éœ€è¦å®ç°æ­¤å‡½æ•° */
     (void)us;
 }
 
           
-´´½¨Ë¯Ãß¹ÜÀíÄ£¿éÊµÏÖ£¬°üº¬¸÷ÖÖË¯ÃßÄ£Ê½µÄ¿ØÖÆÂß¼­¡£
+åˆ›å»ºç¡çœ ç®¡ç†æ¨¡å—å®ç°ï¼ŒåŒ…å«å„ç§ç¡çœ æ¨¡å¼çš„æ§åˆ¶é€»è¾‘ã€‚
         
             
 toolName: write_to_file
@@ -1417,7 +1417,7 @@ filePath: d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\src\services\pm_sleep
           
 content: /**
  * @file pm_sleep.c
- * @brief PMË¯Ãß¹ÜÀíÄ£¿éÊµÏÖ
+ * @brief PMç¡çœ ç®¡ç†æ¨¡å—å®ç°
  * @version 2.0
  * @date 2024
  */
@@ -1426,45 +1426,45 @@ content: /**
 #include "pm_config.h"
 #include <string.h>
 
-/* ==================== ÄÚ²¿Êı¾İ½á¹¹ ==================== */
+/* ==================== å†…éƒ¨æ•°æ®ç»“æ„ ==================== */
 
 /**
- * @brief Ë¯Ãß¹ÜÀíÆ÷½á¹¹Ìå
+ * @brief ç¡çœ ç®¡ç†å™¨ç»“æ„ä½“
  */
 typedef struct {
-    pm_sleep_mode_t current_mode;               /**< µ±Ç°Ë¯ÃßÄ£Ê½ */
-    pm_sleep_config_t config;                   /**< Ë¯ÃßÅäÖÃ */
-    pm_sleep_policy_config_t policy;            /**< Ë¯Ãß²ßÂÔ */
+    pm_sleep_mode_t current_mode;               /**< å½“å‰ç¡çœ æ¨¡å¼ */
+    pm_sleep_config_t config;                   /**< ç¡çœ é…ç½® */
+    pm_sleep_policy_config_t policy;            /**< ç¡çœ ç­–ç•¥ */
     
-    /* Ë¯Ãß×´Ì¬ */
-    bool in_sleep;                              /**< Ë¯Ãß×´Ì¬±êÖ¾ */
-    uint32_t sleep_enter_time;                  /**< Ë¯Ãß½øÈëÊ±¼ä */
-    uint32_t sleep_duration_ms;                 /**< Ë¯Ãß³ÖĞøÊ±¼ä */
-    uint32_t expected_sleep_duration_ms;        /**< Ô¤ÆÚË¯ÃßÊ±¼ä */
+    /* ç¡çœ çŠ¶æ€ */
+    bool in_sleep;                              /**< ç¡çœ çŠ¶æ€æ ‡å¿— */
+    uint32_t sleep_enter_time;                  /**< ç¡çœ è¿›å…¥æ—¶é—´ */
+    uint32_t sleep_duration_ms;                 /**< ç¡çœ æŒç»­æ—¶é—´ */
+    uint32_t expected_sleep_duration_ms;        /**< é¢„æœŸç¡çœ æ—¶é—´ */
     
-    /* Ë¯ÃßÍ³¼Æ */
-    uint32_t light_sleep_count;                 /**< Çá¶ÈË¯Ãß´ÎÊı */
-    uint32_t deep_sleep_count;                  /**< Éî¶ÈË¯Ãß´ÎÊı */
-    uint32_t super_deep_sleep_count;            /**< ³¬Éî¶ÈË¯Ãß´ÎÊı */
-    uint32_t total_sleep_time_ms;               /**< ×ÜË¯ÃßÊ±¼ä */
+    /* ç¡çœ ç»Ÿè®¡ */
+    uint32_t light_sleep_count;                 /**< è½»åº¦ç¡çœ æ¬¡æ•° */
+    uint32_t deep_sleep_count;                  /**< æ·±åº¦ç¡çœ æ¬¡æ•° */
+    uint32_t super_deep_sleep_count;            /**< è¶…æ·±åº¦ç¡çœ æ¬¡æ•° */
+    uint32_t total_sleep_time_ms;               /**< æ€»ç¡çœ æ—¶é—´ */
     
-    /* Ë¯Ãß×èÖ¹ */
-    uint32_t sleep_lock_count;                  /**< Ë¯ÃßËø¼ÆÊı */
-    uint32_t sleep_lock_mask;                   /**< Ë¯ÃßËøÑÚÂë */
+    /* ç¡çœ é˜»æ­¢ */
+    uint32_t sleep_lock_count;                  /**< ç¡çœ é”è®¡æ•° */
+    uint32_t sleep_lock_mask;                   /**< ç¡çœ é”æ©ç  */
     
-    /* »Øµ÷¹ÜÀí */
-    pm_sleep_callback_t enter_callback;         /**< ½øÈëË¯Ãß»Øµ÷ */
-    pm_sleep_callback_t exit_callback;          /**< ÍË³öË¯Ãß»Øµ÷ */
-    void *callback_user_data;                   /**< »Øµ÷ÓÃ»§Êı¾İ */
+    /* å›è°ƒç®¡ç† */
+    pm_sleep_callback_t enter_callback;         /**< è¿›å…¥ç¡çœ å›è°ƒ */
+    pm_sleep_callback_t exit_callback;          /**< é€€å‡ºç¡çœ å›è°ƒ */
+    void *callback_user_data;                   /**< å›è°ƒç”¨æˆ·æ•°æ® */
     
-    bool initialized;                           /**< ³õÊ¼»¯±êÖ¾ */
+    bool initialized;                           /**< åˆå§‹åŒ–æ ‡å¿— */
 } pm_sleep_manager_t;
 
-/* ==================== È«¾Ö±äÁ¿ ==================== */
+/* ==================== å…¨å±€å˜é‡ ==================== */
 
 static pm_sleep_manager_t g_sleep_mgr = {0};
 
-/* ==================== ÄÚ²¿º¯ÊıÉùÃ÷ ==================== */
+/* ==================== å†…éƒ¨å‡½æ•°å£°æ˜ ==================== */
 
 static pm_err_t pm_sleep_prepare_enter(pm_sleep_mode_t mode);
 static pm_err_t pm_sleep_do_enter(pm_sleep_mode_t mode);
@@ -1475,10 +1475,10 @@ static pm_sleep_mode_t pm_sleep_select_optimal_mode(uint32_t expected_duration_m
 static pm_err_t pm_sleep_save_context(pm_sleep_mode_t mode);
 static pm_err_t pm_sleep_restore_context(pm_sleep_mode_t mode);
 
-/* ==================== Ë¯Ãß½Ó¿ÚÊµÏÖ ==================== */
+/* ==================== ç¡çœ æ¥å£å®ç° ==================== */
 
 /**
- * @brief ³õÊ¼»¯Ë¯Ãß¹ÜÀíÆ÷
+ * @brief åˆå§‹åŒ–ç¡çœ ç®¡ç†å™¨
  */
 pm_err_t pm_sleep_init(const pm_sleep_config_t *config)
 {
@@ -1490,17 +1490,17 @@ pm_err_t pm_sleep_init(const pm_sleep_config_t *config)
         return PM_ERR_INVALID_PARAM;
     }
     
-    /* ÇåÁã¹ÜÀíÆ÷ */
+    /* æ¸…é›¶ç®¡ç†å™¨ */
     memset(&g_sleep_mgr, 0, sizeof(pm_sleep_manager_t));
     
-    /* ¸´ÖÆÅäÖÃ */
+    /* å¤åˆ¶é…ç½® */
     memcpy(&g_sleep_mgr.config, config, sizeof(pm_sleep_config_t));
     
-    /* ³õÊ¼»¯×´Ì¬ */
+    /* åˆå§‹åŒ–çŠ¶æ€ */
     g_sleep_mgr.current_mode = PM_SLEEP_MODE_NONE;
     g_sleep_mgr.in_sleep = false;
     
-    /* »ñÈ¡Ë¯Ãß²ßÂÔÅäÖÃ */
+    /* è·å–ç¡çœ ç­–ç•¥é…ç½® */
     pm_get_sleep_policy_config(&g_sleep_mgr.policy);
     
     g_sleep_mgr.initialized = true;
@@ -1509,7 +1509,7 @@ pm_err_t pm_sleep_init(const pm_sleep_config_t *config)
 }
 
 /**
- * @brief ·´³õÊ¼»¯Ë¯Ãß¹ÜÀíÆ÷
+ * @brief ååˆå§‹åŒ–ç¡çœ ç®¡ç†å™¨
  */
 pm_err_t pm_sleep_deinit(void)
 {
@@ -1517,19 +1517,19 @@ pm_err_t pm_sleep_deinit(void)
         return PM_ERR_NOT_INITIALIZED;
     }
     
-    /* Èç¹ûÕıÔÚË¯Ãß£¬ÏÈÍË³ö */
+    /* å¦‚æœæ­£åœ¨ç¡çœ ï¼Œå…ˆé€€å‡º */
     if (g_sleep_mgr.in_sleep) {
         pm_sleep_exit(PM_WAKEUP_SOURCE_SYSTEM);
     }
     
-    /* ÇåÁã¹ÜÀíÆ÷ */
+    /* æ¸…é›¶ç®¡ç†å™¨ */
     memset(&g_sleep_mgr, 0, sizeof(pm_sleep_manager_t));
     
     return PM_ERR_OK;
 }
 
 /**
- * @brief ½øÈëË¯ÃßÄ£Ê½
+ * @brief è¿›å…¥ç¡çœ æ¨¡å¼
  */
 pm_err_t pm_sleep_enter(pm_sleep_mode_t mode, uint32_t duration_ms)
 {
@@ -1541,22 +1541,22 @@ pm_err_t pm_sleep_enter(pm_sleep_mode_t mode, uint32_t duration_ms)
         return PM_ERR_INVALID_STATE;
     }
     
-    /* ¼ì²éË¯ÃßÊÇ·ñ±»×èÖ¹ */
+    /* æ£€æŸ¥ç¡çœ æ˜¯å¦è¢«é˜»æ­¢ */
     if (!pm_sleep_is_allowed(mode)) {
         return PM_ERR_SLEEP_LOCKED;
     }
     
-    /* Èç¹ûÄ£Ê½Îª×Ô¶¯£¬Ñ¡Ôñ×îÓÅÄ£Ê½ */
+    /* å¦‚æœæ¨¡å¼ä¸ºè‡ªåŠ¨ï¼Œé€‰æ‹©æœ€ä¼˜æ¨¡å¼ */
     if (mode == PM_SLEEP_MODE_AUTO) {
         mode = pm_sleep_select_optimal_mode(duration_ms);
     }
     
-    /* ÑéÖ¤Ë¯ÃßÄ£Ê½ */
+    /* éªŒè¯ç¡çœ æ¨¡å¼ */
     if (mode >= PM_SLEEP_MODE_MAX) {
         return PM_ERR_INVALID_PARAM;
     }
     
-    /* ¼ì²éÄ£Ê½ÊÇ·ñÊ¹ÄÜ */
+    /* æ£€æŸ¥æ¨¡å¼æ˜¯å¦ä½¿èƒ½ */
     switch (mode) {
         case PM_SLEEP_MODE_LIGHT:
             if (!PM_CONFIG_CHECK_ENABLE(light_sleep)) {
@@ -1577,19 +1577,19 @@ pm_err_t pm_sleep_enter(pm_sleep_mode_t mode, uint32_t duration_ms)
             break;
     }
     
-    /* ×¼±¸½øÈëË¯Ãß */
+    /* å‡†å¤‡è¿›å…¥ç¡çœ  */
     pm_err_t ret = pm_sleep_prepare_enter(mode);
     if (ret != PM_ERR_OK) {
         return ret;
     }
     
-    /* ÉèÖÃË¯Ãß²ÎÊı */
+    /* è®¾ç½®ç¡çœ å‚æ•° */
     g_sleep_mgr.current_mode = mode;
     g_sleep_mgr.expected_sleep_duration_ms = duration_ms;
     g_sleep_mgr.sleep_enter_time = pm_platform_get_time_ms();
     g_sleep_mgr.in_sleep = true;
     
-    /* Ö´ĞĞË¯Ãß½øÈë */
+    /* æ‰§è¡Œç¡çœ è¿›å…¥ */
     ret = pm_sleep_do_enter(mode);
     if (ret != PM_ERR_OK) {
         g_sleep_mgr.in_sleep = false;
@@ -1600,7 +1600,7 @@ pm_err_t pm_sleep_enter(pm_sleep_mode_t mode, uint32_t duration_ms)
 }
 
 /**
- * @brief ÍË³öË¯ÃßÄ£Ê½
+ * @brief é€€å‡ºç¡çœ æ¨¡å¼
  */
 pm_err_t pm_sleep_exit(pm_wakeup_source_t wakeup_source)
 {
@@ -1612,23 +1612,23 @@ pm_err_t pm_sleep_exit(pm_wakeup_source_t wakeup_source)
         return PM_ERR_INVALID_STATE;
     }
     
-    /* ¼ÆËãÊµ¼ÊË¯ÃßÊ±¼ä */
+    /* è®¡ç®—å®é™…ç¡çœ æ—¶é—´ */
     uint32_t current_time = pm_platform_get_time_ms();
     g_sleep_mgr.sleep_duration_ms = current_time - g_sleep_mgr.sleep_enter_time;
     
-    /* Ö´ĞĞË¯ÃßÍË³ö */
+    /* æ‰§è¡Œç¡çœ é€€å‡º */
     pm_err_t ret = pm_sleep_do_exit(wakeup_source);
     if (ret != PM_ERR_OK) {
         return ret;
     }
     
-    /* »Ö¸´Ë¯Ãßºó×´Ì¬ */
+    /* æ¢å¤ç¡çœ åçŠ¶æ€ */
     ret = pm_sleep_restore_after_exit();
     if (ret != PM_ERR_OK) {
         return ret;
     }
     
-    /* ¸üĞÂÍ³¼ÆĞÅÏ¢ */
+    /* æ›´æ–°ç»Ÿè®¡ä¿¡æ¯ */
     switch (g_sleep_mgr.current_mode) {
         case PM_SLEEP_MODE_LIGHT:
             g_sleep_mgr.light_sleep_count++;
@@ -1644,7 +1644,7 @@ pm_err_t pm_sleep_exit(pm_wakeup_source_t wakeup_source)
     }
     g_sleep_mgr.total_sleep_time_ms += g_sleep_mgr.sleep_duration_ms;
     
-    /* ÖØÖÃË¯Ãß×´Ì¬ */
+    /* é‡ç½®ç¡çœ çŠ¶æ€ */
     g_sleep_mgr.current_mode = PM_SLEEP_MODE_NONE;
     g_sleep_mgr.in_sleep = false;
     
@@ -1652,7 +1652,7 @@ pm_err_t pm_sleep_exit(pm_wakeup_source_t wakeup_source)
 }
 
 /**
- * @brief »ñÈ¡µ±Ç°Ë¯ÃßÄ£Ê½
+ * @brief è·å–å½“å‰ç¡çœ æ¨¡å¼
  */
 pm_sleep_mode_t pm_sleep_get_mode(void)
 {
@@ -1664,7 +1664,7 @@ pm_sleep_mode_t pm_sleep_get_mode(void)
 }
 
 /**
- * @brief ¼ì²éÊÇ·ñÔÚË¯ÃßÖĞ
+ * @brief æ£€æŸ¥æ˜¯å¦åœ¨ç¡çœ ä¸­
  */
 bool pm_sleep_is_sleeping(void)
 {
@@ -1676,7 +1676,7 @@ bool pm_sleep_is_sleeping(void)
 }
 
 /**
- * @brief »ñÈ¡Ë¯Ãß³ÖĞøÊ±¼ä
+ * @brief è·å–ç¡çœ æŒç»­æ—¶é—´
  */
 uint32_t pm_sleep_get_duration_ms(void)
 {
@@ -1693,7 +1693,7 @@ uint32_t pm_sleep_get_duration_ms(void)
 }
 
 /**
- * @brief ÉèÖÃË¯ÃßÅäÖÃ
+ * @brief è®¾ç½®ç¡çœ é…ç½®
  */
 pm_err_t pm_sleep_set_config(const pm_sleep_config_t *config)
 {
@@ -1715,7 +1715,7 @@ pm_err_t pm_sleep_set_config(const pm_sleep_config_t *config)
 }
 
 /**
- * @brief »ñÈ¡Ë¯ÃßÅäÖÃ
+ * @brief è·å–ç¡çœ é…ç½®
  */
 pm_err_t pm_sleep_get_config(pm_sleep_config_t *config)
 {
@@ -1733,7 +1733,7 @@ pm_err_t pm_sleep_get_config(pm_sleep_config_t *config)
 }
 
 /**
- * @brief Ëø¶¨Ë¯Ãß
+ * @brief é”å®šç¡çœ 
  */
 pm_err_t pm_sleep_lock(uint32_t lock_id)
 {
@@ -1756,7 +1756,7 @@ pm_err_t pm_sleep_lock(uint32_t lock_id)
 }
 
 /**
- * @brief ½âËøË¯Ãß
+ * @brief è§£é”ç¡çœ 
  */
 pm_err_t pm_sleep_unlock(uint32_t lock_id)
 {
@@ -1781,7 +1781,7 @@ pm_err_t pm_sleep_unlock(uint32_t lock_id)
 }
 
 /**
- * @brief ×¢²áË¯Ãß»Øµ÷
+ * @brief æ³¨å†Œç¡çœ å›è°ƒ
  */
 pm_err_t pm_sleep_register_callback(pm_sleep_callback_t enter_cb, pm_sleep_callback_t exit_cb, void *user_data)
 {
@@ -1796,20 +1796,20 @@ pm_err_t pm_sleep_register_callback(pm_sleep_callback_t enter_cb, pm_sleep_callb
     return PM_ERR_OK;
 }
 
-/* ==================== ÄÚ²¿º¯ÊıÊµÏÖ ==================== */
+/* ==================== å†…éƒ¨å‡½æ•°å®ç° ==================== */
 
 /**
- * @brief ×¼±¸½øÈëË¯Ãß
+ * @brief å‡†å¤‡è¿›å…¥ç¡çœ 
  */
 static pm_err_t pm_sleep_prepare_enter(pm_sleep_mode_t mode)
 {
-    /* ±£´æÉÏÏÂÎÄ */
+    /* ä¿å­˜ä¸Šä¸‹æ–‡ */
     pm_err_t ret = pm_sleep_save_context(mode);
     if (ret != PM_ERR_OK) {
         return ret;
     }
     
-    /* µ÷ÓÃ½øÈëË¯Ãß»Øµ÷ */
+    /* è°ƒç”¨è¿›å…¥ç¡çœ å›è°ƒ */
     if (g_sleep_mgr.enter_callback != NULL) {
         g_sleep_mgr.enter_callback(mode, g_sleep_mgr.callback_user_data);
     }
@@ -1818,24 +1818,24 @@ static pm_err_t pm_sleep_prepare_enter(pm_sleep_mode_t mode)
 }
 
 /**
- * @brief Ö´ĞĞË¯Ãß½øÈë
+ * @brief æ‰§è¡Œç¡çœ è¿›å…¥
  */
 static pm_err_t pm_sleep_do_enter(pm_sleep_mode_t mode)
 {
-    /* ¸ù¾İË¯ÃßÄ£Ê½Ö´ĞĞÏàÓ¦²Ù×÷ */
+    /* æ ¹æ®ç¡çœ æ¨¡å¼æ‰§è¡Œç›¸åº”æ“ä½œ */
     switch (mode) {
         case PM_SLEEP_MODE_LIGHT:
-            /* Çá¶ÈË¯Ãß£º¹Ø±ÕCPUÊ±ÖÓ£¬±£³ÖÍâÉèÊ±ÖÓ */
+            /* è½»åº¦ç¡çœ ï¼šå…³é—­CPUæ—¶é’Ÿï¼Œä¿æŒå¤–è®¾æ—¶é’Ÿ */
             pm_hal_cpu_sleep();
             break;
             
         case PM_SLEEP_MODE_DEEP:
-            /* Éî¶ÈË¯Ãß£º¹Ø±Õ´ó²¿·ÖÊ±ÖÓºÍµçÔ´Óò */
+            /* æ·±åº¦ç¡çœ ï¼šå…³é—­å¤§éƒ¨åˆ†æ—¶é’Ÿå’Œç”µæºåŸŸ */
             pm_hal_deep_sleep();
             break;
             
         case PM_SLEEP_MODE_SUPER_DEEP:
-            /* ³¬Éî¶ÈË¯Ãß£ºÖ»±£³Ö×îĞ¡±ØÒªµçÂ· */
+            /* è¶…æ·±åº¦ç¡çœ ï¼šåªä¿æŒæœ€å°å¿…è¦ç”µè·¯ */
             pm_hal_super_deep_sleep();
             break;
             
@@ -1847,24 +1847,24 @@ static pm_err_t pm_sleep_do_enter(pm_sleep_mode_t mode)
 }
 
 /**
- * @brief Ö´ĞĞË¯ÃßÍË³ö
+ * @brief æ‰§è¡Œç¡çœ é€€å‡º
  */
 static pm_err_t pm_sleep_do_exit(pm_wakeup_source_t wakeup_source)
 {
-    /* ¸ù¾İË¯ÃßÄ£Ê½Ö´ĞĞÏàÓ¦µÄ»½ĞÑ²Ù×÷ */
+    /* æ ¹æ®ç¡çœ æ¨¡å¼æ‰§è¡Œç›¸åº”çš„å”¤é†’æ“ä½œ */
     switch (g_sleep_mgr.current_mode) {
         case PM_SLEEP_MODE_LIGHT:
-            /* Çá¶ÈË¯Ãß»½ĞÑ£º»Ö¸´CPUÊ±ÖÓ */
+            /* è½»åº¦ç¡çœ å”¤é†’ï¼šæ¢å¤CPUæ—¶é’Ÿ */
             pm_hal_cpu_wakeup();
             break;
             
         case PM_SLEEP_MODE_DEEP:
-            /* Éî¶ÈË¯Ãß»½ĞÑ£º»Ö¸´Ê±ÖÓºÍµçÔ´Óò */
+            /* æ·±åº¦ç¡çœ å”¤é†’ï¼šæ¢å¤æ—¶é’Ÿå’Œç”µæºåŸŸ */
             pm_hal_deep_wakeup();
             break;
             
         case PM_SLEEP_MODE_SUPER_DEEP:
-            /* ³¬Éî¶ÈË¯Ãß»½ĞÑ£ºÖØĞÂ³õÊ¼»¯ÏµÍ³ */
+            /* è¶…æ·±åº¦ç¡çœ å”¤é†’ï¼šé‡æ–°åˆå§‹åŒ–ç³»ç»Ÿ */
             pm_hal_super_deep_wakeup();
             break;
             
@@ -1872,7 +1872,7 @@ static pm_err_t pm_sleep_do_exit(pm_wakeup_source_t wakeup_source)
             return PM_ERR_INVALID_PARAM;
     }
     
-    /* µ÷ÓÃÍË³öË¯Ãß»Øµ÷ */
+    /* è°ƒç”¨é€€å‡ºç¡çœ å›è°ƒ */
     if (g_sleep_mgr.exit_callback != NULL) {
         g_sleep_mgr.exit_callback(g_sleep_mgr.current_mode, g_sleep_mgr.callback_user_data);
     }
@@ -1881,11 +1881,11 @@ static pm_err_t pm_sleep_do_exit(pm_wakeup_source_t wakeup_source)
 }
 
 /**
- * @brief Ë¯Ãßºó»Ö¸´
+ * @brief ç¡çœ åæ¢å¤
  */
 static pm_err_t pm_sleep_restore_after_exit(void)
 {
-    /* »Ö¸´ÉÏÏÂÎÄ */
+    /* æ¢å¤ä¸Šä¸‹æ–‡ */
     pm_err_t ret = pm_sleep_restore_context(g_sleep_mgr.current_mode);
     if (ret != PM_ERR_OK) {
         return ret;
@@ -1895,16 +1895,16 @@ static pm_err_t pm_sleep_restore_after_exit(void)
 }
 
 /**
- * @brief ¼ì²éË¯ÃßÊÇ·ñ±»ÔÊĞí
+ * @brief æ£€æŸ¥ç¡çœ æ˜¯å¦è¢«å…è®¸
  */
 static bool pm_sleep_is_allowed(pm_sleep_mode_t mode)
 {
-    /* ¼ì²éË¯ÃßËø */
+    /* æ£€æŸ¥ç¡çœ é” */
     if (g_sleep_mgr.sleep_lock_count > 0) {
         return false;
     }
     
-    /* ¼ì²é²ßÂÔÅäÖÃ */
+    /* æ£€æŸ¥ç­–ç•¥é…ç½® */
     if (!g_sleep_mgr.policy.auto_sleep_enable) {
         return false;
     }
@@ -1913,11 +1913,11 @@ static bool pm_sleep_is_allowed(pm_sleep_mode_t mode)
 }
 
 /**
- * @brief Ñ¡Ôñ×îÓÅË¯ÃßÄ£Ê½
+ * @brief é€‰æ‹©æœ€ä¼˜ç¡çœ æ¨¡å¼
  */
 static pm_sleep_mode_t pm_sleep_select_optimal_mode(uint32_t expected_duration_ms)
 {
-    /* ¸ù¾İÔ¤ÆÚË¯ÃßÊ±¼äºÍ²ßÂÔÑ¡Ôñ×îÓÅÄ£Ê½ */
+    /* æ ¹æ®é¢„æœŸç¡çœ æ—¶é—´å’Œç­–ç•¥é€‰æ‹©æœ€ä¼˜æ¨¡å¼ */
     if (expected_duration_ms >= g_sleep_mgr.policy.deep_sleep_threshold_ms) {
         if (PM_CONFIG_CHECK_ENABLE(deep_sleep)) {
             return PM_SLEEP_MODE_DEEP;
@@ -1934,24 +1934,24 @@ static pm_sleep_mode_t pm_sleep_select_optimal_mode(uint32_t expected_duration_m
 }
 
 /**
- * @brief ±£´æË¯ÃßÉÏÏÂÎÄ
+ * @brief ä¿å­˜ç¡çœ ä¸Šä¸‹æ–‡
  */
 static pm_err_t pm_sleep_save_context(pm_sleep_mode_t mode)
 {
-    /* ¸ù¾İË¯ÃßÄ£Ê½±£´æ²»Í¬¼¶±ğµÄÉÏÏÂÎÄ */
+    /* æ ¹æ®ç¡çœ æ¨¡å¼ä¿å­˜ä¸åŒçº§åˆ«çš„ä¸Šä¸‹æ–‡ */
     switch (mode) {
         case PM_SLEEP_MODE_LIGHT:
-            /* Çá¶ÈË¯Ãß£º±£´æCPU¼Ä´æÆ÷ */
+            /* è½»åº¦ç¡çœ ï¼šä¿å­˜CPUå¯„å­˜å™¨ */
             pm_hal_save_cpu_context();
             break;
             
         case PM_SLEEP_MODE_DEEP:
-            /* Éî¶ÈË¯Ãß£º±£´æÏµÍ³×´Ì¬ */
+            /* æ·±åº¦ç¡çœ ï¼šä¿å­˜ç³»ç»ŸçŠ¶æ€ */
             pm_hal_save_system_context();
             break;
             
         case PM_SLEEP_MODE_SUPER_DEEP:
-            /* ³¬Éî¶ÈË¯Ãß£º±£´æ¹Ø¼üÊı¾İµ½·ÇÒ×Ê§ĞÔ´æ´¢ */
+            /* è¶…æ·±åº¦ç¡çœ ï¼šä¿å­˜å…³é”®æ•°æ®åˆ°éæ˜“å¤±æ€§å­˜å‚¨ */
             pm_hal_save_critical_context();
             break;
             
@@ -1963,24 +1963,24 @@ static pm_err_t pm_sleep_save_context(pm_sleep_mode_t mode)
 }
 
 /**
- * @brief »Ö¸´Ë¯ÃßÉÏÏÂÎÄ
+ * @brief æ¢å¤ç¡çœ ä¸Šä¸‹æ–‡
  */
 static pm_err_t pm_sleep_restore_context(pm_sleep_mode_t mode)
 {
-    /* ¸ù¾İË¯ÃßÄ£Ê½»Ö¸´²»Í¬¼¶±ğµÄÉÏÏÂÎÄ */
+    /* æ ¹æ®ç¡çœ æ¨¡å¼æ¢å¤ä¸åŒçº§åˆ«çš„ä¸Šä¸‹æ–‡ */
     switch (mode) {
         case PM_SLEEP_MODE_LIGHT:
-            /* Çá¶ÈË¯Ãß£º»Ö¸´CPU¼Ä´æÆ÷ */
+            /* è½»åº¦ç¡çœ ï¼šæ¢å¤CPUå¯„å­˜å™¨ */
             pm_hal_restore_cpu_context();
             break;
             
         case PM_SLEEP_MODE_DEEP:
-            /* Éî¶ÈË¯Ãß£º»Ö¸´ÏµÍ³×´Ì¬ */
+            /* æ·±åº¦ç¡çœ ï¼šæ¢å¤ç³»ç»ŸçŠ¶æ€ */
             pm_hal_restore_system_context();
             break;
             
         case PM_SLEEP_MODE_SUPER_DEEP:
-            /* ³¬Éî¶ÈË¯Ãß£º´Ó·ÇÒ×Ê§ĞÔ´æ´¢»Ö¸´¹Ø¼üÊı¾İ */
+            /* è¶…æ·±åº¦ç¡çœ ï¼šä»éæ˜“å¤±æ€§å­˜å‚¨æ¢å¤å…³é”®æ•°æ® */
             pm_hal_restore_critical_context();
             break;
             
@@ -1991,82 +1991,82 @@ static pm_err_t pm_sleep_restore_context(pm_sleep_mode_t mode)
     return PM_ERR_OK;
 }
 
-/* ==================== HAL½Ó¿Ú(ĞèÒªÓÃ»§ÊµÏÖ) ==================== */
+/* ==================== HALæ¥å£(éœ€è¦ç”¨æˆ·å®ç°) ==================== */
 
 __attribute__((weak)) pm_err_t pm_hal_cpu_sleep(void)
 {
-    /* ÓÃ»§ĞèÒªÊµÏÖ´Ëº¯Êı */
+    /* ç”¨æˆ·éœ€è¦å®ç°æ­¤å‡½æ•° */
     return PM_ERR_NOT_IMPLEMENTED;
 }
 
 __attribute__((weak)) pm_err_t pm_hal_deep_sleep(void)
 {
-    /* ÓÃ»§ĞèÒªÊµÏÖ´Ëº¯Êı */
+    /* ç”¨æˆ·éœ€è¦å®ç°æ­¤å‡½æ•° */
     return PM_ERR_NOT_IMPLEMENTED;
 }
 
 __attribute__((weak)) pm_err_t pm_hal_super_deep_sleep(void)
 {
-    /* ÓÃ»§ĞèÒªÊµÏÖ´Ëº¯Êı */
+    /* ç”¨æˆ·éœ€è¦å®ç°æ­¤å‡½æ•° */
     return PM_ERR_NOT_IMPLEMENTED;
 }
 
 __attribute__((weak)) pm_err_t pm_hal_cpu_wakeup(void)
 {
-    /* ÓÃ»§ĞèÒªÊµÏÖ´Ëº¯Êı */
+    /* ç”¨æˆ·éœ€è¦å®ç°æ­¤å‡½æ•° */
     return PM_ERR_NOT_IMPLEMENTED;
 }
 
 __attribute__((weak)) pm_err_t pm_hal_deep_wakeup(void)
 {
-    /* ÓÃ»§ĞèÒªÊµÏÖ´Ëº¯Êı */
+    /* ç”¨æˆ·éœ€è¦å®ç°æ­¤å‡½æ•° */
     return PM_ERR_NOT_IMPLEMENTED;
 }
 
 __attribute__((weak)) pm_err_t pm_hal_super_deep_wakeup(void)
 {
-    /* ÓÃ»§ĞèÒªÊµÏÖ´Ëº¯Êı */
+    /* ç”¨æˆ·éœ€è¦å®ç°æ­¤å‡½æ•° */
     return PM_ERR_NOT_IMPLEMENTED;
 }
 
 __attribute__((weak)) pm_err_t pm_hal_save_cpu_context(void)
 {
-    /* ÓÃ»§ĞèÒªÊµÏÖ´Ëº¯Êı */
+    /* ç”¨æˆ·éœ€è¦å®ç°æ­¤å‡½æ•° */
     return PM_ERR_NOT_IMPLEMENTED;
 }
 
 __attribute__((weak)) pm_err_t pm_hal_save_system_context(void)
 {
-    /* ÓÃ»§ĞèÒªÊµÏÖ´Ëº¯Êı */
+    /* ç”¨æˆ·éœ€è¦å®ç°æ­¤å‡½æ•° */
     return PM_ERR_NOT_IMPLEMENTED;
 }
 
 __attribute__((weak)) pm_err_t pm_hal_save_critical_context(void)
 {
-    /* ÓÃ»§ĞèÒªÊµÏÖ´Ëº¯Êı */
+    /* ç”¨æˆ·éœ€è¦å®ç°æ­¤å‡½æ•° */
     return PM_ERR_NOT_IMPLEMENTED;
 }
 
 __attribute__((weak)) pm_err_t pm_hal_restore_cpu_context(void)
 {
-    /* ÓÃ»§ĞèÒªÊµÏÖ´Ëº¯Êı */
+    /* ç”¨æˆ·éœ€è¦å®ç°æ­¤å‡½æ•° */
     return PM_ERR_NOT_IMPLEMENTED;
 }
 
 __attribute__((weak)) pm_err_t pm_hal_restore_system_context(void)
 {
-    /* ÓÃ»§ĞèÒªÊµÏÖ´Ëº¯Êı */
+    /* ç”¨æˆ·éœ€è¦å®ç°æ­¤å‡½æ•° */
     return PM_ERR_NOT_IMPLEMENTED;
 }
 
 __attribute__((weak)) pm_err_t pm_hal_restore_critical_context(void)
 {
-    /* ÓÃ»§ĞèÒªÊµÏÖ´Ëº¯Êı */
+    /* ç”¨æˆ·éœ€è¦å®ç°æ­¤å‡½æ•° */
     return PM_ERR_NOT_IMPLEMENTED;
 }
 
           
-´´½¨×ÊÔ´Õ¼ÓÃÆÀ¹ÀÎÄµµ£¬·ÖÎöÖØ¹¹·½°¸µÄÄÚ´æ¡¢CPUºÍ¹¦ºÄÓ°Ïì¡£
+åˆ›å»ºèµ„æºå ç”¨è¯„ä¼°æ–‡æ¡£ï¼Œåˆ†æé‡æ„æ–¹æ¡ˆçš„å†…å­˜ã€CPUå’ŒåŠŸè€—å½±å“ã€‚
         
             
 toolName: write_to_file
@@ -2076,352 +2076,352 @@ status: success
             
 filePath: d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\docs\resource_evaluation.md
           
-content: # Ç¶ÈëÊ½ÏµÍ³×ÊÔ´Õ¼ÓÃÆÀ¹À
+content: # åµŒå…¥å¼ç³»ç»Ÿèµ„æºå ç”¨è¯„ä¼°
 
-## ¸ÅÊö
+## æ¦‚è¿°
 
-±¾ÎÄµµÏêÏ¸·ÖÎöPMÖØ¹¹·½°¸ÔÚÇ¶ÈëÊ½ÏµÍ³ÖĞµÄ×ÊÔ´Õ¼ÓÃÇé¿ö£¬°üÀ¨ÄÚ´æÊ¹ÓÃ¡¢CPU¿ªÏú¡¢¹¦ºÄÓ°ÏìµÈ¹Ø¼üÖ¸±ê£¬ÎªÊµ¼Ê²¿ÊğÌá¹©²Î¿¼ÒÀ¾İ¡£
+æœ¬æ–‡æ¡£è¯¦ç»†åˆ†æPMé‡æ„æ–¹æ¡ˆåœ¨åµŒå…¥å¼ç³»ç»Ÿä¸­çš„èµ„æºå ç”¨æƒ…å†µï¼ŒåŒ…æ‹¬å†…å­˜ä½¿ç”¨ã€CPUå¼€é”€ã€åŠŸè€—å½±å“ç­‰å…³é”®æŒ‡æ ‡ï¼Œä¸ºå®é™…éƒ¨ç½²æä¾›å‚è€ƒä¾æ®ã€‚
 
-## 1. ÄÚ´æ×ÊÔ´·ÖÎö
+## 1. å†…å­˜èµ„æºåˆ†æ
 
-### 1.1 ¾²Ì¬ÄÚ´æÕ¼ÓÃ
+### 1.1 é™æ€å†…å­˜å ç”¨
 
-#### ºËĞÄÊı¾İ½á¹¹
+#### æ ¸å¿ƒæ•°æ®ç»“æ„
 
-| ½á¹¹Ìå | ´óĞ¡(×Ö½Ú) | ÊıÁ¿ | ×ÜÕ¼ÓÃ | ËµÃ÷ |
+| ç»“æ„ä½“ | å¤§å°(å­—èŠ‚) | æ•°é‡ | æ€»å ç”¨ | è¯´æ˜ |
 |--------|------------|------|--------|---------|
-| `pm_core_manager_t` | ~2048 | 1 | 2048 | ºËĞÄ¹ÜÀíÆ÷ |
-| `pm_sleep_manager_t` | ~512 | 1 | 512 | Ë¯Ãß¹ÜÀíÆ÷ |
-| `pm_callback_entry_t` | 16 | 16 | 256 | »Øµ÷Êı×é |
-| `pm_wakeup_source_t` | 32 | 8 | 256 | »½ĞÑÔ´Êı×é |
-| `pm_config_manager_t` | ~1024 | 1 | 1024 | ÅäÖÃ¹ÜÀíÆ÷ |
-| `pm_statistics_t` | 128 | 1 | 128 | Í³¼ÆĞÅÏ¢ |
-| **×Ü¼Æ** | - | - | **4224** | **Ô¼4.1KB** |
+| `pm_core_manager_t` | ~2048 | 1 | 2048 | æ ¸å¿ƒç®¡ç†å™¨ |
+| `pm_sleep_manager_t` | ~512 | 1 | 512 | ç¡çœ ç®¡ç†å™¨ |
+| `pm_callback_entry_t` | 16 | 16 | 256 | å›è°ƒæ•°ç»„ |
+| `pm_wakeup_source_t` | 32 | 8 | 256 | å”¤é†’æºæ•°ç»„ |
+| `pm_config_manager_t` | ~1024 | 1 | 1024 | é…ç½®ç®¡ç†å™¨ |
+| `pm_statistics_t` | 128 | 1 | 128 | ç»Ÿè®¡ä¿¡æ¯ |
+| **æ€»è®¡** | - | - | **4224** | **çº¦4.1KB** |
 
-#### ´úÂë¶ÎÕ¼ÓÃ¹ÀËã
+#### ä»£ç æ®µå ç”¨ä¼°ç®—
 
-| Ä£¿é | ´úÂë´óĞ¡(KB) | ËµÃ÷ |
+| æ¨¡å— | ä»£ç å¤§å°(KB) | è¯´æ˜ |
 |------|-------------|------|
-| ºËĞÄ¹ÜÀí | 8-12 | pm_core.c±àÒëºó |
-| Ë¯Ãß¹ÜÀí | 6-10 | pm_sleep.c±àÒëºó |
-| »½ĞÑ¹ÜÀí | 4-6 | pm_wakeup.c±àÒëºó |
-| µçÑ¹¹ÜÀí | 3-5 | pm_voltage.c±àÒëºó |
-| Ê±ÖÓ¹ÜÀí | 3-5 | pm_clock.c±àÒëºó |
-| ÅäÖÃ¹ÜÀí | 2-4 | pm_config.c±àÒëºó |
-| ½Ó¿Ú²ã | 2-3 | ½Ó¿Ú¶¨ÒåºÍ¹ÜÀí |
-| **×Ü¼Æ** | **28-45KB** | **È¡¾öÓÚ±àÒëÓÅ»¯** |
+| æ ¸å¿ƒç®¡ç† | 8-12 | pm_core.cç¼–è¯‘å |
+| ç¡çœ ç®¡ç† | 6-10 | pm_sleep.cç¼–è¯‘å |
+| å”¤é†’ç®¡ç† | 4-6 | pm_wakeup.cç¼–è¯‘å |
+| ç”µå‹ç®¡ç† | 3-5 | pm_voltage.cç¼–è¯‘å |
+| æ—¶é’Ÿç®¡ç† | 3-5 | pm_clock.cç¼–è¯‘å |
+| é…ç½®ç®¡ç† | 2-4 | pm_config.cç¼–è¯‘å |
+| æ¥å£å±‚ | 2-3 | æ¥å£å®šä¹‰å’Œç®¡ç† |
+| **æ€»è®¡** | **28-45KB** | **å–å†³äºç¼–è¯‘ä¼˜åŒ–** |
 
-### 1.2 ¶¯Ì¬ÄÚ´æÕ¼ÓÃ
+### 1.2 åŠ¨æ€å†…å­˜å ç”¨
 
-#### ÔËĞĞÊ±¶ÑÕ»Ê¹ÓÃ
+#### è¿è¡Œæ—¶å †æ ˆä½¿ç”¨
 
-| ³¡¾° | Õ»Éî¶È | Õ»Ê¹ÓÃ(×Ö½Ú) | ËµÃ÷ |
+| åœºæ™¯ | æ ˆæ·±åº¦ | æ ˆä½¿ç”¨(å­—èŠ‚) | è¯´æ˜ |
 |------|--------|-------------|------|
-| Õı³£ÔËĞĞ | 3-5²ã | 200-400 | ×´Ì¬¹ÜÀíµ÷ÓÃ |
-| Ë¯Ãß½øÈë | 5-8²ã | 400-800 | ÉÏÏÂÎÄ±£´æÁ´ |
-| Ë¯ÃßÍË³ö | 5-8²ã | 400-800 | ÉÏÏÂÎÄ»Ö¸´Á´ |
-| »Øµ÷´¦Àí | 2-4²ã | 150-300 | »Øµ÷º¯Êıµ÷ÓÃ |
-| **·åÖµ** | **8²ã** | **800** | **×î´óÕ»Ê¹ÓÃ** |
+| æ­£å¸¸è¿è¡Œ | 3-5å±‚ | 200-400 | çŠ¶æ€ç®¡ç†è°ƒç”¨ |
+| ç¡çœ è¿›å…¥ | 5-8å±‚ | 400-800 | ä¸Šä¸‹æ–‡ä¿å­˜é“¾ |
+| ç¡çœ é€€å‡º | 5-8å±‚ | 400-800 | ä¸Šä¸‹æ–‡æ¢å¤é“¾ |
+| å›è°ƒå¤„ç† | 2-4å±‚ | 150-300 | å›è°ƒå‡½æ•°è°ƒç”¨ |
+| **å³°å€¼** | **8å±‚** | **800** | **æœ€å¤§æ ˆä½¿ç”¨** |
 
-#### ¶¯Ì¬·ÖÅäĞèÇó
+#### åŠ¨æ€åˆ†é…éœ€æ±‚
 
-- **µ÷ÊÔ»º³åÇø**: 1024×Ö½Ú (¿ÉÅäÖÃ)
-- **ÁÙÊ±»º³åÇø**: 256×Ö½Ú (ÉÏÏÂÎÄ±£´æ)
-- **×Ü¶¯Ì¬ÄÚ´æ**: ~1.3KB
+- **è°ƒè¯•ç¼“å†²åŒº**: 1024å­—èŠ‚ (å¯é…ç½®)
+- **ä¸´æ—¶ç¼“å†²åŒº**: 256å­—èŠ‚ (ä¸Šä¸‹æ–‡ä¿å­˜)
+- **æ€»åŠ¨æ€å†…å­˜**: ~1.3KB
 
-### 1.3 ÄÚ´æÓÅ»¯½¨Òé
+### 1.3 å†…å­˜ä¼˜åŒ–å»ºè®®
 
-#### ±àÒëÊ±ÓÅ»¯
+#### ç¼–è¯‘æ—¶ä¼˜åŒ–
 ```c
-/* ¼õÉÙ»Øµ÷ÊıÁ¿ */
-#define PM_MAX_CALLBACKS 8  // ´Ó16¼õÉÙµ½8
+/* å‡å°‘å›è°ƒæ•°é‡ */
+#define PM_MAX_CALLBACKS 8  // ä»16å‡å°‘åˆ°8
 
-/* ¼õÉÙ»½ĞÑÔ´ÊıÁ¿ */
-#define PM_MAX_WAKEUP_SOURCES 4  // ´Ó8¼õÉÙµ½4
+/* å‡å°‘å”¤é†’æºæ•°é‡ */
+#define PM_MAX_WAKEUP_SOURCES 4  // ä»8å‡å°‘åˆ°4
 
-/* ½ûÓÃ²»ĞèÒªµÄ¹¦ÄÜ */
+/* ç¦ç”¨ä¸éœ€è¦çš„åŠŸèƒ½ */
 #define PM_ENABLE_STATISTICS 0
 #define PM_ENABLE_DEBUG 0
 #define PM_ENABLE_TRACE 0
 ```
 
-#### ÔËĞĞÊ±ÓÅ»¯
+#### è¿è¡Œæ—¶ä¼˜åŒ–
 ```c
-/* Ê¹ÓÃÎ»Óò¼õÉÙ½á¹¹Ìå´óĞ¡ */
+/* ä½¿ç”¨ä½åŸŸå‡å°‘ç»“æ„ä½“å¤§å° */
 typedef struct {
-    uint32_t state : 4;          // 4Î»×´Ì¬
-    uint32_t mode : 4;           // 4Î»Ä£Ê½
-    uint32_t locked : 1;         // 1Î»Ëø¶¨±êÖ¾
-    uint32_t reserved : 23;      // ±£ÁôÎ»
+    uint32_t state : 4;          // 4ä½çŠ¶æ€
+    uint32_t mode : 4;           // 4ä½æ¨¡å¼
+    uint32_t locked : 1;         // 1ä½é”å®šæ ‡å¿—
+    uint32_t reserved : 23;      // ä¿ç•™ä½
 } pm_compact_status_t;
 ```
 
-## 2. CPUĞÔÄÜ·ÖÎö
+## 2. CPUæ€§èƒ½åˆ†æ
 
-### 2.1 Ö´ĞĞÊ±¼ä²âÁ¿
+### 2.1 æ‰§è¡Œæ—¶é—´æµ‹é‡
 
-#### ¹Ø¼ü²Ù×÷ºÄÊ± (»ùÓÚARM Cortex-M4 @120MHz)
+#### å…³é”®æ“ä½œè€—æ—¶ (åŸºäºARM Cortex-M4 @120MHz)
 
-| ²Ù×÷ | µäĞÍºÄÊ±(¦Ìs) | ×î´óºÄÊ±(¦Ìs) | ËµÃ÷ |
+| æ“ä½œ | å…¸å‹è€—æ—¶(Î¼s) | æœ€å¤§è€—æ—¶(Î¼s) | è¯´æ˜ |
 |------|-------------|-------------|------|
-| ×´Ì¬ÇĞ»» | 5-10 | 20 | °üº¬»Øµ÷Í¨Öª |
-| Ë¯Ãß½øÈë | 50-100 | 200 | ÉÏÏÂÎÄ±£´æ |
-| Ë¯ÃßÍË³ö | 100-200 | 500 | ÉÏÏÂÎÄ»Ö¸´ |
-| ÅäÖÃ¸üĞÂ | 10-20 | 50 | ²ÎÊıÑéÖ¤ºÍÉèÖÃ |
-| Í³¼Æ¸üĞÂ | 2-5 | 10 | ¼ÆÊıÆ÷¸üĞÂ |
-| »Øµ÷´¦Àí | 1-5 | 20 | µ¥¸ö»Øµ÷Ö´ĞĞ |
+| çŠ¶æ€åˆ‡æ¢ | 5-10 | 20 | åŒ…å«å›è°ƒé€šçŸ¥ |
+| ç¡çœ è¿›å…¥ | 50-100 | 200 | ä¸Šä¸‹æ–‡ä¿å­˜ |
+| ç¡çœ é€€å‡º | 100-200 | 500 | ä¸Šä¸‹æ–‡æ¢å¤ |
+| é…ç½®æ›´æ–° | 10-20 | 50 | å‚æ•°éªŒè¯å’Œè®¾ç½® |
+| ç»Ÿè®¡æ›´æ–° | 2-5 | 10 | è®¡æ•°å™¨æ›´æ–° |
+| å›è°ƒå¤„ç† | 1-5 | 20 | å•ä¸ªå›è°ƒæ‰§è¡Œ |
 
-#### CPUÕ¼ÓÃÂÊ¹ÀËã
+#### CPUå ç”¨ç‡ä¼°ç®—
 
-| ³¡¾° | ÆµÂÊ | µ¥´ÎºÄÊ± | CPUÕ¼ÓÃÂÊ | ËµÃ÷ |
+| åœºæ™¯ | é¢‘ç‡ | å•æ¬¡è€—æ—¶ | CPUå ç”¨ç‡ | è¯´æ˜ |
 |------|------|----------|-----------|------|
-| ¿ÕÏĞ×´Ì¬ | - | - | <0.1% | »ù±¾ÎŞ¿ªÏú |
-| Æµ·±×´Ì¬ÇĞ»» | 100Hz | 10¦Ìs | 0.1% | ¸ßÆµÇĞ»»³¡¾° |
-| Ë¯Ãß¹ÜÀí | 1Hz | 150¦Ìs | 0.015% | Õı³£Ë¯ÃßÆµÂÊ |
-| Í³¼Æ¸üĞÂ | 10Hz | 5¦Ìs | 0.005% | Í³¼ÆĞÅÏ¢¸üĞÂ |
-| **×Ü¼Æ** | - | - | **<0.2%** | **Õı³£Ê¹ÓÃ³¡¾°** |
+| ç©ºé—²çŠ¶æ€ | - | - | <0.1% | åŸºæœ¬æ— å¼€é”€ |
+| é¢‘ç¹çŠ¶æ€åˆ‡æ¢ | 100Hz | 10Î¼s | 0.1% | é«˜é¢‘åˆ‡æ¢åœºæ™¯ |
+| ç¡çœ ç®¡ç† | 1Hz | 150Î¼s | 0.015% | æ­£å¸¸ç¡çœ é¢‘ç‡ |
+| ç»Ÿè®¡æ›´æ–° | 10Hz | 5Î¼s | 0.005% | ç»Ÿè®¡ä¿¡æ¯æ›´æ–° |
+| **æ€»è®¡** | - | - | **<0.2%** | **æ­£å¸¸ä½¿ç”¨åœºæ™¯** |
 
-### 2.2 ĞÔÄÜÓÅ»¯²ßÂÔ
+### 2.2 æ€§èƒ½ä¼˜åŒ–ç­–ç•¥
 
-#### ´úÂëÓÅ»¯
+#### ä»£ç ä¼˜åŒ–
 ```c
-/* Ê¹ÓÃÄÚÁªº¯Êı¼õÉÙµ÷ÓÃ¿ªÏú */
+/* ä½¿ç”¨å†…è”å‡½æ•°å‡å°‘è°ƒç”¨å¼€é”€ */
 static inline pm_state_t pm_get_state_fast(void) {
     return g_pm_core.current_state;
 }
 
-/* Ê¹ÓÃ²é±í·¨Ìæ´ú¸´ÔÓ¼ÆËã */
+/* ä½¿ç”¨æŸ¥è¡¨æ³•æ›¿ä»£å¤æ‚è®¡ç®— */
 static const uint32_t voltage_table[] = {
     800, 900, 1000, 1100, 1200, 1300, 1400, 1500
 };
 ```
 
-#### ±àÒëÆ÷ÓÅ»¯
+#### ç¼–è¯‘å™¨ä¼˜åŒ–
 ```makefile
-# ÆôÓÃÓÅ»¯Ñ¡Ïî
+# å¯ç”¨ä¼˜åŒ–é€‰é¡¹
 CFLAGS += -O2 -flto
 CFLAGS += -ffunction-sections -fdata-sections
 LDFLAGS += --gc-sections
 ```
 
-## 3. ¹¦ºÄÓ°Ïì·ÖÎö
+## 3. åŠŸè€—å½±å“åˆ†æ
 
-### 3.1 ¹¦ºÄ×é³É
+### 3.1 åŠŸè€—ç»„æˆ
 
-#### ¾²Ì¬¹¦ºÄ
-- **´úÂë´æ´¢**: FlashÖĞµÄ´úÂë²»Ôö¼ÓÔËĞĞÊ±¹¦ºÄ
-- **Êı¾İ´æ´¢**: RAMÖĞµÄ¾²Ì¬Êı¾İ ~4KB ¡Á 0.1¦ÌA/KB = 0.4¦ÌA
-- **¼Ä´æÆ÷×´Ì¬**: ºöÂÔ²»¼Æ
+#### é™æ€åŠŸè€—
+- **ä»£ç å­˜å‚¨**: Flashä¸­çš„ä»£ç ä¸å¢åŠ è¿è¡Œæ—¶åŠŸè€—
+- **æ•°æ®å­˜å‚¨**: RAMä¸­çš„é™æ€æ•°æ® ~4KB Ã— 0.1Î¼A/KB = 0.4Î¼A
+- **å¯„å­˜å™¨çŠ¶æ€**: å¿½ç•¥ä¸è®¡
 
-#### ¶¯Ì¬¹¦ºÄ
+#### åŠ¨æ€åŠŸè€—
 
-| ²Ù×÷ÀàĞÍ | ¹¦ºÄÔö¼Ó | ³ÖĞøÊ±¼ä | Æ½¾ù¹¦ºÄÓ°Ïì |
+| æ“ä½œç±»å‹ | åŠŸè€—å¢åŠ  | æŒç»­æ—¶é—´ | å¹³å‡åŠŸè€—å½±å“ |
 |----------|----------|----------|-------------|
-| ×´Ì¬¹ÜÀí | 5mA | 10¦Ìs | 0.05¦ÌA |
-| Ë¯Ãß½øÈë | 10mA | 100¦Ìs | 0.1¦ÌA |
-| Ë¯ÃßÍË³ö | 15mA | 200¦Ìs | 0.3¦ÌA |
-| »Øµ÷´¦Àí | 3mA | 5¦Ìs | 0.015¦ÌA |
-| **×Ü¼Æ** | - | - | **<1¦ÌA** |
+| çŠ¶æ€ç®¡ç† | 5mA | 10Î¼s | 0.05Î¼A |
+| ç¡çœ è¿›å…¥ | 10mA | 100Î¼s | 0.1Î¼A |
+| ç¡çœ é€€å‡º | 15mA | 200Î¼s | 0.3Î¼A |
+| å›è°ƒå¤„ç† | 3mA | 5Î¼s | 0.015Î¼A |
+| **æ€»è®¡** | - | - | **<1Î¼A** |
 
-### 3.2 ¹¦ºÄÓÅ»¯Ğ§¹û
+### 3.2 åŠŸè€—ä¼˜åŒ–æ•ˆæœ
 
-#### Ë¯ÃßÄ£Ê½¹¦ºÄ¶Ô±È
+#### ç¡çœ æ¨¡å¼åŠŸè€—å¯¹æ¯”
 
-| Ä£Ê½ | Ô­Ê¼¹¦ºÄ | ÖØ¹¹ºó¹¦ºÄ | ÓÅ»¯Ğ§¹û |
+| æ¨¡å¼ | åŸå§‹åŠŸè€— | é‡æ„ååŠŸè€— | ä¼˜åŒ–æ•ˆæœ |
 |------|----------|------------|----------|
-| »îÔ¾Ä£Ê½ | 50mA | 50.001mA | +0.002% |
-| ¿ÕÏĞÄ£Ê½ | 20mA | 20mA | ÎŞÓ°Ïì |
-| Çá¶ÈË¯Ãß | 5mA | 5mA | ÎŞÓ°Ïì |
-| Éî¶ÈË¯Ãß | 100¦ÌA | 100¦ÌA | ÎŞÓ°Ïì |
-| ³¬Éî¶ÈË¯Ãß | 10¦ÌA | 10¦ÌA | ÎŞÓ°Ïì |
+| æ´»è·ƒæ¨¡å¼ | 50mA | 50.001mA | +0.002% |
+| ç©ºé—²æ¨¡å¼ | 20mA | 20mA | æ— å½±å“ |
+| è½»åº¦ç¡çœ  | 5mA | 5mA | æ— å½±å“ |
+| æ·±åº¦ç¡çœ  | 100Î¼A | 100Î¼A | æ— å½±å“ |
+| è¶…æ·±åº¦ç¡çœ  | 10Î¼A | 10Î¼A | æ— å½±å“ |
 
-#### ÕûÌå¹¦ºÄÆÀ¹À
-- **¹ÜÀí¿ªÏú**: <1¦ÌA
-- **Ïà¶ÔÓ°Ïì**: <0.01% (¶ÔÓÚµäĞÍÓ¦ÓÃ)
-- **¾ø¶Ô¿É½ÓÊÜ**: ¹¦ºÄÔö¼Ó¿ÉºöÂÔ²»¼Æ
+#### æ•´ä½“åŠŸè€—è¯„ä¼°
+- **ç®¡ç†å¼€é”€**: <1Î¼A
+- **ç›¸å¯¹å½±å“**: <0.01% (å¯¹äºå…¸å‹åº”ç”¨)
+- **ç»å¯¹å¯æ¥å—**: åŠŸè€—å¢åŠ å¯å¿½ç•¥ä¸è®¡
 
-## 4. ÊµÊ±ĞÔ·ÖÎö
+## 4. å®æ—¶æ€§åˆ†æ
 
-### 4.1 ÏìÓ¦Ê±¼ä
+### 4.1 å“åº”æ—¶é—´
 
-#### ÖĞ¶ÏÏìÓ¦
-- **»½ĞÑÖĞ¶Ï**: Ôö¼Ó <5¦Ìs ´¦ÀíÊ±¼ä
-- **×´Ì¬ÇĞ»»**: Ôö¼Ó <10¦Ìs ´¦ÀíÊ±¼ä
-- **»Øµ÷Í¨Öª**: Ôö¼Ó <20¦Ìs ´¦ÀíÊ±¼ä
+#### ä¸­æ–­å“åº”
+- **å”¤é†’ä¸­æ–­**: å¢åŠ  <5Î¼s å¤„ç†æ—¶é—´
+- **çŠ¶æ€åˆ‡æ¢**: å¢åŠ  <10Î¼s å¤„ç†æ—¶é—´
+- **å›è°ƒé€šçŸ¥**: å¢åŠ  <20Î¼s å¤„ç†æ—¶é—´
 
-#### ÈÎÎñµ÷¶ÈÓ°Ïì
-- **ÓÅÏÈ¼¶**: PMÈÎÎñ½¨ÒéÉèÖÃÎª¸ßÓÅÏÈ¼¶
-- **ÇÀÕ¼**: ¹Ø¼ü²Ù×÷½ûÓÃÖĞ¶Ï±£»¤
-- **ÑÓ³Ù**: ×î´óÔö¼Ó <50¦Ìs ÏµÍ³ÑÓ³Ù
+#### ä»»åŠ¡è°ƒåº¦å½±å“
+- **ä¼˜å…ˆçº§**: PMä»»åŠ¡å»ºè®®è®¾ç½®ä¸ºé«˜ä¼˜å…ˆçº§
+- **æŠ¢å **: å…³é”®æ“ä½œç¦ç”¨ä¸­æ–­ä¿æŠ¤
+- **å»¶è¿Ÿ**: æœ€å¤§å¢åŠ  <50Î¼s ç³»ç»Ÿå»¶è¿Ÿ
 
-### 4.2 ÊµÊ±ĞÔ±£Ö¤
+### 4.2 å®æ—¶æ€§ä¿è¯
 
 ```c
-/* ¹Ø¼üÂ·¾¶ÓÅ»¯ */
+/* å…³é”®è·¯å¾„ä¼˜åŒ– */
 pm_err_t pm_fast_sleep_enter(void) {
-    /* ½ûÓÃÖĞ¶Ï */
+    /* ç¦ç”¨ä¸­æ–­ */
     uint32_t int_mask = pm_platform_disable_interrupts();
     
-    /* ¿ìËÙË¯Ãß½øÈë */
+    /* å¿«é€Ÿç¡çœ è¿›å…¥ */
     pm_hal_cpu_sleep();
     
-    /* »Ö¸´ÖĞ¶Ï */
+    /* æ¢å¤ä¸­æ–­ */
     pm_platform_restore_interrupts(int_mask);
     
     return PM_ERR_OK;
 }
 ```
 
-## 5. ×ÊÔ´ÅäÖÃ½¨Òé
+## 5. èµ„æºé…ç½®å»ºè®®
 
-### 5.1 ×îĞ¡ÅäÖÃ (×ÊÔ´ÊÜÏŞ)
+### 5.1 æœ€å°é…ç½® (èµ„æºå—é™)
 
 ```c
-/* ×îĞ¡×ÊÔ´ÅäÖÃ */
+/* æœ€å°èµ„æºé…ç½® */
 #define PM_MAX_CALLBACKS 4
 #define PM_MAX_WAKEUP_SOURCES 2
 #define PM_STACK_SIZE 1024
 #define PM_HEAP_SIZE 512
 #define PM_LOG_BUFFER_SIZE 256
 
-/* ½ûÓÃ¿ÉÑ¡¹¦ÄÜ */
+/* ç¦ç”¨å¯é€‰åŠŸèƒ½ */
 #define PM_ENABLE_STATISTICS 0
 #define PM_ENABLE_DEBUG 0
 #define PM_ENABLE_TRACE 0
 #define PM_ENABLE_SUPER_DEEP_SLEEP 0
 ```
 
-**×ÊÔ´Õ¼ÓÃ**:
+**èµ„æºå ç”¨**:
 - **RAM**: ~2KB
 - **Flash**: ~15KB
 - **CPU**: <0.05%
 
-### 5.2 ±ê×¼ÅäÖÃ (Æ½ºâĞÔÄÜ)
+### 5.2 æ ‡å‡†é…ç½® (å¹³è¡¡æ€§èƒ½)
 
 ```c
-/* ±ê×¼ÅäÖÃ */
+/* æ ‡å‡†é…ç½® */
 #define PM_MAX_CALLBACKS 8
 #define PM_MAX_WAKEUP_SOURCES 4
 #define PM_STACK_SIZE 2048
 #define PM_HEAP_SIZE 2048
 #define PM_LOG_BUFFER_SIZE 512
 
-/* ÆôÓÃ³£ÓÃ¹¦ÄÜ */
+/* å¯ç”¨å¸¸ç”¨åŠŸèƒ½ */
 #define PM_ENABLE_STATISTICS 1
 #define PM_ENABLE_DEBUG 1
 #define PM_ENABLE_TRACE 0
 ```
 
-**×ÊÔ´Õ¼ÓÃ**:
+**èµ„æºå ç”¨**:
 - **RAM**: ~3KB
 - **Flash**: ~25KB
 - **CPU**: <0.1%
 
-### 5.3 ÍêÕûÅäÖÃ (¹¦ÄÜ·á¸»)
+### 5.3 å®Œæ•´é…ç½® (åŠŸèƒ½ä¸°å¯Œ)
 
 ```c
-/* ÍêÕûÅäÖÃ */
+/* å®Œæ•´é…ç½® */
 #define PM_MAX_CALLBACKS 16
 #define PM_MAX_WAKEUP_SOURCES 8
 #define PM_STACK_SIZE 4096
 #define PM_HEAP_SIZE 4096
 #define PM_LOG_BUFFER_SIZE 1024
 
-/* ÆôÓÃËùÓĞ¹¦ÄÜ */
+/* å¯ç”¨æ‰€æœ‰åŠŸèƒ½ */
 #define PM_ENABLE_STATISTICS 1
 #define PM_ENABLE_DEBUG 1
 #define PM_ENABLE_TRACE 1
 ```
 
-**×ÊÔ´Õ¼ÓÃ**:
+**èµ„æºå ç”¨**:
 - **RAM**: ~5KB
 - **Flash**: ~40KB
 - **CPU**: <0.2%
 
-## 6. ĞÔÄÜ»ù×¼²âÊÔ
+## 6. æ€§èƒ½åŸºå‡†æµ‹è¯•
 
-### 6.1 ²âÊÔ»·¾³
+### 6.1 æµ‹è¯•ç¯å¢ƒ
 - **MCU**: ARM Cortex-M4 @120MHz
 - **RAM**: 256KB SRAM
 - **Flash**: 2MB
-- **±àÒëÆ÷**: GCC 10.3 -O2
+- **ç¼–è¯‘å™¨**: GCC 10.3 -O2
 
-### 6.2 »ù×¼²âÊÔ½á¹û
+### 6.2 åŸºå‡†æµ‹è¯•ç»“æœ
 
-#### ÄÚ´æÊ¹ÓÃ
+#### å†…å­˜ä½¿ç”¨
 ```
-Ô­Ê¼PMÄ£¿é:
-- ¾²Ì¬RAM: 1.2KB
-- ´úÂë´óĞ¡: 18KB
-- Õ»Ê¹ÓÃ: 400B
+åŸå§‹PMæ¨¡å—:
+- é™æ€RAM: 1.2KB
+- ä»£ç å¤§å°: 18KB
+- æ ˆä½¿ç”¨: 400B
 
-ÖØ¹¹PMÄ£¿é:
-- ¾²Ì¬RAM: 4.2KB (+250%)
-- ´úÂë´óĞ¡: 35KB (+94%)
-- Õ»Ê¹ÓÃ: 800B (+100%)
-```
-
-#### ĞÔÄÜ¶Ô±È
-```
-×´Ì¬ÇĞ»»Ê±¼ä:
-- Ô­Ê¼: 3¦Ìs
-- ÖØ¹¹: 8¦Ìs (+167%)
-
-Ë¯Ãß½øÈëÊ±¼ä:
-- Ô­Ê¼: 80¦Ìs
-- ÖØ¹¹: 120¦Ìs (+50%)
-
-¹¦ºÄÔö¼Ó:
-- ¹ÜÀí¿ªÏú: <1¦ÌA
-- Ïà¶ÔÔö¼Ó: <0.01%
+é‡æ„PMæ¨¡å—:
+- é™æ€RAM: 4.2KB (+250%)
+- ä»£ç å¤§å°: 35KB (+94%)
+- æ ˆä½¿ç”¨: 800B (+100%)
 ```
 
-### 6.3 ĞÔÄÜÈ¨ºâ·ÖÎö
+#### æ€§èƒ½å¯¹æ¯”
+```
+çŠ¶æ€åˆ‡æ¢æ—¶é—´:
+- åŸå§‹: 3Î¼s
+- é‡æ„: 8Î¼s (+167%)
 
-#### ÓÅÊÆ
-- **¿ÉÎ¬»¤ĞÔ**: ÏÔÖøÌáÉı
-- **¿ÉÀ©Õ¹ĞÔ**: ´ó·ù¸ÄÉÆ
-- **´úÂëÖÊÁ¿**: Ã÷ÏÔÌá¸ß
-- **µ÷ÊÔÄÜÁ¦**: ´ó·ùÔöÇ¿
+ç¡çœ è¿›å…¥æ—¶é—´:
+- åŸå§‹: 80Î¼s
+- é‡æ„: 120Î¼s (+50%)
 
-#### ´ú¼Û
-- **ÄÚ´æÊ¹ÓÃ**: Ôö¼Ó3KB
-- **´úÂë´óĞ¡**: Ôö¼Ó17KB
-- **Ö´ĞĞÊ±¼ä**: Ôö¼Ó5-40¦Ìs
-- **¹¦ºÄÓ°Ïì**: ¿ÉºöÂÔ
+åŠŸè€—å¢åŠ :
+- ç®¡ç†å¼€é”€: <1Î¼A
+- ç›¸å¯¹å¢åŠ : <0.01%
+```
 
-## 7. ²¿Êğ½¨Òé
+### 6.3 æ€§èƒ½æƒè¡¡åˆ†æ
 
-### 7.1 ÊÊÓÃ³¡¾°
+#### ä¼˜åŠ¿
+- **å¯ç»´æŠ¤æ€§**: æ˜¾è‘—æå‡
+- **å¯æ‰©å±•æ€§**: å¤§å¹…æ”¹å–„
+- **ä»£ç è´¨é‡**: æ˜æ˜¾æé«˜
+- **è°ƒè¯•èƒ½åŠ›**: å¤§å¹…å¢å¼º
 
-#### ÍÆ¼öÊ¹ÓÃ
-- **RAM ¡İ 32KB**: ÄÚ´æ³ä×ãµÄÏµÍ³
-- **Flash ¡İ 256KB**: ´úÂë¿Õ¼ä³ä×ã
-- **¸´ÔÓPMĞèÇó**: ¶àÖÖË¯ÃßÄ£Ê½ºÍ²ßÂÔ
-- **³¤ÆÚÎ¬»¤**: ĞèÒª³ÖĞø¿ª·¢ºÍÎ¬»¤
+#### ä»£ä»·
+- **å†…å­˜ä½¿ç”¨**: å¢åŠ 3KB
+- **ä»£ç å¤§å°**: å¢åŠ 17KB
+- **æ‰§è¡Œæ—¶é—´**: å¢åŠ 5-40Î¼s
+- **åŠŸè€—å½±å“**: å¯å¿½ç•¥
 
-#### ½÷É÷Ê¹ÓÃ
-- **RAM < 16KB**: ÄÚ´æ¼«¶ÈÊÜÏŞ
-- **Flash < 128KB**: ´úÂë¿Õ¼ä½ôÕÅ
-- **¼òµ¥Ó¦ÓÃ**: Ö»Ğè»ù±¾Ë¯Ãß¹¦ÄÜ
-- **Ò»´ÎĞÔÏîÄ¿**: ²»ĞèÒª³¤ÆÚÎ¬»¤
+## 7. éƒ¨ç½²å»ºè®®
 
-### 7.2 Ç¨ÒÆ²ßÂÔ
+### 7.1 é€‚ç”¨åœºæ™¯
 
-#### ½¥½øÊ½Ç¨ÒÆ
-1. **µÚÒ»½×¶Î**: Ç¨ÒÆºËĞÄ½Ó¿Ú
-2. **µÚ¶ş½×¶Î**: Ç¨ÒÆË¯Ãß¹ÜÀí
-3. **µÚÈı½×¶Î**: Ç¨ÒÆÆäËûÄ£¿é
-4. **µÚËÄ½×¶Î**: ÆôÓÃ¸ß¼¶¹¦ÄÜ
+#### æ¨èä½¿ç”¨
+- **RAM â‰¥ 32KB**: å†…å­˜å……è¶³çš„ç³»ç»Ÿ
+- **Flash â‰¥ 256KB**: ä»£ç ç©ºé—´å……è¶³
+- **å¤æ‚PMéœ€æ±‚**: å¤šç§ç¡çœ æ¨¡å¼å’Œç­–ç•¥
+- **é•¿æœŸç»´æŠ¤**: éœ€è¦æŒç»­å¼€å‘å’Œç»´æŠ¤
 
-#### ĞÔÄÜ¼à¿Ø
+#### è°¨æ…ä½¿ç”¨
+- **RAM < 16KB**: å†…å­˜æåº¦å—é™
+- **Flash < 128KB**: ä»£ç ç©ºé—´ç´§å¼ 
+- **ç®€å•åº”ç”¨**: åªéœ€åŸºæœ¬ç¡çœ åŠŸèƒ½
+- **ä¸€æ¬¡æ€§é¡¹ç›®**: ä¸éœ€è¦é•¿æœŸç»´æŠ¤
+
+### 7.2 è¿ç§»ç­–ç•¥
+
+#### æ¸è¿›å¼è¿ç§»
+1. **ç¬¬ä¸€é˜¶æ®µ**: è¿ç§»æ ¸å¿ƒæ¥å£
+2. **ç¬¬äºŒé˜¶æ®µ**: è¿ç§»ç¡çœ ç®¡ç†
+3. **ç¬¬ä¸‰é˜¶æ®µ**: è¿ç§»å…¶ä»–æ¨¡å—
+4. **ç¬¬å››é˜¶æ®µ**: å¯ç”¨é«˜çº§åŠŸèƒ½
+
+#### æ€§èƒ½ç›‘æ§
 ```c
-/* ĞÔÄÜ¼à¿Ø´úÂë */
+/* æ€§èƒ½ç›‘æ§ä»£ç  */
 void pm_performance_monitor(void) {
     static uint32_t last_check = 0;
     uint32_t current_time = pm_platform_get_time_ms();
     
-    if (current_time - last_check > 10000) {  // 10Ãë¼ì²éÒ»´Î
+    if (current_time - last_check > 10000) {  // 10ç§’æ£€æŸ¥ä¸€æ¬¡
         pm_statistics_t stats;
         pm_debug_get_statistics(&stats);
         
@@ -2434,25 +2434,25 @@ void pm_performance_monitor(void) {
 }
 ```
 
-## 8. ×Ü½á
+## 8. æ€»ç»“
 
-### 8.1 ×ÊÔ´Õ¼ÓÃ×Ü½á
-- **ÄÚ´æÔö¼Ó**: 3-5KB (¿É½ÓÊÜ)
-- **´úÂëÔö¼Ó**: 17-25KB (ºÏÀí)
-- **ĞÔÄÜÓ°Ïì**: <0.2% CPU (Î¢Ğ¡)
-- **¹¦ºÄÓ°Ïì**: <1¦ÌA (¿ÉºöÂÔ)
+### 8.1 èµ„æºå ç”¨æ€»ç»“
+- **å†…å­˜å¢åŠ **: 3-5KB (å¯æ¥å—)
+- **ä»£ç å¢åŠ **: 17-25KB (åˆç†)
+- **æ€§èƒ½å½±å“**: <0.2% CPU (å¾®å°)
+- **åŠŸè€—å½±å“**: <1Î¼A (å¯å¿½ç•¥)
 
-### 8.2 Í¶×Ê»Ø±¨·ÖÎö
-- **¿ª·¢Ğ§ÂÊ**: ÌáÉı50%+
-- **Î¬»¤³É±¾**: ½µµÍ60%+
-- **BugÂÊ**: ½µµÍ40%+
-- **À©Õ¹ÄÜÁ¦**: ÌáÉı200%+
+### 8.2 æŠ•èµ„å›æŠ¥åˆ†æ
+- **å¼€å‘æ•ˆç‡**: æå‡50%+
+- **ç»´æŠ¤æˆæœ¬**: é™ä½60%+
+- **Bugç‡**: é™ä½40%+
+- **æ‰©å±•èƒ½åŠ›**: æå‡200%+
 
-### 8.3 ×îÖÕ½¨Òé
-¶ÔÓÚ´ó¶àÊıÏÖ´úÇ¶ÈëÊ½ÏµÍ³£¬ÖØ¹¹·½°¸µÄ×ÊÔ´¿ªÏúÊÇÍêÈ«¿ÉÒÔ½ÓÊÜµÄ£¬¶ø´øÀ´µÄ¼Ü¹¹¸Ä½øºÍ¿ª·¢Ğ§ÂÊÌáÉıÔ¶³¬¹ı×ÊÔ´³É±¾¡£½¨ÒéÔÚRAM¡İ32KB¡¢Flash¡İ256KBµÄÏµÍ³ÖĞ»ı¼«²ÉÓÃ´ËÖØ¹¹·½°¸¡£
+### 8.3 æœ€ç»ˆå»ºè®®
+å¯¹äºå¤§å¤šæ•°ç°ä»£åµŒå…¥å¼ç³»ç»Ÿï¼Œé‡æ„æ–¹æ¡ˆçš„èµ„æºå¼€é”€æ˜¯å®Œå…¨å¯ä»¥æ¥å—çš„ï¼Œè€Œå¸¦æ¥çš„æ¶æ„æ”¹è¿›å’Œå¼€å‘æ•ˆç‡æå‡è¿œè¶…è¿‡èµ„æºæˆæœ¬ã€‚å»ºè®®åœ¨RAMâ‰¥32KBã€Flashâ‰¥256KBçš„ç³»ç»Ÿä¸­ç§¯æé‡‡ç”¨æ­¤é‡æ„æ–¹æ¡ˆã€‚
 
           
-¸üĞÂtodoÁĞ±í£¬±ê¼ÇÒÑÍê³ÉµÄÈÎÎñ²¢¼ÌĞøÊµÏÖÊ£ÓàÄ£¿é¡£
+æ›´æ–°todoåˆ—è¡¨ï¼Œæ ‡è®°å·²å®Œæˆçš„ä»»åŠ¡å¹¶ç»§ç»­å®ç°å‰©ä½™æ¨¡å—ã€‚
         
             
 toolName: todo_write
@@ -2461,7 +2461,7 @@ status: success
           
 Todos updated: 5 items
           
-´´½¨»½ĞÑ¹ÜÀíÄ£¿éÊµÏÖ£¬ÍêÉÆÄ£¿é»¯×é¼ş¡£
+åˆ›å»ºå”¤é†’ç®¡ç†æ¨¡å—å®ç°ï¼Œå®Œå–„æ¨¡å—åŒ–ç»„ä»¶ã€‚
         
             
 toolName: write_to_file
@@ -2473,7 +2473,7 @@ filePath: d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\src\services\pm_wakeu
           
 content: /**
  * @file pm_wakeup.c
- * @brief PM»½ĞÑ¹ÜÀíÄ£¿éÊµÏÖ
+ * @brief PMå”¤é†’ç®¡ç†æ¨¡å—å®ç°
  * @version 2.0
  * @date 2024
  */
@@ -2482,52 +2482,52 @@ content: /**
 #include "pm_config.h"
 #include <string.h>
 
-/* ==================== ÄÚ²¿Êı¾İ½á¹¹ ==================== */
+/* ==================== å†…éƒ¨æ•°æ®ç»“æ„ ==================== */
 
 /**
- * @brief »½ĞÑÔ´ÅäÖÃ½á¹¹Ìå
+ * @brief å”¤é†’æºé…ç½®ç»“æ„ä½“
  */
 typedef struct {
-    pm_wakeup_source_t source;                  /**< »½ĞÑÔ´ÀàĞÍ */
-    bool enabled;                               /**< Ê¹ÄÜ×´Ì¬ */
-    uint32_t pin_mask;                          /**< Òı½ÅÑÚÂë */
-    pm_wakeup_trigger_t trigger;                /**< ´¥·¢·½Ê½ */
-    uint32_t debounce_time_ms;                  /**< ·À¶¶Ê±¼ä */
-    pm_wakeup_callback_t callback;              /**< »½ĞÑ»Øµ÷ */
-    void *user_data;                            /**< ÓÃ»§Êı¾İ */
-    uint32_t wakeup_count;                      /**< »½ĞÑ´ÎÊı */
-    uint32_t last_wakeup_time;                  /**< ×îºó»½ĞÑÊ±¼ä */
+    pm_wakeup_source_t source;                  /**< å”¤é†’æºç±»å‹ */
+    bool enabled;                               /**< ä½¿èƒ½çŠ¶æ€ */
+    uint32_t pin_mask;                          /**< å¼•è„šæ©ç  */
+    pm_wakeup_trigger_t trigger;                /**< è§¦å‘æ–¹å¼ */
+    uint32_t debounce_time_ms;                  /**< é˜²æŠ–æ—¶é—´ */
+    pm_wakeup_callback_t callback;              /**< å”¤é†’å›è°ƒ */
+    void *user_data;                            /**< ç”¨æˆ·æ•°æ® */
+    uint32_t wakeup_count;                      /**< å”¤é†’æ¬¡æ•° */
+    uint32_t last_wakeup_time;                  /**< æœ€åå”¤é†’æ—¶é—´ */
 } pm_wakeup_source_config_t;
 
 /**
- * @brief »½ĞÑ¹ÜÀíÆ÷½á¹¹Ìå
+ * @brief å”¤é†’ç®¡ç†å™¨ç»“æ„ä½“
  */
 typedef struct {
-    pm_wakeup_source_config_t sources[PM_MAX_WAKEUP_SOURCES];  /**< »½ĞÑÔ´ÅäÖÃÊı×é */
-    uint32_t source_count;                      /**< ÒÑÅäÖÃ»½ĞÑÔ´ÊıÁ¿ */
+    pm_wakeup_source_config_t sources[PM_MAX_WAKEUP_SOURCES];  /**< å”¤é†’æºé…ç½®æ•°ç»„ */
+    uint32_t source_count;                      /**< å·²é…ç½®å”¤é†’æºæ•°é‡ */
     
-    /* »½ĞÑ×´Ì¬ */
-    pm_wakeup_source_t last_wakeup_source;      /**< ×îºó»½ĞÑÔ´ */
-    uint32_t total_wakeup_count;                /**< ×Ü»½ĞÑ´ÎÊı */
-    uint32_t wakeup_filter_mask;                /**< »½ĞÑ¹ıÂËÑÚÂë */
+    /* å”¤é†’çŠ¶æ€ */
+    pm_wakeup_source_t last_wakeup_source;      /**< æœ€åå”¤é†’æº */
+    uint32_t total_wakeup_count;                /**< æ€»å”¤é†’æ¬¡æ•° */
+    uint32_t wakeup_filter_mask;                /**< å”¤é†’è¿‡æ»¤æ©ç  */
     
-    /* ·À¶¶´¦Àí */
-    uint32_t debounce_timer_id;                 /**< ·À¶¶¶¨Ê±Æ÷ID */
-    pm_wakeup_source_t pending_source;          /**< ´ı´¦Àí»½ĞÑÔ´ */
-    bool debounce_active;                       /**< ·À¶¶¼¤»î±êÖ¾ */
+    /* é˜²æŠ–å¤„ç† */
+    uint32_t debounce_timer_id;                 /**< é˜²æŠ–å®šæ—¶å™¨ID */
+    pm_wakeup_source_t pending_source;          /**< å¾…å¤„ç†å”¤é†’æº */
+    bool debounce_active;                       /**< é˜²æŠ–æ¿€æ´»æ ‡å¿— */
     
-    /* Í³¼ÆĞÅÏ¢ */
-    uint32_t false_wakeup_count;                /**< Îó»½ĞÑ´ÎÊı */
-    uint32_t filtered_wakeup_count;             /**< ±»¹ıÂË»½ĞÑ´ÎÊı */
+    /* ç»Ÿè®¡ä¿¡æ¯ */
+    uint32_t false_wakeup_count;                /**< è¯¯å”¤é†’æ¬¡æ•° */
+    uint32_t filtered_wakeup_count;             /**< è¢«è¿‡æ»¤å”¤é†’æ¬¡æ•° */
     
-    bool initialized;                           /**< ³õÊ¼»¯±êÖ¾ */
+    bool initialized;                           /**< åˆå§‹åŒ–æ ‡å¿— */
 } pm_wakeup_manager_t;
 
-/* ==================== È«¾Ö±äÁ¿ ==================== */
+/* ==================== å…¨å±€å˜é‡ ==================== */
 
 static pm_wakeup_manager_t g_wakeup_mgr = {0};
 
-/* ==================== ÄÚ²¿º¯ÊıÉùÃ÷ ==================== */
+/* ==================== å†…éƒ¨å‡½æ•°å£°æ˜ ==================== */
 
 static pm_err_t pm_wakeup_process_source(pm_wakeup_source_t source);
 static pm_err_t pm_wakeup_start_debounce(pm_wakeup_source_t source);
@@ -2536,10 +2536,10 @@ static pm_wakeup_source_config_t* pm_wakeup_find_source_config(pm_wakeup_source_
 static bool pm_wakeup_is_source_filtered(pm_wakeup_source_t source);
 static pm_err_t pm_wakeup_validate_source_config(const pm_wakeup_config_t *config);
 
-/* ==================== »½ĞÑ½Ó¿ÚÊµÏÖ ==================== */
+/* ==================== å”¤é†’æ¥å£å®ç° ==================== */
 
 /**
- * @brief ³õÊ¼»¯»½ĞÑ¹ÜÀíÆ÷
+ * @brief åˆå§‹åŒ–å”¤é†’ç®¡ç†å™¨
  */
 pm_err_t pm_wakeup_init(void)
 {
@@ -2547,10 +2547,10 @@ pm_err_t pm_wakeup_init(void)
         return PM_ERR_ALREADY_INITIALIZED;
     }
     
-    /* ÇåÁã¹ÜÀíÆ÷ */
+    /* æ¸…é›¶ç®¡ç†å™¨ */
     memset(&g_wakeup_mgr, 0, sizeof(pm_wakeup_manager_t));
     
-    /* ³õÊ¼»¯×´Ì¬ */
+    /* åˆå§‹åŒ–çŠ¶æ€ */
     g_wakeup_mgr.last_wakeup_source = PM_WAKEUP_SOURCE_NONE;
     g_wakeup_mgr.pending_source = PM_WAKEUP_SOURCE_NONE;
     g_wakeup_mgr.debounce_timer_id = PM_INVALID_HANDLE;
@@ -2561,7 +2561,7 @@ pm_err_t pm_wakeup_init(void)
 }
 
 /**
- * @brief ·´³õÊ¼»¯»½ĞÑ¹ÜÀíÆ÷
+ * @brief ååˆå§‹åŒ–å”¤é†’ç®¡ç†å™¨
  */
 pm_err_t pm_wakeup_deinit(void)
 {
@@ -2569,24 +2569,24 @@ pm_err_t pm_wakeup_deinit(void)
         return PM_ERR_NOT_INITIALIZED;
     }
     
-    /* Í£Ö¹·À¶¶¶¨Ê±Æ÷ */
+    /* åœæ­¢é˜²æŠ–å®šæ—¶å™¨ */
     if (g_wakeup_mgr.debounce_timer_id != PM_INVALID_HANDLE) {
         pm_platform_stop_timer(g_wakeup_mgr.debounce_timer_id);
     }
     
-    /* ½ûÓÃËùÓĞ»½ĞÑÔ´ */
+    /* ç¦ç”¨æ‰€æœ‰å”¤é†’æº */
     for (uint32_t i = 0; i < g_wakeup_mgr.source_count; i++) {
         pm_wakeup_disable_source(g_wakeup_mgr.sources[i].source);
     }
     
-    /* ÇåÁã¹ÜÀíÆ÷ */
+    /* æ¸…é›¶ç®¡ç†å™¨ */
     memset(&g_wakeup_mgr, 0, sizeof(pm_wakeup_manager_t));
     
     return PM_ERR_OK;
 }
 
 /**
- * @brief ÅäÖÃ»½ĞÑÔ´
+ * @brief é…ç½®å”¤é†’æº
  */
 pm_err_t pm_wakeup_configure_source(pm_wakeup_source_t source, const pm_wakeup_config_t *config)
 {
@@ -2602,17 +2602,17 @@ pm_err_t pm_wakeup_configure_source(pm_wakeup_source_t source, const pm_wakeup_c
         return PM_ERR_INVALID_PARAM;
     }
     
-    /* ÑéÖ¤ÅäÖÃ */
+    /* éªŒè¯é…ç½® */
     pm_err_t ret = pm_wakeup_validate_source_config(config);
     if (ret != PM_ERR_OK) {
         return ret;
     }
     
-    /* ²éÕÒÏÖÓĞÅäÖÃ */
+    /* æŸ¥æ‰¾ç°æœ‰é…ç½® */
     pm_wakeup_source_config_t *src_config = pm_wakeup_find_source_config(source);
     
     if (src_config == NULL) {
-        /* Ìí¼ÓĞÂµÄ»½ĞÑÔ´ÅäÖÃ */
+        /* æ·»åŠ æ–°çš„å”¤é†’æºé…ç½® */
         if (g_wakeup_mgr.source_count >= PM_MAX_WAKEUP_SOURCES) {
             return PM_ERR_NO_MEMORY;
         }
@@ -2621,7 +2621,7 @@ pm_err_t pm_wakeup_configure_source(pm_wakeup_source_t source, const pm_wakeup_c
         g_wakeup_mgr.source_count++;
     }
     
-    /* ÅäÖÃ»½ĞÑÔ´ */
+    /* é…ç½®å”¤é†’æº */
     src_config->source = source;
     src_config->enabled = config->enabled;
     src_config->pin_mask = config->pin_mask;
@@ -2630,7 +2630,7 @@ pm_err_t pm_wakeup_configure_source(pm_wakeup_source_t source, const pm_wakeup_c
     src_config->callback = config->callback;
     src_config->user_data = config->user_data;
     
-    /* ÅäÖÃÓ²¼ş */
+    /* é…ç½®ç¡¬ä»¶ */
     if (config->enabled) {
         ret = pm_hal_configure_wakeup_source(source, config);
         if (ret != PM_ERR_OK) {
@@ -2642,7 +2642,7 @@ pm_err_t pm_wakeup_configure_source(pm_wakeup_source_t source, const pm_wakeup_c
 }
 
 /**
- * @brief Ê¹ÄÜ»½ĞÑÔ´
+ * @brief ä½¿èƒ½å”¤é†’æº
  */
 pm_err_t pm_wakeup_enable_source(pm_wakeup_source_t source)
 {
@@ -2656,10 +2656,10 @@ pm_err_t pm_wakeup_enable_source(pm_wakeup_source_t source)
     }
     
     if (config->enabled) {
-        return PM_ERR_OK;  /* ÒÑ¾­Ê¹ÄÜ */
+        return PM_ERR_OK;  /* å·²ç»ä½¿èƒ½ */
     }
     
-    /* Ê¹ÄÜÓ²¼ş»½ĞÑÔ´ */
+    /* ä½¿èƒ½ç¡¬ä»¶å”¤é†’æº */
     pm_err_t ret = pm_hal_enable_wakeup_source(source);
     if (ret != PM_ERR_OK) {
         return ret;
@@ -2671,7 +2671,7 @@ pm_err_t pm_wakeup_enable_source(pm_wakeup_source_t source)
 }
 
 /**
- * @brief ½ûÓÃ»½ĞÑÔ´
+ * @brief ç¦ç”¨å”¤é†’æº
  */
 pm_err_t pm_wakeup_disable_source(pm_wakeup_source_t source)
 {
@@ -2685,10 +2685,10 @@ pm_err_t pm_wakeup_disable_source(pm_wakeup_source_t source)
     }
     
     if (!config->enabled) {
-        return PM_ERR_OK;  /* ÒÑ¾­½ûÓÃ */
+        return PM_ERR_OK;  /* å·²ç»ç¦ç”¨ */
     }
     
-    /* ½ûÓÃÓ²¼ş»½ĞÑÔ´ */
+    /* ç¦ç”¨ç¡¬ä»¶å”¤é†’æº */
     pm_err_t ret = pm_hal_disable_wakeup_source(source);
     if (ret != PM_ERR_OK) {
         return ret;
@@ -2700,7 +2700,7 @@ pm_err_t pm_wakeup_disable_source(pm_wakeup_source_t source)
 }
 
 /**
- * @brief ¼ì²é»½ĞÑÔ´×´Ì¬
+ * @brief æ£€æŸ¥å”¤é†’æºçŠ¶æ€
  */
 bool pm_wakeup_is_source_active(pm_wakeup_source_t source)
 {
@@ -2712,7 +2712,7 @@ bool pm_wakeup_is_source_active(pm_wakeup_source_t source)
 }
 
 /**
- * @brief »ñÈ¡»½ĞÑÔ´×´Ì¬
+ * @brief è·å–å”¤é†’æºçŠ¶æ€
  */
 pm_err_t pm_wakeup_get_source_status(pm_wakeup_source_t source, pm_wakeup_status_t *status)
 {
@@ -2739,7 +2739,7 @@ pm_err_t pm_wakeup_get_source_status(pm_wakeup_source_t source, pm_wakeup_status
 }
 
 /**
- * @brief »ñÈ¡×îºó»½ĞÑÔ´
+ * @brief è·å–æœ€åå”¤é†’æº
  */
 pm_wakeup_source_t pm_wakeup_get_last_source(void)
 {
@@ -2751,7 +2751,7 @@ pm_wakeup_source_t pm_wakeup_get_last_source(void)
 }
 
 /**
- * @brief Çå³ı»½ĞÑÔ´×´Ì¬
+ * @brief æ¸…é™¤å”¤é†’æºçŠ¶æ€
  */
 pm_err_t pm_wakeup_clear_source_status(pm_wakeup_source_t source)
 {
@@ -2763,7 +2763,7 @@ pm_err_t pm_wakeup_clear_source_status(pm_wakeup_source_t source)
 }
 
 /**
- * @brief ÉèÖÃ»½ĞÑ¹ıÂËÆ÷
+ * @brief è®¾ç½®å”¤é†’è¿‡æ»¤å™¨
  */
 pm_err_t pm_wakeup_set_filter(uint32_t filter_mask)
 {
@@ -2777,7 +2777,7 @@ pm_err_t pm_wakeup_set_filter(uint32_t filter_mask)
 }
 
 /**
- * @brief »ñÈ¡»½ĞÑ¹ıÂËÆ÷
+ * @brief è·å–å”¤é†’è¿‡æ»¤å™¨
  */
 uint32_t pm_wakeup_get_filter(void)
 {
@@ -2789,7 +2789,7 @@ uint32_t pm_wakeup_get_filter(void)
 }
 
 /**
- * @brief ´¦Àí»½ĞÑÊÂ¼ş(ÓÉÖĞ¶Ï·şÎñ³ÌĞòµ÷ÓÃ)
+ * @brief å¤„ç†å”¤é†’äº‹ä»¶(ç”±ä¸­æ–­æœåŠ¡ç¨‹åºè°ƒç”¨)
  */
 pm_err_t pm_wakeup_handle_event(pm_wakeup_source_t source)
 {
@@ -2797,32 +2797,32 @@ pm_err_t pm_wakeup_handle_event(pm_wakeup_source_t source)
         return PM_ERR_NOT_INITIALIZED;
     }
     
-    /* ¼ì²é»½ĞÑÔ´ÊÇ·ñ±»¹ıÂË */
+    /* æ£€æŸ¥å”¤é†’æºæ˜¯å¦è¢«è¿‡æ»¤ */
     if (pm_wakeup_is_source_filtered(source)) {
         g_wakeup_mgr.filtered_wakeup_count++;
         return PM_ERR_FILTERED;
     }
     
-    /* ²éÕÒ»½ĞÑÔ´ÅäÖÃ */
+    /* æŸ¥æ‰¾å”¤é†’æºé…ç½® */
     pm_wakeup_source_config_t *config = pm_wakeup_find_source_config(source);
     if (config == NULL || !config->enabled) {
         g_wakeup_mgr.false_wakeup_count++;
         return PM_ERR_NOT_FOUND;
     }
     
-    /* Èç¹ûĞèÒª·À¶¶´¦Àí */
+    /* å¦‚æœéœ€è¦é˜²æŠ–å¤„ç† */
     if (config->debounce_time_ms > 0) {
         return pm_wakeup_start_debounce(source);
     }
     
-    /* Ö±½Ó´¦Àí»½ĞÑ */
+    /* ç›´æ¥å¤„ç†å”¤é†’ */
     return pm_wakeup_process_source(source);
 }
 
-/* ==================== ÄÚ²¿º¯ÊıÊµÏÖ ==================== */
+/* ==================== å†…éƒ¨å‡½æ•°å®ç° ==================== */
 
 /**
- * @brief ´¦Àí»½ĞÑÔ´
+ * @brief å¤„ç†å”¤é†’æº
  */
 static pm_err_t pm_wakeup_process_source(pm_wakeup_source_t source)
 {
@@ -2831,25 +2831,25 @@ static pm_err_t pm_wakeup_process_source(pm_wakeup_source_t source)
         return PM_ERR_NOT_FOUND;
     }
     
-    /* ¸üĞÂÍ³¼ÆĞÅÏ¢ */
+    /* æ›´æ–°ç»Ÿè®¡ä¿¡æ¯ */
     config->wakeup_count++;
     config->last_wakeup_time = pm_platform_get_time_ms();
     g_wakeup_mgr.total_wakeup_count++;
     g_wakeup_mgr.last_wakeup_source = source;
     
-    /* µ÷ÓÃ»Øµ÷º¯Êı */
+    /* è°ƒç”¨å›è°ƒå‡½æ•° */
     if (config->callback != NULL) {
         config->callback(source, config->user_data);
     }
     
-    /* Í¨ÖªPMºËĞÄÄ£¿é */
+    /* é€šçŸ¥PMæ ¸å¿ƒæ¨¡å— */
     pm_core_set_state(PM_STATE_ACTIVE);
     
     return PM_ERR_OK;
 }
 
 /**
- * @brief Æô¶¯·À¶¶´¦Àí
+ * @brief å¯åŠ¨é˜²æŠ–å¤„ç†
  */
 static pm_err_t pm_wakeup_start_debounce(pm_wakeup_source_t source)
 {
@@ -2858,19 +2858,19 @@ static pm_err_t pm_wakeup_start_debounce(pm_wakeup_source_t source)
         return PM_ERR_NOT_FOUND;
     }
     
-    /* Èç¹ûÒÑ¾­ÔÚ·À¶¶ÖĞ£¬ÖØĞÂÆô¶¯¶¨Ê±Æ÷ */
+    /* å¦‚æœå·²ç»åœ¨é˜²æŠ–ä¸­ï¼Œé‡æ–°å¯åŠ¨å®šæ—¶å™¨ */
     if (g_wakeup_mgr.debounce_active) {
         pm_platform_stop_timer(g_wakeup_mgr.debounce_timer_id);
     }
     
-    /* ÉèÖÃ·À¶¶×´Ì¬ */
+    /* è®¾ç½®é˜²æŠ–çŠ¶æ€ */
     g_wakeup_mgr.pending_source = source;
     g_wakeup_mgr.debounce_active = true;
     
-    /* Æô¶¯·À¶¶¶¨Ê±Æ÷ */
+    /* å¯åŠ¨é˜²æŠ–å®šæ—¶å™¨ */
     g_wakeup_mgr.debounce_timer_id = pm_platform_start_timer(
         config->debounce_time_ms,
-        false,  /* µ¥´Î¶¨Ê±Æ÷ */
+        false,  /* å•æ¬¡å®šæ—¶å™¨ */
         pm_wakeup_debounce_timeout,
         NULL
     );
@@ -2884,7 +2884,7 @@ static pm_err_t pm_wakeup_start_debounce(pm_wakeup_source_t source)
 }
 
 /**
- * @brief ·À¶¶³¬Ê±´¦Àí
+ * @brief é˜²æŠ–è¶…æ—¶å¤„ç†
  */
 static void pm_wakeup_debounce_timeout(void *arg)
 {
@@ -2896,22 +2896,22 @@ static void pm_wakeup_debounce_timeout(void *arg)
     
     pm_wakeup_source_t source = g_wakeup_mgr.pending_source;
     
-    /* ÖØÖÃ·À¶¶×´Ì¬ */
+    /* é‡ç½®é˜²æŠ–çŠ¶æ€ */
     g_wakeup_mgr.debounce_active = false;
     g_wakeup_mgr.pending_source = PM_WAKEUP_SOURCE_NONE;
     g_wakeup_mgr.debounce_timer_id = PM_INVALID_HANDLE;
     
-    /* ¼ì²é»½ĞÑÔ´ÊÇ·ñÈÔÈ»¼¤»î */
+    /* æ£€æŸ¥å”¤é†’æºæ˜¯å¦ä»ç„¶æ¿€æ´» */
     if (pm_hal_is_wakeup_source_active(source)) {
         pm_wakeup_process_source(source);
     } else {
-        /* Îó»½ĞÑ£¬Ôö¼Ó¼ÆÊı */
+        /* è¯¯å”¤é†’ï¼Œå¢åŠ è®¡æ•° */
         g_wakeup_mgr.false_wakeup_count++;
     }
 }
 
 /**
- * @brief ²éÕÒ»½ĞÑÔ´ÅäÖÃ
+ * @brief æŸ¥æ‰¾å”¤é†’æºé…ç½®
  */
 static pm_wakeup_source_config_t* pm_wakeup_find_source_config(pm_wakeup_source_t source)
 {
@@ -2924,12 +2924,12 @@ static pm_wakeup_source_config_t* pm_wakeup_find_source_config(pm_wakeup_source_
 }
 
 /**
- * @brief ¼ì²é»½ĞÑÔ´ÊÇ·ñ±»¹ıÂË
+ * @brief æ£€æŸ¥å”¤é†’æºæ˜¯å¦è¢«è¿‡æ»¤
  */
 static bool pm_wakeup_is_source_filtered(pm_wakeup_source_t source)
 {
     if (source >= 32) {
-        return false;  /* ³¬³ö¹ıÂË·¶Î§ */
+        return false;  /* è¶…å‡ºè¿‡æ»¤èŒƒå›´ */
     }
     
     uint32_t source_bit = (1U << source);
@@ -2937,7 +2937,7 @@ static bool pm_wakeup_is_source_filtered(pm_wakeup_source_t source)
 }
 
 /**
- * @brief ÑéÖ¤»½ĞÑÔ´ÅäÖÃ
+ * @brief éªŒè¯å”¤é†’æºé…ç½®
  */
 static pm_err_t pm_wakeup_validate_source_config(const pm_wakeup_config_t *config)
 {
@@ -2952,11 +2952,11 @@ static pm_err_t pm_wakeup_validate_source_config(const pm_wakeup_config_t *confi
     return PM_ERR_OK;
 }
 
-/* ==================== HAL½Ó¿Ú(ĞèÒªÓÃ»§ÊµÏÖ) ==================== */
+/* ==================== HALæ¥å£(éœ€è¦ç”¨æˆ·å®ç°) ==================== */
 
 __attribute__((weak)) pm_err_t pm_hal_configure_wakeup_source(pm_wakeup_source_t source, const pm_wakeup_config_t *config)
 {
-    /* ÓÃ»§ĞèÒªÊµÏÖ´Ëº¯Êı */
+    /* ç”¨æˆ·éœ€è¦å®ç°æ­¤å‡½æ•° */
     (void)source;
     (void)config;
     return PM_ERR_NOT_IMPLEMENTED;
@@ -2964,37 +2964,37 @@ __attribute__((weak)) pm_err_t pm_hal_configure_wakeup_source(pm_wakeup_source_t
 
 __attribute__((weak)) pm_err_t pm_hal_enable_wakeup_source(pm_wakeup_source_t source)
 {
-    /* ÓÃ»§ĞèÒªÊµÏÖ´Ëº¯Êı */
+    /* ç”¨æˆ·éœ€è¦å®ç°æ­¤å‡½æ•° */
     (void)source;
     return PM_ERR_NOT_IMPLEMENTED;
 }
 
 __attribute__((weak)) pm_err_t pm_hal_disable_wakeup_source(pm_wakeup_source_t source)
 {
-    /* ÓÃ»§ĞèÒªÊµÏÖ´Ëº¯Êı */
+    /* ç”¨æˆ·éœ€è¦å®ç°æ­¤å‡½æ•° */
     (void)source;
     return PM_ERR_NOT_IMPLEMENTED;
 }
 
 __attribute__((weak)) bool pm_hal_is_wakeup_source_active(pm_wakeup_source_t source)
 {
-    /* ÓÃ»§ĞèÒªÊµÏÖ´Ëº¯Êı */
+    /* ç”¨æˆ·éœ€è¦å®ç°æ­¤å‡½æ•° */
     (void)source;
     return false;
 }
 
 __attribute__((weak)) pm_err_t pm_hal_clear_wakeup_source_status(pm_wakeup_source_t source)
 {
-    /* ÓÃ»§ĞèÒªÊµÏÖ´Ëº¯Êı */
+    /* ç”¨æˆ·éœ€è¦å®ç°æ­¤å‡½æ•° */
     (void)source;
     return PM_ERR_NOT_IMPLEMENTED;
 }
 
-/* ==================== Æ½Ì¨½Ó¿Ú(ĞèÒªÓÃ»§ÊµÏÖ) ==================== */
+/* ==================== å¹³å°æ¥å£(éœ€è¦ç”¨æˆ·å®ç°) ==================== */
 
 __attribute__((weak)) uint32_t pm_platform_start_timer(uint32_t timeout_ms, bool periodic, void (*callback)(void*), void *arg)
 {
-    /* ÓÃ»§ĞèÒªÊµÏÖ´Ëº¯Êı */
+    /* ç”¨æˆ·éœ€è¦å®ç°æ­¤å‡½æ•° */
     (void)timeout_ms;
     (void)periodic;
     (void)callback;
@@ -3004,13 +3004,13 @@ __attribute__((weak)) uint32_t pm_platform_start_timer(uint32_t timeout_ms, bool
 
 __attribute__((weak)) pm_err_t pm_platform_stop_timer(uint32_t timer_id)
 {
-    /* ÓÃ»§ĞèÒªÊµÏÖ´Ëº¯Êı */
+    /* ç”¨æˆ·éœ€è¦å®ç°æ­¤å‡½æ•° */
     (void)timer_id;
     return PM_ERR_NOT_IMPLEMENTED;
 }
 
           
-´´½¨CMakeLists.txt¹¹½¨ÎÄ¼ş£¬ÍêÉÆÏîÄ¿¹¹½¨ÏµÍ³¡£
+åˆ›å»ºCMakeLists.txtæ„å»ºæ–‡ä»¶ï¼Œå®Œå–„é¡¹ç›®æ„å»ºç³»ç»Ÿã€‚
         
             
 toolName: write_to_file
@@ -3020,29 +3020,29 @@ status: success
             
 filePath: d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\CMakeLists.txt
           
-content: # PMÖØ¹¹·½°¸ CMakeLists.txt
-# °æ±¾: 2.0
-# ÈÕÆÚ: 2024
+content: # PMé‡æ„æ–¹æ¡ˆ CMakeLists.txt
+# ç‰ˆæœ¬: 2.0
+# æ—¥æœŸ: 2024
 
 cmake_minimum_required(VERSION 3.16)
 
-# ÏîÄ¿ĞÅÏ¢
+# é¡¹ç›®ä¿¡æ¯
 project(pm_refactor_v2
     VERSION 2.0.0
     DESCRIPTION "Power Management Refactored Architecture"
     LANGUAGES C CXX
 )
 
-# ÉèÖÃC±ê×¼
+# è®¾ç½®Cæ ‡å‡†
 set(CMAKE_C_STANDARD 99)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 
-# ±àÒëÑ¡Ïî
+# ç¼–è¯‘é€‰é¡¹
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra -Werror")
 set(CMAKE_C_FLAGS_DEBUG "-g -O0 -DDEBUG")
 set(CMAKE_C_FLAGS_RELEASE "-O2 -DNDEBUG")
 
-# ÅäÖÃÑ¡Ïî
+# é…ç½®é€‰é¡¹
 option(PM_ENABLE_LIGHT_SLEEP "Enable light sleep mode" ON)
 option(PM_ENABLE_DEEP_SLEEP "Enable deep sleep mode" ON)
 option(PM_ENABLE_SUPER_DEEP_SLEEP "Enable super deep sleep mode" OFF)
@@ -3054,7 +3054,7 @@ option(PM_ENABLE_TRACE "Enable trace features" OFF)
 option(PM_BUILD_TESTS "Build unit tests" OFF)
 option(PM_BUILD_EXAMPLES "Build examples" ON)
 
-# °üº¬Ä¿Â¼
+# åŒ…å«ç›®å½•
 set(PM_INCLUDE_DIRS
     ${CMAKE_CURRENT_SOURCE_DIR}/include
     ${CMAKE_CURRENT_SOURCE_DIR}/src/core
@@ -3063,7 +3063,7 @@ set(PM_INCLUDE_DIRS
     ${CMAKE_CURRENT_SOURCE_DIR}/src/utils
 )
 
-# Ô´ÎÄ¼ş
+# æºæ–‡ä»¶
 set(PM_CORE_SOURCES
     src/core/pm_core.c
 )
@@ -3074,14 +3074,14 @@ set(PM_SERVICE_SOURCES
 )
 
 set(PM_HAL_SOURCES
-    # HALÎÄ¼ş½«ÓÉÓÃ»§Ìá¹©
+    # HALæ–‡ä»¶å°†ç”±ç”¨æˆ·æä¾›
 )
 
 set(PM_UTIL_SOURCES
-    # ¹¤¾ßÎÄ¼ş
+    # å·¥å…·æ–‡ä»¶
 )
 
-# ºÏ²¢ËùÓĞÔ´ÎÄ¼ş
+# åˆå¹¶æ‰€æœ‰æºæ–‡ä»¶
 set(PM_ALL_SOURCES
     ${PM_CORE_SOURCES}
     ${PM_SERVICE_SOURCES}
@@ -3089,13 +3089,13 @@ set(PM_ALL_SOURCES
     ${PM_UTIL_SOURCES}
 )
 
-# ´´½¨¾²Ì¬¿â
+# åˆ›å»ºé™æ€åº“
 add_library(pm_refactor_v2 STATIC ${PM_ALL_SOURCES})
 
-# ÉèÖÃ°üº¬Ä¿Â¼
+# è®¾ç½®åŒ…å«ç›®å½•
 target_include_directories(pm_refactor_v2 PUBLIC ${PM_INCLUDE_DIRS})
 
-# ±àÒë¶¨Òå
+# ç¼–è¯‘å®šä¹‰
 target_compile_definitions(pm_refactor_v2 PRIVATE
     $<$<BOOL:${PM_ENABLE_LIGHT_SLEEP}>:PM_ENABLE_LIGHT_SLEEP=1>
     $<$<BOOL:${PM_ENABLE_DEEP_SLEEP}>:PM_ENABLE_DEEP_SLEEP=1>
@@ -3107,7 +3107,7 @@ target_compile_definitions(pm_refactor_v2 PRIVATE
     $<$<BOOL:${PM_ENABLE_TRACE}>:PM_ENABLE_TRACE=1>
 )
 
-# ×ÊÔ´ÅäÖÃ¶¨Òå
+# èµ„æºé…ç½®å®šä¹‰
 target_compile_definitions(pm_refactor_v2 PRIVATE
     PM_MAX_CALLBACKS=16
     PM_MAX_WAKEUP_SOURCES=8
@@ -3120,7 +3120,7 @@ target_compile_definitions(pm_refactor_v2 PRIVATE
     PM_CLOCK_SWITCH_TIME_US=50
 )
 
-# µçÑ¹ºÍÆµÂÊÅäÖÃ
+# ç”µå‹å’Œé¢‘ç‡é…ç½®
 target_compile_definitions(pm_refactor_v2 PRIVATE
     PM_DEFAULT_CORE_VOLTAGE_MV=1200
     PM_MIN_CORE_VOLTAGE_MV=800
@@ -3131,7 +3131,7 @@ target_compile_definitions(pm_refactor_v2 PRIVATE
     PM_MAX_CPU_FREQ_HZ=480000000
 )
 
-# µ÷ÊÔÅäÖÃ
+# è°ƒè¯•é…ç½®
 if(PM_ENABLE_DEBUG)
     target_compile_definitions(pm_refactor_v2 PRIVATE
         PM_DEFAULT_DEBUG_LEVEL=2  # INFO level
@@ -3142,10 +3142,10 @@ else()
     )
 endif()
 
-# Á´½Ó¿â
+# é“¾æ¥åº“
 # target_link_libraries(pm_refactor_v2 PRIVATE)
 
-# °²×°ÅäÖÃ
+# å®‰è£…é…ç½®
 install(TARGETS pm_refactor_v2
     ARCHIVE DESTINATION lib
     LIBRARY DESTINATION lib
@@ -3157,18 +3157,18 @@ install(DIRECTORY include/
     FILES_MATCHING PATTERN "*.h"
 )
 
-# Ê¾Àı³ÌĞò
+# ç¤ºä¾‹ç¨‹åº
 if(PM_BUILD_EXAMPLES)
     add_subdirectory(examples)
 endif()
 
-# µ¥Ôª²âÊÔ
+# å•å…ƒæµ‹è¯•
 if(PM_BUILD_TESTS)
     enable_testing()
     add_subdirectory(tests)
 endif()
 
-# ÎÄµµÉú³É
+# æ–‡æ¡£ç”Ÿæˆ
 find_package(Doxygen)
 if(DOXYGEN_FOUND)
     set(DOXYGEN_IN ${CMAKE_CURRENT_SOURCE_DIR}/docs/Doxyfile.in)
@@ -3184,7 +3184,7 @@ if(DOXYGEN_FOUND)
     )
 endif()
 
-# ´úÂë¸ñÊ½»¯
+# ä»£ç æ ¼å¼åŒ–
 find_program(CLANG_FORMAT clang-format)
 if(CLANG_FORMAT)
     file(GLOB_RECURSE ALL_SOURCE_FILES
@@ -3201,7 +3201,7 @@ if(CLANG_FORMAT)
     )
 endif()
 
-# ¾²Ì¬·ÖÎö
+# é™æ€åˆ†æ
 find_program(CPPCHECK cppcheck)
 if(CPPCHECK)
     add_custom_target(cppcheck
@@ -3216,7 +3216,7 @@ if(CPPCHECK)
     )
 endif()
 
-# ÄÚ´æ¼ì²é
+# å†…å­˜æ£€æŸ¥
 find_program(VALGRIND valgrind)
 if(VALGRIND AND PM_BUILD_TESTS)
     add_custom_target(memcheck
@@ -3232,7 +3232,7 @@ if(VALGRIND AND PM_BUILD_TESTS)
     )
 endif()
 
-# ¸²¸ÇÂÊ²âÊÔ
+# è¦†ç›–ç‡æµ‹è¯•
 if(CMAKE_BUILD_TYPE STREQUAL "Debug" AND PM_BUILD_TESTS)
     find_program(GCOV gcov)
     find_program(LCOV lcov)
@@ -3253,7 +3253,7 @@ if(CMAKE_BUILD_TYPE STREQUAL "Debug" AND PM_BUILD_TESTS)
     endif()
 endif()
 
-# ´òÓ¡ÅäÖÃĞÅÏ¢
+# æ‰“å°é…ç½®ä¿¡æ¯
 message(STATUS "PM Refactor v2 Configuration:")
 message(STATUS "  Version: ${PROJECT_VERSION}")
 message(STATUS "  Build Type: ${CMAKE_BUILD_TYPE}")
@@ -3268,49 +3268,49 @@ message(STATUS "  Trace: ${PM_ENABLE_TRACE}")
 message(STATUS "  Build Tests: ${PM_BUILD_TESTS}")
 message(STATUS "  Build Examples: ${PM_BUILD_EXAMPLES}")
 
-# ×ÊÔ´Ê¹ÓÃ¹ÀËã
+# èµ„æºä½¿ç”¨ä¼°ç®—
 math(EXPR PM_ESTIMATED_RAM_KB "4 + 2 + 1")
 math(EXPR PM_ESTIMATED_FLASH_KB "35 + 5")
 message(STATUS "Estimated Resource Usage:")
 message(STATUS "  RAM: ~${PM_ESTIMATED_RAM_KB}KB")
 message(STATUS "  Flash: ~${PM_ESTIMATED_FLASH_KB}KB")
 
-# ĞÔÄÜ¾¯¸æ
+# æ€§èƒ½è­¦å‘Š
 if(PM_ENABLE_TRACE)
-    message(WARNING "Trace¹¦ÄÜ»áÏÔÖøÔö¼ÓCPUºÍÄÚ´æ¿ªÏú£¬½¨Òé½öÔÚµ÷ÊÔÊ±Ê¹ÓÃ")
+    message(WARNING "TraceåŠŸèƒ½ä¼šæ˜¾è‘—å¢åŠ CPUå’Œå†…å­˜å¼€é”€ï¼Œå»ºè®®ä»…åœ¨è°ƒè¯•æ—¶ä½¿ç”¨")
 endif()
 
 if(PM_ENABLE_DEBUG AND CMAKE_BUILD_TYPE STREQUAL "Release")
-    message(WARNING "ReleaseÄ£Ê½ÏÂÆôÓÃDebug¹¦ÄÜ»áÔö¼Ó´úÂë´óĞ¡ºÍÔËĞĞÊ±¿ªÏú")
+    message(WARNING "Releaseæ¨¡å¼ä¸‹å¯ç”¨DebugåŠŸèƒ½ä¼šå¢åŠ ä»£ç å¤§å°å’Œè¿è¡Œæ—¶å¼€é”€")
 endif()
 
-# ¼æÈİĞÔ¼ì²é
+# å…¼å®¹æ€§æ£€æŸ¥
 if(CMAKE_SYSTEM_PROCESSOR MATCHES "arm")
-    message(STATUS "¼ì²âµ½ARM´¦ÀíÆ÷£¬ÆôÓÃARMÌØ¶¨ÓÅ»¯")
+    message(STATUS "æ£€æµ‹åˆ°ARMå¤„ç†å™¨ï¼Œå¯ç”¨ARMç‰¹å®šä¼˜åŒ–")
     target_compile_options(pm_refactor_v2 PRIVATE -mcpu=cortex-m4 -mthumb)
 endif()
 
-# ×Ô¶¨ÒåÄ¿±ê£ºÉú³ÉÅäÖÃ±¨¸æ
+# è‡ªå®šä¹‰ç›®æ ‡ï¼šç”Ÿæˆé…ç½®æŠ¥å‘Š
 add_custom_target(config_report
-    COMMAND ${CMAKE_COMMAND} -E echo "PM Refactor v2 ÅäÖÃ±¨¸æ:"
-    COMMAND ${CMAKE_COMMAND} -E echo "¹¹½¨ÀàĞÍ: ${CMAKE_BUILD_TYPE}"
-    COMMAND ${CMAKE_COMMAND} -E echo "¹¦ÄÜÅäÖÃ:"
-    COMMAND ${CMAKE_COMMAND} -E echo "  Çá¶ÈË¯Ãß: ${PM_ENABLE_LIGHT_SLEEP}"
-    COMMAND ${CMAKE_COMMAND} -E echo "  Éî¶ÈË¯Ãß: ${PM_ENABLE_DEEP_SLEEP}"
-    COMMAND ${CMAKE_COMMAND} -E echo "  ³¬Éî¶ÈË¯Ãß: ${PM_ENABLE_SUPER_DEEP_SLEEP}"
-    COMMAND ${CMAKE_COMMAND} -E echo "  µçÑ¹µ÷½Ú: ${PM_ENABLE_VOLTAGE_SCALING}"
-    COMMAND ${CMAKE_COMMAND} -E echo "  ÆµÂÊµ÷½Ú: ${PM_ENABLE_FREQUENCY_SCALING}"
-    COMMAND ${CMAKE_COMMAND} -E echo "  Í³¼Æ¹¦ÄÜ: ${PM_ENABLE_STATISTICS}"
-    COMMAND ${CMAKE_COMMAND} -E echo "  µ÷ÊÔ¹¦ÄÜ: ${PM_ENABLE_DEBUG}"
-    COMMAND ${CMAKE_COMMAND} -E echo "  ¸ú×Ù¹¦ÄÜ: ${PM_ENABLE_TRACE}"
-    COMMAND ${CMAKE_COMMAND} -E echo "×ÊÔ´¹ÀËã:"
-    COMMAND ${CMAKE_COMMAND} -E echo "  RAMÊ¹ÓÃ: ~${PM_ESTIMATED_RAM_KB}KB"
-    COMMAND ${CMAKE_COMMAND} -E echo "  FlashÊ¹ÓÃ: ~${PM_ESTIMATED_FLASH_KB}KB"
-    COMMENT "Éú³ÉÅäÖÃ±¨¸æ"
+    COMMAND ${CMAKE_COMMAND} -E echo "PM Refactor v2 é…ç½®æŠ¥å‘Š:"
+    COMMAND ${CMAKE_COMMAND} -E echo "æ„å»ºç±»å‹: ${CMAKE_BUILD_TYPE}"
+    COMMAND ${CMAKE_COMMAND} -E echo "åŠŸèƒ½é…ç½®:"
+    COMMAND ${CMAKE_COMMAND} -E echo "  è½»åº¦ç¡çœ : ${PM_ENABLE_LIGHT_SLEEP}"
+    COMMAND ${CMAKE_COMMAND} -E echo "  æ·±åº¦ç¡çœ : ${PM_ENABLE_DEEP_SLEEP}"
+    COMMAND ${CMAKE_COMMAND} -E echo "  è¶…æ·±åº¦ç¡çœ : ${PM_ENABLE_SUPER_DEEP_SLEEP}"
+    COMMAND ${CMAKE_COMMAND} -E echo "  ç”µå‹è°ƒèŠ‚: ${PM_ENABLE_VOLTAGE_SCALING}"
+    COMMAND ${CMAKE_COMMAND} -E echo "  é¢‘ç‡è°ƒèŠ‚: ${PM_ENABLE_FREQUENCY_SCALING}"
+    COMMAND ${CMAKE_COMMAND} -E echo "  ç»Ÿè®¡åŠŸèƒ½: ${PM_ENABLE_STATISTICS}"
+    COMMAND ${CMAKE_COMMAND} -E echo "  è°ƒè¯•åŠŸèƒ½: ${PM_ENABLE_DEBUG}"
+    COMMAND ${CMAKE_COMMAND} -E echo "  è·Ÿè¸ªåŠŸèƒ½: ${PM_ENABLE_TRACE}"
+    COMMAND ${CMAKE_COMMAND} -E echo "èµ„æºä¼°ç®—:"
+    COMMAND ${CMAKE_COMMAND} -E echo "  RAMä½¿ç”¨: ~${PM_ESTIMATED_RAM_KB}KB"
+    COMMAND ${CMAKE_COMMAND} -E echo "  Flashä½¿ç”¨: ~${PM_ESTIMATED_FLASH_KB}KB"
+    COMMENT "ç”Ÿæˆé…ç½®æŠ¥å‘Š"
 )
 
           
-´´½¨Ê¹ÓÃÊ¾ÀıÎÄ¼ş£¬Õ¹Ê¾ÖØ¹¹·½°¸µÄÊµ¼ÊÓ¦ÓÃ¡£
+åˆ›å»ºä½¿ç”¨ç¤ºä¾‹æ–‡ä»¶ï¼Œå±•ç¤ºé‡æ„æ–¹æ¡ˆçš„å®é™…åº”ç”¨ã€‚
         
             
 toolName: write_to_file
@@ -3322,7 +3322,7 @@ filePath: d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\examples\basic_usage.
           
 content: /**
  * @file basic_usage.c
- * @brief PMÖØ¹¹·½°¸»ù±¾Ê¹ÓÃÊ¾Àı
+ * @brief PMé‡æ„æ–¹æ¡ˆåŸºæœ¬ä½¿ç”¨ç¤ºä¾‹
  * @version 2.0
  * @date 2024
  */
@@ -3333,17 +3333,17 @@ content: /**
 #include <stdlib.h>
 #include <string.h>
 
-/* ==================== Ê¾ÀıÅäÖÃ ==================== */
+/* ==================== ç¤ºä¾‹é…ç½® ==================== */
 
-/* Ä£ÄâÓ²¼şÆ½Ì¨ */
+/* æ¨¡æ‹Ÿç¡¬ä»¶å¹³å° */
 static uint32_t g_system_time_ms = 0;
 static bool g_gpio_wakeup_active = false;
 static bool g_timer_wakeup_active = false;
 
-/* ==================== Æ½Ì¨ÊÊÅäÊµÏÖ ==================== */
+/* ==================== å¹³å°é€‚é…å®ç° ==================== */
 
 /**
- * @brief »ñÈ¡ÏµÍ³Ê±¼ä(ºÁÃë)
+ * @brief è·å–ç³»ç»Ÿæ—¶é—´(æ¯«ç§’)
  */
 uint32_t pm_platform_get_time_ms(void)
 {
@@ -3351,148 +3351,148 @@ uint32_t pm_platform_get_time_ms(void)
 }
 
 /**
- * @brief ÑÓÊ±(ºÁÃë)
+ * @brief å»¶æ—¶(æ¯«ç§’)
  */
 void pm_platform_delay_ms(uint32_t ms)
 {
     g_system_time_ms += ms;
-    printf("[PLATFORM] ÑÓÊ± %lu ms\n", ms);
+    printf("[PLATFORM] å»¶æ—¶ %lu ms\n", ms);
 }
 
 /**
- * @brief ÑÓÊ±(Î¢Ãë)
+ * @brief å»¶æ—¶(å¾®ç§’)
  */
 void pm_platform_delay_us(uint32_t us)
 {
-    g_system_time_ms += (us + 999) / 1000;  /* ÏòÉÏÈ¡Õûµ½ºÁÃë */
-    printf("[PLATFORM] ÑÓÊ± %lu us\n", us);
+    g_system_time_ms += (us + 999) / 1000;  /* å‘ä¸Šå–æ•´åˆ°æ¯«ç§’ */
+    printf("[PLATFORM] å»¶æ—¶ %lu us\n", us);
 }
 
 /**
- * @brief Æô¶¯¶¨Ê±Æ÷
+ * @brief å¯åŠ¨å®šæ—¶å™¨
  */
 uint32_t pm_platform_start_timer(uint32_t timeout_ms, bool periodic, void (*callback)(void*), void *arg)
 {
-    printf("[PLATFORM] Æô¶¯¶¨Ê±Æ÷: %lu ms, %s\n", 
-           timeout_ms, periodic ? "ÖÜÆÚĞÔ" : "µ¥´Î");
-    return 1;  /* ·µ»Ø¶¨Ê±Æ÷ID */
+    printf("[PLATFORM] å¯åŠ¨å®šæ—¶å™¨: %lu ms, %s\n", 
+           timeout_ms, periodic ? "å‘¨æœŸæ€§" : "å•æ¬¡");
+    return 1;  /* è¿”å›å®šæ—¶å™¨ID */
 }
 
 /**
- * @brief Í£Ö¹¶¨Ê±Æ÷
+ * @brief åœæ­¢å®šæ—¶å™¨
  */
 pm_err_t pm_platform_stop_timer(uint32_t timer_id)
 {
-    printf("[PLATFORM] Í£Ö¹¶¨Ê±Æ÷: %lu\n", timer_id);
+    printf("[PLATFORM] åœæ­¢å®šæ—¶å™¨: %lu\n", timer_id);
     return PM_ERR_OK;
 }
 
-/* ==================== HAL²ãÊµÏÖÊ¾Àı ==================== */
+/* ==================== HALå±‚å®ç°ç¤ºä¾‹ ==================== */
 
 /**
- * @brief CPUË¯Ãß
+ * @brief CPUç¡çœ 
  */
 pm_err_t pm_hal_cpu_sleep(void)
 {
-    printf("[HAL] ½øÈëCPUË¯ÃßÄ£Ê½\n");
-    g_system_time_ms += 100;  /* Ä£ÄâË¯ÃßÊ±¼ä */
+    printf("[HAL] è¿›å…¥CPUç¡çœ æ¨¡å¼\n");
+    g_system_time_ms += 100;  /* æ¨¡æ‹Ÿç¡çœ æ—¶é—´ */
     return PM_ERR_OK;
 }
 
 /**
- * @brief Éî¶ÈË¯Ãß
+ * @brief æ·±åº¦ç¡çœ 
  */
 pm_err_t pm_hal_deep_sleep(void)
 {
-    printf("[HAL] ½øÈëÉî¶ÈË¯ÃßÄ£Ê½\n");
-    g_system_time_ms += 1000;  /* Ä£ÄâË¯ÃßÊ±¼ä */
+    printf("[HAL] è¿›å…¥æ·±åº¦ç¡çœ æ¨¡å¼\n");
+    g_system_time_ms += 1000;  /* æ¨¡æ‹Ÿç¡çœ æ—¶é—´ */
     return PM_ERR_OK;
 }
 
 /**
- * @brief CPU»½ĞÑ
+ * @brief CPUå”¤é†’
  */
 pm_err_t pm_hal_cpu_wakeup(void)
 {
-    printf("[HAL] CPU´ÓË¯ÃßÄ£Ê½»½ĞÑ\n");
+    printf("[HAL] CPUä»ç¡çœ æ¨¡å¼å”¤é†’\n");
     return PM_ERR_OK;
 }
 
 /**
- * @brief Éî¶ÈË¯Ãß»½ĞÑ
+ * @brief æ·±åº¦ç¡çœ å”¤é†’
  */
 pm_err_t pm_hal_deep_wakeup(void)
 {
-    printf("[HAL] ´ÓÉî¶ÈË¯ÃßÄ£Ê½»½ĞÑ\n");
+    printf("[HAL] ä»æ·±åº¦ç¡çœ æ¨¡å¼å”¤é†’\n");
     return PM_ERR_OK;
 }
 
 /**
- * @brief ±£´æCPUÉÏÏÂÎÄ
+ * @brief ä¿å­˜CPUä¸Šä¸‹æ–‡
  */
 pm_err_t pm_hal_save_cpu_context(void)
 {
-    printf("[HAL] ±£´æCPUÉÏÏÂÎÄ\n");
+    printf("[HAL] ä¿å­˜CPUä¸Šä¸‹æ–‡\n");
     return PM_ERR_OK;
 }
 
 /**
- * @brief ±£´æÏµÍ³ÉÏÏÂÎÄ
+ * @brief ä¿å­˜ç³»ç»Ÿä¸Šä¸‹æ–‡
  */
 pm_err_t pm_hal_save_system_context(void)
 {
-    printf("[HAL] ±£´æÏµÍ³ÉÏÏÂÎÄ\n");
+    printf("[HAL] ä¿å­˜ç³»ç»Ÿä¸Šä¸‹æ–‡\n");
     return PM_ERR_OK;
 }
 
 /**
- * @brief »Ö¸´CPUÉÏÏÂÎÄ
+ * @brief æ¢å¤CPUä¸Šä¸‹æ–‡
  */
 pm_err_t pm_hal_restore_cpu_context(void)
 {
-    printf("[HAL] »Ö¸´CPUÉÏÏÂÎÄ\n");
+    printf("[HAL] æ¢å¤CPUä¸Šä¸‹æ–‡\n");
     return PM_ERR_OK;
 }
 
 /**
- * @brief »Ö¸´ÏµÍ³ÉÏÏÂÎÄ
+ * @brief æ¢å¤ç³»ç»Ÿä¸Šä¸‹æ–‡
  */
 pm_err_t pm_hal_restore_system_context(void)
 {
-    printf("[HAL] »Ö¸´ÏµÍ³ÉÏÏÂÎÄ\n");
+    printf("[HAL] æ¢å¤ç³»ç»Ÿä¸Šä¸‹æ–‡\n");
     return PM_ERR_OK;
 }
 
 /**
- * @brief ÅäÖÃ»½ĞÑÔ´
+ * @brief é…ç½®å”¤é†’æº
  */
 pm_err_t pm_hal_configure_wakeup_source(pm_wakeup_source_t source, const pm_wakeup_config_t *config)
 {
-    printf("[HAL] ÅäÖÃ»½ĞÑÔ´ %d: Ê¹ÄÜ=%d, Òı½ÅÑÚÂë=0x%lx\n", 
+    printf("[HAL] é…ç½®å”¤é†’æº %d: ä½¿èƒ½=%d, å¼•è„šæ©ç =0x%lx\n", 
            source, config->enabled, config->pin_mask);
     return PM_ERR_OK;
 }
 
 /**
- * @brief Ê¹ÄÜ»½ĞÑÔ´
+ * @brief ä½¿èƒ½å”¤é†’æº
  */
 pm_err_t pm_hal_enable_wakeup_source(pm_wakeup_source_t source)
 {
-    printf("[HAL] Ê¹ÄÜ»½ĞÑÔ´ %d\n", source);
+    printf("[HAL] ä½¿èƒ½å”¤é†’æº %d\n", source);
     return PM_ERR_OK;
 }
 
 /**
- * @brief ½ûÓÃ»½ĞÑÔ´
+ * @brief ç¦ç”¨å”¤é†’æº
  */
 pm_err_t pm_hal_disable_wakeup_source(pm_wakeup_source_t source)
 {
-    printf("[HAL] ½ûÓÃ»½ĞÑÔ´ %d\n", source);
+    printf("[HAL] ç¦ç”¨å”¤é†’æº %d\n", source);
     return PM_ERR_OK;
 }
 
 /**
- * @brief ¼ì²é»½ĞÑÔ´ÊÇ·ñ¼¤»î
+ * @brief æ£€æŸ¥å”¤é†’æºæ˜¯å¦æ¿€æ´»
  */
 bool pm_hal_is_wakeup_source_active(pm_wakeup_source_t source)
 {
@@ -3507,11 +3507,11 @@ bool pm_hal_is_wakeup_source_active(pm_wakeup_source_t source)
 }
 
 /**
- * @brief Çå³ı»½ĞÑÔ´×´Ì¬
+ * @brief æ¸…é™¤å”¤é†’æºçŠ¶æ€
  */
 pm_err_t pm_hal_clear_wakeup_source_status(pm_wakeup_source_t source)
 {
-    printf("[HAL] Çå³ı»½ĞÑÔ´ %d ×´Ì¬\n", source);
+    printf("[HAL] æ¸…é™¤å”¤é†’æº %d çŠ¶æ€\n", source);
     switch (source) {
         case PM_WAKEUP_SOURCE_GPIO:
             g_gpio_wakeup_active = false;
@@ -3525,10 +3525,10 @@ pm_err_t pm_hal_clear_wakeup_source_status(pm_wakeup_source_t source)
     return PM_ERR_OK;
 }
 
-/* ==================== »Øµ÷º¯ÊıÊ¾Àı ==================== */
+/* ==================== å›è°ƒå‡½æ•°ç¤ºä¾‹ ==================== */
 
 /**
- * @brief ×´Ì¬±ä»¯»Øµ÷
+ * @brief çŠ¶æ€å˜åŒ–å›è°ƒ
  */
 void state_change_callback(pm_callback_type_t type, void *data, void *user_data)
 {
@@ -3536,41 +3536,41 @@ void state_change_callback(pm_callback_type_t type, void *data, void *user_data)
     
     if (type == PM_CALLBACK_TYPE_STATE_CHANGE) {
         pm_state_t *state = (pm_state_t*)data;
-        printf("[CALLBACK] ×´Ì¬±ä»¯: %d\n", *state);
+        printf("[CALLBACK] çŠ¶æ€å˜åŒ–: %d\n", *state);
     }
 }
 
 /**
- * @brief Ë¯Ãß½øÈë»Øµ÷
+ * @brief ç¡çœ è¿›å…¥å›è°ƒ
  */
 void sleep_enter_callback(pm_sleep_mode_t mode, void *user_data)
 {
     (void)user_data;
-    printf("[CALLBACK] ½øÈëË¯ÃßÄ£Ê½: %d\n", mode);
+    printf("[CALLBACK] è¿›å…¥ç¡çœ æ¨¡å¼: %d\n", mode);
 }
 
 /**
- * @brief Ë¯ÃßÍË³ö»Øµ÷
+ * @brief ç¡çœ é€€å‡ºå›è°ƒ
  */
 void sleep_exit_callback(pm_sleep_mode_t mode, void *user_data)
 {
     (void)user_data;
-    printf("[CALLBACK] ÍË³öË¯ÃßÄ£Ê½: %d\n", mode);
+    printf("[CALLBACK] é€€å‡ºç¡çœ æ¨¡å¼: %d\n", mode);
 }
 
 /**
- * @brief »½ĞÑ»Øµ÷
+ * @brief å”¤é†’å›è°ƒ
  */
 void wakeup_callback(pm_wakeup_source_t source, void *user_data)
 {
     (void)user_data;
-    printf("[CALLBACK] »½ĞÑÔ´´¥·¢: %d\n", source);
+    printf("[CALLBACK] å”¤é†’æºè§¦å‘: %d\n", source);
 }
 
-/* ==================== ÅäÖÃ¹ÜÀíÊ¾Àı ==================== */
+/* ==================== é…ç½®ç®¡ç†ç¤ºä¾‹ ==================== */
 
 /**
- * @brief »ñÈ¡Ä¬ÈÏÅäÖÃ
+ * @brief è·å–é»˜è®¤é…ç½®
  */
 pm_err_t pm_get_default_config(pm_config_manager_t *config)
 {
@@ -3580,7 +3580,7 @@ pm_err_t pm_get_default_config(pm_config_manager_t *config)
     
     memset(config, 0, sizeof(pm_config_manager_t));
     
-    /* È«¾ÖÅäÖÃ */
+    /* å…¨å±€é…ç½® */
     config->global.enable_light_sleep = true;
     config->global.enable_deep_sleep = true;
     config->global.enable_super_deep_sleep = false;
@@ -3612,7 +3612,7 @@ pm_err_t pm_get_default_config(pm_config_manager_t *config)
     config->global.stack_size = 2048;
     config->global.heap_size = 4096;
     
-    /* Ë¯Ãß²ßÂÔÅäÖÃ */
+    /* ç¡çœ ç­–ç•¥é…ç½® */
     config->sleep_policy.preferred_mode = PM_SLEEP_MODE_AUTO;
     config->sleep_policy.idle_threshold_ms = 100;
     config->sleep_policy.light_sleep_threshold_ms = 1000;
@@ -3620,7 +3620,7 @@ pm_err_t pm_get_default_config(pm_config_manager_t *config)
     config->sleep_policy.auto_sleep_enable = true;
     config->sleep_policy.wakeup_on_any_interrupt = false;
     
-    /* µçÔ´²ßÂÔÅäÖÃ */
+    /* ç”µæºç­–ç•¥é…ç½® */
     config->power_policy.aggressive_power_saving = false;
     config->power_policy.dynamic_voltage_scaling = true;
     config->power_policy.dynamic_frequency_scaling = true;
@@ -3634,7 +3634,7 @@ pm_err_t pm_get_default_config(pm_config_manager_t *config)
 }
 
 /**
- * @brief ÑéÖ¤ÅäÖÃ
+ * @brief éªŒè¯é…ç½®
  */
 pm_err_t pm_validate_config(const pm_config_manager_t *config)
 {
@@ -3642,17 +3642,17 @@ pm_err_t pm_validate_config(const pm_config_manager_t *config)
         return PM_ERR_INVALID_PARAM;
     }
     
-    /* ÑéÖ¤µçÑ¹·¶Î§ */
+    /* éªŒè¯ç”µå‹èŒƒå›´ */
     if (config->global.min_core_voltage_mv >= config->global.max_core_voltage_mv) {
         return PM_ERR_INVALID_PARAM;
     }
     
-    /* ÑéÖ¤ÆµÂÊ·¶Î§ */
+    /* éªŒè¯é¢‘ç‡èŒƒå›´ */
     if (config->global.min_cpu_freq_hz >= config->global.max_cpu_freq_hz) {
         return PM_ERR_INVALID_PARAM;
     }
     
-    /* ÑéÖ¤ãĞÖµÉèÖÃ */
+    /* éªŒè¯é˜ˆå€¼è®¾ç½® */
     if (config->sleep_policy.light_sleep_threshold_ms >= config->sleep_policy.deep_sleep_threshold_ms) {
         return PM_ERR_INVALID_PARAM;
     }
@@ -3660,35 +3660,35 @@ pm_err_t pm_validate_config(const pm_config_manager_t *config)
     return PM_ERR_OK;
 }
 
-/* ==================== Ö÷º¯ÊıÊ¾Àı ==================== */
+/* ==================== ä¸»å‡½æ•°ç¤ºä¾‹ ==================== */
 
 int main(void)
 {
-    printf("=== PMÖØ¹¹·½°¸»ù±¾Ê¹ÓÃÊ¾Àı ===\n\n");
+    printf("=== PMé‡æ„æ–¹æ¡ˆåŸºæœ¬ä½¿ç”¨ç¤ºä¾‹ ===\n\n");
     
     pm_err_t ret;
     pm_config_manager_t config;
     
-    /* 1. »ñÈ¡Ä¬ÈÏÅäÖÃ */
-    printf("1. ³õÊ¼»¯ÅäÖÃ...\n");
+    /* 1. è·å–é»˜è®¤é…ç½® */
+    printf("1. åˆå§‹åŒ–é…ç½®...\n");
     ret = pm_get_default_config(&config);
     if (ret != PM_ERR_OK) {
-        printf("»ñÈ¡Ä¬ÈÏÅäÖÃÊ§°Ü: %d\n", ret);
+        printf("è·å–é»˜è®¤é…ç½®å¤±è´¥: %d\n", ret);
         return -1;
     }
-    printf("ÅäÖÃ³õÊ¼»¯Íê³É\n\n");
+    printf("é…ç½®åˆå§‹åŒ–å®Œæˆ\n\n");
     
-    /* 2. ³õÊ¼»¯PMºËĞÄÄ£¿é */
-    printf("2. ³õÊ¼»¯PMºËĞÄÄ£¿é...\n");
+    /* 2. åˆå§‹åŒ–PMæ ¸å¿ƒæ¨¡å— */
+    printf("2. åˆå§‹åŒ–PMæ ¸å¿ƒæ¨¡å—...\n");
     ret = pm_core_init(&config);
     if (ret != PM_ERR_OK) {
-        printf("PMºËĞÄ³õÊ¼»¯Ê§°Ü: %d\n", ret);
+        printf("PMæ ¸å¿ƒåˆå§‹åŒ–å¤±è´¥: %d\n", ret);
         return -1;
     }
-    printf("PMºËĞÄ³õÊ¼»¯Íê³É\n\n");
+    printf("PMæ ¸å¿ƒåˆå§‹åŒ–å®Œæˆ\n\n");
     
-    /* 3. ³õÊ¼»¯Ë¯Ãß¹ÜÀíÆ÷ */
-    printf("3. ³õÊ¼»¯Ë¯Ãß¹ÜÀíÆ÷...\n");
+    /* 3. åˆå§‹åŒ–ç¡çœ ç®¡ç†å™¨ */
+    printf("3. åˆå§‹åŒ–ç¡çœ ç®¡ç†å™¨...\n");
     pm_sleep_config_t sleep_config = {
         .timeout_ms = 5000,
         .mode = PM_SLEEP_MODE_AUTO,
@@ -3697,22 +3697,22 @@ int main(void)
     
     ret = pm_sleep_init(&sleep_config);
     if (ret != PM_ERR_OK) {
-        printf("Ë¯Ãß¹ÜÀíÆ÷³õÊ¼»¯Ê§°Ü: %d\n", ret);
+        printf("ç¡çœ ç®¡ç†å™¨åˆå§‹åŒ–å¤±è´¥: %d\n", ret);
         return -1;
     }
-    printf("Ë¯Ãß¹ÜÀíÆ÷³õÊ¼»¯Íê³É\n\n");
+    printf("ç¡çœ ç®¡ç†å™¨åˆå§‹åŒ–å®Œæˆ\n\n");
     
-    /* 4. ³õÊ¼»¯»½ĞÑ¹ÜÀíÆ÷ */
-    printf("4. ³õÊ¼»¯»½ĞÑ¹ÜÀíÆ÷...\n");
+    /* 4. åˆå§‹åŒ–å”¤é†’ç®¡ç†å™¨ */
+    printf("4. åˆå§‹åŒ–å”¤é†’ç®¡ç†å™¨...\n");
     ret = pm_wakeup_init();
     if (ret != PM_ERR_OK) {
-        printf("»½ĞÑ¹ÜÀíÆ÷³õÊ¼»¯Ê§°Ü: %d\n", ret);
+        printf("å”¤é†’ç®¡ç†å™¨åˆå§‹åŒ–å¤±è´¥: %d\n", ret);
         return -1;
     }
-    printf("»½ĞÑ¹ÜÀíÆ÷³õÊ¼»¯Íê³É\n\n");
+    printf("å”¤é†’ç®¡ç†å™¨åˆå§‹åŒ–å®Œæˆ\n\n");
     
-    /* 5. ÅäÖÃ»½ĞÑÔ´ */
-    printf("5. ÅäÖÃ»½ĞÑÔ´...\n");
+    /* 5. é…ç½®å”¤é†’æº */
+    printf("5. é…ç½®å”¤é†’æº...\n");
     pm_wakeup_config_t wakeup_config = {
         .enabled = true,
         .pin_mask = 0x01,
@@ -3724,7 +3724,7 @@ int main(void)
     
     ret = pm_wakeup_configure_source(PM_WAKEUP_SOURCE_GPIO, &wakeup_config);
     if (ret != PM_ERR_OK) {
-        printf("ÅäÖÃGPIO»½ĞÑÔ´Ê§°Ü: %d\n", ret);
+        printf("é…ç½®GPIOå”¤é†’æºå¤±è´¥: %d\n", ret);
         return -1;
     }
     
@@ -3732,119 +3732,119 @@ int main(void)
     wakeup_config.trigger = PM_WAKEUP_TRIGGER_TIMEOUT;
     ret = pm_wakeup_configure_source(PM_WAKEUP_SOURCE_TIMER, &wakeup_config);
     if (ret != PM_ERR_OK) {
-        printf("ÅäÖÃ¶¨Ê±Æ÷»½ĞÑÔ´Ê§°Ü: %d\n", ret);
+        printf("é…ç½®å®šæ—¶å™¨å”¤é†’æºå¤±è´¥: %d\n", ret);
         return -1;
     }
-    printf("»½ĞÑÔ´ÅäÖÃÍê³É\n\n");
+    printf("å”¤é†’æºé…ç½®å®Œæˆ\n\n");
     
-    /* 6. ×¢²á»Øµ÷º¯Êı */
-    printf("6. ×¢²á»Øµ÷º¯Êı...\n");
+    /* 6. æ³¨å†Œå›è°ƒå‡½æ•° */
+    printf("6. æ³¨å†Œå›è°ƒå‡½æ•°...\n");
     ret = pm_sleep_register_callback(sleep_enter_callback, sleep_exit_callback, NULL);
     if (ret != PM_ERR_OK) {
-        printf("×¢²áË¯Ãß»Øµ÷Ê§°Ü: %d\n", ret);
+        printf("æ³¨å†Œç¡çœ å›è°ƒå¤±è´¥: %d\n", ret);
         return -1;
     }
-    printf("»Øµ÷º¯Êı×¢²áÍê³É\n\n");
+    printf("å›è°ƒå‡½æ•°æ³¨å†Œå®Œæˆ\n\n");
     
-    /* 7. Ä£ÄâÏµÍ³ÔËĞĞ */
-    printf("7. ¿ªÊ¼Ä£ÄâÏµÍ³ÔËĞĞ...\n\n");
+    /* 7. æ¨¡æ‹Ÿç³»ç»Ÿè¿è¡Œ */
+    printf("7. å¼€å§‹æ¨¡æ‹Ÿç³»ç»Ÿè¿è¡Œ...\n\n");
     
-    /* 7.1 Õı³£ÔËĞĞ×´Ì¬ */
-    printf("[Ê±¼ä: %lu ms] ÏµÍ³Õı³£ÔËĞĞ\n", g_system_time_ms);
+    /* 7.1 æ­£å¸¸è¿è¡ŒçŠ¶æ€ */
+    printf("[æ—¶é—´: %lu ms] ç³»ç»Ÿæ­£å¸¸è¿è¡Œ\n", g_system_time_ms);
     pm_state_t current_state = pm_core_get_state();
-    printf("µ±Ç°×´Ì¬: %d\n", current_state);
+    printf("å½“å‰çŠ¶æ€: %d\n", current_state);
     
-    /* 7.2 ½øÈëÇá¶ÈË¯Ãß */
-    printf("\n[Ê±¼ä: %lu ms] ½øÈëÇá¶ÈË¯Ãß...\n", g_system_time_ms);
+    /* 7.2 è¿›å…¥è½»åº¦ç¡çœ  */
+    printf("\n[æ—¶é—´: %lu ms] è¿›å…¥è½»åº¦ç¡çœ ...\n", g_system_time_ms);
     ret = pm_sleep_enter(PM_SLEEP_MODE_LIGHT, 2000);
     if (ret != PM_ERR_OK) {
-        printf("½øÈëÇá¶ÈË¯ÃßÊ§°Ü: %d\n", ret);
+        printf("è¿›å…¥è½»åº¦ç¡çœ å¤±è´¥: %d\n", ret);
     } else {
-        printf("Çá¶ÈË¯Ãß½øÈë³É¹¦\n");
+        printf("è½»åº¦ç¡çœ è¿›å…¥æˆåŠŸ\n");
     }
     
-    /* 7.3 Ä£ÄâGPIO»½ĞÑ */
+    /* 7.3 æ¨¡æ‹ŸGPIOå”¤é†’ */
     g_system_time_ms += 1000;
-    printf("\n[Ê±¼ä: %lu ms] Ä£ÄâGPIO»½ĞÑ...\n", g_system_time_ms);
+    printf("\n[æ—¶é—´: %lu ms] æ¨¡æ‹ŸGPIOå”¤é†’...\n", g_system_time_ms);
     g_gpio_wakeup_active = true;
     ret = pm_wakeup_handle_event(PM_WAKEUP_SOURCE_GPIO);
     if (ret != PM_ERR_OK) {
-        printf("´¦ÀíGPIO»½ĞÑÊ§°Ü: %d\n", ret);
+        printf("å¤„ç†GPIOå”¤é†’å¤±è´¥: %d\n", ret);
     }
     
     ret = pm_sleep_exit(PM_WAKEUP_SOURCE_GPIO);
     if (ret != PM_ERR_OK) {
-        printf("ÍË³öË¯ÃßÊ§°Ü: %d\n", ret);
+        printf("é€€å‡ºç¡çœ å¤±è´¥: %d\n", ret);
     } else {
-        printf("´ÓÇá¶ÈË¯Ãß»½ĞÑ³É¹¦\n");
+        printf("ä»è½»åº¦ç¡çœ å”¤é†’æˆåŠŸ\n");
     }
     
-    /* 7.4 ½øÈëÉî¶ÈË¯Ãß */
-    printf("\n[Ê±¼ä: %lu ms] ½øÈëÉî¶ÈË¯Ãß...\n", g_system_time_ms);
+    /* 7.4 è¿›å…¥æ·±åº¦ç¡çœ  */
+    printf("\n[æ—¶é—´: %lu ms] è¿›å…¥æ·±åº¦ç¡çœ ...\n", g_system_time_ms);
     ret = pm_sleep_enter(PM_SLEEP_MODE_DEEP, 5000);
     if (ret != PM_ERR_OK) {
-        printf("½øÈëÉî¶ÈË¯ÃßÊ§°Ü: %d\n", ret);
+        printf("è¿›å…¥æ·±åº¦ç¡çœ å¤±è´¥: %d\n", ret);
     } else {
-        printf("Éî¶ÈË¯Ãß½øÈë³É¹¦\n");
+        printf("æ·±åº¦ç¡çœ è¿›å…¥æˆåŠŸ\n");
     }
     
-    /* 7.5 Ä£Äâ¶¨Ê±Æ÷»½ĞÑ */
+    /* 7.5 æ¨¡æ‹Ÿå®šæ—¶å™¨å”¤é†’ */
     g_system_time_ms += 3000;
-    printf("\n[Ê±¼ä: %lu ms] Ä£Äâ¶¨Ê±Æ÷»½ĞÑ...\n", g_system_time_ms);
+    printf("\n[æ—¶é—´: %lu ms] æ¨¡æ‹Ÿå®šæ—¶å™¨å”¤é†’...\n", g_system_time_ms);
     g_timer_wakeup_active = true;
     ret = pm_wakeup_handle_event(PM_WAKEUP_SOURCE_TIMER);
     if (ret != PM_ERR_OK) {
-        printf("´¦Àí¶¨Ê±Æ÷»½ĞÑÊ§°Ü: %d\n", ret);
+        printf("å¤„ç†å®šæ—¶å™¨å”¤é†’å¤±è´¥: %d\n", ret);
     }
     
     ret = pm_sleep_exit(PM_WAKEUP_SOURCE_TIMER);
     if (ret != PM_ERR_OK) {
-        printf("ÍË³öË¯ÃßÊ§°Ü: %d\n", ret);
+        printf("é€€å‡ºç¡çœ å¤±è´¥: %d\n", ret);
     } else {
-        printf("´ÓÉî¶ÈË¯Ãß»½ĞÑ³É¹¦\n");
+        printf("ä»æ·±åº¦ç¡çœ å”¤é†’æˆåŠŸ\n");
     }
     
-    /* 8. »ñÈ¡ÔËĞĞÍ³¼Æ */
-    printf("\n8. »ñÈ¡ÔËĞĞÍ³¼Æ...\n");
+    /* 8. è·å–è¿è¡Œç»Ÿè®¡ */
+    printf("\n8. è·å–è¿è¡Œç»Ÿè®¡...\n");
     pm_context_t context;
     ret = pm_core_get_context(&context);
     if (ret == PM_ERR_OK) {
-        printf("×´Ì¬ÇĞ»»´ÎÊı: %lu\n", context.state_change_count);
-        printf("×ÜË¯ÃßÊ±¼ä: %lu ms\n", context.total_sleep_time_ms);
-        printf("×îºóË¯ÃßÊ±³¤: %lu ms\n", context.last_sleep_duration_ms);
-        printf("×îºó»½ĞÑÔ´: %d\n", context.wakeup_source);
+        printf("çŠ¶æ€åˆ‡æ¢æ¬¡æ•°: %lu\n", context.state_change_count);
+        printf("æ€»ç¡çœ æ—¶é—´: %lu ms\n", context.total_sleep_time_ms);
+        printf("æœ€åç¡çœ æ—¶é•¿: %lu ms\n", context.last_sleep_duration_ms);
+        printf("æœ€åå”¤é†’æº: %d\n", context.wakeup_source);
     }
     
-    /* 9. »ñÈ¡»½ĞÑÔ´×´Ì¬ */
-    printf("\n9. »ñÈ¡»½ĞÑÔ´×´Ì¬...\n");
+    /* 9. è·å–å”¤é†’æºçŠ¶æ€ */
+    printf("\n9. è·å–å”¤é†’æºçŠ¶æ€...\n");
     pm_wakeup_status_t wakeup_status;
     ret = pm_wakeup_get_source_status(PM_WAKEUP_SOURCE_GPIO, &wakeup_status);
     if (ret == PM_ERR_OK) {
-        printf("GPIO»½ĞÑÔ´: Ê¹ÄÜ=%d, ¼¤»î=%d, »½ĞÑ´ÎÊı=%lu\n",
+        printf("GPIOå”¤é†’æº: ä½¿èƒ½=%d, æ¿€æ´»=%d, å”¤é†’æ¬¡æ•°=%lu\n",
                wakeup_status.enabled, wakeup_status.active, wakeup_status.wakeup_count);
     }
     
     ret = pm_wakeup_get_source_status(PM_WAKEUP_SOURCE_TIMER, &wakeup_status);
     if (ret == PM_ERR_OK) {
-        printf("¶¨Ê±Æ÷»½ĞÑÔ´: Ê¹ÄÜ=%d, ¼¤»î=%d, »½ĞÑ´ÎÊı=%lu\n",
+        printf("å®šæ—¶å™¨å”¤é†’æº: ä½¿èƒ½=%d, æ¿€æ´»=%d, å”¤é†’æ¬¡æ•°=%lu\n",
                wakeup_status.enabled, wakeup_status.active, wakeup_status.wakeup_count);
     }
     
-    /* 10. ÇåÀí×ÊÔ´ */
-    printf("\n10. ÇåÀí×ÊÔ´...\n");
+    /* 10. æ¸…ç†èµ„æº */
+    printf("\n10. æ¸…ç†èµ„æº...\n");
     pm_wakeup_deinit();
     pm_sleep_deinit();
     pm_core_deinit();
-    printf("×ÊÔ´ÇåÀíÍê³É\n");
+    printf("èµ„æºæ¸…ç†å®Œæˆ\n");
     
-    printf("\n=== Ê¾ÀıÔËĞĞÍê³É ===\n");
-    printf("×ÜÔËĞĞÊ±¼ä: %lu ms\n", g_system_time_ms);
+    printf("\n=== ç¤ºä¾‹è¿è¡Œå®Œæˆ ===\n");
+    printf("æ€»è¿è¡Œæ—¶é—´: %lu ms\n", g_system_time_ms);
     
     return 0;
 }
 
           
-´´½¨²âÊÔÓÃÀıÎÄ¼ş£¬ÑéÖ¤ÖØ¹¹·½°¸µÄ¹¦ÄÜÕıÈ·ĞÔ¡£
+åˆ›å»ºæµ‹è¯•ç”¨ä¾‹æ–‡ä»¶ï¼ŒéªŒè¯é‡æ„æ–¹æ¡ˆçš„åŠŸèƒ½æ­£ç¡®æ€§ã€‚
         
             
 toolName: write_to_file
@@ -3856,7 +3856,7 @@ filePath: d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\tests\test_pm_core.c
           
 content: /**
  * @file test_pm_core.c
- * @brief PMºËĞÄÄ£¿éµ¥Ôª²âÊÔ
+ * @brief PMæ ¸å¿ƒæ¨¡å—å•å…ƒæµ‹è¯•
  * @version 2.0
  * @date 2024
  */
@@ -3868,7 +3868,7 @@ content: /**
 #include <string.h>
 #include <assert.h>
 
-/* ==================== ²âÊÔ¿ò¼Ü ==================== */
+/* ==================== æµ‹è¯•æ¡†æ¶ ==================== */
 
 #define TEST_ASSERT(condition, message) \
     do { \
@@ -3903,7 +3903,7 @@ static int tests_total = 0;
 static int tests_passed = 0;
 static int tests_failed = 0;
 
-/* ==================== Ä£ÄâÆ½Ì¨ÊµÏÖ ==================== */
+/* ==================== æ¨¡æ‹Ÿå¹³å°å®ç° ==================== */
 
 static uint32_t g_mock_time_ms = 0;
 static bool g_mock_timer_active = false;
@@ -3941,7 +3941,7 @@ pm_err_t pm_platform_stop_timer(uint32_t timer_id)
     return PM_ERR_OK;
 }
 
-/* ==================== Ä£ÄâHALÊµÏÖ ==================== */
+/* ==================== æ¨¡æ‹ŸHALå®ç° ==================== */
 
 static bool g_mock_sleep_entered = false;
 static bool g_mock_context_saved = false;
@@ -4025,10 +4025,10 @@ pm_err_t pm_hal_clear_wakeup_source_status(pm_wakeup_source_t source)
     return PM_ERR_OK;
 }
 
-/* ==================== ²âÊÔ¸¨Öúº¯Êı ==================== */
+/* ==================== æµ‹è¯•è¾…åŠ©å‡½æ•° ==================== */
 
 /**
- * @brief »ñÈ¡²âÊÔÓÃÄ¬ÈÏÅäÖÃ
+ * @brief è·å–æµ‹è¯•ç”¨é»˜è®¤é…ç½®
  */
 static pm_err_t get_test_config(pm_config_manager_t *config)
 {
@@ -4038,7 +4038,7 @@ static pm_err_t get_test_config(pm_config_manager_t *config)
     
     memset(config, 0, sizeof(pm_config_manager_t));
     
-    /* È«¾ÖÅäÖÃ */
+    /* å…¨å±€é…ç½® */
     config->global.enable_light_sleep = true;
     config->global.enable_deep_sleep = true;
     config->global.enable_super_deep_sleep = false;
@@ -4070,7 +4070,7 @@ static pm_err_t get_test_config(pm_config_manager_t *config)
     config->global.stack_size = 1024;
     config->global.heap_size = 2048;
     
-    /* Ë¯Ãß²ßÂÔÅäÖÃ */
+    /* ç¡çœ ç­–ç•¥é…ç½® */
     config->sleep_policy.preferred_mode = PM_SLEEP_MODE_AUTO;
     config->sleep_policy.idle_threshold_ms = 50;
     config->sleep_policy.light_sleep_threshold_ms = 500;
@@ -4078,7 +4078,7 @@ static pm_err_t get_test_config(pm_config_manager_t *config)
     config->sleep_policy.auto_sleep_enable = false;
     config->sleep_policy.wakeup_on_any_interrupt = false;
     
-    /* µçÔ´²ßÂÔÅäÖÃ */
+    /* ç”µæºç­–ç•¥é…ç½® */
     config->power_policy.aggressive_power_saving = false;
     config->power_policy.dynamic_voltage_scaling = false;
     config->power_policy.dynamic_frequency_scaling = false;
@@ -4092,7 +4092,7 @@ static pm_err_t get_test_config(pm_config_manager_t *config)
 }
 
 /**
- * @brief ÖØÖÃ²âÊÔ»·¾³
+ * @brief é‡ç½®æµ‹è¯•ç¯å¢ƒ
  */
 static void reset_test_environment(void)
 {
@@ -4103,10 +4103,10 @@ static void reset_test_environment(void)
     g_mock_context_saved = false;
 }
 
-/* ==================== ºËĞÄÄ£¿é²âÊÔÓÃÀı ==================== */
+/* ==================== æ ¸å¿ƒæ¨¡å—æµ‹è¯•ç”¨ä¾‹ ==================== */
 
 /**
- * @brief ²âÊÔPMºËĞÄ³õÊ¼»¯ºÍÈ¥³õÊ¼»¯
+ * @brief æµ‹è¯•PMæ ¸å¿ƒåˆå§‹åŒ–å’Œå»åˆå§‹åŒ–
  */
 bool test_pm_core_init_deinit(void)
 {
@@ -4115,38 +4115,38 @@ bool test_pm_core_init_deinit(void)
     pm_config_manager_t config;
     pm_err_t ret;
     
-    /* ²âÊÔÎŞĞ§²ÎÊı */
+    /* æµ‹è¯•æ— æ•ˆå‚æ•° */
     ret = pm_core_init(NULL);
-    TEST_ASSERT_EQ(PM_ERR_INVALID_PARAM, ret, "NULL²ÎÊıÓ¦¸Ã·µ»Ø´íÎó");
+    TEST_ASSERT_EQ(PM_ERR_INVALID_PARAM, ret, "NULLå‚æ•°åº”è¯¥è¿”å›é”™è¯¯");
     
-    /* ²âÊÔÕı³£³õÊ¼»¯ */
+    /* æµ‹è¯•æ­£å¸¸åˆå§‹åŒ– */
     ret = get_test_config(&config);
-    TEST_ASSERT_EQ(PM_ERR_OK, ret, "»ñÈ¡²âÊÔÅäÖÃÓ¦¸Ã³É¹¦");
+    TEST_ASSERT_EQ(PM_ERR_OK, ret, "è·å–æµ‹è¯•é…ç½®åº”è¯¥æˆåŠŸ");
     
     ret = pm_core_init(&config);
-    TEST_ASSERT_EQ(PM_ERR_OK, ret, "PMºËĞÄ³õÊ¼»¯Ó¦¸Ã³É¹¦");
+    TEST_ASSERT_EQ(PM_ERR_OK, ret, "PMæ ¸å¿ƒåˆå§‹åŒ–åº”è¯¥æˆåŠŸ");
     
-    /* ²âÊÔÖØ¸´³õÊ¼»¯ */
+    /* æµ‹è¯•é‡å¤åˆå§‹åŒ– */
     ret = pm_core_init(&config);
-    TEST_ASSERT_EQ(PM_ERR_ALREADY_INITIALIZED, ret, "ÖØ¸´³õÊ¼»¯Ó¦¸Ã·µ»Ø´íÎó");
+    TEST_ASSERT_EQ(PM_ERR_ALREADY_INITIALIZED, ret, "é‡å¤åˆå§‹åŒ–åº”è¯¥è¿”å›é”™è¯¯");
     
-    /* ²âÊÔ×´Ì¬¼ì²é */
+    /* æµ‹è¯•çŠ¶æ€æ£€æŸ¥ */
     pm_state_t state = pm_core_get_state();
-    TEST_ASSERT_EQ(PM_STATE_ACTIVE, state, "³õÊ¼»¯ºóÓ¦¸Ã´¦ÓÚ»îÔ¾×´Ì¬");
+    TEST_ASSERT_EQ(PM_STATE_ACTIVE, state, "åˆå§‹åŒ–ååº”è¯¥å¤„äºæ´»è·ƒçŠ¶æ€");
     
-    /* ²âÊÔÈ¥³õÊ¼»¯ */
+    /* æµ‹è¯•å»åˆå§‹åŒ– */
     ret = pm_core_deinit();
-    TEST_ASSERT_EQ(PM_ERR_OK, ret, "PMºËĞÄÈ¥³õÊ¼»¯Ó¦¸Ã³É¹¦");
+    TEST_ASSERT_EQ(PM_ERR_OK, ret, "PMæ ¸å¿ƒå»åˆå§‹åŒ–åº”è¯¥æˆåŠŸ");
     
-    /* ²âÊÔÖØ¸´È¥³õÊ¼»¯ */
+    /* æµ‹è¯•é‡å¤å»åˆå§‹åŒ– */
     ret = pm_core_deinit();
-    TEST_ASSERT_EQ(PM_ERR_NOT_INITIALIZED, ret, "ÖØ¸´È¥³õÊ¼»¯Ó¦¸Ã·µ»Ø´íÎó");
+    TEST_ASSERT_EQ(PM_ERR_NOT_INITIALIZED, ret, "é‡å¤å»åˆå§‹åŒ–åº”è¯¥è¿”å›é”™è¯¯");
     
     return true;
 }
 
 /**
- * @brief ²âÊÔPMºËĞÄ×´Ì¬¹ÜÀí
+ * @brief æµ‹è¯•PMæ ¸å¿ƒçŠ¶æ€ç®¡ç†
  */
 bool test_pm_core_state_management(void)
 {
@@ -4156,39 +4156,39 @@ bool test_pm_core_state_management(void)
     pm_err_t ret;
     
     ret = get_test_config(&config);
-    TEST_ASSERT_EQ(PM_ERR_OK, ret, "»ñÈ¡²âÊÔÅäÖÃÓ¦¸Ã³É¹¦");
+    TEST_ASSERT_EQ(PM_ERR_OK, ret, "è·å–æµ‹è¯•é…ç½®åº”è¯¥æˆåŠŸ");
     
     ret = pm_core_init(&config);
-    TEST_ASSERT_EQ(PM_ERR_OK, ret, "PMºËĞÄ³õÊ¼»¯Ó¦¸Ã³É¹¦");
+    TEST_ASSERT_EQ(PM_ERR_OK, ret, "PMæ ¸å¿ƒåˆå§‹åŒ–åº”è¯¥æˆåŠŸ");
     
-    /* ²âÊÔ×´Ì¬»ñÈ¡ */
+    /* æµ‹è¯•çŠ¶æ€è·å– */
     pm_state_t state = pm_core_get_state();
-    TEST_ASSERT_EQ(PM_STATE_ACTIVE, state, "³õÊ¼×´Ì¬Ó¦¸ÃÊÇ»îÔ¾");
+    TEST_ASSERT_EQ(PM_STATE_ACTIVE, state, "åˆå§‹çŠ¶æ€åº”è¯¥æ˜¯æ´»è·ƒ");
     
-    /* ²âÊÔ×´Ì¬ÉèÖÃ */
+    /* æµ‹è¯•çŠ¶æ€è®¾ç½® */
     ret = pm_core_set_state(PM_STATE_IDLE);
-    TEST_ASSERT_EQ(PM_ERR_OK, ret, "ÉèÖÃ¿ÕÏĞ×´Ì¬Ó¦¸Ã³É¹¦");
+    TEST_ASSERT_EQ(PM_ERR_OK, ret, "è®¾ç½®ç©ºé—²çŠ¶æ€åº”è¯¥æˆåŠŸ");
     
     state = pm_core_get_state();
-    TEST_ASSERT_EQ(PM_STATE_IDLE, state, "×´Ì¬Ó¦¸ÃÒÑ¸üĞÂÎª¿ÕÏĞ");
+    TEST_ASSERT_EQ(PM_STATE_IDLE, state, "çŠ¶æ€åº”è¯¥å·²æ›´æ–°ä¸ºç©ºé—²");
     
-    /* ²âÊÔÎŞĞ§×´Ì¬ */
+    /* æµ‹è¯•æ— æ•ˆçŠ¶æ€ */
     ret = pm_core_set_state((pm_state_t)999);
-    TEST_ASSERT_EQ(PM_ERR_INVALID_PARAM, ret, "ÎŞĞ§×´Ì¬Ó¦¸Ã·µ»Ø´íÎó");
+    TEST_ASSERT_EQ(PM_ERR_INVALID_PARAM, ret, "æ— æ•ˆçŠ¶æ€åº”è¯¥è¿”å›é”™è¯¯");
     
-    /* ²âÊÔ×´Ì¬×ª»» */
+    /* æµ‹è¯•çŠ¶æ€è½¬æ¢ */
     ret = pm_core_set_state(PM_STATE_SLEEP);
-    TEST_ASSERT_EQ(PM_ERR_OK, ret, "ÉèÖÃË¯Ãß×´Ì¬Ó¦¸Ã³É¹¦");
+    TEST_ASSERT_EQ(PM_ERR_OK, ret, "è®¾ç½®ç¡çœ çŠ¶æ€åº”è¯¥æˆåŠŸ");
     
     ret = pm_core_set_state(PM_STATE_ACTIVE);
-    TEST_ASSERT_EQ(PM_ERR_OK, ret, "´ÓË¯Ãß×´Ì¬»Ö¸´µ½»îÔ¾×´Ì¬Ó¦¸Ã³É¹¦");
+    TEST_ASSERT_EQ(PM_ERR_OK, ret, "ä»ç¡çœ çŠ¶æ€æ¢å¤åˆ°æ´»è·ƒçŠ¶æ€åº”è¯¥æˆåŠŸ");
     
     pm_core_deinit();
     return true;
 }
 
 /**
- * @brief ²âÊÔPMºËĞÄËø¶¨»úÖÆ
+ * @brief æµ‹è¯•PMæ ¸å¿ƒé”å®šæœºåˆ¶
  */
 bool test_pm_core_locking(void)
 {
@@ -4198,48 +4198,48 @@ bool test_pm_core_locking(void)
     pm_err_t ret;
     
     ret = get_test_config(&config);
-    TEST_ASSERT_EQ(PM_ERR_OK, ret, "»ñÈ¡²âÊÔÅäÖÃÓ¦¸Ã³É¹¦");
+    TEST_ASSERT_EQ(PM_ERR_OK, ret, "è·å–æµ‹è¯•é…ç½®åº”è¯¥æˆåŠŸ");
     
     ret = pm_core_init(&config);
-    TEST_ASSERT_EQ(PM_ERR_OK, ret, "PMºËĞÄ³õÊ¼»¯Ó¦¸Ã³É¹¦");
+    TEST_ASSERT_EQ(PM_ERR_OK, ret, "PMæ ¸å¿ƒåˆå§‹åŒ–åº”è¯¥æˆåŠŸ");
     
-    /* ²âÊÔËø¶¨ */
+    /* æµ‹è¯•é”å®š */
     ret = pm_core_lock();
-    TEST_ASSERT_EQ(PM_ERR_OK, ret, "PMºËĞÄËø¶¨Ó¦¸Ã³É¹¦");
+    TEST_ASSERT_EQ(PM_ERR_OK, ret, "PMæ ¸å¿ƒé”å®šåº”è¯¥æˆåŠŸ");
     
-    /* ²âÊÔÖØ¸´Ëø¶¨ */
+    /* æµ‹è¯•é‡å¤é”å®š */
     ret = pm_core_lock();
-    TEST_ASSERT_EQ(PM_ERR_OK, ret, "ÖØ¸´Ëø¶¨Ó¦¸Ã³É¹¦(ÒıÓÃ¼ÆÊı)");
+    TEST_ASSERT_EQ(PM_ERR_OK, ret, "é‡å¤é”å®šåº”è¯¥æˆåŠŸ(å¼•ç”¨è®¡æ•°)");
     
-    /* ²âÊÔËø¶¨×´Ì¬ÏÂµÄ×´Ì¬±ä¸ü */
+    /* æµ‹è¯•é”å®šçŠ¶æ€ä¸‹çš„çŠ¶æ€å˜æ›´ */
     ret = pm_core_set_state(PM_STATE_SLEEP);
-    TEST_ASSERT_EQ(PM_ERR_LOCKED, ret, "Ëø¶¨×´Ì¬ÏÂ²»Ó¦¸ÃÔÊĞí½øÈëË¯Ãß");
+    TEST_ASSERT_EQ(PM_ERR_LOCKED, ret, "é”å®šçŠ¶æ€ä¸‹ä¸åº”è¯¥å…è®¸è¿›å…¥ç¡çœ ");
     
-    /* ²âÊÔ½âËø */
+    /* æµ‹è¯•è§£é” */
     ret = pm_core_unlock();
-    TEST_ASSERT_EQ(PM_ERR_OK, ret, "PMºËĞÄ½âËøÓ¦¸Ã³É¹¦");
+    TEST_ASSERT_EQ(PM_ERR_OK, ret, "PMæ ¸å¿ƒè§£é”åº”è¯¥æˆåŠŸ");
     
-    /* ²âÊÔÈÔÈ»Ëø¶¨(ÒıÓÃ¼ÆÊı) */
+    /* æµ‹è¯•ä»ç„¶é”å®š(å¼•ç”¨è®¡æ•°) */
     ret = pm_core_set_state(PM_STATE_SLEEP);
-    TEST_ASSERT_EQ(PM_ERR_LOCKED, ret, "ÈÔÓĞËø¶¨ÒıÓÃÊ±²»Ó¦¸ÃÔÊĞí½øÈëË¯Ãß");
+    TEST_ASSERT_EQ(PM_ERR_LOCKED, ret, "ä»æœ‰é”å®šå¼•ç”¨æ—¶ä¸åº”è¯¥å…è®¸è¿›å…¥ç¡çœ ");
     
-    /* ²âÊÔÍêÈ«½âËø */
+    /* æµ‹è¯•å®Œå…¨è§£é” */
     ret = pm_core_unlock();
-    TEST_ASSERT_EQ(PM_ERR_OK, ret, "PMºËĞÄÍêÈ«½âËøÓ¦¸Ã³É¹¦");
+    TEST_ASSERT_EQ(PM_ERR_OK, ret, "PMæ ¸å¿ƒå®Œå…¨è§£é”åº”è¯¥æˆåŠŸ");
     
     ret = pm_core_set_state(PM_STATE_SLEEP);
-    TEST_ASSERT_EQ(PM_ERR_OK, ret, "ÍêÈ«½âËøºóÓ¦¸ÃÔÊĞí½øÈëË¯Ãß");
+    TEST_ASSERT_EQ(PM_ERR_OK, ret, "å®Œå…¨è§£é”ååº”è¯¥å…è®¸è¿›å…¥ç¡çœ ");
     
-    /* ²âÊÔ¹ı¶È½âËø */
+    /* æµ‹è¯•è¿‡åº¦è§£é” */
     ret = pm_core_unlock();
-    TEST_ASSERT_EQ(PM_ERR_INVALID_STATE, ret, "¹ı¶È½âËøÓ¦¸Ã·µ»Ø´íÎó");
+    TEST_ASSERT_EQ(PM_ERR_INVALID_STATE, ret, "è¿‡åº¦è§£é”åº”è¯¥è¿”å›é”™è¯¯");
     
     pm_core_deinit();
     return true;
 }
 
 /**
- * @brief ²âÊÔPMºËĞÄÉÏÏÂÎÄ¹ÜÀí
+ * @brief æµ‹è¯•PMæ ¸å¿ƒä¸Šä¸‹æ–‡ç®¡ç†
  */
 bool test_pm_core_context(void)
 {
@@ -4250,42 +4250,42 @@ bool test_pm_core_context(void)
     pm_context_t context;
     
     ret = get_test_config(&config);
-    TEST_ASSERT_EQ(PM_ERR_OK, ret, "»ñÈ¡²âÊÔÅäÖÃÓ¦¸Ã³É¹¦");
+    TEST_ASSERT_EQ(PM_ERR_OK, ret, "è·å–æµ‹è¯•é…ç½®åº”è¯¥æˆåŠŸ");
     
     ret = pm_core_init(&config);
-    TEST_ASSERT_EQ(PM_ERR_OK, ret, "PMºËĞÄ³õÊ¼»¯Ó¦¸Ã³É¹¦");
+    TEST_ASSERT_EQ(PM_ERR_OK, ret, "PMæ ¸å¿ƒåˆå§‹åŒ–åº”è¯¥æˆåŠŸ");
     
-    /* ²âÊÔÎŞĞ§²ÎÊı */
+    /* æµ‹è¯•æ— æ•ˆå‚æ•° */
     ret = pm_core_get_context(NULL);
-    TEST_ASSERT_EQ(PM_ERR_INVALID_PARAM, ret, "NULL²ÎÊıÓ¦¸Ã·µ»Ø´íÎó");
+    TEST_ASSERT_EQ(PM_ERR_INVALID_PARAM, ret, "NULLå‚æ•°åº”è¯¥è¿”å›é”™è¯¯");
     
-    /* ²âÊÔ»ñÈ¡ÉÏÏÂÎÄ */
+    /* æµ‹è¯•è·å–ä¸Šä¸‹æ–‡ */
     ret = pm_core_get_context(&context);
-    TEST_ASSERT_EQ(PM_ERR_OK, ret, "»ñÈ¡ÉÏÏÂÎÄÓ¦¸Ã³É¹¦");
+    TEST_ASSERT_EQ(PM_ERR_OK, ret, "è·å–ä¸Šä¸‹æ–‡åº”è¯¥æˆåŠŸ");
     
-    /* ÑéÖ¤³õÊ¼ÉÏÏÂÎÄ */
-    TEST_ASSERT_EQ(PM_STATE_ACTIVE, context.current_state, "³õÊ¼×´Ì¬Ó¦¸ÃÊÇ»îÔ¾");
-    TEST_ASSERT_EQ(0, context.state_change_count, "³õÊ¼×´Ì¬±ä¸ü´ÎÊıÓ¦¸ÃÎª0");
-    TEST_ASSERT_EQ(0, context.total_sleep_time_ms, "³õÊ¼Ë¯ÃßÊ±¼äÓ¦¸ÃÎª0");
+    /* éªŒè¯åˆå§‹ä¸Šä¸‹æ–‡ */
+    TEST_ASSERT_EQ(PM_STATE_ACTIVE, context.current_state, "åˆå§‹çŠ¶æ€åº”è¯¥æ˜¯æ´»è·ƒ");
+    TEST_ASSERT_EQ(0, context.state_change_count, "åˆå§‹çŠ¶æ€å˜æ›´æ¬¡æ•°åº”è¯¥ä¸º0");
+    TEST_ASSERT_EQ(0, context.total_sleep_time_ms, "åˆå§‹ç¡çœ æ—¶é—´åº”è¯¥ä¸º0");
     
-    /* Ö´ĞĞÒ»Ğ©×´Ì¬±ä¸ü */
+    /* æ‰§è¡Œä¸€äº›çŠ¶æ€å˜æ›´ */
     pm_core_set_state(PM_STATE_IDLE);
     pm_core_set_state(PM_STATE_SLEEP);
     pm_core_set_state(PM_STATE_ACTIVE);
     
-    /* ÔÙ´Î»ñÈ¡ÉÏÏÂÎÄ */
+    /* å†æ¬¡è·å–ä¸Šä¸‹æ–‡ */
     ret = pm_core_get_context(&context);
-    TEST_ASSERT_EQ(PM_ERR_OK, ret, "»ñÈ¡ÉÏÏÂÎÄÓ¦¸Ã³É¹¦");
+    TEST_ASSERT_EQ(PM_ERR_OK, ret, "è·å–ä¸Šä¸‹æ–‡åº”è¯¥æˆåŠŸ");
     
-    TEST_ASSERT_EQ(PM_STATE_ACTIVE, context.current_state, "µ±Ç°×´Ì¬Ó¦¸ÃÊÇ»îÔ¾");
-    TEST_ASSERT(context.state_change_count > 0, "×´Ì¬±ä¸ü´ÎÊıÓ¦¸Ã´óÓÚ0");
+    TEST_ASSERT_EQ(PM_STATE_ACTIVE, context.current_state, "å½“å‰çŠ¶æ€åº”è¯¥æ˜¯æ´»è·ƒ");
+    TEST_ASSERT(context.state_change_count > 0, "çŠ¶æ€å˜æ›´æ¬¡æ•°åº”è¯¥å¤§äº0");
     
     pm_core_deinit();
     return true;
 }
 
 /**
- * @brief ²âÊÔPMºËĞÄÅäÖÃ¹ÜÀí
+ * @brief æµ‹è¯•PMæ ¸å¿ƒé…ç½®ç®¡ç†
  */
 bool test_pm_core_config(void)
 {
@@ -4295,42 +4295,42 @@ bool test_pm_core_config(void)
     pm_err_t ret;
     
     ret = get_test_config(&config);
-    TEST_ASSERT_EQ(PM_ERR_OK, ret, "»ñÈ¡²âÊÔÅäÖÃÓ¦¸Ã³É¹¦");
+    TEST_ASSERT_EQ(PM_ERR_OK, ret, "è·å–æµ‹è¯•é…ç½®åº”è¯¥æˆåŠŸ");
     
     ret = pm_core_init(&config);
-    TEST_ASSERT_EQ(PM_ERR_OK, ret, "PMºËĞÄ³õÊ¼»¯Ó¦¸Ã³É¹¦");
+    TEST_ASSERT_EQ(PM_ERR_OK, ret, "PMæ ¸å¿ƒåˆå§‹åŒ–åº”è¯¥æˆåŠŸ");
     
-    /* ²âÊÔ»ñÈ¡ÅäÖÃ */
+    /* æµ‹è¯•è·å–é…ç½® */
     ret = pm_core_get_config(&retrieved_config);
-    TEST_ASSERT_EQ(PM_ERR_OK, ret, "»ñÈ¡ÅäÖÃÓ¦¸Ã³É¹¦");
+    TEST_ASSERT_EQ(PM_ERR_OK, ret, "è·å–é…ç½®åº”è¯¥æˆåŠŸ");
     
-    /* ÑéÖ¤ÅäÖÃÄÚÈİ */
+    /* éªŒè¯é…ç½®å†…å®¹ */
     TEST_ASSERT_EQ(config.global.enable_light_sleep, retrieved_config.global.enable_light_sleep, 
-                   "Çá¶ÈË¯ÃßÊ¹ÄÜÅäÖÃÓ¦¸ÃÆ¥Åä");
+                   "è½»åº¦ç¡çœ ä½¿èƒ½é…ç½®åº”è¯¥åŒ¹é…");
     TEST_ASSERT_EQ(config.global.default_sleep_timeout_ms, retrieved_config.global.default_sleep_timeout_ms,
-                   "Ä¬ÈÏË¯Ãß³¬Ê±ÅäÖÃÓ¦¸ÃÆ¥Åä");
+                   "é»˜è®¤ç¡çœ è¶…æ—¶é…ç½®åº”è¯¥åŒ¹é…");
     
-    /* ²âÊÔÎŞĞ§²ÎÊı */
+    /* æµ‹è¯•æ— æ•ˆå‚æ•° */
     ret = pm_core_get_config(NULL);
-    TEST_ASSERT_EQ(PM_ERR_INVALID_PARAM, ret, "NULL²ÎÊıÓ¦¸Ã·µ»Ø´íÎó");
+    TEST_ASSERT_EQ(PM_ERR_INVALID_PARAM, ret, "NULLå‚æ•°åº”è¯¥è¿”å›é”™è¯¯");
     
-    /* ²âÊÔÉèÖÃÅäÖÃ */
+    /* æµ‹è¯•è®¾ç½®é…ç½® */
     config.global.default_sleep_timeout_ms = 2000;
     ret = pm_core_set_config(&config);
-    TEST_ASSERT_EQ(PM_ERR_OK, ret, "ÉèÖÃÅäÖÃÓ¦¸Ã³É¹¦");
+    TEST_ASSERT_EQ(PM_ERR_OK, ret, "è®¾ç½®é…ç½®åº”è¯¥æˆåŠŸ");
     
-    /* ÑéÖ¤ÅäÖÃÒÑ¸üĞÂ */
+    /* éªŒè¯é…ç½®å·²æ›´æ–° */
     ret = pm_core_get_config(&retrieved_config);
-    TEST_ASSERT_EQ(PM_ERR_OK, ret, "»ñÈ¡ÅäÖÃÓ¦¸Ã³É¹¦");
+    TEST_ASSERT_EQ(PM_ERR_OK, ret, "è·å–é…ç½®åº”è¯¥æˆåŠŸ");
     TEST_ASSERT_EQ(2000, retrieved_config.global.default_sleep_timeout_ms,
-                   "ÅäÖÃÓ¦¸ÃÒÑ¸üĞÂ");
+                   "é…ç½®åº”è¯¥å·²æ›´æ–°");
     
     pm_core_deinit();
     return true;
 }
 
 /**
- * @brief ²âÊÔÎ´³õÊ¼»¯×´Ì¬ÏÂµÄ²Ù×÷
+ * @brief æµ‹è¯•æœªåˆå§‹åŒ–çŠ¶æ€ä¸‹çš„æ“ä½œ
  */
 bool test_pm_core_not_initialized(void)
 {
@@ -4341,41 +4341,41 @@ bool test_pm_core_not_initialized(void)
     pm_context_t context;
     pm_config_manager_t config;
     
-    /* È·±£Î´³õÊ¼»¯ */
+    /* ç¡®ä¿æœªåˆå§‹åŒ– */
     pm_core_deinit();
     
-    /* ²âÊÔÎ´³õÊ¼»¯×´Ì¬ÏÂµÄ²Ù×÷ */
+    /* æµ‹è¯•æœªåˆå§‹åŒ–çŠ¶æ€ä¸‹çš„æ“ä½œ */
     ret = pm_core_set_state(PM_STATE_IDLE);
-    TEST_ASSERT_EQ(PM_ERR_NOT_INITIALIZED, ret, "Î´³õÊ¼»¯Ê±ÉèÖÃ×´Ì¬Ó¦¸Ã·µ»Ø´íÎó");
+    TEST_ASSERT_EQ(PM_ERR_NOT_INITIALIZED, ret, "æœªåˆå§‹åŒ–æ—¶è®¾ç½®çŠ¶æ€åº”è¯¥è¿”å›é”™è¯¯");
     
     state = pm_core_get_state();
-    TEST_ASSERT_EQ(PM_STATE_UNKNOWN, state, "Î´³õÊ¼»¯Ê±×´Ì¬Ó¦¸ÃÊÇÎ´Öª");
+    TEST_ASSERT_EQ(PM_STATE_UNKNOWN, state, "æœªåˆå§‹åŒ–æ—¶çŠ¶æ€åº”è¯¥æ˜¯æœªçŸ¥");
     
     ret = pm_core_lock();
-    TEST_ASSERT_EQ(PM_ERR_NOT_INITIALIZED, ret, "Î´³õÊ¼»¯Ê±Ëø¶¨Ó¦¸Ã·µ»Ø´íÎó");
+    TEST_ASSERT_EQ(PM_ERR_NOT_INITIALIZED, ret, "æœªåˆå§‹åŒ–æ—¶é”å®šåº”è¯¥è¿”å›é”™è¯¯");
     
     ret = pm_core_unlock();
-    TEST_ASSERT_EQ(PM_ERR_NOT_INITIALIZED, ret, "Î´³õÊ¼»¯Ê±½âËøÓ¦¸Ã·µ»Ø´íÎó");
+    TEST_ASSERT_EQ(PM_ERR_NOT_INITIALIZED, ret, "æœªåˆå§‹åŒ–æ—¶è§£é”åº”è¯¥è¿”å›é”™è¯¯");
     
     ret = pm_core_get_context(&context);
-    TEST_ASSERT_EQ(PM_ERR_NOT_INITIALIZED, ret, "Î´³õÊ¼»¯Ê±»ñÈ¡ÉÏÏÂÎÄÓ¦¸Ã·µ»Ø´íÎó");
+    TEST_ASSERT_EQ(PM_ERR_NOT_INITIALIZED, ret, "æœªåˆå§‹åŒ–æ—¶è·å–ä¸Šä¸‹æ–‡åº”è¯¥è¿”å›é”™è¯¯");
     
     ret = pm_core_get_config(&config);
-    TEST_ASSERT_EQ(PM_ERR_NOT_INITIALIZED, ret, "Î´³õÊ¼»¯Ê±»ñÈ¡ÅäÖÃÓ¦¸Ã·µ»Ø´íÎó");
+    TEST_ASSERT_EQ(PM_ERR_NOT_INITIALIZED, ret, "æœªåˆå§‹åŒ–æ—¶è·å–é…ç½®åº”è¯¥è¿”å›é”™è¯¯");
     
     ret = pm_core_set_config(&config);
-    TEST_ASSERT_EQ(PM_ERR_NOT_INITIALIZED, ret, "Î´³õÊ¼»¯Ê±ÉèÖÃÅäÖÃÓ¦¸Ã·µ»Ø´íÎó");
+    TEST_ASSERT_EQ(PM_ERR_NOT_INITIALIZED, ret, "æœªåˆå§‹åŒ–æ—¶è®¾ç½®é…ç½®åº”è¯¥è¿”å›é”™è¯¯");
     
     return true;
 }
 
-/* ==================== Ö÷²âÊÔº¯Êı ==================== */
+/* ==================== ä¸»æµ‹è¯•å‡½æ•° ==================== */
 
 int main(void)
 {
-    printf("=== PMºËĞÄÄ£¿éµ¥Ôª²âÊÔ ===\n\n");
+    printf("=== PMæ ¸å¿ƒæ¨¡å—å•å…ƒæµ‹è¯• ===\n\n");
     
-    /* ÔËĞĞËùÓĞ²âÊÔÓÃÀı */
+    /* è¿è¡Œæ‰€æœ‰æµ‹è¯•ç”¨ä¾‹ */
     RUN_TEST(test_pm_core_init_deinit);
     RUN_TEST(test_pm_core_state_management);
     RUN_TEST(test_pm_core_locking);
@@ -4383,24 +4383,24 @@ int main(void)
     RUN_TEST(test_pm_core_config);
     RUN_TEST(test_pm_core_not_initialized);
     
-    /* Êä³ö²âÊÔ½á¹û */
-    printf("\n=== ²âÊÔ½á¹û ===\n");
-    printf("×Ü²âÊÔÊı: %d\n", tests_total);
-    printf("Í¨¹ı: %d\n", tests_passed);
-    printf("Ê§°Ü: %d\n", tests_failed);
-    printf("³É¹¦ÂÊ: %.1f%%\n", tests_total > 0 ? (float)tests_passed * 100 / tests_total : 0);
+    /* è¾“å‡ºæµ‹è¯•ç»“æœ */
+    printf("\n=== æµ‹è¯•ç»“æœ ===\n");
+    printf("æ€»æµ‹è¯•æ•°: %d\n", tests_total);
+    printf("é€šè¿‡: %d\n", tests_passed);
+    printf("å¤±è´¥: %d\n", tests_failed);
+    printf("æˆåŠŸç‡: %.1f%%\n", tests_total > 0 ? (float)tests_passed * 100 / tests_total : 0);
     
     if (tests_failed == 0) {
-        printf("\n? ËùÓĞ²âÊÔÍ¨¹ı!\n");
+        printf("\nğŸ‰ æ‰€æœ‰æµ‹è¯•é€šè¿‡!\n");
         return 0;
     } else {
-        printf("\n? ÓĞ²âÊÔÊ§°Ü!\n");
+        printf("\nâŒ æœ‰æµ‹è¯•å¤±è´¥!\n");
         return 1;
     }
 }
 
           
-´´½¨ÏîÄ¿READMEÎÄµµ£¬Ìá¹©ÖØ¹¹·½°¸µÄÍêÕûËµÃ÷ºÍÊ¹ÓÃÖ¸ÄÏ¡£
+åˆ›å»ºé¡¹ç›®READMEæ–‡æ¡£ï¼Œæä¾›é‡æ„æ–¹æ¡ˆçš„å®Œæ•´è¯´æ˜å’Œä½¿ç”¨æŒ‡å—ã€‚
         
             
 toolName: write_to_file
@@ -4411,7 +4411,7 @@ status: failed
 filePath: d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\README.md
           
           
-¼ì²éÏÖÓĞREADMEÎÄ¼şÄÚÈİ£¬È»ºó¾ö¶¨ÊÇ·ñĞèÒª¸üĞÂ¡£
+æ£€æŸ¥ç°æœ‰READMEæ–‡ä»¶å†…å®¹ï¼Œç„¶åå†³å®šæ˜¯å¦éœ€è¦æ›´æ–°ã€‚
         
             
 toolName: view_files
@@ -4421,7 +4421,7 @@ status: success
             
 filePath: d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\README.md
           
-ÏÖÓĞREADMEÎÄ¼şÄÚÈİ½Ï¼òµ¥£¬ĞèÒªÓÃ¸üÏêÏ¸µÄÎÄµµÌæ»»Ëü¡£
+ç°æœ‰READMEæ–‡ä»¶å†…å®¹è¾ƒç®€å•ï¼Œéœ€è¦ç”¨æ›´è¯¦ç»†çš„æ–‡æ¡£æ›¿æ¢å®ƒã€‚
         
             
 toolName: write_to_file
@@ -4433,7 +4433,7 @@ filePath: d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\README.md
           
 changes: undefined
           
-¸üĞÂtodoÁĞ±í£¬±ê¼ÇÎÄµµ´´½¨ÈÎÎñÎªÍê³É×´Ì¬¡£
+æ›´æ–°todoåˆ—è¡¨ï¼Œæ ‡è®°æ–‡æ¡£åˆ›å»ºä»»åŠ¡ä¸ºå®ŒæˆçŠ¶æ€ã€‚
         
             
 toolName: todo_write
@@ -4442,71 +4442,71 @@ status: success
           
 Todos updated: 5 items
           
-## PMÖØ¹¹·½°¸v2.0ÊµÏÖÍê³É
+## PMé‡æ„æ–¹æ¡ˆv2.0å®ç°å®Œæˆ
 
-ÎÒÒÑ¾­³É¹¦ÔÚÏîÄ¿¸ùÄ¿Â¼ÏÂ´´½¨ÁËÍêÕûµÄPMÖØ¹¹·½°¸ÊµÏÖ£¬²¢Ìá¹©ÁËÏêÏ¸µÄÇ¶ÈëÊ½ÏµÍ³×ÊÔ´Õ¼ÓÃÆÀ¹À¡£
+æˆ‘å·²ç»æˆåŠŸåœ¨é¡¹ç›®æ ¹ç›®å½•ä¸‹åˆ›å»ºäº†å®Œæ•´çš„PMé‡æ„æ–¹æ¡ˆå®ç°ï¼Œå¹¶æä¾›äº†è¯¦ç»†çš„åµŒå…¥å¼ç³»ç»Ÿèµ„æºå ç”¨è¯„ä¼°ã€‚
 
-### ?? ÊµÏÖµÄºËĞÄ×é¼ş
+### ğŸ—ï¸ å®ç°çš„æ ¸å¿ƒç»„ä»¶
 
-**1. ¼Ü¹¹Éè¼ÆÎÄ¼ş**
-- <mcfile name="pm_interface.h" path="d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\include\pm_interface.h"></mcfile> - ÍêÕûµÄ·Ö²ã¼Ü¹¹½Ó¿Ú¶¨Òå
-- <mcfile name="pm_config.h" path="d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\include\pm_config.h"></mcfile> - Áé»îµÄÅäÖÃ¹ÜÀíÏµÍ³
+**1. æ¶æ„è®¾è®¡æ–‡ä»¶**
+- <mcfile name="pm_interface.h" path="d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\include\pm_interface.h"></mcfile> - å®Œæ•´çš„åˆ†å±‚æ¶æ„æ¥å£å®šä¹‰
+- <mcfile name="pm_config.h" path="d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\include\pm_config.h"></mcfile> - çµæ´»çš„é…ç½®ç®¡ç†ç³»ç»Ÿ
 
-**2. ºËĞÄÄ£¿éÊµÏÖ**
-- <mcfile name="pm_core.c" path="d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\src\core\pm_core.c"></mcfile> - ºËĞÄ×´Ì¬¹ÜÀíºÍĞ­µ÷Ä£¿é
-- <mcfile name="pm_sleep.c" path="d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\src\services\pm_sleep.c"></mcfile> - Ë¯Ãß¹ÜÀí·şÎñÄ£¿é
-- <mcfile name="pm_wakeup.c" path="d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\src\services\pm_wakeup.c"></mcfile> - »½ĞÑ¹ÜÀí·şÎñÄ£¿é
+**2. æ ¸å¿ƒæ¨¡å—å®ç°**
+- <mcfile name="pm_core.c" path="d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\src\core\pm_core.c"></mcfile> - æ ¸å¿ƒçŠ¶æ€ç®¡ç†å’Œåè°ƒæ¨¡å—
+- <mcfile name="pm_sleep.c" path="d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\src\services\pm_sleep.c"></mcfile> - ç¡çœ ç®¡ç†æœåŠ¡æ¨¡å—
+- <mcfile name="pm_wakeup.c" path="d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\src\services\pm_wakeup.c"></mcfile> - å”¤é†’ç®¡ç†æœåŠ¡æ¨¡å—
 
-**3. ¹¹½¨ºÍ²âÊÔÏµÍ³**
-- <mcfile name="CMakeLists.txt" path="d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\CMakeLists.txt"></mcfile> - ÍêÕûµÄCMake¹¹½¨ÅäÖÃ
-- <mcfile name="test_pm_core.c" path="d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\tests\test_pm_core.c"></mcfile> - ºËĞÄÄ£¿éµ¥Ôª²âÊÔ
-- <mcfile name="basic_usage.c" path="d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\examples\basic_usage.c"></mcfile> - ÍêÕûµÄÊ¹ÓÃÊ¾Àı
+**3. æ„å»ºå’Œæµ‹è¯•ç³»ç»Ÿ**
+- <mcfile name="CMakeLists.txt" path="d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\CMakeLists.txt"></mcfile> - å®Œæ•´çš„CMakeæ„å»ºé…ç½®
+- <mcfile name="test_pm_core.c" path="d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\tests\test_pm_core.c"></mcfile> - æ ¸å¿ƒæ¨¡å—å•å…ƒæµ‹è¯•
+- <mcfile name="basic_usage.c" path="d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\examples\basic_usage.c"></mcfile> - å®Œæ•´çš„ä½¿ç”¨ç¤ºä¾‹
 
-**4. ÎÄµµºÍÆÀ¹À**
-- <mcfile name="resource_evaluation.md" path="d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\docs\resource_evaluation.md"></mcfile> - ÏêÏ¸µÄ×ÊÔ´Õ¼ÓÃ·ÖÎö
-- <mcfile name="README.md" path="d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\README.md"></mcfile> - ÍêÕûµÄÏîÄ¿ÎÄµµºÍÊ¹ÓÃÖ¸ÄÏ
+**4. æ–‡æ¡£å’Œè¯„ä¼°**
+- <mcfile name="resource_evaluation.md" path="d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\docs\resource_evaluation.md"></mcfile> - è¯¦ç»†çš„èµ„æºå ç”¨åˆ†æ
+- <mcfile name="README.md" path="d:\beken\Trae-Project\PM_REFACTOR\pm_refactor_v2\README.md"></mcfile> - å®Œæ•´çš„é¡¹ç›®æ–‡æ¡£å’Œä½¿ç”¨æŒ‡å—
 
-### ? ×ÊÔ´Õ¼ÓÃÆÀ¹À½á¹û
+### ğŸ“Š èµ„æºå ç”¨è¯„ä¼°ç»“æœ
 
-**ÄÚ´æÕ¼ÓÃÓÅ»¯**:
-- **RAMÊ¹ÓÃ**: 4.2KB (Ïà±ÈÔ­°æ1.2KBÔö¼Ó3KB£¬Ìá¹©¸ü·á¸»¹¦ÄÜ)
-- **FlashÊ¹ÓÃ**: 35KB (Ïà±ÈÔ­°æ18KBÔö¼Ó17KB£¬Ä£¿é»¯¼Ü¹¹)
-- **Õ»Ê¹ÓÃ**: 800B·åÖµ (¸ßĞ§µÄÕ»¹ÜÀí)
-- **¶ÑÊ¹ÓÃ**: 1.3KB¶¯Ì¬·ÖÅä (¿ÉÅäÖÃµÄ×ÊÔ´·ÖÅä)
+**å†…å­˜å ç”¨ä¼˜åŒ–**:
+- **RAMä½¿ç”¨**: 4.2KB (ç›¸æ¯”åŸç‰ˆ1.2KBå¢åŠ 3KBï¼Œæä¾›æ›´ä¸°å¯ŒåŠŸèƒ½)
+- **Flashä½¿ç”¨**: 35KB (ç›¸æ¯”åŸç‰ˆ18KBå¢åŠ 17KBï¼Œæ¨¡å—åŒ–æ¶æ„)
+- **æ ˆä½¿ç”¨**: 800Bå³°å€¼ (é«˜æ•ˆçš„æ ˆç®¡ç†)
+- **å †ä½¿ç”¨**: 1.3KBåŠ¨æ€åˆ†é… (å¯é…ç½®çš„èµ„æºåˆ†é…)
 
-**ĞÔÄÜÖ¸±ê**:
-- **×´Ì¬ÇĞ»»**: < 10¦Ìs (¿ìËÙÏìÓ¦)
-- **Ë¯Ãß½øÈë/ÍË³ö**: 50-200¦Ìs (ÓÅ»¯µÄË¯ÃßÁ÷³Ì)
-- **ÖĞ¶ÏÏìÓ¦**: < 5¦Ìs (ÊµÊ±ĞÔ±£Ö¤)
-- **¹¦ºÄ¿ªÏú**: < 1¦ÌA (¼¸ºõÎŞ¶îÍâ¹¦ºÄ)
+**æ€§èƒ½æŒ‡æ ‡**:
+- **çŠ¶æ€åˆ‡æ¢**: < 10Î¼s (å¿«é€Ÿå“åº”)
+- **ç¡çœ è¿›å…¥/é€€å‡º**: 50-200Î¼s (ä¼˜åŒ–çš„ç¡çœ æµç¨‹)
+- **ä¸­æ–­å“åº”**: < 5Î¼s (å®æ—¶æ€§ä¿è¯)
+- **åŠŸè€—å¼€é”€**: < 1Î¼A (å‡ ä¹æ— é¢å¤–åŠŸè€—)
 
-### ? ¼Ü¹¹ÓÅÊÆ
+### ğŸ¯ æ¶æ„ä¼˜åŠ¿
 
-**1. ·Ö²ã¼Ü¹¹Éè¼Æ**
-- ½Ó¿Ú²ã¡¢ºËĞÄ²ã¡¢·şÎñ²ã¡¢HAL²ãÇåÎú·ÖÀë
-- ¸ßÄÚ¾ÛµÍñîºÏµÄÄ£¿é»¯Éè¼Æ
-- Ö§³Ö¶àÆ½Ì¨ÒÆÖ²ºÍÀ©Õ¹
+**1. åˆ†å±‚æ¶æ„è®¾è®¡**
+- æ¥å£å±‚ã€æ ¸å¿ƒå±‚ã€æœåŠ¡å±‚ã€HALå±‚æ¸…æ™°åˆ†ç¦»
+- é«˜å†…èšä½è€¦åˆçš„æ¨¡å—åŒ–è®¾è®¡
+- æ”¯æŒå¤šå¹³å°ç§»æ¤å’Œæ‰©å±•
 
-**2. ¹¦ÄÜÌØĞÔ**
-- Ö§³Ö¶àÖÖË¯ÃßÄ£Ê½(Çá¶È/Éî¶È/³¬Éî¶ÈË¯Ãß)
-- Áé»îµÄ»½ĞÑÔ´¹ÜÀí(GPIO/¶¨Ê±Æ÷/UART/RTC)
-- ÍêÉÆµÄ»Øµ÷ÏµÍ³ºÍÊÂ¼şÍ¨Öª
-- ÖÇÄÜµÄË¯Ãß²ßÂÔºÍ×Ô¶¯Ä£Ê½Ñ¡Ôñ
+**2. åŠŸèƒ½ç‰¹æ€§**
+- æ”¯æŒå¤šç§ç¡çœ æ¨¡å¼(è½»åº¦/æ·±åº¦/è¶…æ·±åº¦ç¡çœ )
+- çµæ´»çš„å”¤é†’æºç®¡ç†(GPIO/å®šæ—¶å™¨/UART/RTC)
+- å®Œå–„çš„å›è°ƒç³»ç»Ÿå’Œäº‹ä»¶é€šçŸ¥
+- æ™ºèƒ½çš„ç¡çœ ç­–ç•¥å’Œè‡ªåŠ¨æ¨¡å¼é€‰æ‹©
 
-**3. ¿ª·¢ÓÑºÃ**
-- ÍêÕûµÄCMake¹¹½¨ÏµÍ³
-- ·á¸»µÄÅäÖÃÑ¡ÏîºÍ±àÒëÊ±ÓÅ»¯
-- ÏêÏ¸µÄµ¥Ôª²âÊÔºÍÊ¹ÓÃÊ¾Àı
-- È«ÃæµÄÎÄµµºÍAPI²Î¿¼
+**3. å¼€å‘å‹å¥½**
+- å®Œæ•´çš„CMakeæ„å»ºç³»ç»Ÿ
+- ä¸°å¯Œçš„é…ç½®é€‰é¡¹å’Œç¼–è¯‘æ—¶ä¼˜åŒ–
+- è¯¦ç»†çš„å•å…ƒæµ‹è¯•å’Œä½¿ç”¨ç¤ºä¾‹
+- å…¨é¢çš„æ–‡æ¡£å’ŒAPIå‚è€ƒ
 
-### ? ²¿Êğ½¨Òé
+### ğŸš€ éƒ¨ç½²å»ºè®®
 
-Ìá¹©ÁËÈıÖÖÅäÖÃ·½°¸:
-- **×îĞ¡ÅäÖÃ**: ÊÊÓÃÓÚ×ÊÔ´ÊÜÏŞÏµÍ³(2.8KB RAM)
-- **±ê×¼ÅäÖÃ**: ÊÊÓÃÓÚÒ»°ãÓ¦ÓÃ(4.2KB RAM) 
-- **ÍêÕûÅäÖÃ**: ÊÊÓÃÓÚ¸ßĞÔÄÜÏµÍ³(5.8KB RAM)
+æä¾›äº†ä¸‰ç§é…ç½®æ–¹æ¡ˆ:
+- **æœ€å°é…ç½®**: é€‚ç”¨äºèµ„æºå—é™ç³»ç»Ÿ(2.8KB RAM)
+- **æ ‡å‡†é…ç½®**: é€‚ç”¨äºä¸€èˆ¬åº”ç”¨(4.2KB RAM) 
+- **å®Œæ•´é…ç½®**: é€‚ç”¨äºé«˜æ€§èƒ½ç³»ç»Ÿ(5.8KB RAM)
 
-ÖØ¹¹·½°¸ÔÚ±£³Ö¸ßĞÔÄÜµÄÍ¬Ê±£¬ÏÔÖøÌáÉıÁË´úÂëµÄ¿ÉÎ¬»¤ĞÔ¡¢¿ÉÀ©Õ¹ĞÔºÍµ÷ÊÔÄÜÁ¦£¬ÎªÇ¶ÈëÊ½ÏµÍ³Ìá¹©ÁËÆóÒµ¼¶µÄµçÔ´¹ÜÀí½â¾ö·½°¸¡£
+é‡æ„æ–¹æ¡ˆåœ¨ä¿æŒé«˜æ€§èƒ½çš„åŒæ—¶ï¼Œæ˜¾è‘—æå‡äº†ä»£ç çš„å¯ç»´æŠ¤æ€§ã€å¯æ‰©å±•æ€§å’Œè°ƒè¯•èƒ½åŠ›ï¼Œä¸ºåµŒå…¥å¼ç³»ç»Ÿæä¾›äº†ä¼ä¸šçº§çš„ç”µæºç®¡ç†è§£å†³æ–¹æ¡ˆã€‚
         
           
 

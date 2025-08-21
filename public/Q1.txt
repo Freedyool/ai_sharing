@@ -1,4 +1,4 @@
-����Ҫ���˽���Ŀ������ṹ�ʹ������ݣ�Ȼ�����ÿ���ļ��Ĺ��ܺ�ʵ�֣��������Ż����顣�����Ȳ鿴��Ŀ��Ŀ¼�ṹ���ļ����ݡ�
+我需要先了解项目的整体结构和代码内容，然后分析每个文件的功能和实现，最后给出优化建议。让我先查看项目的目录结构和文件内容。
         
             
 toolName: view_files
@@ -10,7 +10,7 @@ filePath: d:\beken\Trae-Project\PM_REFACTOR\bk_pm\pm.c
 d:\beken\Trae-Project\PM_REFACTOR\bk_pm\pm_model.c
 d:\beken\Trae-Project\PM_REFACTOR\bk_pm\pm_misc.c
           
-�����鿴������Ҫ�ļ������ݣ������͵�ѹ������CLI����͵�Դʱ�ӹ������ļ���
+继续查看其他重要文件的内容，包括低电压处理、CLI命令和电源时钟管理等文件。
         
             
 toolName: view_files
@@ -22,7 +22,7 @@ filePath: d:\beken\Trae-Project\PM_REFACTOR\bk_pm\low_vol.c
 d:\beken\Trae-Project\PM_REFACTOR\cli_pwr.c
 d:\beken\Trae-Project\PM_REFACTOR\pwr_clk\pwr_clk.c
           
-���ڲ鿴CMakeLists.txt��Kconfig�ļ����˽���Ŀ�Ĺ������úͱ���ѡ�
+现在查看CMakeLists.txt和Kconfig文件，了解项目的构建配置和编译选项。
         
             
 toolName: view_files
@@ -34,7 +34,7 @@ filePath: d:\beken\Trae-Project\PM_REFACTOR\bk_pm\CMakeLists.txt
 d:\beken\Trae-Project\PM_REFACTOR\bk_pm\Kconfig
 d:\beken\Trae-Project\PM_REFACTOR\pwr_clk\Kconfig
           
-���ڶ���Ŀ�����ȫ������������ڿ��Ը�����ϸ�Ĵ����Ż����顣���Ҵ���һ��todo�б���ϵͳ��������Щ�Ż����顣
+基于对项目代码的全面分析，我现在可以给出详细的代码优化建议。让我创建一个todo列表来系统地整理这些优化建议。
         
             
 toolName: todo_write
@@ -43,103 +43,103 @@ status: success
           
 Todos updated: 5 items
           
-## ��Դ����(PM)��Ŀ����������Ż�����
+## 电源管理(PM)项目代码分析与优化建议
 
-��������Ŀ�����ȫ��������ҷ�������һ��Ƕ��ʽϵͳ�ĵ�Դ����ģ�飬��Ҫ�������¼��������ļ���
-- <mcfile name="pm.c" path="d:\beken\Trae-Project\PM_REFACTOR\bk_pm\pm.c"></mcfile> - ��Ҫ�ĵ�Դ�����߼�
-- <mcfile name="pm_model.c" path="d:\beken\Trae-Project\PM_REFACTOR\bk_pm\pm_model.c"></mcfile> - �豸��Դ����ģ��
-- <mcfile name="low_vol.c" path="d:\beken\Trae-Project\PM_REFACTOR\bk_pm\low_vol.c"></mcfile> - �͵�ѹ����
-- <mcfile name="pwr_clk.c" path="d:\beken\Trae-Project\PM_REFACTOR\pwr_clk\pwr_clk.c"></mcfile> - ��Դʱ�ӿ���
-- <mcfile name="cli_pwr.c" path="d:\beken\Trae-Project\PM_REFACTOR\cli_pwr.c"></mcfile> - �����нӿ�
+经过对项目代码的全面分析，我发现这是一个嵌入式系统的电源管理模块，主要包含以下几个核心文件：
+- <mcfile name="pm.c" path="d:\beken\Trae-Project\PM_REFACTOR\bk_pm\pm.c"></mcfile> - 主要的电源管理逻辑
+- <mcfile name="pm_model.c" path="d:\beken\Trae-Project\PM_REFACTOR\bk_pm\pm_model.c"></mcfile> - 设备电源管理模型
+- <mcfile name="low_vol.c" path="d:\beken\Trae-Project\PM_REFACTOR\bk_pm\low_vol.c"></mcfile> - 低电压处理
+- <mcfile name="pwr_clk.c" path="d:\beken\Trae-Project\PM_REFACTOR\pwr_clk\pwr_clk.c"></mcfile> - 电源时钟控制
+- <mcfile name="cli_pwr.c" path="d:\beken\Trae-Project\PM_REFACTOR\cli_pwr.c"></mcfile> - 命令行接口
 
-### ��Ҫ�Ż�����
+### 主要优化建议
 
-#### 1. ����ṹ��ܹ��Ż�
+#### 1. 代码结构与架构优化
 
-**���⣺** <mcfile name="pm.c" path="d:\beken\Trae-Project\PM_REFACTOR\bk_pm\pm.c"></mcfile> �ļ�����(2445��)�������������
+**问题：** <mcfile name="pm.c" path="d:\beken\Trae-Project\PM_REFACTOR\bk_pm\pm.c"></mcfile> 文件过大(2445行)，功能耦合严重
 
-**���飺**
-- �����ļ����Ϊ�������ģ�飺`pm_sleep.c`��`pm_wakeup.c`��`pm_callback.c`��`pm_voltage.c`
-- ��ȡ������״̬�����߼�������ģ��
-- ʹ��״̬��ģʽ�ع�˯��ģʽ�л��߼�
+**建议：**
+- 将大文件拆分为多个功能模块：`pm_sleep.c`、`pm_wakeup.c`、`pm_callback.c`、`pm_voltage.c`
+- 提取公共的状态管理逻辑到独立模块
+- 使用状态机模式重构睡眠模式切换逻辑
 
-#### 2. ȫ�ֱ��������Ż�
+#### 2. 全局变量管理优化
 
-**���⣺** ���ڴ�����̬ȫ�ֱ�����ȱ��ͳһ����
+**问题：** 存在大量静态全局变量，缺乏统一管理
 
-**���飺**
+**建议：**
 ```c
-// ����ͳһ��PM�����Ľṹ
+// 创建统一的PM上下文结构
 typedef struct {
     pm_sleep_mode_e sleep_mode;
     uint32_t wakeup_source;
     uint64_t previous_tick;
     uint64_t current_tick;
-    // ... ����״̬����
+    // ... 其他状态变量
 } pm_context_t;
 
-// ʹ�õ���ģʽ����ȫ��״̬
+// 使用单例模式管理全局状态
 pm_context_t* pm_get_context(void);
 ```
 
-#### 3. ���������ƸĽ�
+#### 3. 错误处理机制改进
 
-**���⣺** ����������ͳһ��ȱ����ϸ�Ĵ����붨��
+**问题：** 错误处理不够统一，缺乏详细的错误码定义
 
-**���飺**
-- ������ϸ��PMģ�������ö��
-- ʵ��ͳһ�Ĵ���������־��¼����
-- ���Ӵ���ָ�����
+**建议：**
+- 定义详细的PM模块错误码枚举
+- 实现统一的错误处理和日志记录机制
+- 添加错误恢复策略
 
-#### 4. �ڴ�������Ż�
+#### 4. 内存和性能优化
 
-**���⣺** �ص����������С�̶�����������ڴ��˷�
+**问题：** 回调函数数组大小固定，可能造成内存浪费
 
-**���飺**
-- ʹ�ö�̬���������ص�����
-- �Ż�DTCM�����ݵ�ʹ�ã����ٲ���Ҫ���ڴ�ռ��
-- ʵ�ֻص����������ȼ�����
+**建议：**
+- 使用动态链表管理回调函数
+- 优化DTCM段数据的使用，减少不必要的内存占用
+- 实现回调函数的优先级队列
 
-#### 5. ����ɶ��Ժ�ά��������
+#### 5. 代码可读性和维护性提升
 
-**���⣺** �궨����࣬ħ�����ֽ϶࣬ע�Ͳ�����ϸ
+**问题：** 宏定义过多，魔法数字较多，注释不够详细
 
-**���飺**
-- ���궨�弯�е�ͷ�ļ���
-- ��ö���滻ħ������
-- ������ϸ�ĺ�����ģ��ע��
-- ͳһ�����淶
+**建议：**
+- 将宏定义集中到头文件中
+- 用枚举替换魔法数字
+- 添加详细的函数和模块注释
+- 统一命名规范
 
-#### 6. ���ù����Ż�
+#### 6. 配置管理优化
 
-**���⣺** �������ɢ�ڶ��Kconfig�ļ���
+**问题：** 配置项分散在多个Kconfig文件中
 
-**���飺**
-- ������������ͳһ�������ļ�
-- �����������������ϵ���
-- �ṩĬ������ģ��
+**建议：**
+- 整合相关配置项到统一的配置文件
+- 添加配置项的依赖关系检查
+- 提供默认配置模板
 
-#### 7. ���Ժ͵���֧��
+#### 7. 测试和调试支持
 
-**���飺**
-- ���ӵ�Ԫ���Կ��
-- ʵ�ָ����Ƶĵ��Խӿ�
-- �������ܼ�غ�ͳ�ƹ���
+**建议：**
+- 添加单元测试框架
+- 实现更完善的调试接口
+- 添加性能监控和统计功能
 
-#### 8. ���ͬ���Ż�
+#### 8. 多核同步优化
 
-**���⣺** ��˼������ͨ�Ż��ƽ�Ϊ����
+**问题：** 多核间的邮箱通信机制较为复杂
 
-**���飺**
-- ������ͨ��Э��
-- ����ͨ�ų�ʱ�����Ի���
-- ʵ�ָ��õ�ͬ��ԭ��
+**建议：**
+- 简化邮箱通信协议
+- 添加通信超时和重试机制
+- 实现更好的同步原语
 
-### �ع����ȼ�
+### 重构优先级
 
-1. **�����ȼ���** ��ִ��ļ���ͳһȫ�ֱ�������
-2. **�����ȼ���** �Ľ����������Ż��ڴ�ʹ��
-3. **�����ȼ���** ��������ɶ��ԣ����Ʋ��Կ��
+1. **高优先级：** 拆分大文件，统一全局变量管理
+2. **中优先级：** 改进错误处理，优化内存使用
+3. **低优先级：** 提升代码可读性，完善测试框架
 
-��Щ�Ż����齫������������Ŀ�ά���ԡ��ɶ��Ժ�ϵͳ�ȶ��ԡ�����ֽ׶�ʵʩ���ȴӸ����ȼ���Ŀ��ʼ��
+这些优化建议将显著提升代码的可维护性、可读性和系统稳定性。建议分阶段实施，先从高优先级项目开始。
         
