@@ -42,6 +42,84 @@ image: /logo.png
 <!-- <Toc minDepth="1" maxDepth="1" class="mt-6 text-sm" /> -->
 
 ---
+layout: center
+---
+
+## 案例一 · 案例展示
+
+<div class="text-sm mb-2 opacity-70">从现有 IT-Verify 系统中获取电流测试（点击查看原图）</div>
+
+<div class="max-w-5xl mx-auto mt-4">
+  <div class="grid grid-cols-2 gap-6 items-start">
+    <figure class="m-0">
+      <a href="/A1.png" target="_blank" class="group block">
+        <img src="/A1.png" alt="A1 示例" class="w-80 h-52 object-contain border border-gray-600 dark:border-gray-300 rounded shadow-sm bg-white/30 dark:bg-dark-500/30 p-2 transition-transform duration-200 group-hover:scale-[1.02]" />
+      </a>
+      <figcaption class="text-xs opacity-65 mt-1 text-center">A1</figcaption>
+    </figure>
+    <figure class="m-0">
+      <a href="/A2.png" target="_blank" class="group block">
+        <img src="/A2.png" alt="A2 示例" class="w-80 h-52 object-contain border border-gray-600 dark:border-gray-300 rounded shadow-sm bg-white/30 dark:bg-dark-500/30 p-2 transition-transform duration-200 group-hover:scale-[1.02]" />
+      </a>
+      <figcaption class="text-xs opacity-65 mt-1 text-center">A2</figcaption>
+    </figure>
+  </div>
+  <figure class="m-0 mt-6">
+    <a href="/A3.png" target="_blank" class="group block">
+      <img src="/A3.png" alt="A3 示例" class="w-168 max-h-[340px] object-contain border border-gray-600 dark:border-gray-300 rounded shadow-sm bg-white/30 dark:bg-dark-500/30 p-3 transition-transform duration-200 group-hover:scale-[1.02]" />
+    </a>
+    <figcaption class="text-xs opacity-65 mt-1 text-center">A3</figcaption>
+  </figure>
+</div>
+
+---
+layout: center
+---
+
+## 案例一 · 案例展示
+
+<div class="text-sm mb-2 opacity-70">近期脚本运行产出示例（点击查看原图）</div>
+<div grid="~ cols-3 gap-4" m="t-2">
+  <figure class="text-center">
+    <a href="/7236近期电流监控.png" target="_blank" title="7236 近期电流监控">
+      <img src="/7236近期电流监控.png" alt="7236 近期电流监控" class="w-48 h-32 object-cover border rounded shadow-sm" />
+    </a>
+    <figcaption class="text-xs mt-1 opacity-70">7236 近期电流监控</figcaption>
+  </figure>
+  <figure class="text-center">
+    <a href="/7239近期电流监控.png" target="_blank" title="7239 近期电流监控">
+      <img src="/7239近期电流监控.png" alt="7239 近期电流监控" class="w-48 h-32 object-cover border rounded shadow-sm" />
+    </a>
+    <figcaption class="text-xs mt-1 opacity-70">7239 近期电流监控</figcaption>
+  </figure>
+  <figure class="text-center">
+    <a href="/CSV格式的数据缓存.png" target="_blank" title="CSV 格式的数据缓存">
+      <img src="/CSV格式的数据缓存.png" alt="CSV 格式的数据缓存" class="w-48 h-32 object-cover border rounded shadow-sm" />
+    </a>
+    <figcaption class="text-xs mt-1 opacity-70">CSV 格式的数据缓存</figcaption>
+  </figure>
+  <figure class="text-center">
+    <a href="/脚本命令.png" target="_blank" title="脚本命令">
+      <img src="/脚本命令.png" alt="脚本命令" class="w-48 h-32 object-cover border rounded shadow-sm" />
+    </a>
+    <figcaption class="text-xs mt-1 opacity-70">脚本命令</figcaption>
+  </figure>
+  <figure class="text-center">
+    <a href="/输出的svg格式图表.png" target="_blank" title="输出的 SVG 图表">
+      <img src="/输出的svg格式图表.png" alt="输出的 SVG 图表" class="w-48 h-32 object-cover border rounded shadow-sm" />
+    </a>
+    <figcaption class="text-xs mt-1 opacity-70">输出的 SVG 图表</figcaption>
+  </figure>
+  <figure class="text-center">
+    <a href="/输出的单次查询的汇总表格.png" target="_blank" title="输出的单次查询汇总表格">
+      <img src="/输出的单次查询的汇总表格.png" alt="输出的单次查询汇总表格" class="w-48 h-32 object-cover border rounded shadow-sm" />
+    </a>
+    <figcaption class="text-xs mt-1 opacity-70">输出的单次查询汇总表格</figcaption>
+  </figure>
+</div>
+<div class="mt-2 text-xs opacity-50">* 缩略图尺寸裁剪显示，点击查看原始清晰度 *</div>
+
+---
 layout: default
 ---
 
@@ -104,86 +182,6 @@ flowchart LR
   Logging -.-> Fetch
   Logging -.-> Cache
 ```
-
----
-layout: center
----
-
-## 案例一 · 案例展示
-
-<div class="text-sm mb-2 opacity-70">近期脚本运行产出示例（点击查看原图）</div>
-<div grid="~ cols-3 gap-4" m="t-2">
-  <figure class="text-center">
-    <a href="/7236近期电流监控.png" target="_blank" title="7236 近期电流监控">
-      <img src="/7236近期电流监控.png" alt="7236 近期电流监控" class="w-48 h-32 object-cover border rounded shadow-sm" />
-    </a>
-    <figcaption class="text-xs mt-1 opacity-70">7236 近期电流监控</figcaption>
-  </figure>
-  <figure class="text-center">
-    <a href="/7239近期电流监控.png" target="_blank" title="7239 近期电流监控">
-      <img src="/7239近期电流监控.png" alt="7239 近期电流监控" class="w-48 h-32 object-cover border rounded shadow-sm" />
-    </a>
-    <figcaption class="text-xs mt-1 opacity-70">7239 近期电流监控</figcaption>
-  </figure>
-  <figure class="text-center">
-    <a href="/CSV格式的数据缓存.png" target="_blank" title="CSV 格式的数据缓存">
-      <img src="/CSV格式的数据缓存.png" alt="CSV 格式的数据缓存" class="w-48 h-32 object-cover border rounded shadow-sm" />
-    </a>
-    <figcaption class="text-xs mt-1 opacity-70">CSV 格式的数据缓存</figcaption>
-  </figure>
-  <figure class="text-center">
-    <a href="/脚本命令.png" target="_blank" title="脚本命令">
-      <img src="/脚本命令.png" alt="脚本命令" class="w-48 h-32 object-cover border rounded shadow-sm" />
-    </a>
-    <figcaption class="text-xs mt-1 opacity-70">脚本命令</figcaption>
-  </figure>
-  <figure class="text-center">
-    <a href="/输出的svg格式图表.png" target="_blank" title="输出的 SVG 图表">
-      <img src="/输出的svg格式图表.png" alt="输出的 SVG 图表" class="w-48 h-32 object-cover border rounded shadow-sm" />
-    </a>
-    <figcaption class="text-xs mt-1 opacity-70">输出的 SVG 图表</figcaption>
-  </figure>
-  <figure class="text-center">
-    <a href="/输出的单次查询的汇总表格.png" target="_blank" title="输出的单次查询汇总表格">
-      <img src="/输出的单次查询的汇总表格.png" alt="输出的单次查询汇总表格" class="w-48 h-32 object-cover border rounded shadow-sm" />
-    </a>
-    <figcaption class="text-xs mt-1 opacity-70">输出的单次查询汇总表格</figcaption>
-  </figure>
-</div>
-<div class="mt-2 text-xs opacity-50">* 缩略图尺寸裁剪显示，点击查看原始清晰度 *</div>
-
-
----
-layout: center
----
-
-## 案例一 · 案例展示
-
-<div class="text-sm mb-2 opacity-70">从现有 IT-Verify 系统中获取电流测试（点击查看原图）</div>
-
-<div class="max-w-5xl mx-auto mt-4">
-  <div class="grid grid-cols-2 gap-6 items-start">
-    <figure class="m-0">
-      <a href="/A1.png" target="_blank" class="group block">
-        <img src="/A1.png" alt="A1 示例" class="w-80 h-52 object-contain border border-gray-600 dark:border-gray-300 rounded shadow-sm bg-white/30 dark:bg-dark-500/30 p-2 transition-transform duration-200 group-hover:scale-[1.02]" />
-      </a>
-      <figcaption class="text-xs opacity-65 mt-1 text-center">A1</figcaption>
-    </figure>
-    <figure class="m-0">
-      <a href="/A2.png" target="_blank" class="group block">
-        <img src="/A2.png" alt="A2 示例" class="w-80 h-52 object-contain border border-gray-600 dark:border-gray-300 rounded shadow-sm bg-white/30 dark:bg-dark-500/30 p-2 transition-transform duration-200 group-hover:scale-[1.02]" />
-      </a>
-      <figcaption class="text-xs opacity-65 mt-1 text-center">A2</figcaption>
-    </figure>
-  </div>
-  <figure class="m-0 mt-6">
-    <a href="/A3.png" target="_blank" class="group block">
-      <img src="/A3.png" alt="A3 示例" class="w-168 max-h-[340px] object-contain border border-gray-600 dark:border-gray-300 rounded shadow-sm bg-white/30 dark:bg-dark-500/30 p-3 transition-transform duration-200 group-hover:scale-[1.02]" />
-    </a>
-    <figcaption class="text-xs opacity-65 mt-1 text-center">A3</figcaption>
-  </figure>
-</div>
-
 
 ---
 layout: two-cols-header
