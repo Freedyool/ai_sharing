@@ -1,0 +1,266 @@
+我将为您分析这个电源管理相关的项目代码，并提供优化建议。让我先查看项目的整体结构和主要文件内容。
+        
+            
+toolName: view_folder
+            
+status: success
+          
+d:\Dev\pm_refactor
+          
+现在让我查看主要的源代码文件，以了解项目的具体实现：
+        
+            
+toolName: view_files
+            
+status: success
+          
+            
+filePath: d:\Dev\pm_refactor\bk_pm\pm.c
+d:\Dev\pm_refactor\bk_pm\low_vol.c
+d:\Dev\pm_refactor\cli_pwr.c
+          
+让我查看更多关键文件以获取完整上下文：
+        
+            
+toolName: view_files
+            
+status: success
+          
+            
+filePath: d:\Dev\pm_refactor\bk_pm\pm_model.c
+d:\Dev\pm_refactor\bk_pm\pm_misc.c
+d:\Dev\pm_refactor\pwr_clk\pwr_clk.c
+          
+现在让我查看配置文件和头文件，以更好地理解项目结构：
+        
+            
+toolName: search_by_regex
+            
+status: success
+          
+query: PM_MODE_|PM_SLEEP_|CONFIG_
+          
+让我查看关键的头文件和接口定义，以更好地理解系统架构：
+        
+            
+toolName: search_codebase
+            
+status: success
+          
+query: 查找电源管理的核心数据结构和接口定义，包括睡眠模式、模块状态管理、回调函数等
+          
+基于对项目代码的深入分析，我将为您提供详细的代码优化建议。这个项目是一个复杂的电源管理系统，涉及多CPU架构、多种睡眠模式和模块电源控制。
+
+## 项目代码分析报告
+
+### 1. 项目架构概述
+这是一个多CPU系统的电源管理框架，主要包含：
+- **CPU0/CPU1双核架构**：支持CPU间的电源状态协调
+- **多种睡眠模式**：正常睡眠、低电压模式、深度睡眠、超深度睡眠
+- **模块化电源管理**：支持各个硬件模块的独立电源控制
+- **回调机制**：支持进入/退出睡眠模式的回调注册
+
+### 2. 主要代码质量问题及优化建议
+
+#### 2.1 代码结构优化
+
+**问题1：巨型文件**
+- `pm.c` 文件长达2616行，职责过重
+- **优化建议**：按功能拆分为多个模块文件
+```c
+// 建议拆分结构：
+pm_core.c        // 核心管理逻辑
+pm_sleep.c       // 睡眠模式处理
+pm_power.c       // 电源控制
+pm_callback.c    // 回调管理
+pm_debug.c       // 调试功能
+```
+
+**问题2：宏定义滥用**
+- 大量使用条件编译宏，代码可读性差
+- **优化建议**：使用配置文件和结构体替代部分宏
+```c
+// 当前问题代码：
+#if CONFIG_SYS_CPU0 && (CONFIG_CPU_CNT > 1)
+static volatile uint32_t s_pm_cp1_psram_malloc_count_state = 0;
+#endif
+
+// 优化建议：
+typedef struct {
+    bool multi_cpu_support;
+    bool cpu0_feature;
+    size_t psram_malloc_count;
+} pm_config_t;
+```
+
+#### 2.2 内存管理优化
+
+**问题3：静态数组浪费**
+- 固定大小的回调数组可能导致内存浪费
+- **优化建议**：使用动态内存管理
+```c
+// 当前代码：
+#define PM_DEEPSLEEP_CB_SIZE 10
+static pm_sleep_cb_t s_pm_deepsleep_enter_cb_conf[PM_DEEPSLEEP_CB_SIZE];
+
+// 优化建议：
+typedef struct pm_callback_list {
+    pm_sleep_cb_t *callbacks;
+    size_t count;
+    size_t capacity;
+} pm_callback_list_t;
+```
+
+#### 2.3 并发和多线程安全
+
+**问题4：缺乏线程保护**
+- 全局状态变量在多CPU环境下缺乏保护
+- **优化建议**：增加锁机制
+```c
+// 增加自旋锁或互斥锁
+static os_mutex_t pm_state_mutex;
+static volatile uint32_t s_pm_sleeped_modules = 0;
+
+// 访问时加锁
+os_mutex_lock(&pm_state_mutex);
+s_pm_sleeped_modules |= module_mask;
+os_mutex_unlock(&pm_state_mutex);
+```
+
+#### 2.4 性能优化
+
+**问题5：重复计算**
+- 多次使用位运算检查状态
+- **优化建议**：缓存计算结果
+```c
+// 优化前：
+if ((s_pm_sleeped_modules & s_pm_enter_normal_sleep_modules) == s_pm_enter_normal_sleep_modules)
+
+// 优化后：
+static inline bool pm_can_enter_sleep(uint64_t sleep_modules, uint64_t required_modules) {
+    return (sleep_modules & required_modules) == required_modules;
+}
+```
+
+#### 2.5 错误处理优化
+
+**问题6：错误处理不完整**
+- 某些函数缺乏错误返回检查
+- **优化建议**：增加错误日志和处理
+```c
+// 当前代码：
+bk_flash_power_saving_enter();
+
+// 优化建议：
+if (bk_flash_power_saving_enter() != BK_OK) {
+    PM_LOGE("Failed to enter flash power saving\n");
+    return BK_FAIL;
+}
+```
+
+#### 2.6 配置管理优化
+
+**问题7：硬编码配置**
+- 超时时间、阈值等硬编码
+- **优化建议**：使用配置文件
+```c
+// 当前代码：
+#define ENTER_LOW_VOLTAGE_PROTECT_TIME (3) // 3ms
+
+// 优化建议：
+typedef struct {
+    uint32_t lv_protect_time_ms;
+    uint32_t lv_wakeup_protect_time_ms;
+    uint32_t default_wakeup_time_ms;
+} pm_timing_config_t;
+```
+
+### 3. 具体优化实现方案
+
+#### 3.1 重构电源状态管理
+创建专门的电源状态管理模块：
+
+```c
+// pm_state.h
+typedef struct {
+    uint64_t sleep_modules;
+    uint64_t power_modules;
+    uint32_t cpu_states[CONFIG_CPU_CNT];
+    pm_sleep_mode_e current_mode;
+    os_mutex_t state_mutex;
+} pm_system_state_t;
+
+// 状态访问API
+bk_err_t pm_state_enter_module(pm_module_t module);
+bk_err_t pm_state_exit_module(pm_module_t module);
+bool pm_state_can_enter_sleep(pm_sleep_mode_e mode);
+```
+
+#### 3.2 优化回调机制
+使用链表替代固定数组：
+
+```c
+// pm_callback.h
+typedef struct pm_callback_node {
+    pm_dev_id_e dev_id;
+    pm_cb_conf_t config;
+    struct pm_callback_node *next;
+} pm_callback_node_t;
+
+typedef struct {
+    pm_callback_node_t *enter_callbacks;
+    pm_callback_node_t *exit_callbacks;
+    size_t count;
+} pm_callback_list_t;
+```
+
+#### 3.3 增强调试功能
+添加性能分析和调试接口：
+
+```c
+// pm_debug.h
+typedef struct {
+    uint64_t sleep_enter_time;
+    uint64_t sleep_exit_time;
+    uint32_t wakeup_count;
+    pm_wakeup_source_e last_wakeup_source;
+    uint32_t power_save_percentage;
+} pm_statistics_t;
+
+void pm_debug_get_stats(pm_statistics_t *stats);
+void pm_debug_reset_stats(void);
+```
+
+#### 3.4 多CPU协调优化
+改进CPU间通信机制：
+
+```c
+// pm_multicpu.h
+typedef struct {
+    uint32_t cpu_id;
+    pm_power_state_e state;
+    uint64_t module_mask;
+    beken_semaphore_t sync_sema;
+} pm_cpu_sync_t;
+
+bk_err_t pm_multicpu_request_sync(uint32_t cpu_mask);
+bk_err_t pm_multicpu_wait_sync(uint32_t timeout_ms);
+```
+
+### 4. 测试和验证建议
+
+1. **单元测试**：为每个模块创建独立的测试用例
+2. **压力测试**：测试高并发场景下的稳定性
+3. **功耗测试**：验证各睡眠模式的实际功耗降低效果
+4. **边界测试**：测试极端条件下的行为
+
+### 5. 迁移策略
+
+建议分阶段实施优化：
+
+1. **第一阶段**：提取接口，保持功能不变
+2. **第二阶段**：逐步重构核心模块
+3. **第三阶段**：添加新功能和优化
+4. **第四阶段**：性能调优和测试
+
+这些优化建议将显著提高代码的可维护性、性能和可靠性，同时保持向后兼容性。

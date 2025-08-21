@@ -1,0 +1,216 @@
+## 电源管理(PM)模块全面架构重构建议
+
+基于对现有代码的深入分析，我从架构设计角度提出以下全面的重构建议：
+
+### 1. 分层架构重构
+
+#### 当前问题
+- <mcfile name="pm.c" path="d:\beken\Trae-Project\PM_REFACTOR\bk_pm\pm.c"></mcfile> 文件过于庞大，业务逻辑与硬件抽象混合
+- 缺乏清晰的分层边界，模块间耦合度高
+
+#### 重构方案
+```
+应用层 (Application Layer)
+├── PM API接口层
+├── 业务逻辑层
+└── 策略决策层
+
+服务层 (Service Layer)
+├── 电源状态管理服务
+├── 睡眠模式管理服务
+├── 唤醒源管理服务
+└── 回调管理服务
+
+抽象层 (Abstraction Layer)
+├── 硬件抽象接口
+├── 平台适配层
+└── 驱动接口层
+
+硬件层 (Hardware Layer)
+├── 寄存器操作
+├── 中断处理
+└── 底层驱动
+```
+
+### 2. 模块化重构设计
+
+#### 核心模块拆分
+```c
+// 1. 电源状态管理模块
+modules/pm_state/
+├── pm_state_manager.c    // 状态机实现
+├── pm_state_types.h      // 状态定义
+└── pm_state_transition.c // 状态转换逻辑
+
+// 2. 睡眠管理模块
+modules/pm_sleep/
+├── pm_sleep_controller.c // 睡眠控制器
+├── pm_sleep_policy.c     // 睡眠策略
+└── pm_sleep_callback.c   // 回调管理
+
+// 3. 唤醒管理模块
+modules/pm_wakeup/
+├── pm_wakeup_source.c    // 唤醒源管理
+├── pm_wakeup_handler.c   // 唤醒处理
+└── pm_wakeup_filter.c    // 唤醒过滤
+
+// 4. 电压管理模块
+modules/pm_voltage/
+├── pm_voltage_ctrl.c     // 电压控制
+├── pm_low_voltage.c      // 低电压处理
+└── pm_voltage_monitor.c  // 电压监控
+
+// 5. 时钟管理模块
+modules/pm_clock/
+├── pm_clock_ctrl.c       // 时钟控制
+├── pm_freq_scaling.c     // 频率调节
+└── pm_clock_source.c     // 时钟源管理
+```
+
+### 3. 接口抽象与标准化
+
+#### 统一接口设计
+```c
+// PM核心接口
+typedef struct {
+    bk_err_t (*init)(void);
+    bk_err_t (*deinit)(void);
+    bk_err_t (*set_mode)(pm_mode_t mode);
+    bk_err_t (*get_state)(pm_state_t *state);
+    bk_err_t (*register_callback)(pm_callback_t *cb);
+} pm_interface_t;
+
+// 硬件抽象层接口
+typedef struct {
+    bk_err_t (*power_on)(pm_module_t module);
+    bk_err_t (*power_off)(pm_module_t module);
+    bk_err_t (*set_voltage)(pm_domain_t domain, uint32_t voltage);
+    bk_err_t (*set_frequency)(pm_domain_t domain, uint32_t freq);
+} pm_hal_interface_t;
+```
+
+### 4. 设计模式应用
+
+#### 4.1 状态机模式
+```c
+// 状态机重构睡眠模式管理
+typedef struct {
+    pm_state_t current_state;
+    pm_state_t (*transition)(pm_event_t event);
+    bk_err_t (*entry_action)(void);
+    bk_err_t (*exit_action)(void);
+} pm_state_machine_t;
+```
+
+#### 4.2 观察者模式
+```c
+// 事件通知机制
+typedef struct {
+    void (*on_sleep_enter)(pm_sleep_mode_t mode);
+    void (*on_sleep_exit)(pm_wakeup_source_t source);
+    void (*on_voltage_change)(uint32_t old_vol, uint32_t new_vol);
+} pm_observer_t;
+```
+
+#### 4.3 策略模式
+```c
+// 电源管理策略
+typedef struct {
+    bk_err_t (*evaluate)(pm_context_t *ctx, pm_decision_t *decision);
+    uint32_t priority;
+    const char *name;
+} pm_strategy_t;
+```
+
+### 5. 配置管理架构
+
+#### 分层配置系统
+```c
+// 配置管理器
+typedef struct {
+    pm_config_t default_config;
+    pm_config_t runtime_config;
+    pm_config_t user_config;
+    bk_err_t (*load)(const char *config_file);
+    bk_err_t (*save)(const char *config_file);
+    bk_err_t (*validate)(pm_config_t *config);
+} pm_config_manager_t;
+```
+
+### 6. 错误处理与恢复架构
+
+#### 分级错误处理
+```c
+// 错误处理框架
+typedef struct {
+    pm_error_level_t level;
+    pm_error_code_t code;
+    const char *message;
+    bk_err_t (*recovery_action)(void);
+    uint32_t retry_count;
+} pm_error_handler_t;
+```
+
+### 7. 多核协调架构
+
+#### 核间通信抽象
+```c
+// 核间通信接口
+typedef struct {
+    bk_err_t (*send_command)(cpu_id_t target, pm_cmd_t *cmd);
+    bk_err_t (*register_handler)(pm_cmd_type_t type, pm_cmd_handler_t handler);
+    bk_err_t (*sync_state)(cpu_id_t target, pm_sync_data_t *data);
+} pm_ipc_interface_t;
+```
+
+### 8. 性能监控与调试架构
+
+#### 监控框架
+```c
+// 性能监控
+typedef struct {
+    uint32_t sleep_count[PM_MODE_MAX];
+    uint64_t sleep_duration[PM_MODE_MAX];
+    uint32_t wakeup_count[PM_WAKEUP_SOURCE_MAX];
+    uint64_t power_consumption;
+} pm_statistics_t;
+
+// 调试接口
+typedef struct {
+    bk_err_t (*dump_state)(void);
+    bk_err_t (*trace_enable)(pm_trace_level_t level);
+    bk_err_t (*inject_event)(pm_test_event_t event);
+} pm_debug_interface_t;
+```
+
+### 9. 重构实施路线图
+
+#### 第一阶段：基础架构搭建
+1. 建立分层架构框架
+2. 定义核心接口和数据结构
+3. 实现配置管理系统
+
+#### 第二阶段：核心模块重构
+1. 重构状态管理模块
+2. 分离睡眠和唤醒逻辑
+3. 抽象硬件访问层
+
+#### 第三阶段：高级特性实现
+1. 实现设计模式
+2. 完善错误处理机制
+3. 添加性能监控
+
+#### 第四阶段：优化与测试
+1. 性能优化
+2. 单元测试覆盖
+3. 集成测试验证
+
+### 10. 架构收益
+
+- **可维护性**：模块化设计便于维护和扩展
+- **可测试性**：清晰的接口便于单元测试
+- **可移植性**：硬件抽象层支持多平台移植
+- **可扩展性**：插件化架构支持功能扩展
+- **可靠性**：完善的错误处理提高系统稳定性
+
+这个架构重构方案将显著提升代码质量，使系统更加健壮、可维护和可扩展。建议分阶段实施，确保每个阶段都有明确的里程碑和验收标准。

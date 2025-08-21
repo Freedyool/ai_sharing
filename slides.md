@@ -154,6 +154,38 @@ layout: center
 
 
 ---
+layout: center
+---
+
+## 案例一 · 案例展示
+
+<div class="text-sm mb-2 opacity-70">从现有 IT-Verify 系统中获取电流测试（点击查看原图）</div>
+
+<div class="max-w-5xl mx-auto mt-4">
+  <div class="grid grid-cols-2 gap-6 items-start">
+    <figure class="m-0">
+      <a href="/A1.png" target="_blank" class="group block">
+        <img src="/A1.png" alt="A1 示例" class="w-80 h-52 object-contain border border-gray-600 dark:border-gray-300 rounded shadow-sm bg-white/30 dark:bg-dark-500/30 p-2 transition-transform duration-200 group-hover:scale-[1.02]" />
+      </a>
+      <figcaption class="text-xs opacity-65 mt-1 text-center">A1</figcaption>
+    </figure>
+    <figure class="m-0">
+      <a href="/A2.png" target="_blank" class="group block">
+        <img src="/A2.png" alt="A2 示例" class="w-80 h-52 object-contain border border-gray-600 dark:border-gray-300 rounded shadow-sm bg-white/30 dark:bg-dark-500/30 p-2 transition-transform duration-200 group-hover:scale-[1.02]" />
+      </a>
+      <figcaption class="text-xs opacity-65 mt-1 text-center">A2</figcaption>
+    </figure>
+  </div>
+  <figure class="m-0 mt-6">
+    <a href="/A3.png" target="_blank" class="group block">
+      <img src="/A3.png" alt="A3 示例" class="w-168 max-h-[340px] object-contain border border-gray-600 dark:border-gray-300 rounded shadow-sm bg-white/30 dark:bg-dark-500/30 p-3 transition-transform duration-200 group-hover:scale-[1.02]" />
+    </a>
+    <figcaption class="text-xs opacity-65 mt-1 text-center">A3</figcaption>
+  </figure>
+</div>
+
+
+---
 layout: two-cols-header
 ---
 
@@ -231,7 +263,7 @@ Trae SOLO 黑客松 极限 4 小时：不写一行代码 / 不熟悉技术栈，
 
 项目级模型的关键要点：
 1. 选用 claude sonnet 4 以上的高阶模型；
-2. 先从产品需求文档（[PRD](/PRD.txt)）开始；
+2. 先从 <a href="/PRD.txt" target="_blank" rel="noopener">产品需求文档 PRD</a> 开始；
 3. 小项目可以一把梭生成，大项目建议逐个模块生成；
 4. 持续地迭代优化，我的优化过程耗时约6小时；
 
@@ -322,16 +354,57 @@ layout: default
 # 案例三 · Armino 开发
 阅读和分析代码，提重构建议
 
-对比 Kimi-K2 和 Claude Sonnet 4
-<img>
+<div class="grid grid-cols-3 gap-5 mt-2 -mx-6 px-4 items-start">
+  <div class="flex flex-col space-y-2">
+    <a href="/Q1.txt" target="_blank" title="查看文字版本 /Q1.txt" class="block group">
+      <img src="/Q1.png" alt="Q1 代码分析结果截图" class="w-full h-40 max-h-[260px] object-contain border border-gray/30 rounded shadow-sm bg-white/50 dark:bg-dark-400/30 p-2 cursor-pointer transition-transform duration-200 group-hover:scale-[1.02]" />
+    </a>
+    <div class="text-sm font-medium leading-snug">Ask: 请阅读并分析项目代码，给出代码优化意见</div>
+    <a href="/Q1_CN.txt" target="_blank" title="查看文字版本 /Q1_CN.txt" class="block group">
+      <img src="/Q1_CN.png" alt="Q1 代码分析结果截图" class="w-full h-40 max-h-[260px] object-contain border border-gray/30 rounded shadow-sm bg-white/50 dark:bg-dark-400/30 p-2 cursor-pointer transition-transform duration-200 group-hover:scale-[1.02]" />
+    </a>
+  </div>
+  <div class="flex flex-col space-y-2">
+    <a href="/Q2.txt" target="_blank" title="查看文字版本 /Q2.txt" class="block group">
+      <img src="/Q2.png" alt="Q2 重构建议截图" class="w-full h-40 max-h-[260px] object-contain border border-gray/30 rounded shadow-sm bg-white/50 dark:bg-dark-400/30 p-2 cursor-pointer transition-transform duration-200 group-hover:scale-[1.02]" />
+    </a>
+  <div class="text-sm font-medium leading-snug">Ask: 请从代码重构角度给出一些建议<br><br></div>
+    <a href="/Q2_CN.txt" target="_blank" title="查看文字版本 /Q2_CN.txt" class="block group">
+      <img src="/Q2_CN.png" alt="Q2 重构建议截图" class="w-full h-40 max-h-[260px] object-contain border border-gray/30 rounded shadow-sm bg-white/50 dark:bg-dark-400/30 p-2 cursor-pointer transition-transform duration-200 group-hover:scale-[1.02]" />
+    </a>
+  </div>
+  <div class="flex flex-col space-y-2">
+    <a href="/Q3.txt" target="_blank" title="查看文字版本 /Q3.txt" class="block group">
+      <img src="/Q3.png" alt="Q3 实施与资源评估任务截图" class="w-full h-40 max-h-[260px] object-contain border border-gray/30 rounded shadow-sm bg-white/50 dark:bg-dark-400/30 p-2 cursor-pointer transition-transform duration-200 group-hover:scale-[1.02]" />
+    </a>
+    <div class="text-sm font-medium leading-snug">Ask: 请在项目根目录创建目录实现重构并评估资源占用</div>
+    <a href="/Q3_CN.txt" target="_blank" title="查看文字版本 /Q3_CN.txt" class="block group">
+      <img src="/Q3_CN.png" alt="Q3 实施与资源评估任务截图" class="w-full h-40 max-h-[260px] object-contain border border-gray/30 rounded shadow-sm bg-white/50 dark:bg-dark-400/30 p-2 cursor-pointer transition-transform duration-200 group-hover:scale-[1.02]" />
+    </a>
+  </div>
+</div>
 
 --- 
 
 # 案例三 · Armino 开发
 生成 commit 信息，生成说明文档
 
-除了一键生成 commit 信息按钮之外，还可以
-将修改打成 patch 然后让 Trae 阅读
+<div class="grid grid-cols-2 gap-6 mt-4">
+  <figure class="flex flex-col">
+    <a href="/pm_refactor_commit.png" target="_blank" title="查看原图" class="group">
+      <img src="/pm_refactor_commit.png" alt="重构提交信息生成示例" class="w-full h-72 max-h-[420px] object-contain border rounded shadow-sm bg-white/50 dark:bg-dark-400/30 p-2 transition-transform duration-200 group-hover:scale-[1.02]" />
+    </a>
+    <figcaption class="text-xs opacity-65 mt-2 text-center">Commit 信息自动生成（点击放大查看原图）</figcaption>
+  </figure>
+  <figure class="flex flex-col">
+    <a href="/pm_refactor_doc.png" target="_blank" title="查看原图" class="group">
+      <img src="/pm_refactor_doc.png" alt="重构文档生成示例" class="w-full h-72 max-h-[420px] object-contain border rounded shadow-sm bg-white/50 dark:bg-dark-400/30 p-2 transition-transform duration-200 group-hover:scale-[1.02]" />
+    </a>
+    <figcaption class="text-xs opacity-65 mt-2 text-center">重构说明文档生成（点击放大查看原图）</figcaption>
+  </figure>
+</div>
+
+> 除了一键生成 commit 信息按钮之外，还可以将修改打成 patch 然后让 Trae 阅读
 
 ---
 layout: default
@@ -352,4 +425,7 @@ layout: default
 一个建议
 - 现在就布局内部 AI 生态
 
-> 感谢聆听，欢迎交流
+---
+layout: end
+---
+感谢聆听，欢迎交流

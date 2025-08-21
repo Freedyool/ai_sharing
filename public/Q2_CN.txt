@@ -1,0 +1,458 @@
+从全面架构重构的角度，我将为您提供一个系统性的电源管理框架重构方案。基于对现有代码的深度分析，我发现了多个架构层面的问题，并提出以下分层重构策略：
+
+## 全面架构重构方案
+
+### 1. 当前架构问题诊断
+
+#### 1.1 架构耦合问题
+- **高耦合度**：`pm.c` 2616行巨型文件包含所有功能
+- **循环依赖**：CPU间通信与电源管理逻辑混杂
+- **配置硬编码**：编译时宏定义替代运行时配置
+
+#### 1.2 分层架构缺失
+- **无清晰抽象层**：硬件直接操作散布在业务逻辑中
+- **跨平台困难**：紧密耦合特定硬件平台
+- **测试困难**：无法单元测试各个组件
+
+### 2. 重构目标架构设计
+
+#### 2.1 分层架构模型
+```
+┌─────────────────────────────────────────┐
+│            Application Layer             │
+├─────────────────────────────────────────┤
+│           Policy Manager                 │
+├─────────────────────────────────────────┤
+│          Core Framework                  │
+│  ┌─────────────┬─────────────┬────────┐ │
+│  │   State     │   Mode      │  Event │ │
+│  │  Manager    │  Controller │Handler │ │
+│  └─────────────┴─────────────┴────────┘ │
+├─────────────────────────────────────────┤
+│         Hardware Abstraction            │
+│  ┌─────────────┬─────────────┬────────┐ │
+│  │   Clock     │   Power     │  CPU   │ │
+│  │  Control    │   Domain    │ Control│ │
+│  └─────────────┴─────────────┴────────┘ │
+├─────────────────────────────────────────┤
+│           Platform HAL                   │
+└─────────────────────────────────────────┘
+```
+
+#### 2.2 模块化设计
+
+**创建7个核心模块：**
+
+1. **pm_core** - 框架核心
+2. **pm_state** - 状态管理
+3. **pm_policy** - 策略引擎
+4. **pm_event** - 事件系统
+5. **pm_hwctrl** - 硬件抽象
+6. **pm_multicpu** - 多CPU协调
+7. **pm_debug** - 调试分析
+
+### 3. 详细重构实施计划
+
+#### 3.1 第一阶段：架构基础重构
+
+**3.1.1 创建硬件抽象层 (HAL)**
+
+```c
+// include/pm/hal/pm_hw_interface.h
+typedef struct {
+    // 时钟控制接口
+    bk_err_t (*clock_enable)(pm_clock_domain_t domain, bool enable);
+    bk_err_t (*clock_set_freq)(pm_clock_domain_t domain, uint32_t freq);
+    
+    // 电源域控制
+    bk_err_t (*power_domain_ctrl)(pm_power_domain_t domain, pm_power_state_t state);
+    uint32_t (*power_domain_status)(pm_power_domain_t domain);
+    
+    // CPU控制
+    bk_err_t (*cpu_suspend)(uint32_t cpu_id, pm_suspend_mode_t mode);
+    bk_err_t (*cpu_resume)(uint32_t cpu_id);
+    
+    // 唤醒源配置
+    bk_err_t (*wakeup_source_enable)(pm_wakeup_source_t source, bool enable);
+    pm_wakeup_source_t (*get_wakeup_reason)(void);
+} pm_hw_interface_t;
+
+// 平台特定实现
+// src/hal/bk7256/pm_hw_bk7256.c
+static const pm_hw_interface_t bk7256_hw_impl = {
+    .clock_enable = bk7256_clock_enable,
+    .power_domain_ctrl = bk7256_power_domain_ctrl,
+    // ... 其他实现
+};
+```
+
+**3.1.2 重构状态管理系统**
+
+```c
+// include/pm/core/pm_state_manager.h
+typedef struct pm_state_node {
+    pm_module_id_t module;
+    pm_module_state_t state;
+    uint32_t ref_count;
+    struct pm_state_node *next;
+} pm_state_node_t;
+
+typedef struct {
+    pm_state_node_t *modules[PM_MAX_MODULES];
+    pm_system_state_t current_state;
+    os_mutex_t state_mutex;
+    
+    // 状态机
+    pm_state_machine_t *state_machine;
+    
+    // 依赖关系图
+    pm_dependency_graph_t *dependency_graph;
+} pm_state_manager_t;
+
+// 状态机定义
+typedef struct {
+    pm_state_t current_state;
+    pm_state_t target_state;
+    pm_transition_t *transitions;
+    size_t transition_count;
+} pm_state_machine_t;
+```
+
+**3.1.3 策略引擎重构**
+
+```c
+// include/pm/policy/pm_policy_engine.h
+typedef struct {
+    // 策略配置
+    pm_policy_config_t config;
+    
+    // 决策算法
+    pm_decision_algorithm_t algorithm;
+    
+    // 约束检查
+    pm_constraint_checker_t constraints;
+    
+    // 历史数据
+    pm_history_data_t history;
+} pm_policy_engine_t;
+
+typedef enum {
+    PM_POLICY_CONSERVATIVE,
+    PM_POLICY_AGGRESSIVE,
+    PM_POLICY_BALANCED,
+    PM_POLICY_CUSTOM
+} pm_policy_type_t;
+
+// 策略决策接口
+typedef struct {
+    bool (*can_enter_state)(pm_policy_engine_t *engine, pm_state_t target_state);
+    uint32_t (*calculate_duration)(pm_policy_engine_t *engine, pm_state_t state);
+    pm_state_t (*select_optimal_state)(pm_policy_engine_t *engine, uint32_t sleep_duration);
+} pm_decision_algorithm_t;
+```
+
+#### 3.2 第二阶段：多CPU架构重构
+
+**3.2.1 分布式电源管理**
+
+```c
+// include/pm/multicpu/pm_distributed.h
+typedef struct {
+    uint32_t cpu_id;
+    pm_cpu_role_t role;  // MASTER / SLAVE
+    pm_cpu_capability_t capability;
+    pm_cpu_state_t state;
+    
+    // 通信接口
+    pm_ipc_channel_t *ipc_channel;
+    
+    // 同步机制
+    os_semaphore_t sync_semaphore;
+    pm_sync_barrier_t *barrier;
+} pm_cpu_node_t;
+
+typedef struct {
+    pm_cpu_node_t *cpus[CONFIG_MAX_CPUS];
+    uint32_t active_cpus;
+    pm_cpu_topology_t topology;
+    
+    // 分布式决策
+    pm_consensus_algorithm_t consensus;
+    
+    // 故障恢复
+    pm_fault_recovery_t recovery;
+} pm_distributed_manager_t;
+
+// 一致性算法
+typedef enum {
+    PM_CONSENSUS_MAJORITY,
+    PM_CONSENSUS_LEADER,
+    PM_CONSENSUS_WEIGHTED
+} pm_consensus_type_t;
+```
+
+**3.2.2 事件驱动架构**
+
+```c
+// include/pm/event/pm_event_system.h
+typedef struct {
+    pm_event_type_t type;
+    pm_event_source_t source;
+    uint64_t timestamp;
+    void *data;
+    size_t data_size;
+} pm_event_t;
+
+typedef struct {
+    pm_event_handler_t *handlers;
+    pm_event_queue_t *event_queue;
+    pm_event_dispatcher_t *dispatcher;
+    
+    // 优先级处理
+    pm_priority_scheduler_t scheduler;
+    
+    // 事件过滤
+    pm_event_filter_t filters;
+} pm_event_system_t;
+
+// 异步事件处理
+typedef struct {
+    os_queue_t event_queue;
+    os_task_t event_task;
+    pm_event_processor_t processors[PM_MAX_PROCESSORS];
+} pm_async_event_system_t;
+```
+
+#### 3.3 第三阶段：高级功能架构
+
+**3.3.1 机器学习优化**
+
+```c
+// include/pm/ml/pm_ml_optimizer.h
+typedef struct {
+    // 特征提取
+    pm_feature_extractor_t features;
+    
+    // 预测模型
+    pm_prediction_model_t model;
+    
+    // 训练数据
+    pm_training_dataset_t dataset;
+    
+    // 在线学习
+    pm_online_learner_t learner;
+    
+    // 性能评估
+    pm_performance_metrics_t metrics;
+} pm_ml_optimizer_t;
+
+// 预测接口
+typedef struct {
+    float (*predict_wakeup_probability)(pm_ml_optimizer_t *optimizer, 
+                                       pm_context_t *context);
+    uint32_t (*predict_optimal_duration)(pm_ml_optimizer_t *optimizer,
+                                        pm_state_t target_state);
+    float (*estimate_energy_saving)(pm_ml_optimizer_t *optimizer,
+                                  pm_state_transition_t *transition);
+} pm_prediction_functions_t;
+```
+
+**3.3.2 安全架构**
+
+```c
+// include/pm/security/pm_security.h
+typedef struct {
+    // 安全策略
+    pm_security_policy_t policy;
+    
+    // 访问控制
+    pm_access_control_t access;
+    
+    // 审计日志
+    pm_audit_logger_t audit;
+    
+    // 异常检测
+    pm_anomaly_detector_t detector;
+    
+    // 安全事件响应
+    pm_security_responder_t responder;
+} pm_security_manager_t;
+
+// 权限管理
+typedef enum {
+    PM_PRIVILEGE_USER,
+    PM_PRIVILEGE_ADMIN,
+    PM_PRIVILEGE_SYSTEM
+} pm_privilege_level_t;
+```
+
+### 4. 配置管理系统重构
+
+#### 4.1 动态配置架构
+
+```c
+// include/pm/config/pm_config_manager.h
+typedef struct {
+    // 配置存储
+    pm_config_storage_t storage;
+    
+    // 版本管理
+    pm_config_version_t version;
+    
+    // 热更新
+    pm_hot_update_t hot_update;
+    
+    // 配置验证
+    pm_config_validator_t validator;
+    
+    // 配置缓存
+    pm_config_cache_t cache;
+} pm_config_manager_t;
+
+// JSON配置格式
+typedef struct {
+    const char *name;
+    pm_config_type_t type;
+    union {
+        int32_t int_value;
+        float float_value;
+        bool bool_value;
+        const char *string_value;
+    } value;
+    pm_config_validator_t validator;
+} pm_config_item_t;
+```
+
+### 5. 测试架构重构
+
+#### 5.1 分层测试框架
+
+```c
+// tests/pm_test_framework.h
+typedef struct {
+    // 模拟器
+    pm_hardware_simulator_t *simulator;
+    
+    // 测试用例
+    pm_test_case_t *test_cases;
+    
+    // 性能基准
+    pm_performance_benchmark_t *benchmarks;
+    
+    // 回归测试
+    pm_regression_test_t *regression;
+    
+    // 覆盖率分析
+    pm_coverage_analyzer_t *coverage;
+} pm_test_framework_t;
+
+// 硬件模拟
+typedef struct {
+    pm_clock_simulator_t clock;
+    pm_power_simulator_t power;
+    pm_cpu_simulator_t cpu;
+    pm_wakeup_simulator_t wakeup;
+} pm_hardware_simulator_t;
+```
+
+### 6. 部署和迁移策略
+
+#### 6.1 渐进式迁移路径
+
+**阶段1：接口抽象**
+1. 创建HAL层，保持现有功能
+2. 逐步替换直接硬件访问
+3. 验证功能一致性
+
+**阶段2：核心重构**
+1. 重构状态管理模块
+2. 实现策略引擎
+3. 添加事件系统
+
+**阶段3：高级功能**
+1. 集成多CPU协调
+2. 添加ML优化
+3. 实现安全机制
+
+#### 6.2 向后兼容性
+
+```c
+// include/pm/legacy/pm_legacy_wrapper.h
+typedef struct {
+    // 传统API包装器
+    pm_legacy_api_t legacy_api;
+    
+    // 适配器模式
+    pm_adapter_t adapters;
+    
+    // 兼容性检查
+    pm_compatibility_checker_t checker;
+    
+    // 迁移助手
+    pm_migration_helper_t helper;
+} pm_legacy_wrapper_t;
+```
+
+### 7. 性能监控和诊断
+
+#### 7.1 运行时分析
+
+```c
+// include/pm/diagnostics/pm_profiler.h
+typedef struct {
+    // 性能计数器
+    pm_performance_counter_t counters;
+    
+    // 内存分析
+    pm_memory_profiler_t memory;
+    
+    // 功耗建模
+    pm_power_model_t power;
+    
+    // 延迟分析
+    pm_latency_analyzer_t latency;
+    
+    // 瓶颈检测
+    pm_bottleneck_detector_t bottleneck;
+} pm_profiler_t;
+```
+
+### 8. 重构实施时间表
+
+| 阶段 | 时间 | 主要任务 | 验证标准 |
+|------|------|----------|----------|
+| 架构设计 | 2周 | 完成新架构设计 | 架构评审通过 |
+| HAL层实现 | 3周 | 完成硬件抽象 | 单元测试100%通过 |
+| 核心重构 | 4周 | 重构状态管理 | 功能测试通过 |
+| 多CPU支持 | 3周 | 实现分布式管理 | 压力测试通过 |
+| 高级功能 | 4周 | ML优化和安全 | 性能测试达标 |
+| 集成测试 | 2周 | 系统集成测试 | 回归测试通过 |
+| 部署迁移 | 2周 | 生产环境部署 | 监控指标正常 |
+
+### 9. 重构后的项目结构
+
+```
+pm_framework/
+├── include/
+│   ├── pm/
+│   │   ├── core/
+│   │   ├── policy/
+│   │   ├── multicpu/
+│   │   ├── event/
+│   │   ├── security/
+│   │   └── diagnostics/
+│   └── hal/
+├── src/
+│   ├── core/
+│   ├── policy/
+│   ├── multicpu/
+│   ├── event/
+│   ├── security/
+│   └── hal/
+├── tests/
+├── configs/
+├── tools/
+└── docs/
+```
+
+这个全面的架构重构方案将显著提升电源管理系统的可扩展性、可维护性和性能，同时保持向后兼容性，支持未来的功能扩展和新技术集成。
